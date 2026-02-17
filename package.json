@@ -1,0 +1,26 @@
+{
+  "name": "astrology-readings",
+  "version": "1.0.0",
+  "description": "Astrology Readings Engine based on ADS/FREE Theory - Whole Sign Houses, PHSR Interpretation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx esbuild bundle-entry.js --bundle --outfile=dist/astrology-bundle.js --format=esm --platform=browser",
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "astrology",
+    "natal-chart",
+    "whole-sign-houses",
+    "aspects"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "astronomy-engine": "^2.1.19"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  }
+}

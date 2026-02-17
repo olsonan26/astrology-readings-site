@@ -1,0 +1,2914 @@
+﻿Fusion Cusp Area vs Orb of Influence
+
+
+================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+The application must interpret and predict astrological influences by recognizing planetary positions, astrological houses, and other entities, applying defined rules, and outputting a detailed report on potential outcomes.
+
+
+## INPUTS
+- date
+- time
+- birth chart data
+
+
+## OUTPUTS
+- interpretations of astrological influences
+- predictions based on positions of planets and houses
+
+
+## ENTITY CATALOG (139 entities)
+
+
+### Fusion Cusp Area
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: 28 and a half degrees to one and a half degrees of the next sign
+  Source: para_0000
+
+
+### Orb of Influence
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: Reaches into the next sign
+  Source: para_0000
+
+
+### Mars
+  Type: planet
+  Meaning: action, impulsivity, doing things, challenging, confrontational, sometimes combative, competitive
+  Meaning: action and competitiveness
+  Meaning: its ruler is the moon
+  Meaning: associated with action and drive
+  Meaning: Mars energy in the first house
+  Meaning: energy associated with Mars in first house
+  Attributes: sitting at two degrees, three degrees, four degrees, also a ruler of Chiron, energy towards money, encapsulating energy of the 10th house, focus on value, 29 degrees, 27 degrees, 4 degree orb of influence, delegate of the 10th house, tangible items, self-worth, orb of influence
+  Allowed values: not stated, outward exerted energy, physical body, within fusion cusp area
+  Constraints: reaches into area if another planet is present, not stated, has ter and qualities as a representative of the 10th house, not influencing actions significantly if only in first house
+  Source: para_0002, para_0000, para_0001, para_0010, para_0004, para_0006, para_0007
+
+
+### 10th house
+  Type: house
+  Meaning: not stated
+  Attributes: embodies Neptune, embodies the sun, embodies Chiron
+  Source: para_0001, para_0031
+
+
+### first house
+  Type: house
+  Meaning: it pertains to career and Mars activity
+  Meaning: associated with career and Mars activity
+  Source: para_0002, para_0001
+
+
+### cusp lines
+  Type: concept
+  Meaning: not stated
+  Attributes: 27 degrees and four arc minutes
+  Source: para_0001
+
+
+### second house
+  Type: house
+  Meaning: infused with energy from the first house, links to money and value
+  Meaning: linked with value and finance
+  Meaning: there is that value bringing me comfort.
+  Source: para_0030, para_0002, para_0001
+
+
+### Aries energy
+  Type: energy type
+  Meaning: expressed through cancer
+  Source: para_0001
+
+
+### moon
+  Type: planet
+  Meaning: not stated
+  Attributes: sitting in the third house in Virgo, emotional energy, independent yet linked to north node
+  Allowed values: not stated
+  Constraints: must assess with north node
+  Source: para_0008, para_0001, para_0030
+
+
+### Decan
+  Type: concept
+  Meaning: not stated
+  Source: para_0001
+
+
+### Neptune
+  Type: planet
+  Meaning: go with the flow, themes of spirituality, creativity within emotion-driven contexts
+  Meaning: spiritual and creative energy
+  Meaning: sometimes delusion, sometimes diving deeper
+  Attributes: not stated, ruler of Chiron in the fusion cusp area
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010, para_0001, para_0018
+
+
+### cancer
+  Type: zodiac sign
+  Meaning: not stated
+  Source: para_0001
+
+
+### Sun
+  Type: planet
+  Meaning: embodies a little bit of Mars's energy but not used as a secondary ruler for Mars
+  Meaning: associated with value through Leo energy
+  Meaning: the ruler of Leo
+  Attributes: second ruler if blending energies
+  Source: para_0002, para_0004
+
+
+### Cancer
+  Type: zodiac sign
+  Meaning: the energy of Cancer expresses through action and career
+  Meaning: associated with emotional and domestic matters
+  Source: para_0002
+
+
+### Leo
+  Type: zodiac sign
+  Meaning: sake of value expresses through Leo
+  Meaning: associated with self-expression and creativity
+  Source: para_0002
+
+
+### daily energy six
+  Type: energy calculation
+  Meaning: a term for tracking energy states over time
+  Meaning: framework for daily energy management
+  Source: para_0002
+
+
+### fusion cusp area
+  Type: astrological concept
+  Meaning: operates within its own rulership within its own house.
+  Meaning: works within the rulership of the respective house.
+  Attributes: gradient effect, mixes with career energies, influences money, not stated, influences value, approximate degrees, area where two houses or planets are close together, interlocking energies
+  Allowed values: not stated, 3 total degrees, 4 degrees
+  Constraints: not stated, must be within a specific degree range
+  Examples: second and third house, south node and moon
+  Source: para_0019, para_0026, para_0003, para_0006, para_0029, para_0018
+
+
+### natal charts
+  Type: astrological analysis
+  Meaning: not stated
+  Attributes: cancer, leo, degree of planets
+  Allowed values: 29 degrees, 50 arc minutes
+  Constraints: based on astrological positions
+  Source: para_0003
+
+
+### Moon
+  Type: planet
+  Meaning: primary ruler because it is definitively in the first house
+  Meaning: primary ruler due to placement
+  Attributes: first house placement, in Sagittarius
+  Source: para_0004
+
+
+### degree
+  Type: astrological degree
+  Meaning: 29 degree, 28 and a half, 29 0, and one and a half are harder to read.
+  Meaning: specific degrees in astrology that have unique interpretive challenges
+  Attributes: 28.5 degree, 1.5 degree, 29 degree, 29.0 degree
+  Allowed values: 28.5 degree, 1.5 degree, 29 degree, 29.0 degree
+  Constraints: harder to read, intensifying energies due to overlapping
+  Source: para_0005
+
+
+### energy
+  Type: astrological energy
+  Meaning: you're intensifying energies because you don't have one set of energies, you have two.
+  Meaning: the influence observed from overlapping astrological influences
+  Meaning: it's that plutonian energy
+  Attributes: detail, additional, overlapping, intuition, intensifying
+  Allowed values: additional power, not stated, additional information
+  Constraints: not stated
+  Source: para_0005, para_0015
+
+
+### sun
+  Type: star
+  Meaning: not stated
+  Attributes: secondary ruler in certain situations, sits in Taurus
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0006
+
+
+### Venus
+  Type: planet
+  Meaning: Venus influencing the second house
+  Meaning: energy associated with Venus in second house
+  Meaning: within Venus's energy is Chiron
+  Meaning: a celestial body associated with love and relationships in astrology
+  Attributes: connected to themes of relationships and healing, influencing value, making money, having possessions, not in relationship that needs fixing
+  Allowed values: not stated
+  Constraints: not stated, affecting physical body at one degree, five arc minutes
+  Source: para_0030, para_0016, para_0007, para_0012
+
+
+### ascendant
+  Type: concept
+  Meaning: motivation, purpose of drive
+  Meaning: ascendant and its influence on motivations
+  Source: para_0007
+
+
+### north node
+  Type: astrological point
+  Meaning: the north node is to feed your insecurities, to feed your authenticity
+  Attributes: located on the fusion cusp, feeds authenticity, feeds insecurities, supports emotional and spiritual growth, linked to personal development
+  Allowed values: astrological positions, not stated, ninth house energy, eighth house energy
+  Constraints: none stated, only considered in conjunction, must assess with moon placement
+  Source: para_0008, para_0009, para_0011
+
+
+### Chiron
+  Type: astrological point
+  Meaning: the weaknesses with it, the um, the insecurities that come with Chiron, but also the authenticity that comes with it
+  Meaning: a point associated with healing and trauma
+  Meaning: Chiron always says we are not Saturn, right? So we don't do things like other people.
+  Meaning: a celestial body associated with healing and issues of shame in astrology
+  Meaning: well, Chiron's in there too
+  Meaning: the wounded healer
+  Meaning: symbol of healing and personal struggle
+  Attributes: sits at 29, associated with authenticity, is in the eighth house, Rainbow Bridge, position in the 10th house, not conjunct Venus, associated with shame around community and technology, associated with weaknesses, not supposed to be fixed, highlights areas of personal process, influences relationships
+  Allowed values: astrological positions, not stated
+  Constraints: none stated, not stated, Chiron's orbit does not come within Jupiter's sphere, falls on the border of houses
+  Examples: sitting on the border of your eighth house and your ninth house
+  Source: para_0021, para_0016, para_0015, para_0012, para_0031, para_0009, para_0010, para_0033, para_0011, para_0020
+
+
+### eighth house
+  Type: astrological house
+  Meaning: means a whole bunch of things
+  Meaning: you're blending eighth house energy in.
+  Meaning: the eighth house pertains to shared resources and trauma.
+  Attributes: energy, associated with trauma and deep issues
+  Allowed values: not stated, associated meanings in astrology
+  Constraints: not stated, not explicitly defined
+  Source: para_0034, para_0009
+
+
+### ninth house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: associated with expansion
+  Allowed values: associated meanings in astrology
+  Constraints: not explicitly defined
+  Source: para_0009
+
+
+### Fourth House
+  Type: Astrological House
+  Meaning: subconscious trauma, family related
+  Attributes: is where Chiron, Neptune, and Mars sit
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### Ninth House
+  Type: Astrological House
+  Meaning: related to Chiron's insecurities and energy
+  Attributes: is emphasized by North Node
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### North Node
+  Type: Astrological Point
+  Meaning: connects energy back into the ninth house
+  Attributes: puts extra emphasis in ninth house energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### Aries
+  Type: Astrological Sign
+  Meaning: first decade has hard energy to grasp
+  Attributes: first decade is difficult
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### Jupiter Energy
+  Type: Astrological Influence
+  Meaning: expands the hard energy
+  Attributes: expands energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### Fama
+  Type: astrological term
+  Meaning: it means it's going in with tradition
+  Attributes: bleeds in energy from the ninth house, associated with tradition
+  Source: para_0011
+
+
+### ninth house energy
+  Type: astrological concept
+  Meaning: used for teaching, coaching, consulting, storytelling, expanding on something
+  Meaning: energy that facilitates growth and teaching
+  Attributes: consulting, associated with teaching, spiritual growth, storytelling
+  Source: para_0011
+
+
+### 11th house
+  Type: astrological house
+  Meaning: the 11th house I have issues on
+  Meaning: a sector in astrology related to friendships, groups, and aspirations
+  Meaning: I want to know what I'm feeling.
+  Meaning: desire for emotional clarity
+  Attributes: issues with collaboration and group dynamics, desire for understanding feelings
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0024, para_0012, para_0031
+
+
+### semisexile
+  Type: astrological aspect
+  Meaning: this semis exile is one of the harder ones
+  Meaning: an astrological aspect denoting tension or challenge
+  Attributes: brings in south node energy, forms a relationship to Venus
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0012
+
+
+### Chiron in the north node
+  Type: astrological concept
+  Meaning: not stated
+  Source: para_0013
+
+
+### reading sessions
+  Type: concept
+  Meaning: not stated
+  Attributes: duration (30 minute, 60 minute, 2 hour)
+  Allowed values: 2 hour, 60 minute, 30 minute
+  Constraints: not enough time to cover everything
+  Source: para_0014
+
+
+### charts
+  Type: concept
+  Meaning: not stated
+  Attributes: intricacy
+  Allowed values: not stated
+  Constraints: highly intricate
+  Source: para_0014
+
+
+### Venus placement
+  Type: astrological position
+  Meaning: give me all the information on this Venus placement
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0015
+
+
+### degrees
+  Type: measurement
+  Meaning: 17 or so degrees away
+  Allowed values: whole numbers
+  Constraints: not stated
+  Source: para_0015
+
+
+### antic degree
+  Type: degree
+  Meaning: Oh, it's an antic degree.
+  Attributes: 29 degrees, 28 and a half degrees, 28 degrees
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0017
+
+
+### retic degrees
+  Type: degree
+  Meaning: If you go back and research what retic means, it's some variant of fate and fortune, destiny, karma.
+  Attributes: fortune, karma, destiny, fate
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0017
+
+
+### orb of influence
+  Type: concept
+  Meaning: not stated
+  Attributes: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0019, para_0018, para_0026
+
+
+### Jupiter
+  Type: planetary energy
+  Meaning: not stated
+  Attributes: square with mean Lilith, not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027, para_0018, para_0026
+
+
+### house energies
+  Type: concept
+  Meaning: the energies that are fusing into another house.
+  Meaning: the influence of a house on adjacent houses.
+  Source: para_0019
+
+
+### cusp areas
+  Type: concept
+  Meaning: not stated
+  Source: para_0019
+
+
+### nemesis
+  Type: asteroid
+  Meaning: where your own, you are your own worst enemy
+  Meaning: personal adversities represented by the asteroid nemesis
+  Attributes: can be retrograde, belongs to the eleventh house
+  Allowed values: retrograde
+  Constraints: none stated
+  Source: para_0020
+
+
+### Celine
+  Type: astrological body
+  Meaning: connects us to the real world, usually on an emotional level
+  Meaning: connects to earthly gifts
+  Attributes: positive
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0021, para_0023
+
+
+### Hygeia
+  Type: astrological body
+  Meaning: not stated
+  Source: para_0021
+
+
+### Baruna
+  Type: astrological body
+  Meaning: not stated
+  Source: para_0021
+
+
+### Nessus
+  Type: astrological body
+  Meaning: not stated
+  Source: para_0021
+
+
+### Nemesis
+  Type: astrological body
+  Meaning: not stated
+  Source: para_0021
+
+
+### Lili
+  Type: astrological body
+  Meaning: not stated
+  Source: para_0021
+
+
+### Lilith
+  Type: astrological point
+  Meaning: not stated
+  Attributes: considered at the end, location in zodiac sign or house
+  Allowed values: t, o, Scorpio, fifth house,  , e, a, d, s, n, Sagittarius
+  Constraints: t, o,  , e, a, not stated, d, s, n
+  Source: para_0023, para_0022, para_0028
+
+
+### third house
+  Type: astrological house
+  Meaning: fusion cusp area.
+  Source: para_0030, para_0023
+
+
+### retrograde
+  Type: astrological movement
+  Meaning: not stated
+  Source: para_0023
+
+
+### Selene
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0023
+
+
+### math point
+  Type: mathematical concept
+  Meaning: not stated
+  Source: para_0023
+
+
+### 15 degrees
+  Type: degree measurement
+  Meaning: not stated
+  Source: para_0023
+
+
+### 12th house
+  Type: astrological house
+  Meaning: can be very much like, I don't know what I'm feeling.
+  Meaning: emotional confusion or uncertainty
+  Attributes: emotional uncertainty
+  Source: para_0024, para_0023
+
+
+### semis sextile
+  Type: aspect
+  Meaning: not stated
+  Attributes: feelings, security, aspects, an aspect of 30 degrees between two planets
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0029, para_0024
+
+
+### nemesis and nessus energy
+  Type: energy type
+  Meaning: not stated
+  Attributes: emotional processing, moon placement interaction
+  Source: para_0024
+
+
+### Mercury retrograde
+  Type: astrological concept
+  Meaning: the ruler of this energy
+  Meaning: a period where Mercury appears to be moving backward and influences astrological interpretations
+  Meaning: you're gonna apply the properties of the retrograde.
+  Meaning: Mercury retrograde influences the reading of astrological aspects.
+  Attributes: influence, properties, ruler of the moon
+  Allowed values: in retrograde, not stated
+  Constraints: related to the fusion cusp, not stated
+  Source: para_0034, para_0025
+
+
+### Scorpio
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0025
+
+
+### Caron retrograde
+  Type: astrological concept
+  Meaning: not stated
+  Source: para_0025
+
+
+### mid heaven
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0026
+
+
+### loaded six house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: influence, challenge
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027
+
+
+### Pluto
+  Type: planet
+  Meaning: Pluto's energy feeding into the moon versus the moon feeding into Pluto.
+  Attributes: influence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0030, para_0027
+
+
+### Saturn
+  Type: planet
+  Meaning: not stated
+  Attributes: sixth house, influence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027
+
+
+### mean Lilith
+  Type: astrological point
+  Meaning: not stated
+  Attributes: influence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027
+
+
+### 11th House Energy
+  Type: Astrological House
+  Meaning: not stated
+  Attributes: related to community, subsect of society
+  Allowed values: t, o,  , e, a, d, s, n
+  Constraints: t, o,  , e, a, d, s, n
+  Source: para_0028
+
+
+### 12th House Energy
+  Type: Astrological House
+  Meaning: not stated
+  Attributes: feeds back into Jupiter
+  Allowed values: t, o,  , e, a, d, s, n
+  Constraints: t, o,  , e, a, d, s, n
+  Source: para_0028
+
+
+### Capricorn
+  Type: Astrological Sign
+  Meaning: rules society
+  Allowed values: t, o,  , e, a, d, s, n
+  Constraints: t, o,  , e, a, d, s, n
+  Source: para_0028
+
+
+### conjunct
+  Type: astrological aspect
+  Meaning: not stated
+  Attributes: when two planets are at the same degree or very close in the same sign
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0029
+
+
+### South Node
+  Type: astrological point
+  Meaning: My default settings, my relationship with my family.
+  Meaning: the starting point of personal strengths and talents.
+  Source: para_0030
+
+
+### Mercury
+  Type: planet
+  Meaning: not stated
+  Source: para_0031
+
+
+### feedback
+  Type: response
+  Meaning: not stated
+  Source: para_0031, para_0032
+
+
+### mockup
+  Type: output
+  Meaning: not stated
+  Source: para_0032
+
+
+### ideas
+  Type: input
+  Meaning: not stated
+  Source: para_0032
+
+
+### self worth
+  Type: concept
+  Meaning: not stated
+  Source: para_0033
+
+
+### business
+  Type: concept
+  Meaning: not stated
+  Attributes: subcategories
+  Examples: Mystic Rebels, mystic Circle, mama Logan Theory, super Earth, logo within another, mystic Portal
+  Source: para_0033
+
+
+### logo
+  Type: visual identity
+  Meaning: a logo is just a, is how people recognize you.
+  Meaning: a logo serves as a means of recognition.
+  Attributes: recognition
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+### color
+  Type: design element
+  Meaning: how you utilize color just kind of gives a vibe of what to expect just through color science.
+  Meaning: color influences the perception and expectation of a design.
+  Attributes: expectation, vibe
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+### seventh house
+  Type: astrological house
+  Meaning: it's like taking something from the eighth house and then it's moving down into the seventh.
+  Meaning: the seventh house is related to partnerships.
+  Attributes: energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+### energies
+  Type: concept
+  Meaning: not stated
+  Attributes: mixing, gradient spill off
+  Allowed values: those of a specific house, those from the next house
+  Constraints: not stated
+  Source: para_0036
+
+
+### specific house
+  Type: concept
+  Meaning: not stated
+  Attributes: energies
+  Constraints: not stated
+  Source: para_0036
+
+
+## DEFINITIONS (10 definitions)
+
+
+  fusion cusp area: the area where energies from two houses blend together
+    [high] Source: para_0004
+  orb of influence: the influence of a planet within a specified distance of another celestial body
+    [high] Source: para_0004
+  fusion cusp area: the area in astrology where energies overlap and intensify the influence of planets
+    [high] Source: para_0005
+  conjunction: a configuration that blends energies
+    [medium] Source: para_0007
+  distance in astrology: distance is time in astrology
+    [high] Source: para_0015
+  Society: the public, ruled by Capricorn, not synonymous with the 11th House which relates to community
+    [high] Source: para_0028
+  logo: a means through which people recognize a brand or individual.
+    [high] Source: para_0034
+  Mercury retrograde: an astrological phenomenon affecting the interpretation of Mercury's influence.
+    [high] Source: para_0034
+  29 degrees: an important degree in astrology that is supposedly more significant than others, specifically in the context of fusion cusp areas.
+    [medium] Source: para_0035
+  fusion cusp areas: a concept in astrology that differs from critical degrees, focusing on the interaction with the next house.
+    [medium] Source: para_0035
+
+
+## RULE ENGINE (45 rules)
+
+
+[R001]
+  IF Mars is at 27 degrees
+  THEN it is sitting within the orb of influence but not within the Fusion cusp area.
+  Teacher voice: "This would be an example of it sitting, uh, within the orb of influence of, of impact or reaching into the next sign, but not within the Fusion cusp area."
+  [high] Source: para_0000
+
+
+[R002]
+  Mars is in the first house
+  it embodies the qualities of the 10th house
+  Teacher voice: "it's going to embody the sun. It's gonna embody Chiron, the mid-heaven and Neptune as a delegate of the 10th house."
+  [high] Source: para_0001
+
+
+[R003]
+  Mars is at 27 degrees and a four degree orb of influence
+  it reaches into the second house
+  Teacher voice: "at 27 degrees and a four degree orb of influence. We know that it reaches into the second house."
+  [high] Source: para_0001
+
+
+[R004]
+  Aries energy is expressed through cancer
+  we would normally read that to where the moon is in the third house in Virgo
+  Teacher voice: "we know that it's an Aries energy that's expressed through cancer. And then we would normally read that to where the moon is that's sitting in the third house in Virgo."
+  [high] Source: para_0001
+
+
+[R005]
+  if actions in the first house pertain to career and Mars activity
+  then they will link directly into money and value
+  Teacher voice: "those actions are going to be linked directly into money."
+  [high] Source: para_0002
+
+
+[R006]
+  IF there's no other planet
+  THEN the orb of influence is kind of irrelevant
+  Teacher voice: "if there's no other planet, the orb of influence is kind of irrelevant"
+  [high] Source: para_0004
+
+
+[R007]
+  IF Mars is at 29 degrees
+  THEN it is still by orb of influence, reaching in
+  Teacher voice: "this Mars at 29 degrees is still by orb of influence, um, reaching in"
+  [high] Source: para_0004
+
+
+[R008]
+  IF planet is in the fusion cusp area
+  THEN it influences multiple energies at the same exact time through a single point.
+  Teacher voice: "we're gonna say from the first house through my actions, I also affect my value."
+  Exceptions: This will be different if it were at 27 degrees.
+  [high] Source: para_0005
+
+
+[R009]
+  IF planet is in fusion cusp area
+  THEN it influences your value, your money, and career
+  Teacher voice: "the fusion cusp area does go into money and value and whatnot"
+  Exceptions: not stated
+  [high] Source: para_0006
+
+
+[R010]
+  IF Venus is influencing your second house
+  THEN it is strictly for value, making money, having possessions
+  Teacher voice: "Venus is influencing your second house, would be strictly for value, making money, having possessions."
+  Exceptions: not stated
+  [high] Source: para_0007
+
+
+[R011]
+  IF Venus is at one degree, five arc minutes
+  THEN it starts to affect your physical body, what you look like, your actions and motivations.
+  Teacher voice: "Once it starts hitting up at like one degree, five arc minutes, it is now affecting your physical body."
+  Exceptions: not stated
+  [high] Source: para_0007
+
+
+[R012]
+  IF the ascendant is in a specific placement
+  THEN it brings purpose to the things that you want to do.
+  Teacher voice: "the ascendant is your motivations... it's the purpose of your drive."
+  Exceptions: not stated
+  [high] Source: para_0007
+
+
+[R013]
+  IF you assess the north node
+  THEN you have to assess it with the moon placement.
+  Teacher voice: "you do have to assess it with the moon in terms of not how it's linked to the moon, but as like, um, a math equation."
+  Exceptions: not stated
+  [high] Source: para_0008
+
+
+[R014]
+  IF you are looking at wherever your north node sits
+  THEN you also have to look at your moon.
+  Teacher voice: "you are not going to do anything without your moon."
+  Exceptions: not stated
+  [high] Source: para_0008
+
+
+[R015]
+  if energy is in the first decade of Aries
+  then it is hard for you to be comfortable with and grasp
+  Teacher voice: "within the first decade of Aries, it's saying that this energy is hard for you to be comfortable with, hard for you to grasp most of your life."
+  [high] Source: para_0010
+
+
+[R016]
+  IF you are supposed to grow into something emotionally and spiritually
+  THEN combine eighth and ninth house energy
+  Teacher voice: "it's to combine eighth and ninth house energy to do it through ninth house energy"
+  [high] Source: para_0011
+
+
+[R017]
+  IF Chiron is in the 11th house
+  THEN there are issues bringing other people in collaboratively
+  Teacher voice: "So it's more like we're going to bring people in because you have a shame around community."
+  Exceptions: not stated
+  [high] Source: para_0012
+
+
+[R018]
+  IF you have shame around community and technology
+  THEN it leads into how you interact one-to-one and your business
+  Teacher voice: "it leads into how you interact one-to-one your business, whether or not your business can thrive"
+  Exceptions: not stated
+  [high] Source: para_0012
+
+
+[R019]
+  IF there is healing necessary from your default positioning
+  THEN you are supposed to speak those things and interact with other people in favor of what is a relationship
+  Teacher voice: "it's saying that there's healing that is necessary from your default positioning... you are supposed to interact with other people."
+  Exceptions: not stated
+  [high] Source: para_0012
+
+
+[R020]
+  IF you are giving something away
+  THEN you are not supposed to give all of it away
+  Teacher voice: "you're not supposed to give all of it away."
+  [high] Source: para_0013
+
+
+[R021]
+  IF the other person is not as committed as you are
+  THEN that will never happen for you
+  Teacher voice: "the other person will never be as committed to your own."
+  [high] Source: para_0013
+
+
+[R022]
+  IF you are trying to make somebody love your business as much as you do
+  THEN it is never gonna happen.
+  Teacher voice: "it is never gonna happen."
+  [high] Source: para_0013
+
+
+[R023]
+  IF I already got my answer
+  THEN I don't care where the rest of it leads
+  Teacher voice: "if I've already got my answer, I don't care where the rest of it leads"
+  Exceptions: unless I seriously need more detail
+  [high] Source: para_0015
+
+
+[R024]
+  IF the closer two planets are
+  THEN the sooner they'll interact with each other
+  Teacher voice: "the closer two planets are, the sooner they'll interact with each other"
+  [high] Source: para_0015
+
+
+[R025]
+  IF something hits 28 and a half degrees
+  THEN it feels like 29 degrees.
+  Teacher voice: "when something hits 28 and a half degrees, it feels like 29 degrees."
+  Exceptions: not stated
+  [high] Source: para_0017
+
+
+[R026]
+  IF you hit 28 and a half degrees
+  THEN you are in the next energy.
+  Teacher voice: "when you hit 28 and a half degrees, you're in it, you're in that mix."
+  Exceptions: not stated
+  [high] Source: para_0017
+
+
+[R027]
+  IF Neptune was just a little further
+  THEN we would have to factor in the fourth house
+  Teacher voice: "when, if Neptune was just a little further, we would have to factor in the fourth house."
+  Exceptions: not stated
+  [medium] Source: para_0018
+
+
+[R028]
+  IF something is at 29 degrees
+  THEN it is not the other house but blending the energies of that house into the fourth.
+  Teacher voice: "it's sitting at 29 degrees. It is not the other house."
+  [high] Source: para_0019
+
+
+[R029]
+  IF energies are fusing
+  THEN the pinpoint is happening in the specific house.
+  Teacher voice: "the pinpoint is happening in the eighth house."
+  [high] Source: para_0019
+
+
+[R030]
+  IF nemesis is retrograde
+  THEN you are your own worst enemy where no one knows
+  Teacher voice: "when it's retrograde, it's like you, not only are you your own worst enemy, but you do it where no one knows you're your own worst enemy."
+  [high] Source: para_0020
+
+
+[R031]
+  IF you have Chiron in your chart
+  THEN you may find areas where you are in process of figuring out something different that doesn't work for anybody else
+  Teacher voice: "it highlights an area where you are in process of figuring out something different that doesn't work for anybody else."
+  [medium] Source: para_0020
+
+
+[R032]
+  not stated
+  not stated
+  Teacher voice: "but no, you know, when people kept saying that the Reic degrees, I'm like, where'd you get that from?"
+  Exceptions: not stated
+  [medium] Source: para_0022
+
+
+[R033]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0024
+
+
+[R034]
+  the ruler of your moon and the secondary ruler of your moon are together and one of them is in retrograde
+  creates a conflict that works together
+  Teacher voice: "it creates a conflict that works together"
+  [high] Source: para_0025
+
+
+[R035]
+  you're different and weird
+  you have to accept this as empowering
+  Teacher voice: "you gotta accept that you're different. Like you're weird... we mean it in a way that should be empowering"
+  [high] Source: para_0025
+
+
+[R036]
+  Jupiter is technically outside of it
+  these two are conjunct anyway
+  Teacher voice: "if we're using a strict 28, your mid heavens outside of it, your Jupiter's technically outside of it, but these two are conjunct anyway."
+  [medium] Source: para_0026
+
+
+[R037]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  Exceptions: not stated
+  [not stated] Source: para_0027
+
+
+[R038]
+  two planets are both within the fusion cusp area
+  they work together and can have two pulls depending on vantage
+  Teacher voice: "two pull, so the planet, they're like two pulls in three and three pulls in two, like if, depending on Vantage."
+  Exceptions: not stated
+  [high] Source: para_0029
+
+
+[R039]
+  you have energies that are difficult to interpret in a chart
+  stop and break it down by planets, signs, and house rulers
+  Teacher voice: "you have to stop and you have to go back to Planet sign, house ruler."
+  Exceptions: not stated
+  [high] Source: para_0029
+
+
+[R040]
+  when you put this logo up and this image and this title and this business name
+  you have to put it up and say, that's okay, I wanna get some feedback
+  Teacher voice: "you have to put it up and you say, that's okay, I wanna get some feedback."
+  [high] Source: para_0031
+
+
+[R041]
+  once you do this and you put it up in circle, and then people do say whatever they say
+  some people are gonna be real, and some people are gonna try to not hurt your feelings
+  Teacher voice: "and then people do say whatever they say, some people are gonna be real, and some people are gonna try to not hurt your feelings."
+  [high] Source: para_0031
+
+
+[R042]
+  IF you ask for advice
+  THEN do not make those who provided it feel bad if you do not use their ideas.
+  Teacher voice: "I don't wanna ask for advice and then be like, well f you, you know?"
+  [high] Source: para_0032
+
+
+[R043]
+  IF you are inspired by others' ideas
+  THEN you can take it to a different point rather than using their idea directly.
+  Teacher voice: "I'm gonna be inspired by other people's ideas, but I'm most likely not gonna use your idea."
+  [high] Source: para_0032
+
+
+[R044]
+  IF you keep making changes and trying to make it better
+  THEN realize that there is no best
+  Teacher voice: "there is no best idea. There just is an idea."
+  [high] Source: para_0033
+
+
+[R045]
+  IF someone has a Mercury retrograde in the seventh house at 29 degrees
+  THEN you still read it the same, but apply the properties of the retrograde.
+  Teacher voice: "you're still gonna read it exactly the same, but you're gonna apply on the planet level, you're gonna apply the properties of the retrograde."
+  Exceptions: none stated
+  [high] Source: para_0034
+
+
+## PROCEDURES (4 procedures)
+
+
+### Energy Tracking Adjustment
+  Inputs: date: April 25, 2025, time: noon, rising sign: consistent for ease
+  Source: para_0002
+
+
+### Layering in astrology
+  Step 1: figure out what this means before you move on
+  Inputs: existing astrological placements
+  Outputs: understanding of each layer
+  WARNING: don't skip a lot of things along the way
+  Source: para_0015
+
+
+### Identifying emotional cycles
+  Step 1: Identify emotional cycles
+  Step 2: Intellectualize feelings through releasing them
+  Step 3: Engage in physical activity for transformation
+  Source: para_0024
+
+
+### birth time rectification
+  Step 1: ask a question to whittle down the ascendant point
+  Step 2: figure out where the houses are
+  Step 3: use definitive points to narrow down the birth time
+  Inputs: birth time, chart data
+  Outputs: rectified birth time
+  WARNING: It can be challenging for someone who hasn't hit a certain point.
+  Source: para_0027
+
+
+## CALCULATION PIPELINE
+  Step 1: Identify if a planet's position is within the Fusion Cusp Area.
+    Notes: Determine if the planet affects single or multiple energies.
+  Step 2: Determine the Orb of Influence for a planet.
+    Notes: This involves measuring the degree of the planet relative to house boundaries.
+
+
+  Additional calculation steps from transcript:
+  Step 0: Identifying whether a planet is within the Fusion Cusp Area or the Orb of Influence based on its degree.
+    Formula: null
+    Teacher voice: "So, um, the concepts are, they seem very similar on the surface until you start actually looking, um, at what we're talking about here."
+  Step 0: Identify the fusion cusp area and its impact on the houses.
+    Formula: null
+    Teacher voice: "you have to imagine that this... gradient effect from the first house seeping into the second house."
+  Step 0: consider how Mars' positioning influences Tangible items, value, and money
+    Formula: not stated
+    Teacher voice: "Mars is now in the second house, your focus and energy towards value, money, self-worth, tangible items"
+  Step 0: Assess north node and moon in relation to each other.
+    Formula: null
+    Teacher voice: "you do have to assess it with the moon in terms of not how it's linked to the moon, but as like, um, a math equation."
+  Step 0: considering Chiron's position on the cusp and its relationship with the north node
+    Formula: null
+    Teacher voice: "you have to now house the north node factor in because there's a conjunction"
+  Step 0: whittle down birth time from three hours to between 30 and 60 minutes
+    Formula: null
+    Teacher voice: "it took me a while to be able to take a three hour birth time rectification and whittle that down to anywhere between 30 and 60 minutes"
+  Step 0: Break down complex energies by analyzing planets, signs, and house rulers.
+    Formula: null
+    Teacher voice: "you have to stop and you have to go back to Planet sign, house ruler."
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "Fusion Cusp Area": {
+    "type": "object",
+    "properties": {
+      "definition": {
+        "type": "string"
+      },
+      "attributes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "allowed_values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "Orb of Influence": {
+    "type": "object",
+    "properties": {
+      "definition": {
+        "type": "string"
+      },
+      "attributes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "allowed_values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+
+
+Rules schema:
+{
+  "R001": {
+    "type": "object",
+    "properties": {
+      "condition": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      }
+    }
+  }
+}
+
+
+## PSEUDOCODE
+BEGIN
+ FOR each planet in birth chart
+   DETERMINE position (degree, house)
+   CHECK if in Fusion Cusp Area
+   IF in Fusion Cusp Area THEN
+     APPLY relevant rules
+   ELSE
+     CALCULATE Orb of Influence
+     APPLY relevant rules
+ OUTPUT results to user
+END
+
+
+## VOICE STYLE RULES
+Tone: informative, astrological
+Cadence: Maintain clarity and precision
+Signature phrases: In astrological practice,, As defined by the stars,
+Do:
+  - Use precise astrological language
+  - Clarify technical terms
+Avoid:
+  - Avoid vague language
+  - Do not overuse jargon
+
+
+## MEANING RENDERING RULES
+- Use clear and concise language when describing astrological influences
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (71 snippets)
+
+
+  [definition] (unknown): "we're going to talk about what the difference is when a planet is sitting within a fusion cusp area, which is from 28 and a half degrees to one and a half degrees of the next sign, versus when it's sitting before 28 and a half degrees, and the orb of influence is reaching into the next sign."
+    Source: para_0000
+  [meaning] (unknown): "that’s gonna be expressed through the energy of cancer is also for the sake of value."
+    Source: para_0002
+  [meaning] (unknown): "that energy infuses into the second house."
+    Source: para_0002
+  [motivation] (unknown): "we're gonna be smart about this."
+    Source: para_0002
+  [definition] (unknown): "we would only do a four degree and a half of each way, three total degrees"
+    Source: para_0003
+  [meaning] (unknown): "the energies of the first house pulling the second house in"
+    Source: para_0004
+  [meaning] (unknown): "the Sun becomes a second ruler for Mars"
+    Source: para_0004
+  [meaning] (unknown): "your actions that you take through can Syrian energy through the sixth house."
+    Source: para_0005
+  [definition] (unknown): "the sun becomes a secondary ruler"
+    Source: para_0006
+  [motivation] (unknown): "like I said, the sun becomes a secondary ruler"
+    Source: para_0006
+  [definition] (unknown): "It is affecting your actions and your motivations because it's within that energy."
+    Source: para_0007
+  [definition] (unknown): "This obviously is a conjunction that goes through both."
+    Source: para_0007
+  [definition] (unknown): "you would only do it if it made sense materially."
+    Source: para_0008
+  [definition] (unknown): "Your motivations would be blended in with value."
+    Source: para_0008
+  [meaning] (unknown): "the traumas that have happened in your life are mixed in with aggression, expansion on aggression"
+    Source: para_0009
+  [warning] (unknown): "this is the difference between Chiron sitting two degrees earlier, Right? And Chiron sitting at 29"
+    Source: para_0009
+  [motivation] (unknown): "you have to break this down piece by piece"
+    Source: para_0009
+  [motivation] (unknown): "it's important that you know that it's from the ninth house"
+    Source: para_0011
+  [warning] (unknown): "still working on it, but not directly. that's a work in progress right there."
+    Source: para_0011
+  [definition] (unknown): "remember Chiron always says we are not Saturn, right?"
+    Source: para_0012
+  [motivation] (unknown): "there's healing that is necessary from your default positioning"
+    Source: para_0012
+  [definition] (unknown): "nobody loves your business as much as you"
+    Source: para_0013
+  [motivation] (unknown): "you have to say, well, what does Chiron in the north node mean for me?"
+    Source: para_0013
+  [warning] (unknown): "I can't hit everything."
+    Source: para_0014
+  [motivation] (unknown): "You can spend your time on your chart."
+    Source: para_0014
+  [definition] (unknown): "I always let you know why I called it layering."
+    Source: para_0015
+  [example] (unknown): "first off, I know that it means two separate deens"
+    Source: para_0015
+  [example] (unknown): "I know that Chiron is not conjunct Venus, so it's not that my insecurities are tied directly into my relationships."
+    Source: para_0016
+  [warning] (unknown): "It doesn't mean that, you know, I have to have a relationship that needs fixing."
+    Source: para_0016
+  [warning] (unknown): "There might be red flags or yellow flags or whatever along the way. Right. But it happens later."
+    Source: para_0016
+  [example] (unknown): "you are sitting there like this needs to end."
+    Source: para_0017
+  [example] (unknown): "it feels like 29 degrees."
+    Source: para_0017
+  [example] (unknown): "the ninth house was my life story."
+    Source: para_0018
+  [example] (unknown): "your 28 degree down here, by the way, is a good example of it's so close."
+    Source: para_0018
+  [definition] (unknown): "its orb of influence is reaching into the fifth house."
+    Source: para_0018
+  [motivation] (unknown): "there's the deep bond that you wanted, you didn't get, you felt more like an outsider."
+    Source: para_0018
+  [definition] (unknown): "It's blending the energies of that house into the fourth."
+    Source: para_0019
+  [definition] (unknown): "The energies are happening definitively on this side of that line versus this side."
+    Source: para_0019
+  [definition] (unknown): "the idea of the wounded healer first off comes off a mythology."
+    Source: para_0020
+  [definition] (unknown): "you can't heal yourself."
+    Source: para_0020
+  [definition] (unknown): "Chiron's the Rainbow Bridge"
+    Source: para_0021
+  [definition] (unknown): "It connects the personal planets with the outer planets"
+    Source: para_0021
+  [definition] (unknown): "Celine's a good one. It's what connects us to the real world, usually on an emotional level"
+    Source: para_0021
+  [definition] (unknown): "this is the invisible mirror"
+    Source: para_0021
+  [definition] (unknown): "I used to read that 29 and zero meant past Life Karma."
+    Source: para_0022
+  [motivation] (unknown): "If you can't prove it, it's not good for me."
+    Source: para_0022
+  [definition] (unknown): "yours is retrograde. So it's inward."
+    Source: para_0023
+  [example] (unknown): "I have that both, both of them are in the third house."
+    Source: para_0023
+  [example] (unknown): "when I pulled mine up, mine was still in the third house, but it's at 15 degrees."
+    Source: para_0023
+  [warning] (unknown): "there's an element of detachment from it."
+    Source: para_0023
+  [meaning] (unknown): "you have that semis, sextile to the ascendant"
+    Source: para_0024
+  [meaning] (unknown): "I mean, well first off, the 12th house can be very much like, I don't know what I'm feeling."
+    Source: para_0024
+  [motivation] (unknown): "but you have to accept, you know, that when we say we are weird, we mean it obviously lovingly"
+    Source: para_0025
+  [motivation] (unknown): "you should be happy that it's not though."
+    Source: para_0026
+  [meaning] (unknown): "It's just not as heavy, so to speak."
+    Source: para_0027
+  [example] (unknown): "once I figured out where the houses are, that is not showing up to other places in the chart."
+    Source: para_0027
+  [warning] (unknown): "that was always the challenge with birth time rectifications."
+    Source: para_0027
+  [definition] (unknown): "Capricorn that rules society"
+    Source: para_0028
+  [example] (unknown): "when we say society, what do we mean? The public?"
+    Source: para_0028
+  [motivation] (unknown): "Your chart should be in the final certification course."
+    Source: para_0029
+  [example] (unknown): "I had a guy, his name was Jack, who showed up and like, nobody could read his chart."
+    Source: para_0029
+  [motivation] (unknown): "you know, you're gonna do this, you're gonna get feedback"
+    Source: para_0031
+  [warning] (unknown): "you really have to, when you do this"
+    Source: para_0031
+  [warning] (unknown): "But it is not the idea."
+    Source: para_0033
+  [warning] (unknown): "that's your energy is if you were to take theirs, it would conflict with you making money."
+    Source: para_0033
+  [motivation] (unknown): "that's your energy."
+    Source: para_0034
+  [engagement] (unknown): "does anybody have any questions?"
+    Source: para_0034
+  [motivation] (unknown): "this isn't a super complicated, technique, but it is an important one that no one else discusses."
+    Source: para_0035
+  [definition] (unknown): "29 degrees, even as an retic degree in other systems of astrology, is just supposedly more important."
+    Source: para_0035
+  [definition] (unknown): "And that is the difference between fusion cusp areas and like critical degrees is it's not just about that hyper focus point."
+    Source: para_0035
+  [meaning] (unknown): "it's mixing with energies that are in addition to those, uh, energies of that specific house."
+    Source: para_0036
+
+
+## EDGE CASES (14 cases)
+
+
+- Scenario: no other planet present
+  Handling: orb of influence becomes irrelevant
+- Scenario: aspect is outside the orb
+  Handling: do not count it
+- Scenario: no other planet present
+  Handling: orb of influence becomes irrelevant
+- Scenario: considering degree influence at 27 degrees
+  Handling: while it influences over that energy is carried forward, it's not through the direct actions themselves.
+- Scenario: not stated
+  Handling: not stated
+- Scenario: Chiron sitting two degrees earlier vs Chiron sitting at 29
+  Handling: the impact of Chiron's position on trauma and aggression varies
+- Scenario: When attempting a partnership in business
+  Handling: It can't do it; it just doesn't work.
+- Scenario: needing more detail
+  Handling: you can keep going to see where else it leads
+- Scenario: IF it's in your natal chart
+  Handling: you can’t always be transitioning.
+- Scenario: aspect is outside the orb
+  Handling: do not count it
+- Scenario: revisiting emotions leading to an endless loop
+  Handling: make sure that doesn’t end up in an endless loop
+- Scenario: energy's pulsate in the gradient
+  Handling: not stated
+- Scenario: when progressions are not applicable
+  Handling: it becomes challenging
+- Scenario: a Mercury retrograde affecting the seventh house
+  Handling: you read it the same except apply the retrograde properties.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Mars at 27 degrees, verifies it sits within the orb of influence but not within the Fusion cusp area.
+  Input: {"mars_degree": 27}
+  Expected (teacher voice): This would be an example of it sitting, uh, within the orb of influence of, of impact or reaching into the next sign, but not within the Fusion cusp area.
+  Rules: R001
+  Entities: Mars, Orb of Influence, Fusion Cusp Area
+
+
+[TC002] Mars is in the first house.
+  Input: {"house_position": "first"}
+  Expected (teacher voice): Mars is going to embody the sun. It's gonna embody Chiron, the mid-heaven and Neptune as a delegate of the 10th house.
+  Rules: R002
+  Entities: Mars, 10th house
+
+
+[TC003] Mars at 27 degrees with a four-degree orb of influence reaches into the second house.
+  Input: {"mars_degree": 27, "orb_of_influence": 4}
+  Expected (teacher voice): At 27 degrees and a four degree orb of influence. We know that it reaches into the second house.
+  Rules: R003
+  Entities: Mars, Orb of Influence
+
+
+[TC004] Test with missing Mars degree information.
+  Input: {"orb_of_influence": 4}
+  Expected (teacher voice): Please provide the degree position of Mars for an accurate interpretation.
+  Rules: R001, R003
+  Entities: Mars
+  [EDGE CASE]
+
+
+[TC005] Mars in an undefined house position, testing unknown entities.
+  Input: {"house_position": "zeroth"}
+  Expected (teacher voice): The house position specified does not correspond to known astrological houses.
+  Rules: R002
+  Entities: Mars
+  [EDGE CASE]
+
+
+[TC006] Mars is both 27 degrees and in the first house, testing conflicting scenarios.
+  Input: {"mars_degree": 27, "house_position": "first"}
+  Expected (teacher voice): Mars at 27 degrees sits within the orb of influence. In the first house, it still embodies the qualities of the 10th house.
+  Rules: R001, R002
+  Entities: Mars, Orb of Influence, 10th house
+  [EDGE CASE]
+
+
+[TC007] Mars is at 29 degrees, just entering the Fusion cusp area.
+  Input: {"mars_degree": 29}
+  Expected (teacher voice): Mars at 29 degrees enters the Fusion cusp area where energies overlap.
+  Entities: Fusion Cusp Area
+  [EDGE CASE]
+
+
+[TC008] Mars is at 0 degrees in the first house.
+  Input: {"mars_degree": 0, "house_position": "first"}
+  Expected (teacher voice): Mars in the first house embodies the 10th house, but at 0 degrees, it stands at the beginning of its orb influence.
+  Rules: R002
+  Entities: Mars, 10th house
+
+
+[TC009] Mars degree and orb influence both unknown, testing robustness of the rule application.
+  Input: {}
+  Expected (teacher voice): Insufficient information to determine Mars's influence without its degree or orb.
+  Rules: R001, R003
+  Entities: Mars
+  [EDGE CASE]
+
+
+[TC010] Mars is at 27 degrees but orb influence is less than required four degrees.
+  Input: {"mars_degree": 27, "orb_of_influence": 3}
+  Expected (teacher voice): Without a four-degree orb of influence, Mars at 27 degrees doesn't reach into the second house.
+  Rules: R003
+  Entities: Mars, Orb of Influence
+  [EDGE CASE]
+
+
+## UNRESOLVED (7 items)
+
+
+- no specific calculations or algorithms for determining energy influence stated
+  Needed: a detailed methodology or formula
+- no explicit definition for the fusion cusp area
+  Needed: more clarity on the exact implications of the fusion cusp area
+- explanation for diss leadership
+  Needed: more details about the suggested fixes
+- lack of clear rules
+  Needed: specific IF/THEN rules related to Lilith or other concepts
+- rules for aspects and emotional processing
+  Needed: explicit rules format IF/THEN
+- explicit rules related to planetary influence
+  Needed: more information
+- definition of conflicting energies
+  Needed: clarification on conflicting energies mentioned
+
+
+================================================================================
+END OF BUILDER PROMPT
+================================================================================
+
+
+
+
+
+
+NEXT BUILD PROMPT:
+REVERSE VANTAGE
+
+
+================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+The app is designed to analyze astrological entities and their interactions, specifically focusing on Chiron, Moon, zodiac signs, and the houses they influence.
+
+
+## INPUTS
+- Astrological entities such as Chiron, Moon, houses, zodiac signs
+- Orb of influence values for specific entities
+- Astrological chart details including degrees and aspects
+
+
+## OUTPUTS
+- Analysis of astrological influences and relationships
+- Identification of true aspects, forced aspects, and their implications
+- Suggestions for resolving interpersonal and emotional challenges based on astrology
+
+
+## ENTITY CATALOG 
+
+
+### moon
+  Type: astrological body
+  Meaning: the foundational structure of emotional security within separation that is expressed through the father
+  Meaning: foundational structure of emotional security
+  Attributes: rules cancer, structure, in a forced aspect, acts as a delegate for an entire house, authority, rebelliousness, relationship, receiving influence from Chiron, disconnected from the partnership, north node, 12th house ruler, regarded in the context of houses, represents emotional security
+  Allowed values: not receiving energy, not stated, not sending energy
+  Constraints: absent from emotional experiences, not stated
+  Source: para_0005, para_0000, para_0003, para_0010, para_0011, para_0006, para_0007
+
+
+### fourth house
+  Type: astrological house
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0000
+
+
+### Scorpio
+  Type: zodiac sign
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0000
+
+
+### Pluto
+  Type: planet
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0000
+
+
+### cancer
+  Type: zodiac sign
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0000
+
+
+### aspect spectrum
+  Type: concept
+  Meaning: not stated
+  Attributes: opposition, Quin K's, square, sextile, semis, major aspects, trine, conjunction
+  Allowed values: 15 degrees, 30 degrees
+  Constraints: internalized markers
+  Source: para_0001
+
+
+### Chiron
+  Type: astrological body
+  Meaning: Chiron interacts with other people and feeds my wounds.
+  Meaning: Chiron's influence on emotional security in groups.
+  Meaning: not long-term value, it's like elongated short-term value
+  Meaning: elongated short-term value associated with Chiron
+  Meaning: the asteroid associated with healing and wounds
+  Attributes: sitting at 24 42, influence on emotional security, sits in the seventh house, ruler of the sixth house, initiator, degree (moving to 18 degrees), comfort level, interacts with other people, placement at 17 degrees, 45 arc minutes, keywords, not a ruling planet, group dynamics, feeds wounds, associated wounds, associated with wounds around authority, long-term goals, public image, and reputation, retrograde, ties to identity, present in the sixth house, position in 10th house
+  Allowed values: none stated, not in Aries, Libra degree, present in a house, not safe, does not have a direct influence, not stated, Virgo degree, in Aries, safe
+  Constraints: none stated, works only with desired people, must be in a house as defined in astrology, with a low orb of influence, not stated, Chiron's role can change based on aspect, bidirectional rulership does not apply
+  Examples: Justin Timberlake, Leo rising with Chiron in Taurus 10th house
+  Source: para_0017, para_0002, para_0003, para_0024, para_0025, para_0022, para_0028, para_0016, para_0004, para_0032, para_0006, para_0008, para_0029, para_0027, para_0015, para_0005, para_0031, para_0030, para_0009, para_0007
+
+
+### Moon
+  Type: astrological body
+  Meaning: The moon is on the receiving end of the letter.
+  Meaning: The Moon's role in receiving emotional communication.
+  Attributes: orb of influence of 3 degrees, receiving, at 25 57, prepared to receive
+  Allowed values: not stated, requesting the letter
+  Constraints: alignment issues, not stated, not wanting the letter
+  Source: para_0029, para_0002, para_0004
+
+
+### Aries
+  Type: zodiac sign
+  Meaning: an action sign
+  Meaning: sign of action
+  Attributes: not stated, sense of doing
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005, para_0003
+
+
+### north node
+  Type: astrological point
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0021, para_0003, para_0030
+
+
+### seventh house
+  Type: house
+  Meaning: not stated
+  Attributes: keywords
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005
+
+
+### Mars
+  Type: planet
+  Meaning: not stated
+  Attributes: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005
+
+
+### first house
+  Type: house
+  Meaning: not stated
+  Attributes: actions, motivations, passion, drive
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005
+
+
+### emotional security
+  Type: concept
+  Meaning: not stated
+  Attributes: detachment
+  Allowed values: secure, insecure
+  Constraints: emotional security can be influenced by relationships
+  Source: para_0007
+
+
+### midwives
+  Type: profession
+  Meaning: not stated
+  Source: para_0007
+
+
+### aspect
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: true aspect, forest aspect, exact aspect
+  Allowed values: true, forest, exact
+  Constraints: includes degrees and arc minutes, must involve both entities
+  Source: para_0008
+
+
+### mother
+  Type: human
+  Meaning: not stated
+  Attributes: relationship with the child, seizure life vitality, mother could have given up the child for adoption, affects detachment due to emotional context
+  Allowed values: not stated
+  Constraints: assuming Libra rising, not stated, depends on degrees
+  Source: para_0008, para_0009, para_0010
+
+
+### sun
+  Type: astrological body
+  Meaning: not stated
+  Attributes: receiving communication, force aspect, forcing the moon to pull in energy
+  Allowed values: not stated, receiving energy
+  Constraints: not stated
+  Source: para_0010, para_0011
+
+
+### black moon Lilith
+  Type: astrological point
+  Meaning: not stated
+  Attributes: related to the moon
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### father
+  Type: family role
+  Meaning: not stated
+  Attributes: detachment from emotional experiences
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### Vesta
+  Type: asteroid
+  Meaning: not stated
+  Attributes: conjunctive with the moon
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### friends group
+  Type: social relationship
+  Meaning: not stated
+  Attributes: must be based on personal connections, it requires intentional action to create
+  Allowed values: friends with a personal connection
+  Constraints: not stated
+  Source: para_0012
+
+
+### fatherhood
+  Type: role
+  Meaning: it’s up to whether I actually want it or not.
+  Meaning: a state or role that is based on personal choice and desire.
+  Attributes: associated with having a personal connection with children, motivation, choice, involves mutual decision with partner about having children
+  Allowed values: desire for fatherhood, lack of desire for fatherhood, one-to-one connection with children
+  Constraints: not stated, aligned with personal motivation
+  Source: para_0014, para_0012
+
+
+### Ashley
+  Type: person
+  Meaning: not stated
+  Attributes: romantic partner, wants to be a mother
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0013
+
+
+### sister
+  Type: person
+  Meaning: not stated
+  Attributes: deceased, was going to be a mother
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0013
+
+
+### energy assessment
+  Type: process
+  Meaning: go back and intentionally reassess the energy that I'm pulling in.
+  Meaning: the act of evaluating the influence of energy on one's well-being.
+  Attributes: intention, evaluation
+  Allowed values: negative energy, good energy
+  Constraints: for personal best good
+  Source: para_0014
+
+
+### Venus
+  Type: planet
+  Meaning: it’s squaring off, trying to overtake personal motivations
+  Meaning: a planet impacting personal motivations
+  Meaning: Venus is going to impact what I'm doing.
+  Meaning: the planet representing love and relationships affecting one's actions.
+  Meaning: rules Saturn
+  Attributes: pushes into ascendant, impact on value, identity, sits in the 10th house, ruler of the 3rd house
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: Venus represents relationships, Venus represents balance, Venus represents value within reputation, Venus represents art, Venus represents value within the public sphere, Venus rules all these different things, Venus represents money, Venus represents design
+  Source: para_0016, para_0017, para_0015, para_0019, para_0022, para_0024, para_0023, para_0018
+
+
+### ascendant
+  Type: astrology concept
+  Meaning: it's a point, not a planet
+  Meaning: a mathematical point based on a position
+  Meaning: your ascendant just wants autonomy.
+  Meaning: the part of a person's chart representing self and personal identity.
+  Attributes: sits at 13 degrees, is in conflict with personal identity, autonomy
+  Allowed values: first house, 13 degrees
+  Constraints: none stated, Taurus degree
+  Source: para_0021, para_0016, para_0017, para_0015, para_0022, para_0023, para_0018
+
+
+### 10th house
+  Type: astrological term
+  Meaning: public image and reputation
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0016, para_0028
+
+
+### 11th house
+  Type: astrological term
+  Meaning: not stated
+  Source: para_0016
+
+
+### south node
+  Type: astrological term
+  Meaning: not stated
+  Source: para_0016, para_0024
+
+
+### film studio
+  Type: business entity
+  Meaning: not stated
+  Attributes: financial success
+  Source: para_0017
+
+
+### tourist degree
+  Type: astrological concept
+  Meaning: it's a degree related to how one relates to others based on self-worth and value
+  Meaning: a degree connected to interpersonal relationships influenced by self-worth
+  Attributes: self-worth, value
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0019
+
+
+### Planet one
+  Type: Celestial Body
+  Meaning: Planet one's the problem
+  Meaning: Problematic planet
+  Source: para_0020
+
+
+### Planet two
+  Type: Celestial Body
+  Meaning: Planet two's the solution
+  Meaning: Solution planet
+  Source: para_0020
+
+
+### Semis sextile
+  Type: Astrological Aspect
+  Meaning: Semis, sextile here and here are serving the first planets and not the second
+  Meaning: Aspect serving first planet
+  Source: para_0020
+
+
+### Ascendant
+  Type: Astrological Point
+  Meaning: It does not serve the ascendant
+  Meaning: Not supported by configuration
+  Source: para_0020
+
+
+### North node
+  Type: Astrological Point
+  Meaning: Aligning with the trajectory within music and spirituality
+  Meaning: Path for growth
+  Source: para_0020
+
+
+### South node
+  Type: Astrological Point
+  Meaning: Emotional growth
+  Meaning: Past experiences informing growth
+  Source: para_0020
+
+
+### spirituality
+  Type: concept
+  Meaning: not stated
+  Source: para_0021
+
+
+### performance
+  Type: concept
+  Meaning: not stated
+  Source: para_0021
+
+
+### Jupiter
+  Type: planet
+  Meaning: not stated
+  Source: para_0022
+
+
+### Saturn
+  Type: planet
+  Meaning: not stated
+  Source: para_0024, para_0022
+
+
+### descendant
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0023
+
+
+### midheaven
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0023
+
+
+### sub heaven
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0023
+
+
+### relationship
+  Type: concept
+  Meaning: the relationship that exists.
+  Meaning: the connection between the ascendant and other astrological aspects.
+  Attributes: square
+  Source: para_0023
+
+
+### Juno retrograde
+  Type: celestial event
+  Meaning: when it comes to identity and commitments and recommitting
+  Meaning: affects identity and commitments
+  Source: para_0024
+
+
+### third house
+  Type: astrological house
+  Meaning: delegate of identity
+  Source: para_0024
+
+
+### sixth house ruler
+  Type: astrological concept
+  Meaning: the astrological ruler associated with the sixth house
+  Attributes: retrograde
+  Allowed values: retrograde, direct
+  Constraints: must be related to the sixth house
+  Source: para_0025
+
+
+### comic book company
+  Type: business
+  Meaning: not stated
+  Attributes: character design, story arc, collaboration with artists
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: designing characters, building a comic book
+  Source: para_0026
+
+
+### Quin Cox
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0027
+
+
+### readings
+  Type: service
+  Meaning: not stated
+  Attributes: type of service provided, audience targeted
+  Allowed values: general public readings, personal readings
+  Constraints: if I think I can help, only for people in school
+  Source: para_0030
+
+
+### reverse vantage
+  Type: concept
+  Meaning: not stated
+  Attributes: applies to all aspects
+  Allowed values: any planetary aspect
+  Constraints: none stated
+  Source: para_0031
+
+
+### Vantage
+  Type: concept
+  Meaning: how an energy operates and how we resolve it is determined by perspective
+  Meaning: the perspective-based operation and resolution of energy
+  Source: para_0033
+
+
+### Energy Flow
+  Type: concept
+  Meaning: the dual component to the Energy Flow
+  Meaning: Energy Flow's dual nature
+  Source: para_0033
+
+
+### transmitting vs receiving energies
+  Type: concept
+  Meaning: understanding the transmitting vs receiving energies
+  Meaning: the distinction between energies sent and energies received
+  Source: para_0033
+
+
+## DEFINITIONS (12 definitions)
+
+
+  10 degree aspect: not stated
+    [not stated] Source: para_0001
+  Vantage: The perspective or point of view between two planets, particularly in the context of their interactions.
+    [high] Source: para_0004
+  Reverse Vantage: A subset of Vantage focused on the intra-aspect between two specific planets.
+    [high] Source: para_0004
+  reverse vantage: the concept of creating a friends group based on personal connections rather than just the initial social circles
+    [medium] Source: para_0012
+  grand trine: an astrological aspect formed by three planets creating a triangle in the sky, typically considered harmonious.
+    [medium] Source: para_0014
+  3rd house: connected to communication and identity.
+    [high] Source: para_0015
+  10th house: associated with public standing and career.
+    [high] Source: para_0015
+  Ascendant: not stated
+    [not stated] Source: para_0020
+  North node: not stated
+    [not stated] Source: para_0020
+  South node: not stated
+    [not stated] Source: para_0020
+  arc second: a unit of angular measurement equal to 1/3600 of a degree
+    [medium] Source: para_0028
+  arc minute: a unit of angular measurement equal to 1/60 of a degree
+    [medium] Source: para_0028
+
+
+## RULE ENGINE (58 rules)
+
+
+[R001]
+  IF Chiron has a low orb of influence
+  THEN Chiron has a degree of influence of 1
+  Teacher voice: "because Chiron has such a low orb of influence"
+  [high] Source: para_0002
+
+
+[R002]
+  IF the orb of influence is aligned with both Chiron and a degree to a degree and a half
+  THEN it is a true aspect
+  Teacher voice: "First off, you have true aspects, which means the orb of influence is aligned with both and with Chiron"
+  [high] Source: para_0002
+
+
+[R003]
+  IF Chiron has a placement at 17 degrees, 45 arc minutes and is aligned with 18 degrees, 50 arc minutes
+  THEN this is considered a forced aspect
+  Teacher voice: "technically, this is a forced aspect, which means this energy rate here is pulling this energy"
+  [high] Source: para_0002
+
+
+[R004]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0003
+
+
+[R005]
+  IF the moon is receiving a letter through a trine
+  THEN assess if the moon wanted the letter and is prepared to receive it.
+  Teacher voice: "did the moon want the letter to begin with? Is the moon requesting the letter?"
+  Exceptions: If there is an issue with alignment.
+  [high] Source: para_0004
+
+
+[R006]
+  IF she feels like she can't interact one-to-one
+  THEN she feels like she can't make friends
+  Teacher voice: "If she feels like she can't interact one-to-one, then she feels like she can't make friends that will, that's gonna be one thing that's going to play out."
+  [high] Source: para_0005
+
+
+[R007]
+  IF planet one thinks that planet two is the problem
+  THEN planet one is not in alignment with planet two
+  Teacher voice: "When in reality, planet one is not in alignment with Planet two, it needs to understand it."
+  [high] Source: para_0005
+
+
+[R008]
+  IF I just read it from Chiron to the moon
+  THEN all I'm reading is my wounds contribute to my emotional rebellion.
+  Teacher voice: "If I just read it from Chiron to the moon, then all I'm reading is my wounds contribute to my emotional rebellion."
+  [high] Source: para_0006
+
+
+[R009]
+  IF I read reverse vantage
+  THEN I come to the moon and I've assessed that and the security based on my structure and my mother.
+  Teacher voice: "If I read reverse vantage, I come to the moon and I've assessed that and the security based on my structure and my mother."
+  [high] Source: para_0006
+
+
+[R010]
+  IF there is an insecurity
+  THEN it is a result of a wound related to the relationship with the mother
+  Teacher voice: "if you read it just as, oh, well there's insecurity that feeds in, that's not enough information."
+  [high] Source: para_0007
+
+
+[R011]
+  IF the moon is involved
+  THEN it indicates the relationship wasn't there
+  Teacher voice: "with the moon, that relationship wasn't there."
+  [high] Source: para_0007
+
+
+[R012]
+  IF Chiron is in Aries
+  THEN it is normally the initiator
+  Teacher voice: "which in Aries would normally be the initiator."
+  [high] Source: para_0007
+
+
+[R013]
+  IF it was a true aspect
+  THEN this would've actually been what fed it in
+  Teacher voice: "if this was, if this would've been a true aspect, then this would've actually been what fed it in"
+  [medium] Source: para_0008
+
+
+[R014]
+  IF it would've been a degree a couple of arc minutes later
+  THEN this whole situation would've changed
+  Teacher voice: "if it would've been a degree, you know, a couple of arc minutes later, this whole situation would've changed"
+  [medium] Source: para_0008
+
+
+[R015]
+  IF planet is at Libra degree
+  THEN there could be a disconnect with the mother
+  Teacher voice: "assuming that it's still a Libra rising on this same day, that the mother may not have wanted the child, or that the mother may have like, kind of disconnected from the child in a different way."
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R016]
+  the moon is disconnected from the partnership and its rulers down here retrograde
+  the detachment is because of the mother, not because of the father
+  Teacher voice: "the detachment is because of the mother, it's not because of the father."
+  [high] Source: para_0010
+
+
+[R017]
+  the father pulled the mother in
+  he found out about the situation
+  Teacher voice: "that's where he found out."
+  [high] Source: para_0010
+
+
+[R018]
+  IF the moon is in a forced aspect
+  THEN it is not receiving or sending energy
+  Teacher voice: "the moon is not, it's in a forced aspect. It is not receiving, it's not sending it in."
+  [high] Source: para_0011
+
+
+[R019]
+  IF my emotions are separate from my own sense of purpose
+  THEN I can acknowledge that my sense of purpose says how do I feel about that
+  Teacher voice: "my emotions are separate from my own sense of purpose. But my sense of purpose says, well, how do I feel about that?"
+  [high] Source: para_0011
+
+
+[R020]
+  IF I want a friends group
+  THEN I have to create it based off of the people I have a personal connection with
+  Teacher voice: "the reverse vantage says, well, if I'm going to do this and I want a friends group, I have to create it based off of the people I have a personal connection with"
+  [high] Source: para_0012
+
+
+[R021]
+  Ashley never wanted kids
+  it was a decision of what do we want?
+  Teacher voice: "it was not a decision of this is gonna happen. It was very much a decision. Well, what would happen if it did?"
+  Exceptions: not stated
+  [medium] Source: para_0013
+
+
+[R022]
+  IF I reassess the energy I’m pulling in
+  THEN determine if it is for my best good moving forward.
+  Teacher voice: "is this for my best good moving forward?"
+  [medium] Source: para_0014
+
+
+[R023]
+  IF a person experiences neglect
+  THEN evaluate what part of that experience is being pulled in.
+  Teacher voice: "do what part of this am I pulling in, which is fed in by Pluto."
+  [medium] Source: para_0014
+
+
+[R024]
+  IF Venus is the ruler of the 3rd house
+  THEN it has to do with communication and identity.
+  Teacher voice: "So it has to do with communication, uh, my identity, things of that nature."
+  [high] Source: para_0015
+
+
+[R025]
+  IF Venus is also the ruler of the 10th house
+  THEN it delegates everything that's in there.
+  Teacher voice: "it's the rule of the 10th house. And as a, as a result of being a ruler of those houses, it's a delegate for everything that's in there."
+  [high] Source: para_0015
+
+
+[R026]
+  IF Chiron is tied with identity
+  THEN your name changes are likely influenced.
+  Teacher voice: "Chiron and my identity are tied together, which is probably why I've changed my name legally four times."
+  [high] Source: para_0015
+
+
+[R027]
+  IF Venus has integrated aspects with one's ascendant
+  THEN achievements may not stem from personal desire but rather from external validation.
+  Teacher voice: "it says, well, a lot of things that I've accomplished, I haven't accomplished because I wanted to do them."
+  [high] Source: para_0015
+
+
+[R028]
+  if things that other people wanted are in conflict with my ascendant
+  then I don't want to do them
+  Teacher voice: "And it's always in conflict with my ascendant."
+  [high] Source: para_0016
+
+
+[R029]
+  IF my mother got me a job at Disney or the newspaper
+  THEN I did not want to do it
+  Teacher voice: "My mother got me a job at Disney. She got me a job at the newspaper. And I didn't want it."
+  [high] Source: para_0016
+
+
+[R030]
+  IF I align with my own emergence into my own expression
+  THEN it feeds directly into the things that I want to do
+  Teacher voice: "when I align with my own emergence into my own expression and cre and uh, um, the way I creatively express myself, my purpose, the things that I wanna do through my own motivation, my own act, ac actions, money and how I 'cause of Chiron, how I make money"
+  [high] Source: para_0016
+
+
+[R031]
+  IF my south node shrines in
+  THEN it's reliable
+  Teacher voice: "because my south node shrines in, it's reliable, it's something that, you know, efficiency through its own system leads into the value of a system in a different way."
+  [high] Source: para_0016
+
+
+[R032]
+  IF Venus squares off with the ascendant
+  THEN it affects my expression
+  Teacher voice: "But when we're looking at this Venus and the ascendant, the ascendant is always being squared by Venus."
+  [high] Source: para_0016
+
+
+[R033]
+  IF I align with Chiron
+  THEN it becomes my identity
+  Teacher voice: "align with Chiron, which I've been doing a lot more recently"
+  [medium] Source: para_0017
+
+
+[R034]
+  IF Venus is pushing into the ascendant
+  THEN anything that I do has to have value and has to be artistic or relating to others
+  Teacher voice: "yes it does have to have value. yes, there has to be some sort of monetary attribute to it. yes, it is artistic or relating to others, but it's not relating to others."
+  [medium] Source: para_0018
+
+
+[R035]
+  IF I see that I'm trying to be overtaken by my motivations
+  THEN I have to say, no, no, no, and stop that from happening
+  Teacher voice: "I see that I'm trying to be overtaken the things that I wanna do."
+  [high] Source: para_0019
+
+
+[R036]
+  IF I align with the things that I wanted to do
+  THEN my identity has to support that from a place of accomplishment
+  Teacher voice: "I had to align with the things that I wanted to do."
+  [high] Source: para_0019
+
+
+[R037]
+  IF under 90 degrees in a square
+  THEN serves Venus
+  Teacher voice: "under 90 degrees in a square, according to the aspect spectrum serves Venus"
+  [high] Source: para_0020
+
+
+[R038]
+  IF motivations conflict with career and public image
+  THEN align own motivations to serve career
+  Teacher voice: "I have to align my own motivations to serve my career and my public image."
+  [high] Source: para_0020
+
+
+[R039]
+  IF north node is in conflict with the ascendant
+  THEN fix the ascendant and allow the north node in
+  Teacher voice: "fix the ascendant and allow the north node in"
+  [high] Source: para_0021
+
+
+[R040]
+  IF Venus squares off to the ascendant
+  THEN I have to reposition my ascendant to say, oh, you want to be here too
+  Teacher voice: "so therefore when the square comes in, I have to reposition my ascendant to say, oh, you want, you want to be here too."
+  [high] Source: para_0022
+
+
+[R041]
+  IF my Saturn expects my ascendant to be a part of it
+  THEN my responsibility includes the ascendant
+  Teacher voice: "there's an ascendant, you know, sextile here. So my Saturn, my responsibility actually expects my ascendant to be a part of it."
+  [high] Source: para_0022
+
+
+[R042]
+  IF ascendant is in the first house
+  THEN it desires autonomy.
+  Teacher voice: "your ascendant just wants autonomy. It's in the first house."
+  [high] Source: para_0023
+
+
+[R043]
+  IF you want to do what you want to do
+  THEN you have to factor in other influences.
+  Teacher voice: "you have to say, I'm going to do what I wanna do, however, I have to factor in this and I have to allow for this."
+  [high] Source: para_0023
+
+
+[R044]
+  IF you align backwards to your goals
+  THEN you may find advantages in relationships.
+  Teacher voice: "in order for me to do this, how do I align backwards to that?"
+  [high] Source: para_0023
+
+
+[R045]
+  if you had the moon in cancer squaring off
+  then it could be really tricky
+  Teacher voice: "you have to do the same thing here."
+  [medium] Source: para_0024
+
+
+[R046]
+  IF my six house ruler is retrograde
+  THEN I have to release work and avoid bringing more burden
+  Teacher voice: "my six house ruler is retrograde. So my natural thing is to bring more burden, bring more responsibility, bring more things I have to think about..."
+  [high] Source: para_0025
+
+
+[R047]
+  IF the ruler is in the sixth house
+  THEN the work that I do contributes to the work that I do.
+  Teacher voice: "But isn't the work that I do because it's a six house ruler."
+  Exceptions: not stated
+  [high] Source: para_0026
+
+
+[R048]
+  IF the ruler goes back
+  THEN it creates a vicious cycle.
+  Teacher voice: "it's this because the ruler goes back, it's this vicious cycle of I'm done."
+  Exceptions: not stated
+  [high] Source: para_0026
+
+
+[R049]
+  IF you determine that something is efficient
+  THEN get that product out
+  Teacher voice: "as soon as you've determined that it is efficient, sure it could be more, but it is efficient. Get that s**t out."
+  [high] Source: para_0027
+
+
+[R050]
+  IF you have Chiron in the 10th house
+  THEN people attack you
+  Teacher voice: "whenever you have Chiron in the 10th house, people attack you, doesn't matter."
+  Exceptions: not stated
+  [high] Source: para_0028
+
+
+[R051]
+  IF you are questioning your writing skills
+  THEN you may feel inadequate
+  Teacher voice: "it's like, am I even smart enough to write this?"
+  Exceptions: not stated
+  [high] Source: para_0028
+
+
+[R052]
+  IF the Moon is pushing itself on Chiron
+  THEN it is interesting when it comes to the mother and things of that nature
+  Teacher voice: "the moon is pushing itself on Chiron, which is interesting when it comes to the mother and things of that nature"
+  Exceptions: not stated
+  [medium] Source: para_0029
+
+
+[R053]
+  IF I want to do readings
+  THEN I will do them for people in our school that I think I can help
+  Teacher voice: "I like doing readings for people who are in our school. I like doing readings for people that I think I'm gonna help."
+  Exceptions: not for the general public; not for monetary reasons
+  [high] Source: para_0030
+
+
+[R054]
+  IF people request predictions
+  THEN I will refuse
+  Teacher voice: "I don't want to do a prediction for a world event and tell me what's gonna happen with this? I don't want to."
+  Exceptions: none stated
+  [high] Source: para_0030
+
+
+[R055]
+  IF the moon is squaring off Chiron
+  THEN understand what Chiron needs
+  Teacher voice: "it's now saying, okay, I understand what Chiron needs."
+  [high] Source: para_0031
+
+
+[R056]
+  IF the ruler goes into the fifth house
+  THEN it relates to those who matter.
+  Teacher voice: "the ruler goes into the fifth house, Sagittarius people that I'm teaching, people that are going to"
+  [medium] Source: para_0032
+
+
+[R057]
+  IF I don't feel safe teaching
+  THEN I only work with specific people I choose.
+  Teacher voice: "I have to just say, these are the people I wanna work with."
+  [medium] Source: para_0032
+
+
+[R058]
+  IF others are in it for money
+  THEN I will not work with them.
+  Teacher voice: "they're usually in it for money. And I'm in it for just really the art, the passion, and then how money can come into it."
+  [medium] Source: para_0032
+
+
+## CALCULATION PIPELINE
+  Step 1: Determine the orb of influence for Chiron and Moon
+    Notes: Chiron has a low orb of influence, the moon has three
+  Step 2: Evaluate the impact of Chiron's placement in relation to other celestial bodies and houses
+    Notes: Consider the degree alignment and aspects formed
+  Step 3: Calculate the aspect interaction details
+    Notes: Determine the harmonies or disharmonies based on aspect alignments
+
+
+  Additional calculation steps from transcript:
+  Step 0: Determine the orb of influence for Chiron and Moon
+    Formula: not applicable
+    Teacher voice: "Chiron has a low orb of influence, the moon has three"
+  Step 0: Considering the astrological chart and the degrees of Chiron to assess the relationship dynamics with the mother.
+    Formula: not applicable
+    Teacher voice: "if you're taking Chiron, you're moving it to 18 degrees, then you're no longer at a Virgo degree, then you're at a Libra degree."
+  Step 0: Calculating the distance between the Moon and Chiron
+    Formula: not stated
+    Teacher voice: "one degree would be 25, 42. This is past one degree"
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "entity": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "entity_type": {
+        "type": "string"
+      },
+      "attributes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "allowed_values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "constraints": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "examples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "name",
+      "entity_type",
+      "attributes",
+      "allowed_values",
+      "constraints"
+    ]
+  }
+}
+
+
+Rules schema:
+{
+  "rule": {
+    "type": "object",
+    "properties": {
+      "rule_id": {
+        "type": "string"
+      },
+      "condition": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      },
+      "teacher_voice_phrasing": {
+        "type": "string"
+      },
+      "exceptions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "rule_id",
+      "condition",
+      "action",
+      "teacher_voice_phrasing"
+    ]
+  }
+}
+
+
+Meanings schema:
+{
+  "meaning": {
+    "type": "object",
+    "properties": {
+      "term": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "confidence": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "term",
+      "definition"
+    ]
+  }
+}
+
+
+## PSEUDOCODE
+START
+  INPUT astrological_entities
+  INPUT orb_of_influence
+  INPUT astrological_chart
+  FOR each entity IN astrological_entities
+    ANALYZE attributes and aspects
+    IF has_low_orb(Chiron)
+      THEN SET Chiron_influence_degree = 1
+    IF is_true_aspect(Chiron, degree)
+      THEN CREATE true_aspect_notification
+    STORE results
+  OUTPUT results
+END
+
+
+## VOICE STYLE RULES
+Tone: informative, calm
+Cadence: Maintain a steady and clear pace.
+Signature phrases: Let's explore this more deeply,, In astrological terms,
+Do:
+  - Be precise with terminology
+  - Clarify complex concepts
+Avoid:
+  - Do not assume prior astrological knowledge
+  - Avoid overly technical jargon without explanation
+
+
+## MEANING RENDERING RULES
+- Always explain meanings using plain language first, then expand with technical terms if necessary.
+- Use analogies where possible to relate astrological concepts to everyday life.
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (63 snippets)
+
+
+  [definition] (unknown): "whenever you have an aspect"
+    Source: para_0001
+  [meaning] (unknown): "I will not be going through 10, 20, 30, 40, 50, 60, 70, 80 all the way up to 180."
+    Source: para_0001
+  [meaning] (unknown): "technically, this is a forced aspect, which means this energy rate here is pulling this energy"
+    Source: para_0002
+  [definition] (unknown): "First off, you have true aspects, which means the orb of influence is aligned with both and with Chiron"
+    Source: para_0002
+  [definition] (unknown): "Chiron is not a ruling planet, so therefore bidirectional rulership does not apply for Chiron."
+    Source: para_0003
+  [motivation] (unknown): "We're gonna ignore the north node, and we're gonna talk about Aries."
+    Source: para_0003
+  [definition] (unknown): "It's about, it's like, I have a reason why I want to send a letter."
+    Source: para_0004
+  [motivation] (unknown): "this needs its own terminology because it's technically a subset of Vantage."
+    Source: para_0004
+  [example] (unknown): "You can analyze Chiron all you want. You can talk about all the keywords for Chiron, talk about all the keywords for the seventh house."
+    Source: para_0005
+  [definition|motivation] (unknown): "But if you really wanna understand this aspect, you have to go to planet two because within energy flow, planet one feeds into Planet two."
+    Source: para_0005
+  [meaning] (unknown): "the moon means all of these things. Everything that I said when it comes to the mother, when it comes to emotional security and safety"
+    Source: para_0006
+  [meaning] (unknown): "the emotional security is founded upon the receipt of this, which means it's because of Chiron."
+    Source: para_0006
+  [warning] (unknown): "you just have to do the reverse."
+    Source: para_0007
+  [definition] (unknown): "what we know is that Chiron... as a forced aspect."
+    Source: para_0007
+  [example] (unknown): "the mother had this, she had a seizure life vitality"
+    Source: para_0008
+  [warning] (unknown): "all of this happened, which disconnected this"
+    Source: para_0008
+  [example] (unknown): "my mother did not want me. And that played out over and over and over again"
+    Source: para_0009
+  [rule] (unknown): "the detachment is because of the mother, it's not because of the father."
+    Source: para_0010
+  [rule] (unknown): "that's where he found out."
+    Source: para_0010
+  [meaning] (unknown): "it's my Senate ruler pulling that in and saying, well, because of my pride and because I, I can make it work."
+    Source: para_0011
+  [motivation] (unknown): "I have to intentionally do that"
+    Source: para_0012
+  [warning] (unknown): "there was a disconnect there"
+    Source: para_0012
+  [definition] (unknown): "There's a disconnect between the mother and the father."
+    Source: para_0013
+  [meaning] (unknown): "I didn't want any more kids."
+    Source: para_0013
+  [meaning] (unknown): "I love being a father and I love that we have more kids, but I didn't want that to begin with."
+    Source: para_0013
+  [definition] (unknown): "these are all forced aspects from the sun to Pluto, from Pluto to the moon and from the moon back."
+    Source: para_0014
+  [meaning] (unknown): "reverse vantage says, when it comes to fatherhood, it's... something that it's up to whether I actually want it or not."
+    Source: para_0014
+  [meaning] (unknown): "my identity, things of that nature"
+    Source: para_0015
+  [warning] (unknown): "a lot of things that I've accomplished, I haven't accomplished because I wanted to do them."
+    Source: para_0015
+  [example] (unknown): "I went from in an industry where people were struggling to make three to 5,000 a month. And I was making 85,000 plus every month doing the same exact thing."
+    Source: para_0017
+  [motivation] (unknown): "I said, I don't really care what anybody else does."
+    Source: para_0017
+  [motivation] (unknown): "I'm just doing this my way."
+    Source: para_0017
+  [motivation] (unknown): "It's not because I'm trying to prove myself."
+    Source: para_0019
+  [example] (unknown): "Changing my name did not change me being able to do anything."
+    Source: para_0019
+  [motivation] (unknown): "why is this a problem? 'cause we're not comfortable with this."
+    Source: para_0021
+  [motivation] (unknown): "I want to do things that are of value."
+    Source: para_0021
+  [definition] (unknown): "that's how reverse vantage will help you figure that out."
+    Source: para_0021
+  [motivation] (unknown): "in order to understand it's gotta have value. It's gotta be something that has some sort of story or, um, you know, theatrics to it and then detach myself"
+    Source: para_0022
+  [definition] (unknown): "it's not just that this planet is feeding this one, especially through a trine or square."
+    Source: para_0022
+  [meaning] (unknown): "you have to say, okay, in order for my ascendant, my ascendant didn't ask for any of this."
+    Source: para_0022
+  [rule] (unknown): "so therefore when the square comes in, I have to reposition my ascendant to say, oh, you want, you want to be here too."
+    Source: para_0022
+  [meaning] (unknown): "the ascendant has to then through reverse vantage say, what are you offering me?"
+    Source: para_0023
+  [description] (unknown): "it's gonna be in your face"
+    Source: para_0024
+  [instruction] (unknown): "you have to break it down one piece at a time"
+    Source: para_0024
+  [example] (unknown): "I have to release some of those things like what is efficient, what isn't efficient, what's not practical, what doesn't even matter to the thing that I'm doing?"
+    Source: para_0025
+  [motivation] (unknown): "learning how to release some of that 'cause as part of a retrograde."
+    Source: para_0025
+  [example] (unknown): "I do not do the final."
+    Source: para_0026
+  [warning] (unknown): "it creates a feeling like things are never done."
+    Source: para_0026
+  [example] (unknown): "Did you get value out of that? Does that make sense? Are you good? Did we answer the question?"
+    Source: para_0027
+  [motivation] (unknown): "I always feel like I haven't, and it sucks, like it legitimately sucks."
+    Source: para_0027
+  [motivation] (unknown): "that's like the worst because that becomes the 10th house."
+    Source: para_0028
+  [motivation] (unknown): "can I write, am I writing the way I'm supposed to?"
+    Source: para_0028
+  [meaning] (unknown): "it is the moon that is asserting itself on what is creating a wound as opposed to the wound existing"
+    Source: para_0029
+  [example] (unknown): "now people with the north note over here, you know, now they're coming outta the woodwork making videos like, Logan won't even do a reading for me."
+    Source: para_0030
+  [definition] (unknown): "reverse vantage is all aspects, all aspects."
+    Source: para_0031
+  [warning] (unknown): "I have to detach from the spiritual a little bit."
+    Source: para_0031
+  [motivation] (unknown): "I have to release a lot of that care and empathy and only apply it to people who are, I'm dealing with one-on-one."
+    Source: para_0031
+  [warning] (unknown): "I don’t feel safe teaching."
+    Source: para_0032
+  [motivation] (unknown): "vibe higher."
+    Source: para_0032
+  [definition] (unknown): "How an energy operates and how we resolve it is determined by perspective."
+    Source: para_0033
+  [definition] (unknown): "there’s a dual component to the Energy Flow which we will explore for maximum comprehension of each energetic relationship."
+    Source: para_0033
+  [definition] (unknown): "this webinar was about adding a layer of context to an aspect by not only addressing Vantage through Energy Flow, but understanding the transmitting vs receiving energies."
+    Source: para_0033
+  [example] (unknown): "the energies being received must be aligned—catching the ball thrown at you is not necessarily going to happen without putting the glove up and repositioning a little!"
+    Source: para_0033
+
+
+## EDGE CASES (6 cases)
+
+
+- Scenario: When dealing with insecurities and wounds related to Chiron's influence
+  Handling: Evaluate the user's personal background and offer targeted coping strategies.
+- Scenario: When dealing with insecurities and wounds related to Chiron's influence
+  Handling: Her insecurities, her wounds, anything that has to do with relating to others will be affected
+- Scenario: The moon may not want the letter at all.
+  Handling: Evaluate the relationship and request status.
+- Scenario: The moon might not be prepared to receive the letter.
+  Handling: Assess the processing capability of the moon.
+- Scenario: misinterpretation of forced aspects
+  Handling: clarify that none of them contribute to one without the other.
+- Scenario: not stated
+  Handling: not stated
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Verify Chiron's influence degree with a low orb of influence.
+  Input: {"chiron_orb_of_influence": "low"}
+  Expected (teacher voice): Because Chiron has such a low orb of influence, it has a degree of influence of 1.
+  Rules: R001
+  Entities: Chiron
+
+
+[TC002] Check if the orb of influence results in a true aspect with alignment.
+  Input: {"orb_of_influence_aligned": true, "chiron_alignment": "degree to a degree and a half"}
+  Expected (teacher voice): First off, you have true aspects, which means the orb of influence is aligned with both and with Chiron.
+  Rules: R002
+  Entities: Chiron, aspect spectrum
+
+
+[TC003] Determine if a forced aspect occurs given specific Chiron placement.
+  Input: {"chiron_placement": "17 degrees, 45 arc minutes", "alignment": "18 degrees, 50 arc minutes"}
+  Expected (teacher voice): Technically, this is a forced aspect, which means this energy rate here is pulling this energy.
+  Rules: R003
+  Entities: Chiron
+
+
+[TC004] Assess if the moon is ready to receive a letter through a trine.
+  Input: {"moon_receiving_letter": true, "through_trine": true}
+  Expected (teacher voice): Did the moon want the letter to begin with? Is the moon requesting the letter?
+  Rules: R004
+  Entities: moon
+
+
+[TC005] Handle the situation where the moon is not aligned to receive a letter.
+  Input: {"moon_receiving_letter": true, "through_trine": true, "alignment_issue": true}
+  Expected (teacher voice): There is an issue with alignment in receiving the letter through a trine.
+  Rules: R004
+  Entities: moon
+  [EDGE CASE]
+
+
+[TC006] Test the spectrum of aspects for known aspect types.
+  Input: {"aspect_type": "conjunction"}
+  Expected (teacher voice): The aspect is part of the established aspect spectrum, including conjunction.
+  Entities: aspect spectrum
+
+
+[TC007] Test the calculation process with missing orb information.
+  Input: {"orb_of_influence": null}
+  Expected (teacher voice): Information about the orb of influence is missing, unable to determine aspect.
+  Rules: R002
+  [EDGE CASE]
+
+
+[TC008] Test for unknown astrological entities.
+  Input: {"unknown_entity": "Nebula"}
+  Expected (teacher voice): The entity 'Nebula' is not recognized in the provided astrological rules.
+  [EDGE CASE]
+
+
+[TC009] Verify handling when Chiron does not have a stated influence.
+  Input: {"chiron_orb_of_influence": null}
+  Expected (teacher voice): Without stating Chiron's orb of influence, the degree of influence cannot be determined.
+  Rules: R001
+  Entities: Chiron
+  [EDGE CASE]
+
+
+[TC010] Assess the moon's delegated role without aspect context.
+  Input: {"moon_as_delegation": true}
+  Expected (teacher voice): The moon acts as a delegate for an entire house, acknowledging its influence within its role.
+  Entities: moon
+
+
+## UNRESOLVED (7 items)
+
+
+- Specific examples of how Chiron affects emotional security in groups.
+  Needed: Examples of interactions and outcomes.
+- how to reconcile feelings of disconnect
+  Needed: strategies or methods for emotional connection
+- specific needs and wants of the speaker
+  Needed: details on needs and feelings towards having children
+- specific attributes of the energy assessment process
+  Needed: details on how to effectively assess energy for well-being.
+- context about the accuracy and writing consistency
+  Needed: clarification on writing standards and expectations
+- Specific calculations and their implications
+  Needed: More context on how calculations and astrological aspects interact
+- Specifics about how to identify 'people that matter'
+  Needed: clarification on criteria for selection
+
+
+================================================================================
+END OF BUILDER PROMPT
+================================================================================

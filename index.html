@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readings-Astrology | ADS/FREE Theory Chart Engine</title>
+  <meta name="description"
+    content="Professional astrological readings using the Astronomical Doctrine of Signatures (ADS) and FREE Theory. Whole Sign Houses, Perception vs Reality interpretations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="cosmic-bg">
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    <div class="nebula"></div>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <span class="logo-symbol">☿</span>
+        <h1>Readings-Astrology</h1>
+      </div>
+      <p class="tagline">Astronomical Doctrine of Signatures • FREE Theory</p>
+    </header>
+
+    <!-- Input Section -->
+    <section class="input-section glass-panel" id="inputSection">
+      <h2>
+        <span class="section-icon">✧</span>
+        Enter Your Birth Information
+      </h2>
+
+      <form id="birthDataForm" class="birth-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="birthDate">
+              <span class="label-icon">📅</span>
+              Birth Date
+            </label>
+            <input type="date" id="birthDate" required>
+          </div>
+
+          <div class="form-group">
+            <label for="birthTime">
+              <span class="label-icon">🕐</span>
+              Birth Time
+            </label>
+            <input type="time" id="birthTime" required>
+          </div>
+        </div>
+
+        <div class="form-group location-group">
+          <label for="birthLocation">
+            <span class="label-icon">📍</span>
+            Birth Location
+          </label>
+          <input type="text" id="birthLocation" placeholder="City, Country (e.g., New York, USA)" required>
+          <div class="location-coords" id="locationCoords" style="display: none;">
+            <span id="latDisplay"></span>, <span id="lonDisplay"></span>
+          </div>
+        </div>
+
+        <input type="hidden" id="latitude">
+        <input type="hidden" id="longitude">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="birthName">
+              <span class="label-icon">✨</span>
+              First Name
+            </label>
+            <input type="text" id="birthName" placeholder="e.g., Cassie" required>
+          </div>
+
+          <div class="form-group">
+            <label>
+              <span class="label-icon">👤</span>
+              Gender (for report styling)
+            </label>
+            <div class="gender-select" id="genderSelect">
+              <label class="gender-option">
+                <input type="radio" name="gender" value="female" checked>
+                <span class="gender-label">♀ Female</span>
+              </label>
+              <label class="gender-option">
+                <input type="radio" name="gender" value="male">
+                <span class="gender-label">♂ Male</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn" id="generateBtn">
+          <span class="btn-text">Generate Your Reading</span>
+          <span class="btn-icon">→</span>
+        </button>
+      </form>
+
+      <div class="loading" id="loading" style="display: none;">
+        <div class="loading-spinner"></div>
+        <p>Calculating your cosmic blueprint...</p>
+      </div>
+
+      <div class="discovery-trigger" id="discoveryTrigger" style="display:none;">
+        <div class="discovery-trigger-divider">
+          <span>or try something new</span>
+        </div>
+        <button class="discovery-trigger-btn" id="openDiscoveryBtn">
+          <span class="trigger-icon">🔮</span>
+          <span class="trigger-text">
+            <strong>Guided Discovery</strong>
+            <small>Let the system find what's most relevant for you</small>
+          </span>
+          <span class="trigger-arrow">→</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="resultsSection" style="display: none;">
+
+      <!-- Chart Overview Card -->
+      <div class="glass-panel chart-overview" id="chartOverview">
+        <h2>
+          <span class="section-icon">☉</span>
+          Your Cosmic Blueprint
+        </h2>
+        <div class="chart-meta" id="chartMeta"></div>
+      </div>
+
+      <!-- Lenses Selection Section -->
+      <div class="glass-panel lenses-selection" id="lensesSection">
+        <h2>
+          <span class="section-icon">🔍</span>
+          Select a Lens
+          <span class="lenses-subtitle">Focus your reading on a specific topic</span>
+        </h2>
+
+        <div class="lenses-grid">
+          <button class="lens-btn active" data-lens="general">
+            <span class="lens-icon">🌟</span>
+            <span class="lens-name">General Reading</span>
+          </button>
+          <button class="lens-btn" data-lens="love">
+            <span class="lens-icon">❤️</span>
+            <span class="lens-name">Love & Relationships</span>
+          </button>
+          <button class="lens-btn" data-lens="career">
+            <span class="lens-icon">💼</span>
+            <span class="lens-name">Career & Purpose</span>
+          </button>
+          <button class="lens-btn" data-lens="children">
+            <span class="lens-icon">👶</span>
+            <span class="lens-name">Children & Creativity</span>
+          </button>
+        </div>
+
+        <!-- Dynamic Lens Content Container -->
+        <div id="lensAnalysisContainer" class="lens-analysis-container" style="display:none;">
+          <!-- Content will be injected here by app.js -->
+        </div>
+      </div>
+
+      <!-- Dual Wheel Visualization -->
+      <div class="glass-panel dual-wheel-section">
+        <h2>
+          <span class="section-icon">◉</span>
+          Dual Wheel Chart
+          <span class="wheel-subtitle">(Inner: Houses/Fields • Outer: Signs/Tone)</span>
+        </h2>
+        <div class="dual-wheel-container">
+          <canvas id="chartWheel" width="600" height="600"></canvas>
+        </div>
+        <div class="wheel-legend">
+          <div class="legend-item"><span class="legend-color inner"></span> Inner Wheel: 12 Houses (Earth's Rotation)
+          </div>
+          <div class="legend-item"><span class="legend-color outer"></span> Outer Wheel: 12 Signs (Universal Membrane)
+          </div>
+          <div class="legend-item"><span class="legend-color center"></span> Center: Earth (Your Location)</div>
+        </div>
+      </div>
+
+      <!-- Angles Card -->
+      <div class="glass-panel angles-card">
+        <h2>
+          <span class="section-icon">✦</span>
+          The Four Angles
+        </h2>
+        <div class="angles-grid" id="anglesGrid"></div>
+      </div>
+
+      <!-- Planetary Positions -->
+      <div class="glass-panel planets-section">
+        <h2>
+          <span class="section-icon">☿</span>
+          Planetary Positions
+          <span class="tier-legend">
+            <span class="tier ultra">Ultrapersonal</span>
+            <span class="tier personal">Personal</span>
+            <span class="tier extra">Extrapersonal</span>
+            <span class="tier trans">Transpersonal</span>
+            <span class="tier meta">Metapersonal</span>
+          </span>
+        </h2>
+        <div class="planets-grid" id="planetsGrid"></div>
+      </div>
+
+      <!-- Aspect Analysis -->
+      <div class="glass-panel aspects-section">
+        <h2>
+          <span class="section-icon">△</span>
+          Aspect Spectrum Analysis
+          <span class="aspect-subtitle">Perception vs Reality</span>
+        </h2>
+        <div class="aspects-container" id="aspectsContainer"></div>
+      </div>
+
+      <!-- Clusters -->
+      <div class="glass-panel clusters-section" id="clustersSection" style="display: none;">
+        <h2>
+          <span class="section-icon">✧</span>
+          Stelliums & Satellitiums
+        </h2>
+        <div class="clusters-container" id="clustersContainer"></div>
+      </div>
+
+      <!-- Rulership Chains -->
+      <div class="glass-panel rulership-section">
+        <h2>
+          <span class="section-icon">⟷</span>
+          Rulership Chains
+          <span class="rulership-subtitle">Bi-directional & Layered Delegation</span>
+        </h2>
+        <div class="rulership-container" id="rulershipContainer"></div>
+      </div>
+
+      <!-- Guidance Section -->
+      <div class="glass-panel guidance-section">
+        <h2>
+          <span class="section-icon">✨</span>
+          Personalized Guidance
+        </h2>
+
+        <div class="guidance-tabs">
+          <button class="tab-btn active" data-tab="strengths">Strengths</button>
+          <button class="tab-btn" data-tab="challenges">Challenges</button>
+          <button class="tab-btn" data-tab="themes">Life Themes</button>
+          <button class="lens-btn" data-lens="manifestation">✨ Manifestation</button>
+          <button class="lens-btn" data-lens="money">💰 Money & Finance</button>
+          <button class="tab-btn" data-tab="actions">Action Items</button>
+        </div>
+
+        <div class="guidance-content" id="guidanceContent"></div>
+      </div>
+
+      <!-- YEARLY FORECAST SECTION -->
+      <div class="glass-panel yearly-forecast-section" id="yearlyForecastSection">
+        <h2>
+          <span class="section-icon">📅</span>
+          What Life Looks Like
+          <span class="yearly-subtitle">Your Personalized Navigation Guide</span>
+        </h2>
+
+        <!-- Date Selector for Any Time in Life -->
+        <div class="life-date-selector">
+          <div class="life-date-header">
+            <span class="life-date-icon">🔮</span>
+            <span class="life-date-title">Explore Any Time in Your Life</span>
+          </div>
+          <div class="life-date-description">
+            Look at the past to understand difficult periods, or plan ahead to prepare for what's coming.
+          </div>
+          <div class="life-date-controls">
+            <div class="life-date-input-group">
+              <label for="transitDate">Select Date:</label>
+              <input type="date" id="transitDate" class="life-date-input">
+            </div>
+            <button class="life-date-btn" id="viewTransitsBtn">
+              <span>🌟 View This Day's Energy</span>
+            </button>
+            <button class="life-date-btn secondary" id="viewTodayBtn">
+              <span>📍 Back to Today</span>
+            </button>
+          </div>
+          <div class="life-date-current" id="viewingDateDisplay">
+            Currently viewing: <strong id="currentViewDate">Today</strong>
+          </div>
+        </div>
+
+        <!-- Year Overview -->
+        <div class="yearly-overview" id="yearlyOverview"></div>
+
+        <!-- Yearly Tabs -->
+        <div class="yearly-tabs">
+          <button class="yearly-tab-btn active" data-yearly-tab="themes">🎯 Your Themes</button>
+          <button class="yearly-tab-btn" data-yearly-tab="challenges">⚡ Challenges</button>
+          <button class="yearly-tab-btn" data-yearly-tab="opportunities">✨ Opportunities</button>
+          <button class="yearly-tab-btn" data-yearly-tab="growth">🌱 Growth</button>
+          <button class="yearly-tab-btn" data-yearly-tab="monthly">📆 Monthly</button>
+          <button class="yearly-tab-btn" data-yearly-tab="navigation">🧭 Navigate</button>
+        </div>
+
+        <div class="yearly-content" id="yearlyContent"></div>
+      </div>
+
+      <!-- Ask Questions Before Generating -->
+      <div class="glass-panel question-before-report" id="questionBeforeReport">
+        <div class="question-toggle" id="questionToggle">
+          <span class="question-toggle-icon">💬</span>
+          <span class="question-toggle-text">
+            <strong>Have a specific question?</strong>
+            <small>Ask before generating your report and it will answer it directly</small>
+          </span>
+          <span class="question-toggle-arrow" id="questionArrow">▼</span>
+        </div>
+        <div class="question-input-area" id="questionInputArea" style="display:none;">
+          <div class="question-field">
+            <textarea id="userQuestion1" rows="2"
+              placeholder='e.g. "Why do I feel stuck in my career right now?"'></textarea>
+          </div>
+          <div class="question-field" id="extraQuestion2" style="display:none;">
+            <textarea id="userQuestion2" rows="2" placeholder="Another question..."></textarea>
+          </div>
+          <div class="question-field" id="extraQuestion3" style="display:none;">
+            <textarea id="userQuestion3" rows="2" placeholder="One more question..."></textarea>
+          </div>
+          <button class="add-question-btn" id="addQuestionBtn">+ Add another question</button>
+          <p class="question-hint">Your report will analyze your chart's transits, aspects, and placements to answer
+            each question specifically.</p>
+        </div>
+      </div>
+
+      <!-- Generate New Button -->
+      <div class="action-buttons-row">
+        <button class="new-reading-btn" id="newReadingBtn">
+          <span>Generate New Reading</span>
+        </button>
+        <button class="deep-report-btn" id="deepReportBtn">
+          <span>📜 Deep Personal Report</span>
+        </button>
+        <button class="profile-report-btn" id="profileReportBtn">
+          <span>📖 Generate Profile Report</span>
+        </button>
+        <button class="discovery-btn-results" id="openDiscoveryFromResults">
+          <span>🔮 Guided Discovery</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Built with the <strong>Astronomical Doctrine of Signatures</strong> & <strong>FREE Theory</strong></p>
+      <p class="system-info">Whole Sign Houses • PHSR Interpretation Sequence • Aspect Spectrum System</p>
+    </footer>
+  </div>
+
+  <!-- COSMIC GUIDE CHAT UI -->
+  <div class="chat-fab" id="chatFab">
+    <div class="chat-fab-icon">🔮</div>
+    <div class="chat-fab-tooltip">Ask the Cosmic Guide!</div>
+  </div>
+
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <div class="chat-title">
+        <span class="chat-icon">🔮</span>
+        <span>Cosmic Guide</span>
+      </div>
+      <button class="chat-close" id="chatClose">×</button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot">
+        <div class="message-content">
+          Hi! I'm your Cosmic Guide. ✨ Ask me anything about your chart! try "Career", "Love", or "Who am I?"
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInput" placeholder="Ask about your chart..." autocomplete="off">
+      <button id="chatSendBtn">➤</button>
+    </div>
+  </div>
+
+  <!-- QUESTION DISCOVERY OVERLAY -->
+  <div class="discovery-overlay" id="discoveryOverlay" style="display:none;">
+    <div class="discovery-modal">
+      <button class="discovery-close" id="discoveryClose">×</button>
+
+      <!-- STEP 1: Category Selection -->
+      <div class="discovery-step" id="discoveryStep1">
+        <div class="discovery-header">
+          <div class="discovery-logo">🔮</div>
+          <h2>What Would You Like to Explore?</h2>
+          <p class="discovery-subtitle">Select one or more areas of life you're curious about</p>
+        </div>
+        <div class="discovery-categories" id="discoveryCategoryGrid"></div>
+        <button class="discovery-next-btn" id="discoveryNextBtn" disabled>
+          <span>Continue</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </div>
+
+      <!-- STEP 2: Follow-Up Questions -->
+      <div class="discovery-step" id="discoveryStep2" style="display:none;">
+        <div class="discovery-header">
+          <h2>Tell Me a Bit More</h2>
+          <p class="discovery-subtitle">This helps me provide the most relevant insights</p>
+        </div>
+        <div class="discovery-questions" id="discoveryQuestions"></div>
+        <div class="discovery-btn-row">
+          <button class="discovery-back-btn" id="discoveryBackBtn1">
+            <span>← Back</span>
+          </button>
+          <button class="discovery-next-btn" id="discoveryAnalyzeBtn">
+            <span>Analyze My Chart</span>
+            <span class="btn-arrow">✦</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 2b: Specific Question -->
+      <div class="discovery-step" id="discoveryStep2b" style="display:none;">
+        <div class="discovery-header">
+          <h2>What Would You Like to Know?</h2>
+          <p class="discovery-subtitle">Ask anything about your chart</p>
+        </div>
+        <div class="specific-question-area">
+          <textarea id="specificQuestionInput" rows="4"
+            placeholder='Example: "Why do I keep attracting emotionally unavailable partners?"'></textarea>
+        </div>
+        <div class="discovery-btn-row">
+          <button class="discovery-back-btn" id="discoveryBackBtn2">
+            <span>← Back</span>
+          </button>
+          <button class="discovery-next-btn" id="discoveryAskBtn">
+            <span>Analyze This Question</span>
+            <span class="btn-arrow">✦</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Analysis Progress -->
+      <div class="discovery-step" id="discoveryStep3" style="display:none;">
+        <div class="discovery-header">
+          <h2 id="analysisProgressTitle">Analyzing Your Chart...</h2>
+          <p class="discovery-subtitle" id="analysisProgressSubtitle">Examining relevant chart factors</p>
+        </div>
+        <div class="analysis-progress-container">
+          <div class="progress-bar-outer">
+            <div class="progress-bar-inner" id="analysisProgressBar"></div>
+          </div>
+          <div class="analysis-factors-list" id="analysisFactorsList"></div>
+          <div class="analysis-knowledge" id="analysisKnowledge" style="display:none;">
+            <div class="knowledge-header">📚 Retrieved Knowledge</div>
+            <div class="knowledge-items" id="knowledgeItems"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOCUSED READING OVERLAY -->
+  <div class="focused-reading-overlay" id="focusedReadingOverlay" style="display:none;">
+    <div class="focused-reading-panel">
+      <div class="focused-reading-header">
+        <button class="focused-reading-close" id="focusedReadingClose">×</button>
+        <h2 id="focusedReadingTitle">Your Reading</h2>
+        <p class="focused-reading-subtitle" id="focusedReadingSubtitle"></p>
+        <div class="focused-reading-meta" id="focusedReadingMeta"></div>
+      </div>
+      <div class="focused-reading-body" id="focusedReadingBody"></div>
+      <div class="focused-reading-synthesis" id="focusedReadingSynthesis"></div>
+      <div class="focused-reading-actions">
+        <button class="focused-action-btn" id="focusedAskMore">💬 Ask Follow-Up</button>
+        <button class="focused-action-btn" id="focusedNewDiscovery">🔮 New Discovery</button>
+        <button class="focused-action-btn primary" id="focusedViewFull">📊 View Full Chart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Application Script -->
+  <script type="module" src="app.js?v=5"></script>
+</body>
+
+</html>
