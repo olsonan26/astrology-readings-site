@@ -1,0 +1,3219 @@
+﻿TIME TO MANEFEST:
+
+
+================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+The app aims to provide guidance and insights on personal development and astrology, incorporating principles such as mindset, energy transmutation, and planetary influences.
+
+
+## INPUTS
+- User's astrological birth chart
+- User's current concerns or questions about personal growth
+
+
+## OUTPUTS
+- Personalized advice based on astrological charts
+- Guidelines for improving mindset and transmutation practices
+- Insights on handling social influences and energy levels
+
+
+## ENTITY CATALOG (311 entities)
+
+
+### mindset
+  Type: concept
+  Meaning: a clear path forward to manifest things in your life
+  Meaning: clear and positive mental outlook for manifestation
+  Meaning: the one thing that people do not pave the way for themselves
+  Meaning: psychological approach to achieving goals
+  Meaning: your mindset is very important and taking all that energy that you have and all that potential you have and focusing it in.
+  Meaning: the mental state that influences one's ability to manifest desires
+  Attributes: elimination of toxic factors, recognition of insecurities, awareness of limitations, focus
+  Allowed values: positive mindset, focused mindset, positive application
+  Constraints: must eliminate toxic situations, thoughts, and people
+  Examples: setting a mindset that allows for a clear path, if you stick your hand in trash, you're gonna smell like garbage
+  Source: para_0002, para_0083, para_0001, para_0081, para_0009
+
+
+### transmutation
+  Type: concept
+  Meaning: to transmute the energies meaning to take what was going to happen and make it be something I want to happen within the confines of those Energies.
+  Meaning: changing potential outcomes to desired outcomes using existing energies.
+  Attributes: energy change, desired outcome, energy
+  Allowed values: any desired outcome that can be influenced, energies present at the moment, higher vibration, lower vibration
+  Constraints: must work within the confines of existing energies, depends on collective knowledge
+  Source: para_0013, para_0014, para_0001
+
+
+### divine timing
+  Type: concept
+  Meaning: Divine timing is everything
+  Meaning: the belief that events occur at the right time according to a higher plan
+  Source: para_0076, para_0001
+
+
+### toxic people
+  Type: social influence
+  Meaning: not stated
+  Source: para_0002
+
+
+### high frequency
+  Type: spiritual energy level
+  Meaning: the highest resonating frequency that energy plays out
+  Meaning: spiritual energy at its peak
+  Source: para_0002
+
+
+### Aries energy
+  Type: astrological influence
+  Meaning: not stated
+  Source: para_0002
+
+
+### Chiron
+  Type: planet
+  Meaning: Chiron huge huge because if you're looking for your limitations and you want to go beyond those limitations, then you need to understand what's holding you back in the first place.
+  Meaning: Chiron is significant for understanding limitations and personal wounds.
+  Meaning: insecurity
+  Meaning: Chiron has to be used effectively.
+  Meaning: Chiron must be utilized properly.
+  Meaning: healing and wounds
+  Meaning: healing through the body
+  Meaning: if you handle Chiron properly, that's good
+  Meaning: beneficial if handled correctly
+  Attributes: has to be dealt with, related to financial success, inheritance issues, healing attributes, in conjunct with Mercury, located on the mid head line, sex tile the ascendant, not self-published, insecurities, wounds, structural issues when it comes to food, impact on public perception, associated with healing, shared resources, location influences reputation, linked to insecurity, debt, associated with issues in marriage, in the 11th house
+  Allowed values: none stated, associated with healing, healing, dwarf planet, taxes, comet, not stated, debt, asteroid
+  Constraints: none stated, not stated, usually problems with friends and groups, seventh house placement, relevant to location, must be used properly for financial success
+  Examples: focus on healing, student loan debt, negative impact in public
+  Source: para_0044, para_0050, para_0051, para_0052, para_0066, para_0068, para_0017, para_0019, para_0035, para_0059, para_0047, para_0003, para_0023, para_0053, para_0063, para_0067, para_0069, para_0064
+
+
+### moon
+  Type: planet
+  Meaning: a positive thing
+  Meaning: a beneficial celestial influence
+  Meaning: I think the Moon is so important.
+  Meaning: the significance of the Moon in astrology
+  Attributes: position in degrees, position, revolves around fear, has to say, house, look at all other planets
+  Allowed values: sixth house, not stated, 0 to 29 degrees, Capricorn
+  Constraints: to confirm observations, specific degree for event, not stated, must be timed late enough, must be checked against date
+  Examples: moving the moon to the sixth house in Capricorn
+  Source: para_0068, para_0077, para_0074, para_0004, para_0057, para_0071
+
+
+### Neptune
+  Type: planet
+  Meaning: subconscious
+  Meaning: represents the subconscious mind
+  Meaning: Used in a sex tile with Pluto
+  Meaning: Associated with dreams, illusions, and spirituality
+  Meaning: Associated with spirituality and potential ups and downs in finances.
+  Meaning: Spirituality affecting finances.
+  Attributes: ups and downs, associated with subconscious traits and behaviors, not squaring yet, has very specific connotations, not in full orb of influence, revolves around fear, in Pisces, not stated, illusion, used to construct a narrative, creativity, dream, related to timing of switches
+  Allowed values: part of the sex tile with Pluto, none, be creative, not stated, dream
+  Constraints: not applied to an opposing force, applied in energetic context, not stated, can cause volatility
+  Source: para_0084, para_0015, para_0005, para_0055, para_0031, para_0059, para_0062, para_0073, para_0004, para_0058, para_0067
+
+
+### Jupiter
+  Type: planet
+  Meaning: Ruler of the Sun and part of the opposition
+  Meaning: Associated with growth and expansion
+  Meaning: expansion and growth
+  Meaning: Jupiter does not just mean all the good stuff in the philosophy; it's also expansion
+  Meaning: expansion and indulgence
+  Meaning: Relates to shared resources and sales communication for financial gain.
+  Meaning: Associated with shared resources in financial contexts.
+  Attributes: prominent role in creative experiences, none, linked to physical body, expansion, ruler in the opposition, ascendant, influence on Chiron, owner ascendant, conjunct ascendant, lead, moves into second house, orb of influence
+  Allowed values: not specified, none stated, may influence energies positively, none, stronger than Saturn, ascendant, about 8 degrees, not stated, owner ascendant, conjunction
+  Constraints: none stated, none, linked to Taurus, not stated, influences energy in conjunctions, in Taurus 10th house, relevant to location
+  Source: para_0051, para_0071, para_0052, para_0084, para_0075, para_0031, para_0059, para_0047, para_0074, para_0004, para_0025, para_0048, para_0069
+
+
+### actors and actresses
+  Type: profession
+  Meaning: not stated
+  Attributes: creative people in film industry
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004
+
+
+### Pluto
+  Type: planet
+  Meaning: the ruler of the underworld, upheaval, deep embedded in your psychology, personal power, inner power, regenerative properties
+  Meaning: ruler of the underworld and psychological aspects
+  Meaning: Pluto is where you'll be powerful and where your magnetism is.
+  Meaning: Pluto indicates areas of personal power and magnetism.
+  Meaning: Pluto is your power.
+  Meaning: Everything that's going on with the fourth house
+  Meaning: Ruler of transformation, power, and the fourth house in astrology
+  Meaning: transformation
+  Meaning: Power in financial aspects, can create opportunities or cause chaos.
+  Meaning: Power related to wealth and money.
+  Attributes: related to death and endings, related to seventh house, chaotic, associated with transformation, semi-sexile to Moon, transmuting, opposed to Jupiter, symbolizes inner power and regeneration, loss, generational, retrograde, associated with deep psychological aspects, placement, magnetism, transformation, inner understanding, ruler of the fourth house, power
+  Allowed values: none stated, opportunity, upcoming, transmute, powerful influences, not stated, in Sagittarius, wealth, 16 degrees, energy as power, in sixth house, in third house, have inner understanding
+  Constraints: applied in energetic context, none stated, needs to be assessed for identity work, can cause volatility, not stated, not affecting much of anything aside from agitation, next year
+  Source: para_0068, para_0084, para_0015, para_0005, para_0042, para_0031, para_0059, para_0047, para_0073, para_0063, para_0006, para_0037, para_0041, para_0007, para_0065, para_0069, para_0064
+
+
+### failure
+  Type: concept
+  Meaning: true failure means you fell down you never got back up
+  Meaning: the inability to recover from failures
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005
+
+
+### Leo
+  Type: Zodiac Sign
+  Meaning: Leo is about risk-taking and ambition.
+  Meaning: Leo represents risk-taking characteristics and ambition.
+  Attributes: inner child, risk-taking, ruler is the sun, not stated, untested worldly ambition
+  Allowed values: risk-taking traits, not stated, fire energy
+  Constraints: not stated
+  Source: para_0058, para_0006, para_0017
+
+
+### Capricorn
+  Type: Zodiac Sign
+  Meaning: Capricorn energy may require setting milestones and going slow and steady.
+  Meaning: Capricorn signifies a cautious, milestone-oriented approach.
+  Attributes: setting milestones, slow and steady
+  Allowed values: structured progression
+  Constraints: not stated
+  Source: para_0006
+
+
+### Virgo
+  Type: Zodiac Sign
+  Meaning: Virgo requires daily service to others and routine while avoiding self-criticism.
+  Meaning: Virgo indicates a service-oriented, routine-driven approach.
+  Attributes: service to others, daily routine
+  Allowed values: regular service
+  Constraints: not overly critical of oneself
+  Source: para_0006
+
+
+### popularity
+  Type: concept
+  Meaning: Life is a popularity contest.
+  Source: para_0007
+
+
+### the sun
+  Type: planet
+  Meaning: The sun is your vitality.
+  Source: para_0007
+
+
+### sun sign
+  Type: astrological concept
+  Meaning: it's also your happiness because it's Your vitality.
+  Meaning: the astrological representation of one's core identity and vitality
+  Attributes: deck, position, degree, house placement
+  Allowed values: fifth house, Leo placements
+  Constraints: has connections, aspects
+  Source: para_0008
+
+
+### natal chart
+  Type: astrological representation
+  Meaning: a chart created based on the positions of celestial bodies at a specific time
+  Attributes: order of planets, positions of planets
+  Allowed values: any astrological sign
+  Constraints: changes through progressions, fixed over time
+  Source: para_0072, para_0009
+
+
+### progressions
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: based on one degree per year, affects the natal chart
+  Allowed values: one degree per year
+  Constraints: can move three to four signs, depends on the starting degree
+  Source: para_0009
+
+
+### cycles
+  Type: astrological phenomenon
+  Meaning: when things happen, they run their course, we hit an ending
+  Meaning: recurring patterns in life
+  Attributes: repetition, transits
+  Allowed values: any life event
+  Constraints: must hit the associated planet to have effects
+  Source: para_0009
+
+
+### Dolores
+  Type: person
+  Meaning: not stated
+  Attributes: born in 1979, Leo Rising, control of relationship, potential partnership, subconscious attachment, romance, behind-the-scenes work, career change, perception of love life, birth time 11:16 am, born May 11th 1979, birthplace Memphis, Tennessee
+  Allowed values: big, curly, poofy, small, not stated
+  Constraints: not stated, most likely has the same type of setup as partner, has to have input regarding changes
+  Source: para_0016, para_0059, para_0010, para_0033, para_0063
+
+
+### stelliums
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: grouped energies that feed into one source
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### Midheaven
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0011
+
+
+### Moon
+  Type: celestial body
+  Meaning: Moon is sometimes a little biha, but if you understand what her purpose is, then you can utilize it.
+  Meaning: Moon represents emotions and is subject to changes.
+  Meaning: emotions
+  Meaning: the Moon is always the activator for divine timing
+  Meaning: a celestial body that influences emotions and timing
+  Attributes: influencer of emotions, activator, affects emotional state, not stated, faster than Uranus, placement, aspects others during events, ruler of the 12th house
+  Allowed values: not stated, activator, in fourth house, trigger
+  Constraints: dependant on the condition of Saturn, not stated, must be in the right place for effectiveness
+  Source: para_0016, para_0076, para_0017, para_0075, para_0062, para_0047, para_0073, para_0011, para_0041
+
+
+### Retrogrades
+  Type: astrological phenomenon
+  Meaning: observed backwards motion, which is not real.
+  Meaning: Retrogrades are a perception based on planetary movement.
+  Source: para_0011
+
+
+### Mercury retrograde
+  Type: astrological phenomenon
+  Meaning: not stated
+  Attributes: aspecting planets, transit
+  Allowed values: not stated
+  Constraints: dependent on other planets' aspects, dependent on house, dependent on sign
+  Examples: contracts and communication issues during Mercury retrograde
+  Source: para_0012
+
+
+### third house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: associated with communication, associated with buying a car
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: buying a car
+  Source: para_0012
+
+
+### contract
+  Type: legal agreement
+  Meaning: not stated
+  Attributes: terms, conditions
+  Allowed values: various contractual conditions
+  Constraints: must not be signed in its current form
+  Source: para_0013
+
+
+### retrograde
+  Type: astrological term
+  Meaning: not stated
+  Attributes: used for rethinking wedding plans, transit effects
+  Allowed values: thinking about getting back together, remarrying, affects various aspects of life
+  Constraints: can lead to negative outcomes if not recognized, not used if there is no relationship context
+  Source: para_0013, para_0067
+
+
+### money
+  Type: topic
+  Meaning: financial resources or currency.
+  Attributes: financial aspect
+  Allowed values: any amount of money, different values based on individual needs
+  Constraints: not everyone desires to be wealthy
+  Source: para_0014
+
+
+### love
+  Type: topic
+  Meaning: emotional relationships and partnerships.
+  Attributes: relationship aspect
+  Allowed values: any type of relationship, different levels of emotional connection
+  Constraints: not everyone desires a partnership
+  Source: para_0014
+
+
+### Mars
+  Type: planet
+  Meaning: Mars means a bunch of things. It means action, passion, drive, the physical body, adventure, pioneering, the boss, brash and reactionary, and anger.
+  Meaning: Mars represents various traits including action, passion, drive, etc.
+  Meaning: action and desire
+  Meaning: Not explicitly stated but is in conjunction with Pluto.
+  Attributes: reaction, physical body, brash and reactionary, aspects, none, area of relationships, not stated, action, boss, passion, adventure, anger, impact on business, pioneering, in Aries, drive
+  Allowed values: physical body, brash and reactionary, none, not stated, action, act, boss, passion, adventure, anger, pioneering, react, drive
+  Constraints: none, applied in energetic context, not stated, needs to be known to understand Saturn
+  Source: para_0052, para_0084, para_0015, para_0042, para_0026, para_0059, para_0047, para_0062, para_0023, para_0041
+
+
+### Saturn
+  Type: planet
+  Meaning: Saturn represents hard work and daily work.
+  Meaning: Saturn symbolizes effort and routine work.
+  Meaning: planet that has to do with Divine timing and focus, responsibility, duties, and restrictions.
+  Meaning: planet influencing timing and responsibilities
+  Meaning: structure, tradition
+  Meaning: structure of marriage and tradition
+  Meaning: not a worry if out of orb of influence
+  Meaning: no concern when influence is lacking
+  Attributes: forming a queen conjunction to the ascendant, condition, opposition with career, responsibility, symbolizes structure and tradition, lens through which to analyze, conjunction with Jupiter, part of Fortune, duties, 6 degrees, not stated, orb of influence, aspects, creates a square, moves into third house, in retrograde, restrictions, in Pisces, focus
+  Allowed values: not retrograde, in Capricorn, 6 degrees, not stated, retrograde, may represent communication or learning issues, focus, about 7.5 degrees, not stronger than Uranus, in Aries
+  Constraints: must choose a lens for analysis, applied in energetic context, affecting relationships, must be in the specified degree, should not conflict with personal views, not stated, influences energy in conjunctions, relevant to location, has to be looked at in relation to the Moon
+  Source: para_0051, para_0066, para_0054, para_0068, para_0015, para_0075, para_0055, para_0035, para_0060, para_0062, para_0043, para_0023, para_0073, para_0074, para_0057, para_0063, para_0041, para_0065
+
+
+### Sun
+  Type: star
+  Meaning: not stated
+  Attributes: is the ruler of the ascendant, ego, has a transit that affects public exposure, ruler of Leo, positive traits include humor and joking, in 10th house, opposite Uranus in Scorpio, confidence
+  Allowed values: not stated, harness confidence
+  Constraints: applied in energetic context, not stated
+  Examples: can be used in sales to enhance charisma
+  Source: para_0016, para_0017, para_0015, para_0019, para_0058
+
+
+### Uranus
+  Type: planet
+  Meaning: rules friendship.
+  Meaning: rules friendship
+  Attributes: affects the 10th house, conjunct Moon, opposite Sun, faster than the Moon, enters for the next two years, change, moves slowly
+  Allowed values: say what it is, stronger than the conjunction with the Moon, 18 or 19 degrees, not stated, decide how to change it, 19 or 20 degrees
+  Constraints: applied in energetic context, not stated, enters Gemini in 2026
+  Source: para_0017, para_0015, para_0075, para_0058, para_0059, para_0037, para_0020, para_0065
+
+
+### Leo Rising
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0016
+
+
+### 12th house ruler
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: Cancer
+  Source: para_0016, para_0028
+
+
+### 12th house
+  Type: House
+  Meaning: rules film
+  Meaning: film
+  Source: para_0017
+
+
+### Public Image
+  Type: Concept
+  Meaning: strong appearance
+  Meaning: strong appearance and self-consciousness
+  Source: para_0017
+
+
+### father
+  Type: Family Relation
+  Meaning: issues that came from the father
+  Meaning: issues related to self worth deriving from the father
+  Source: para_0017
+
+
+### chart ruler
+  Type: astrological term
+  Meaning: not stated
+  Source: para_0018
+
+
+### sun
+  Type: astrological term
+  Meaning: Vitality, it's children, it's what not.
+  Source: para_0018
+
+
+### Mercury
+  Type: astrological term
+  Meaning: rules communication that's good for talking speaking public, whatever.
+  Attributes: ruler of Gemini, ruler of Virgo
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0071, para_0018, para_0064, para_0059
+
+
+### 10th house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: linked to career and reputation, related to public image
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: company related to performance
+  Source: para_0019
+
+
+### fourth house
+  Type: astrological house
+  Meaning: family or homes.
+  Meaning: family or homes
+  Meaning: Nurturing, home aspects.
+  Meaning: Related to home and personal foundations.
+  Attributes: none
+  Allowed values: none
+  Constraints: none
+  Source: para_0020, para_0084
+
+
+### Scorpio
+  Type: zodiac sign
+  Meaning: other people's stuff.
+  Meaning: other people's stuff
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0020, para_0064
+
+
+### energies
+  Type: concept
+  Meaning: These energies are present and these energies play out a certain way.
+  Meaning: energies are influential forces in manifestation
+  Source: para_0021
+
+
+### stage fright
+  Type: concept
+  Meaning: You do not want this off and on again based off of your fears because this is stage fright.
+  Meaning: a condition where a person feels anxious about performing in front of others
+  Source: para_0021, para_0028
+
+
+### manifestation topics
+  Type: concept
+  Meaning: You can pick any topic... it can be love, money, career, or anything.
+  Meaning: various aspects of life that can be influenced by energetic manifesting
+  Allowed values: anything, love, career, money
+  Source: para_0021
+
+
+### ninth house ruler
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: in the ninth house
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022
+
+
+### Aries Mars
+  Type: astrological sign/ruler
+  Meaning: not stated
+  Attributes: solo type of energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022
+
+
+### Venus
+  Type: astrological planet
+  Meaning: at a low degree opposite Saturn is not a bad thing
+  Meaning: potentially beneficial despite opposition
+  Attributes: agitation with the midheaven, owner midheaven, design, no agitation, beauty
+  Allowed values: not stated, owner midheaven
+  Constraints: not stated
+  Source: para_0068, para_0052, para_0059, para_0053, para_0042, para_0025, para_0067, para_0022, para_0079
+
+
+### Juno
+  Type: astrological planet
+  Meaning: Involves partnership and finances.
+  Meaning: Partnerships affecting financial gains.
+  Attributes: none, linked to North Node, partnership, second house, not stated, relationships
+  Allowed values: none, none stated, not stated
+  Constraints: none, none stated, not stated
+  Source: para_0084, para_0023, para_0063, para_0065, para_0042, para_0022, para_0069
+
+
+### Vesta
+  Type: astrological planet
+  Meaning: this is not somebody who would service other people's money
+  Meaning: not involved in managing others' finances
+  Attributes: home, dedication
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0042, para_0022, para_0044, para_0059
+
+
+### mercury
+  Type: astrological planet
+  Meaning: not stated
+  Attributes: at one degree, in the 10th house
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022
+
+
+### Lilith
+  Type: astrological point
+  Meaning: the true Lilith as opposed to the average
+  Meaning: the true Lilith
+  Attributes: raw sexual power, true, average
+  Allowed values: average, not stated, true
+  Constraints: not stated
+  Source: para_0023, para_0037
+
+
+### Part of Fortune
+  Type: astrological point
+  Meaning: means it's expensive.
+  Meaning: associated with financial aspects.
+  Attributes: financial aspect, not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0024, para_0023
+
+
+### North Node
+  Type: astrological point
+  Meaning: this person will make their own money later in life
+  Meaning: individual financial success in later life
+  Meaning: North Node is always uncomfortable. Push towards your future.
+  Meaning: astrological influence that motivates forward movement.
+  Attributes: associated with life direction, brings discomfort, second house, motivates future actions, on the IC, not stated, agitation to ascendant, fulfillment
+  Allowed values: none stated, actions, desires, not stated, 0 orb of influence, communication style
+  Constraints: none stated, must know how to communicate, must know how to be seen, must be literally on it, not stated
+  Source: para_0044, para_0052, para_0059, para_0023, para_0056, para_0063, para_0069, para_0040
+
+
+### career
+  Type: occupation
+  Meaning: a career that will support the different things that they want to do that has some element of service involved.
+  Meaning: a job that fulfills personal and service-oriented goals.
+  Attributes: goals, service-oriented, brings in money, can enhance public image, focus
+  Allowed values: not stated, various career fields, negative response to reputation
+  Constraints: not stated, exists within the public sphere, should be lucrative
+  Examples: banking, finance, serving, restaurants
+  Source: para_0024, para_0060, para_0045
+
+
+### Mercury in Taurus
+  Type: astrological placement
+  Meaning: not stated
+  Attributes: in the tenth house, ruler of Virgo
+  Allowed values: in the tenth house
+  Constraints: ruler of Virgo
+  Source: para_0025
+
+
+### Pluto in Libra
+  Type: astrological placement
+  Meaning: not stated
+  Attributes: in the third house
+  Allowed values: in the third house
+  Source: para_0025
+
+
+### seventh house
+  Type: astrological house
+  Meaning: even though people fight me on this
+  Meaning: rules business and partnerships
+  Attributes: partnership, libra-driven, legal matters, relationships
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: forming a contract creates your business
+  Source: para_0042, para_0027, para_0065
+
+
+### Libra
+  Type: zodiac sign
+  Meaning: Libra is relationships
+  Meaning: associated with relationships and legal matters
+  Attributes: artistic delivery, energy of partnership
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: use the art side of Libra for poetic delivery
+  Source: para_0064, para_0027
+
+
+### fifth house
+  Type: astrological house
+  Meaning: brings in this energy from the fifth house
+  Meaning: associated with fantasy and storytelling
+  Meaning: associated with romance
+  Meaning: the house linked to love and creativity
+  Meaning: house of romance
+  Attributes: fun, love affairs, romance, associated with risk, fantasy storytelling
+  Allowed values: intimacy, creativity
+  Constraints: contextual interpretation
+  Examples: somebody who would be inclined to be an actor
+  Source: para_0055, para_0032, para_0027, para_0065
+
+
+### Pluto sextile Neptune
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0028
+
+
+### Jupiter in 1st House
+  Type: astrological placement
+  Meaning: not stated
+  Source: para_0028
+
+
+### Leo rising
+  Type: astrological characteristic
+  Meaning: not stated
+  Source: para_0028
+
+
+### Moon in Scorpio
+  Type: astrological placement
+  Meaning: not stated
+  Source: para_0028
+
+
+### delores's relationships
+  Type: relationship
+  Meaning: not stated
+  Attributes: connection with Uranus, emotional connection, tendency to be public
+  Allowed values: t, o,  , e, a, d, s, n
+  Constraints: t, o,  , e, a, d, s, n
+  Source: para_0029
+
+
+### Chiron's energy
+  Type: energy
+  Meaning: not stated
+  Attributes: helping others, healing
+  Source: para_0030
+
+
+### opposition
+  Type: astrology aspect
+  Meaning: not stated
+  Source: para_0030
+
+
+### sex tiles
+  Type: astrology aspect
+  Meaning: not stated
+  Source: para_0030
+
+
+### secrets
+  Type: information
+  Meaning: not stated
+  Attributes: cheating, taboo
+  Source: para_0030
+
+
+### deep bond
+  Type: relationship quality
+  Meaning: not stated
+  Source: para_0030
+
+
+### Square
+  Type: Astrological Aspect
+  Meaning: Brings agitation and might cause public scrutiny
+  Meaning: A challenging aspect in astrology that can cause tension
+  Attributes: associated with public scrutiny
+  Allowed values: not specified
+  Constraints: can make issues bigger than they are
+  Source: para_0031
+
+
+### first house
+  Type: astrological house
+  Meaning: connected to communication with career
+  Meaning: the house associated with the self and personal identity
+  Attributes: personal identity, self-expression
+  Allowed values: communication, career
+  Constraints: contextual interpretation
+  Source: para_0032
+
+
+### work-life balance
+  Type: concept
+  Meaning: balance between work and personal life
+  Meaning: the equilibrium between work responsibilities and personal life
+  Attributes: personal life, equilibrium, work
+  Allowed values: unbalanced, balanced
+  Constraints: may affect personal relationships
+  Source: para_0032
+
+
+### utopian dream
+  Type: concept
+  Meaning: what you aspire to create positively in life
+  Meaning: an ideal state of existence or aspiration
+  Attributes: aspiration, ideal state
+  Allowed values: negative, positive
+  Constraints: influences personal happiness
+  Source: para_0032
+
+
+### illusion
+  Type: concept
+  Meaning: low vibration that should not be worked with
+  Meaning: a deceptive appearance or false impression
+  Attributes: false impression, deception
+  Allowed values: disengaged, engaged
+  Constraints: may lead to negativity
+  Source: para_0032
+
+
+### Fama
+  Type: asteroid
+  Meaning: a significant asteroid that plays out based off of the energies
+  Meaning: significant asteroid
+  Attributes: 17 degrees, not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034, para_0062, para_0037
+
+
+### the Sun
+  Type: astrological body
+  Meaning: The Sun is your happiness and vitality.
+  Meaning: The Sun signifies joy and life force.
+  Source: para_0035
+
+
+### person with opposition
+  Type: complex personality trait
+  Meaning: not stated
+  Attributes: rebellious, spiritual rebel, emotional connection to rebellion
+  Allowed values: depressed, individual, unique
+  Constraints: can feel like they don't belong in society
+  Source: para_0036
+
+
+### Quincy
+  Type: individual
+  Meaning: not stated
+  Attributes: known for Scorpio type stuff, can lean into both Scorpio and Neptune influences
+  Allowed values: known for spirituality, known as a performer
+  Constraints: more known for Scorpio than Neptune
+  Source: para_0036
+
+
+### Fixed Stars
+  Type: Astrological Objects
+  Meaning: have significance just like asteroids
+  Meaning: significant astrological objects
+  Examples: Sirius, regulus
+  Source: para_0037
+
+
+### Queen Kunks
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0038
+
+
+### Fame
+  Type: social status
+  Meaning: not stated
+  Source: para_0038
+
+
+### Power Issues
+  Type: personal issue
+  Meaning: not stated
+  Source: para_0038
+
+
+### Emotional Security
+  Type: psychological state
+  Meaning: not stated
+  Source: para_0038
+
+
+### moon placement
+  Type: astrological aspect
+  Meaning: not stated
+  Attributes: should not be in opposition or conjunction, aspects
+  Allowed values: North Node, Tradition, not stated
+  Constraints: not stated
+  Source: para_0070, para_0039
+
+
+### agitation
+  Type: emotional state
+  Meaning: not stated
+  Attributes: causes, effects
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0039
+
+
+### astrology aspects
+  Type: astrological classification
+  Meaning: not stated
+  Attributes: semi-sextiles, quintunks
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0039
+
+
+### semi sextile
+  Type: astrology
+  Meaning: not stated
+  Attributes: spiritual alignment, life direction
+  Allowed values: enjoyment, helping others
+  Constraints: must be on own terms
+  Source: para_0040
+
+
+### queen quincunx
+  Type: astrology
+  Meaning: not stated
+  Attributes: need to be addressed
+  Allowed values: requires creative fashion
+  Constraints: should not get stuck in work
+  Source: para_0040
+
+
+### daily routine
+  Type: lifestyle
+  Meaning: not stated
+  Attributes: structure, health management
+  Allowed values: flexible, organized
+  Constraints: must align with personal desires
+  Source: para_0040
+
+
+### Partnerships
+  Type: concept
+  Meaning: not stated
+  Attributes: agriculture, home selling, business involvement, domestication
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0043
+
+
+### Aries
+  Type: sign
+  Meaning: not stated
+  Attributes: action, pioneering, physical body involvement
+  Allowed values: not stated
+  Constraints: related to fourth house stuff
+  Source: para_0043
+
+
+### fifth house energy
+  Type: concept
+  Meaning: not stated
+  Attributes: entertainment, sports, romance, speculation, gambling, risk
+  Allowed values: not stated
+  Constraints: children aspect may be excluded
+  Source: para_0043
+
+
+### Pisces energy
+  Type: astrological sign
+  Meaning: they may not have had much in shared resources when if they get married
+  Meaning: limitations in shared financial resources possibly in marriage
+  Source: para_0044
+
+
+### Taurus
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0044
+
+
+### investments
+  Type: financial strategy
+  Meaning: not stated
+  Attributes: focus on entertainment-based sectors, long-term strategy
+  Allowed values: foreign language education, overseas entertainment
+  Constraints: must be a long-term strategy
+  Examples: language education companies, children's entertainment, overseas sports, overseas film
+  Source: para_0045
+
+
+### money relationship
+  Type: personal relationship
+  Meaning: how a person interacts and feels about money
+  Attributes: taste for luxury, critical of money
+  Allowed values: knock-offs, luxury items
+  Constraints: cannot always afford luxury
+  Examples: always wanted a Louis Vuitton but ended up with a Louis vuittoni
+  Source: para_0046
+
+
+### ascendant
+  Type: astrological point
+  Meaning: rising sign in astrology
+  Source: para_0047, para_0079
+
+
+### Chiron in Taurus
+  Type: astrological placement
+  Meaning: somebody with this type of placement has the ability to heal themselves with food
+  Meaning: ability to heal through nutrition
+  Attributes: helps others through nutrition, ability to heal themselves
+  Allowed values: not stated
+  Constraints: aspects align
+  Source: para_0048
+
+
+### tenth house
+  Type: astrological house
+  Meaning: could have structural issues related to food
+  Meaning: structural health issues
+  Meaning: structure of marriage
+  Attributes: related to marriage and authority figures, structural issues
+  Allowed values: not stated
+  Constraints: not stated, includes teeth, hair, bones type issues
+  Source: para_0066, para_0048
+
+
+### abundance
+  Type: concept
+  Meaning: a state of having plentiful resources or wealth
+  Attributes: multiple businesses, house we live in, money in our bank account, cars we drive
+  Examples: the cars we drive, the money in our bank account, the house we live in, the multiple businesses we have
+  Source: para_0049
+
+
+### astrology
+  Type: concept
+  Meaning: the study of celestial bodies and their influence on human affairs
+  Source: para_0049
+
+
+### entrepreneurship
+  Type: concept
+  Meaning: the process of starting and running businesses
+  Source: para_0049
+
+
+### transits
+  Type: astrological concept
+  Meaning: movement of planets through zodiac signs and houses
+  Attributes: houses, energies
+  Allowed values: highlight planet's houses they pass, affect timing on manifesting
+  Constraints: not stated
+  Source: para_0072, para_0050
+
+
+### Divine Timing
+  Type: concept
+  Meaning: not stated
+  Attributes: specific manifestations, focus
+  Allowed values: for very specific things, guides focus
+  Constraints: not needed for all manifestation
+  Source: para_0050
+
+
+### midheaven
+  Type: astrological point
+  Meaning: not stated
+  Attributes: influences reputation, related to career and public image
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0053
+
+
+### Eighth House
+  Type: astrological house
+  Meaning: house has to do with shared resources, occult, debt, inheritances, secrets, lies, deception.
+  Meaning: house representing shared resources and hidden matters
+  Attributes: lies, occult, shared resources, inheritances, secrets, debt, deception
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0054
+
+
+### Pisces
+  Type: astrological sign
+  Meaning: not stated
+  Attributes: not stated, associated with illusion
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0055, para_0054
+
+
+### taxes
+  Type: financial obligation
+  Meaning: not stated
+  Attributes: must be taken care of when Saturn is in retrograde
+  Source: para_0055
+
+
+### South Node
+  Type: astrological term
+  Meaning: South node brings in things from the past and comfortable situations.
+  Meaning: astrological influence that reflects past comforts.
+  Attributes: reflects past, promotes comfort
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0056
+
+
+### children
+  Type: subject matter
+  Meaning: not stated
+  Attributes: moving away, further away, local
+  Allowed values: staying local, moving overseas
+  Constraints: conflict, family relationship
+  Examples: moving to London
+  Source: para_0057
+
+
+### reputation
+  Type: concept
+  Meaning: not stated
+  Attributes: influenced by personal affairs, public perception
+  Allowed values: negative, positive
+  Constraints: not stated
+  Source: para_0060
+
+
+### career change timing
+  Type: timing
+  Meaning: not stated
+  Attributes: timing for changing careers
+  Allowed values: within one year, two and a half years ago
+  Constraints: should plan ahead, should not change career right now
+  Source: para_0061
+
+
+### Saturn's retrograde
+  Type: astrological event
+  Meaning: not stated
+  Attributes: orb of influence, retrogade motion
+  Allowed values: seven and a half degrees
+  Constraints: influence lasts for the end of the year
+  Source: para_0061
+
+
+### business venture
+  Type: new endeavor
+  Meaning: not stated
+  Attributes: real estate, humanitarian, internet social media based, screenwriting, potential fields of business
+  Constraints: should start planning now
+  Source: para_0061
+
+
+### Mars return
+  Type: astrological aspect
+  Meaning: not stated
+  Attributes: travel, storytelling
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0063
+
+
+### eighth house
+  Type: astrological house
+  Meaning: house of deep bonds
+  Attributes: associated with Saturn
+  Allowed values: not stated
+  Constraints: not connected to current issues discussed
+  Source: para_0066, para_0065
+
+
+### Saturn retrograde
+  Type: astrological event
+  Meaning: not stated
+  Attributes: sitting at One-ish degree, ends around the fifth or so of the year
+  Source: para_0067
+
+
+### marriage
+  Type: relationship
+  Meaning: may not bring children or there may be children already here that are coming from a previous marriage
+  Meaning: the legally or formally recognized union of two people
+  Attributes: changes reputation, catalyst for changes in career, involves another person
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0072, para_0070
+
+
+### healing
+  Type: process
+  Meaning: great for spiritual connection if bond over relationships
+  Attributes: can push forward and gain new experiences
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0070
+
+
+### outer planets
+  Type: astrological bodies
+  Meaning: planets in the outer solar system
+  Examples: Neptune, Uranus, Jupiter, Saturn, Pluto
+  Source: para_0072
+
+
+### March 4th 2024
+  Type: date
+  Meaning: not stated
+  Examples: date for the wedding
+  Source: para_0073
+
+
+### spirituality
+  Type: concept
+  Meaning: I have my spirituality that I have found and I like it.
+  Meaning: personal beliefs and practices related to the spiritual realm
+  Source: para_0077
+
+
+### Full Moon
+  Type: Astrological Phase
+  Meaning: it is a phase but it is what is it? Astrologically speaking. It is the moon opposite the Sun.
+  Meaning: Astrological phase occurring when the moon is opposite the Sun.
+  Attributes: Opposite the Sun, Reflects the most light from the Sun
+  Allowed values: any zodiac sign
+  Constraints: must involve opposition with the Sun
+  Examples: Full Moon in Taurus reflecting Scorpio themes
+  Source: para_0078
+
+
+### New Moon
+  Type: Astrological Phase
+  Meaning: the Moon is depowered so to speak it's not Crippled but it's not reflecting all that solar energy.
+  Meaning: Astrological phase where the Moon does not reflect solar energy.
+  Attributes: Conjunct with the Sun
+  Allowed values: not stated
+  Constraints: not reflecting solar energy
+  Source: para_0078
+
+
+### Tony Robbins
+  Type: celebrity
+  Meaning: not stated
+  Attributes: motivational speaker, children, childhood
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0080, para_0079
+
+
+### Halle Berry
+  Type: person
+  Meaning: not stated
+  Attributes: performance quality, roles played
+  Allowed values: hit or miss, amazing
+  Constraints: has had some less favorable roles, has had some amazing performances
+  Source: para_0080
+
+
+### Justin Timberlake
+  Type: person
+  Meaning: not stated
+  Source: para_0080
+
+
+### manifestation
+  Type: concept
+  Meaning: not stated
+  Attributes: practical application
+  Allowed values: applicable
+  Constraints: must be useful
+  Source: para_0081
+
+
+### planetary energy
+  Type: concept
+  Meaning: not stated
+  Attributes: characteristics
+  Allowed values: work with it
+  Constraints: cannot fight it
+  Source: para_0081
+
+
+### red light
+  Type: light/energy
+  Meaning: It's just red light you come in. You notice it you see it. It's energy. It is light.
+  Meaning: light energy that is perceived visually
+  Attributes: Prismatic, red
+  Allowed values: not stated, red
+  Constraints: cannot hurt you, does not do much other than change the visual
+  Source: para_0083
+
+
+### Mystic Rebels Rebel Academy certificate
+  Type: certificate
+  Meaning: Yes, you will get one for this course.
+  Meaning: a certification for completing the astrology manifestation crash course
+  Source: para_0083
+
+
+### astrology manifestation crash course
+  Type: course
+  Meaning: you will get a certification on that and I call it a crash course.
+  Meaning: a course designed to teach astrology and manifestation techniques
+  Attributes: crash course
+  Source: para_0083
+
+
+### second house
+  Type: house
+  Meaning: House of finances and possessions.
+  Meaning: Financial aspects of life.
+  Attributes: none
+  Allowed values: none
+  Constraints: none
+  Source: para_0084
+
+
+## DEFINITIONS (28 definitions)
+
+
+  Vibe higher: a mindset to resonate at a higher frequency for manifestation
+    [high] Source: para_0002
+  success: achieving something despite past failures
+    [high] Source: para_0005
+  transmutation: the process of changing or transforming something into a different state, specifically in the context of mindset and manifesting desires
+    [medium] Source: para_0010
+  transmuting: to understand and utilize emotional agitation.
+    [medium] Source: para_0011
+  transmutation: the process of changing energy from one form to another, potentially to a higher vibration by collective knowledge.
+    [medium] Source: para_0013
+  natal energies: energies related to one’s astrological birth chart.
+    [high] Source: para_0014
+  transits: the current positions of planets and their impacts on natal energies.
+    [high] Source: para_0014
+  stage presence: power within their communication, especially in dialogue
+    [high] Source: para_0027
+  opposition: not stated
+    [not stated] Source: para_0030
+  sex tiles: not stated
+    [not stated] Source: para_0030
+  Square: An astrological aspect that represents tension and challenges between planets.
+    [high] Source: para_0031
+  intimacy: deep emotional connection that involves closeness
+    [medium] Source: para_0032
+  tabloid person: someone known for secrets and taboo subjects that are dramatized.
+    [high] Source: para_0034
+  Fame: an energy that can be hidden or known depending on the aspects and how one leans into them
+    [high] Source: para_0037
+  Sagittarius Pluto: not stated
+    [not stated] Source: para_0038
+  quintunks: astrological aspect considered difficult to work with
+    [high] Source: para_0039
+  semi-sextiles: another astrological aspect considered difficult to work with
+    [high] Source: para_0039
+  transmutation: the process of changing or altering energies in alignment with astrological transits
+    [medium] Source: para_0050
+  Divine timing: focus on where responsibility, duties, and restrictions are directed.
+    [high] Source: para_0054
+  orb of influence: the period in which an astrological body affects another's actions or events.
+    [medium] Source: para_0056
+  marriage structure: associated with the tenth house and traditions
+    [high] Source: para_0066
+  sextile: an astrological aspect indicating potential for positive interaction and ease of energy flow between two celestial bodies.
+    [medium] Source: para_0069
+  divine timing: the concept that events occur at the right time according to a cosmic or spiritual plan
+    [medium] Source: para_0072
+  orbs of influence: the ranges within which celestial bodies exert their influence
+    [medium] Source: para_0076
+  Full Moon: Astrological phase occurring when the moon is opposite the Sun and reflects the most light.
+    [high] Source: para_0078
+  New Moon: Astrological phase where the Moon is depowered, does not reflect solar energy, and allows for manifestation.
+    [high] Source: para_0078
+  ascendant: not stated
+    [not stated] Source: para_0079
+  manifestation: the process of bringing something into reality through conscious thought and action.
+    [medium] Source: para_0081
+
+
+## RULE ENGINE (162 rules)
+
+
+[R001]
+  IF you believe that this cannot work
+  THEN it won't
+  Teacher voice: "if you believe that this cannot work, it won't"
+  [high] Source: para_0001
+
+
+[R002]
+  IF you believe that astrology is a roadmap to your fate and destiny
+  THEN you're just along for the ride like a side seat passenger
+  Teacher voice: "if you believe that astrology is a roadmap to your fate and destiny and you're just along for the ride like a side seat passenger, then that's what you will be."
+  [high] Source: para_0001
+
+
+[R003]
+  IF you vibe with toxic people or toxic situations
+  THEN I cannot help you
+  Teacher voice: "I cannot help you if that's the type of life you continue to lead."
+  [high] Source: para_0002
+
+
+[R004]
+  IF you have toxic relationships
+  THEN you must make a choice whether to work on the relationship or exit
+  Teacher voice: "maybe you're at a precipice where you have to make a choice whether it's right for you to move forward or if there's something you can work on within the relationship."
+  [high] Source: para_0002
+
+
+[R005]
+  IF your mom or a family member is toxic
+  THEN consider limiting your interactions with them
+  Teacher voice: "maybe if you talk to her every day, maybe you should limit that to two to three times a week."
+  [high] Source: para_0002
+
+
+[R006]
+  IF your relationship with money is poor
+  THEN that is a toxic situation where money comes in you spend it right away.
+  Teacher voice: "Sometimes it's your relationship with money. Sometimes you chase things that you shouldn't Chase and you need to bring it back a little bit and say, you know, it's it's okay to want money."
+  Exceptions: not stated
+  [high] Source: para_0003
+
+
+[R007]
+  IF you want to go beyond your limitations
+  THEN you need to understand what's holding you back in the first place.
+  Teacher voice: "Chiron huge huge because if you're looking for your limitations and you want to go beyond those limitations, then you need to understand what's holding you back in the first place."
+  Exceptions: not stated
+  [high] Source: para_0003
+
+
+[R008]
+  IF you are achieving something
+  THEN you have to be okay with failure
+  Teacher voice: "you have to also be okay with failure."
+  [high] Source: para_0005
+
+
+[R009]
+  IF you have failed numerous times
+  THEN you are moving forward by tweaking the things that did not work
+  Teacher voice: "the smart failures are the people who look at how they failed why they failed."
+  [high] Source: para_0005
+
+
+[R010]
+  IF your energy is Capricorn
+  THEN you have to set milestones and go slow and steady.
+  Teacher voice: "you may have to set Milestones. You may have to go slow and steady."
+  [high] Source: para_0006
+
+
+[R011]
+  IF your energy is Virgo
+  THEN you have to go service to others and be careful not to overly criticize yourself.
+  Teacher voice: "If you have Virgo, you have to go service to others. It has to be a daily thing of routine and you have to be careful that you're not overly criticizing yourself."
+  [high] Source: para_0006
+
+
+[R012]
+  IF you are a Leo
+  THEN taking huge leaps is part of your energy.
+  Teacher voice: "that's part of Leo. I take huge leaps and that is part of Leo."
+  [high] Source: para_0006
+
+
+[R013]
+  IF you want to know where you'll be powerful
+  THEN look at Pluto.
+  Teacher voice: "Pluto is your power. If you want to know where you'll be powerful if you want to know where your magnetism is, that's Pluto."
+  [high] Source: para_0006
+
+
+[R014]
+  IF people don't like you
+  THEN they're either not gonna buy the house or they're gonna get rid of you and replace you in the process of buying whatever house it is.
+  Teacher voice: "If people don't like you they don't want to watch your movies."
+  [high] Source: para_0007
+
+
+[R015]
+  IF you do not harness Pluto
+  THEN it's everyone else's power and it becomes your chaos.
+  Teacher voice: "If you do not harness Pluto, it's everyone else's power and it becomes your chaos."
+  [high] Source: para_0007
+
+
+[R016]
+  IF you only chase after money or wealth
+  THEN you are not going to be happy
+  Teacher voice: "if you only chase after that, you are not going to be happy"
+  [high] Source: para_0008
+
+
+[R017]
+  if you move or if you just get older
+  then the progressions change
+  Teacher voice: "your natal chart will always be there, but if you move or if you just get older it moves"
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R018]
+  if we’re not cognizant of the fact that astrology exists
+  then you might not snap out of cycles
+  Teacher voice: "it has to hit that planet in order for us to snap for us to snap out of it."
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R019]
+  IF the mid Heaven shifted
+  THEN understanding where your moon is in progressions is important.
+  Teacher voice: "If the mid Heaven shifted understanding where your moon is in progressions is important."
+  [high] Source: para_0011
+
+
+[R020]
+  IF you understand the purpose of the Moon
+  THEN you can utilize it.
+  Teacher voice: "if you understand what her purpose is, then you can utilize it."
+  [high] Source: para_0011
+
+
+[R021]
+  IF understanding retrogrades for positive action
+  THEN it creates an influx in the way the energy hits us.
+  Teacher voice: "understanding that the observable backwards motion creates an influx in the way the energy hits us."
+  [high] Source: para_0011
+
+
+[R022]
+  IF a planet is in retrograde
+  THEN it can help restore you and change course
+  Teacher voice: "retrogrades are not bad, they help restore you and change course"
+  Exceptions: not stated
+  [high] Source: para_0012
+
+
+[R023]
+  IF Mercury is retrograde in the third house
+  THEN one should rethink or renegotiate contracts that have to do with communication and buying a car
+  Teacher voice: "there's gonna be something wrong with the contract that has to do with buying this car"
+  Exceptions: not stated
+  [high] Source: para_0012
+
+
+[R024]
+  IF the retrograde is hitting
+  THEN do not sign the contract in its current form.
+  Teacher voice: "I shouldn't sign that contract the way that it is."
+  Exceptions: none stated
+  [high] Source: para_0013
+
+
+[R025]
+  IF transmutation is recognized and collective knowledge is active
+  THEN energy can be played out in a higher vibration.
+  Teacher voice: "It could play out in a higher vibration if somebody else knows."
+  Exceptions: not stated
+  [medium] Source: para_0013
+
+
+[R026]
+  IF you want to change the outcome based on existing energies,
+  THEN you brainstorm to see how you can adjust the energies.
+  Teacher voice: "instead of saying I need to force the energy to do this you say here's what's going to happen."
+  [high] Source: para_0014
+
+
+[R027]
+  energy cannot manifest two different ways at the same time
+  using energy means it can't do something else
+  Teacher voice: "energy cannot manifest two different ways at the same time, which means if you are using the energy, it can't do something else"
+  [high] Source: para_0015
+
+
+[R028]
+  IF Leo is film and entertainment
+  THEN the person's hair would be a significant contributor of each character that they would play
+  Teacher voice: "I know that this person when they if they were to go on film and kind of do that that their hair would be a significant contributor of each character that they would play right?"
+  [high] Source: para_0016
+
+
+[R029]
+  IF they do not use this transformation and they don't use all this energy here
+  THEN insecurity will come out
+  Teacher voice: "Chiron will naturally show itself that insecurity will come out"
+  [high] Source: para_0017
+
+
+[R030]
+  IF they want to take a role but they can't go through a transformation
+  THEN they have to use the energy that they have here
+  Teacher voice: "they have to use the energy that they have here"
+  [high] Source: para_0017
+
+
+[R031]
+  IF the role calls for an insecure person
+  THEN they will likely not get the job.
+  Teacher voice: "they will likely not get the job unless that's what the role calls for like an insecure person."
+  [high] Source: para_0018
+
+
+[R032]
+  IF the role is related to money or finance
+  THEN that role can be accepted if the person focuses on fixing people's money.
+  Teacher voice: "you're fixing people's money."
+  [high] Source: para_0018
+
+
+[R033]
+  IF you use the Sun's positive traits
+  THEN you can come across as a helpful sales representative.
+  Teacher voice: "If you use the sun's positive traits which are humor and joking and you know, all the entertainment you can you can come across as someone who is like I am your sales rep."
+  Exceptions: not stated
+  [high] Source: para_0019
+
+
+[R034]
+  IF you're solo
+  THEN use fourth house Scorpio either a very deep embedded memory of your family or thought of your family that no one else knows.
+  Teacher voice: "IF you're doing this role in your solo there is no fake family here. Then what you'll end up having to do is using this energy in a different way. So I would have to use fourth house Scorpio either a very deep embedded memory of your memory or thought of your family that no one else knows something very secret deep in your psychology."
+  [high] Source: para_0020
+
+
+[R035]
+  IF you're using this energy in a different way
+  THEN picture a future like someone else's family in the future.
+  Teacher voice: "or picture a future. Picture a future like someone else's family in the future because you're using this."
+  [high] Source: para_0020
+
+
+[R036]
+  IF ninth house ruler is in the ninth house
+  THEN this person has the opportunity to travel and enjoys traveling for the sake of doing so
+  Teacher voice: "IF ninth house ruler is in the ninth house, THEN this person has the opportunity to travel and enjoys traveling for the sake of doing so."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R037]
+  IF there are conflicting energies between solo type and couples partners type
+  THEN this person likely travels with partners and likes to explore new places
+  Teacher voice: "IF there are conflicting energies between solo type and couples partners type, THEN this person likely travels with partners and likes to explore new places."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R038]
+  IF they want to travel and can afford it
+  THEN they will likely choose luxury options like first class
+  Teacher voice: "IF they want to travel and can afford it, THEN they will likely choose luxury options like first class."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R039]
+  IF Mars and the part of Fortune are in a square
+  THEN they probably like to spend a lot of money
+  Teacher voice: "we have a square here between Mars and the part of Fortune and then we have a sex tile."
+  [high] Source: para_0023
+
+
+[R040]
+  IF they are smart
+  THEN they'll take this energy further into Saturn in their second house
+  Teacher voice: "if they're smart then they'll take this energy and they will know they'll take it further into Saturn in their second house."
+  [high] Source: para_0023
+
+
+[R041]
+  IF they don't transmute the energy
+  THEN they always want to and they try their darndest to go travel and do it, but they have to make compromises because of the square.
+  Teacher voice: "if they don't transmute the energy, then this means they always want to travel and do it, but they have to make compromises."
+  Exceptions: not stated
+  [high] Source: para_0024
+
+
+[R042]
+  IF Mars is squaring the part of Fortune
+  THEN it could be that they argue with their partner over money.
+  Teacher voice: "Mars squaring the part of Fortune could be that they argue with their partner over money."
+  Exceptions: not stated
+  [high] Source: para_0024
+
+
+[R043]
+  IF you want to avoid arguments over money with your partner while traveling
+  THEN you make more money.
+  Teacher voice: "How do I not argue with my partner over money? I make more money."
+  Exceptions: not stated
+  [high] Source: para_0024
+
+
+[R044]
+  IF you want to travel
+  THEN start a business online to uncover something using other people's assets
+  Teacher voice: "So how can I do this? Well, me and my partner should start a business something online something."
+  [medium] Source: para_0025
+
+
+[R045]
+  IF the person's doing a monologue and we have Libra energy
+  THEN we have to get artsy with it
+  Teacher voice: "we have to use the art side of Libra here"
+  [high] Source: para_0027
+
+
+[R046]
+  IF the person surrenders into the art and the creative expression
+  THEN it will alleviate stage fright
+  Teacher voice: "if they surrender into the art and the creative expression of it, it'll alleviate this as well"
+  [high] Source: para_0028
+
+
+[R047]
+  IF a sextile is present
+  THEN it is a choice, not automatic
+  Teacher voice: "because a sextile is a choice. It's not automatic but it is linked and it is there for them"
+  [high] Source: para_0028
+
+
+[R048]
+  IF seventh house ruler is conjunct the moon opposing the sun in the tenth house
+  THEN relationships may have the tendency to be public but there may be fears about it being public because it may change the emotional connection.
+  Teacher voice: "IF seventh house ruler is conjunct the moon opposing the sun in the tenth house, THEN the relationships may have the tendency to be public but there may be fears about it being public because it may change the emotional connection."
+  [medium] Source: para_0029
+
+
+[R049]
+  IF there is a deep emotional bond with friends
+  THEN there is emotional independence and freedom within their relationship.
+  Teacher voice: "IF there is a very deep emotional bond as a friend, THEN that allows for emotional independence and freedom within their relationship."
+  [medium] Source: para_0029
+
+
+[R050]
+  IF relationships cause pain regarding public image and reputation
+  THEN there is a need to strategize with their partner.
+  Teacher voice: "IF their relationships may have actually caused them pain when it comes to PR, THEN they would have to strategize with their partner."
+  [medium] Source: para_0029
+
+
+[R051]
+  IF there is an opposition
+  THEN it allows you to choose
+  Teacher voice: "Are they choosing because it's an opposition oppositions allow you to choose"
+  [medium] Source: para_0030
+
+
+[R052]
+  IF you want taboo secrets to stay wrapped under wraps
+  THEN you have to balance out and use the energy
+  Teacher voice: "If you want that to stay wrapped under wraps...then you have to balance out, you know all of this"
+  [medium] Source: para_0030
+
+
+[R053]
+  IF energies play out in their lowest vibrational state
+  THEN it means eradicism and fears come into play
+  Teacher voice: "the energies will play out in their lowest vibrational state which means this eradicism and these fears"
+  [medium] Source: para_0030
+
+
+[R054]
+  IF there are issues in a relationship
+  THEN use communication to control the narrative and express love.
+  Teacher voice: "say hey this stuff happened we still love each other"
+  Exceptions: if communication is not utilized
+  [high] Source: para_0031
+
+
+[R055]
+  IF Pluto is at 16 degrees
+  THEN it isn't affecting much aside from agitation.
+  Teacher voice: "Pluto at 16 degrees is not really affecting much of anything aside from an agitation here."
+  Exceptions: not stated
+  [high] Source: para_0031
+
+
+[R056]
+  IF there is a lack of romance
+  THEN it could agitate friendship portrayed in public
+  Teacher voice: "the lack of romance could be an agitation to the friendship which is being portrayed in the public"
+  [high] Source: para_0032
+
+
+[R057]
+  IF resolving oppositions is necessary
+  THEN one must work backwards to address issues in the fifth house
+  Teacher voice: "in order to bring all of this together, I have to go into this opposition"
+  [high] Source: para_0032
+
+
+[R058]
+  IF she doesn't feel in control of the relationship
+  THEN it becomes chaos
+  Teacher voice: "If she doesn't feel in control of the relationship, it becomes chaos."
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R059]
+  IF Dolores is transmuting the energy
+  THEN she chooses her ideal romantic setup
+  Teacher voice: "She actually chooses if she's transmuting the energy what her ideal romantic setup is here."
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R060]
+  IF Fama is at 17 degrees
+  THEN it creates a publicized image of the secrets.
+  Teacher voice: "this actually creates a publicized image of the secrets, right?"
+  Exceptions: not stated
+  [high] Source: para_0034
+
+
+[R061]
+  IF they are using Chiron effectively
+  THEN it can boost this person's career.
+  Teacher voice: "as long as they are using Chiron effectively it can damage this person's career."
+  [high] Source: para_0035
+
+
+[R062]
+  IF the individual does not lean into it
+  THEN they may not realize they could be helping other women.
+  Teacher voice: "if they don't lean into it and realize they could be helping other women."
+  [high] Source: para_0035
+
+
+[R063]
+  IF they don't lean into the rebel status
+  THEN they will feel like they don't belong in society
+  Teacher voice: "if they don't lean into the rebel status, they will feel like they don't belong in society"
+  [high] Source: para_0036
+
+
+[R064]
+  IF you understand Quincy
+  THEN you can be known for both Scorpio and Neptune type stuff
+  Teacher voice: "if you understand that Quincy can lean into it she can be known for both"
+  [medium] Source: para_0036
+
+
+[R065]
+  IF you know how in conjunctions play out
+  THEN you can use them in your favor
+  Teacher voice: "you can use in conjunctions in your favor, if you know how they play out"
+  [high] Source: para_0037
+
+
+[R066]
+  IF you overcompensate one energy
+  THEN it will ruin the other one
+  Teacher voice: "if you over compensate one, it will ruin the other one"
+  [high] Source: para_0037
+
+
+[R067]
+  IF you want to be famous
+  THEN manipulate controlling behind the scenes
+  Teacher voice: "So I need to you know, use this right here, which creates a queen kunks here. And your manipulating controlling behind the scenes to make sure that this is what people see if you want to be famous."
+  [medium] Source: para_0038
+
+
+[R068]
+  IF you don't want to be famous
+  THEN lean into being perceived as a wreck with power issues
+  Teacher voice: "if you don't want to be famous then lean into this."
+  [medium] Source: para_0038
+
+
+[R069]
+  IF you have Sagittarius
+  THEN find your power through using your voice
+  Teacher voice: "all I feel I've always tried. To find my power through using my voice and to express my emotions."
+  [medium] Source: para_0038
+
+
+[R070]
+  IF you have Capricorn
+  THEN look for emotional security and authority from Saturn
+  Teacher voice: "you need to see how that needs to be appeased the power and the control can't just randomly come out because it will agitate this."
+  [medium] Source: para_0038
+
+
+[R071]
+  if you try to move forward
+  then it just keeps hitting an agitation
+  Teacher voice: "if you try to move forward, it just keeps hitting an agitation."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R072]
+  if certain aspects can feel like there's no way to fuse those energies together
+  then those aspects are considered difficult to work with
+  Teacher voice: "I think that those are the most difficult things to work with because it can feel like there's no way to fuse those energies together."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R073]
+  IF I know how I want to be
+  THEN I can transmute all the energies to play out as I wish
+  Teacher voice: "now that I know how I want to be and I've transmuted all the energies"
+  [medium] Source: para_0040
+
+
+[R074]
+  IF my natural abilities are opposite to my nodes
+  THEN workaholism can affect my ability to have fun and communicate
+  Teacher voice: "my workaholism has caused me to not be able to do some of the things I've wanted to do in my life"
+  [medium] Source: para_0040
+
+
+[R075]
+  IF I dive into work without addressing my desires
+  THEN I may get stuck in work and miss out on what I want to do
+  Teacher voice: "instead of me doing what I want and either not being able to dive into work or getting stuck over here in work"
+  [medium] Source: para_0040
+
+
+[R076]
+  IF your Pluto is in Sagittarius
+  THEN your Moon is in the fourth house unless clarified otherwise
+  Teacher voice: "if your Pluto is in Sagittarius, that means your moon unless your mood unless your Moon's over here."
+  [high] Source: para_0041
+
+
+[R077]
+  IF Saturn is in Aries and in the seventh house
+  THEN it is used to resolve your Moon and gain Clarity on it
+  Teacher voice: "because we know Saturn's your Saturns in Aries. In the seventh house."
+  [high] Source: para_0041
+
+
+[R078]
+  IF Mars is in the seventh house
+  THEN the outcome may involve arguing, especially over domestic issues and sex
+  Teacher voice: "Mars and seventh house in areas, especially it's not the easiest placement because you can default to arguing especially when you're at home arguing with your partner, especially over domestic issues and sex."
+  Exceptions: not stated
+  [high] Source: para_0042
+
+
+[R079]
+  IF your career does not involve children, but you have fifth house energy
+  THEN you must remove children from your analysis
+  Teacher voice: "Well, then I've got to remove in my head children from the lens for right now because it doesn't apply to whatever you're doing."
+  Exceptions: inner child can be a part of it
+  [medium] Source: para_0043
+
+
+[R080]
+  IF they find a career that makes the money
+  THEN they should focus on the health of their money
+  Teacher voice: "they should focus on the health of their money"
+  [high] Source: para_0044
+
+
+[R081]
+  IF Saturn is in the second house
+  THEN it can create hardship on money
+  Teacher voice: "Saturn in the second house can create especially at the beginning of Life hardship on money restrictions on money."
+  [high] Source: para_0045
+
+
+[R082]
+  IF they do nothing
+  THEN they may end up making money through work
+  Teacher voice: "If they do nothing, they may end up making money through work."
+  [high] Source: para_0045
+
+
+[R083]
+  IF Jupiter is conjunct the ascendant
+  THEN you have to worry about getting fat
+  Teacher voice: "Whenever Jupiter is conjunct the ascendant that you have to worry about that anyway, because it is expansion of the body."
+  Exceptions: if you are a bodybuilder with a strict diet
+  [high] Source: para_0047
+
+
+[R084]
+  IF this person could get very big and it could be because it's in the tenth house
+  THEN they could have structural issues
+  Teacher voice: "it could have structural issues"
+  Exceptions: not stated
+  [high] Source: para_0048
+
+
+[R085]
+  IF Jupiter is linked to your physical body and linked to Taurus
+  THEN it can mean that you overeat and indulge
+  Teacher voice: "it can mean that you overeat and you indulge"
+  Exceptions: not stated
+  [high] Source: para_0048
+
+
+[R086]
+  IF you want to change debt energy
+  THEN you should change that energy to amass wealth and eliminate debt.
+  Teacher voice: "You’re gonna want to change that energy so that you can amass the wealth and pull that and then get rid of this debt."
+  Exceptions: not stated
+  [medium] Source: para_0050
+
+
+[R087]
+  IF you are transmuting during adverse transits
+  THEN wait to transmute until the adverse effects pass.
+  Teacher voice: "I don’t try to transmute during that; I wait and then I do it later."
+  Exceptions: not stated
+  [medium] Source: para_0050
+
+
+[R088]
+  IF she moves West
+  THEN it will move her chart counterclockwise
+  Teacher voice: "moving West it's going to move her chart counterclockwise"
+  [high] Source: para_0051
+
+
+[R089]
+  IF she moves East or goes overseas
+  THEN it will move her chart clockwise
+  Teacher voice: "if she moves back east or goes across overseas, it's gonna move it clockwise"
+  [high] Source: para_0051
+
+
+[R090]
+  IF North Node is on IC
+  THEN it has zero orb of influence
+  Teacher voice: "that has zero orb of influence because this is two points"
+  [high] Source: para_0052
+
+
+[R091]
+  IF Chiron is in the 11th house
+  THEN it usually indicates problems with friends, groups, or organizations
+  Teacher voice: "it's usually problems with friends groups large, you know, organization or organizations and teams and things like that"
+  Exceptions: if you’re a solo act
+  [high] Source: para_0052
+
+
+[R092]
+  IF Chiron is used properly
+  THEN she could make a ton of money
+  Teacher voice: "she could make a ton of ton of ton of ton a ton of money as long as she's using that Chiron properly"
+  Exceptions: not stated
+  [high] Source: para_0053
+
+
+[R093]
+  IF angles change
+  THEN it tells you if you have more conflict in a certain area or more peace and how different energies are working together
+  Teacher voice: "when your angles change it tells you if you have more conflict in a certain area. If you have more peace different energies are working together."
+  Exceptions: not stated
+  [medium] Source: para_0053
+
+
+[R094]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0054
+
+
+[R095]
+  IF you have taxes that haven't been done
+  THEN you need to take care of them
+  Teacher voice: "you need to take care of the taxes that haven't been done"
+  [high] Source: para_0055
+
+
+[R096]
+  IF Saturn hits retrograde
+  THEN it will be a time for reflection and dealing with things from the past
+  Teacher voice: "I would say when Saturn hits retrograde, which I know is happening because it has to do with reflection and doing things from the past."
+  [high] Source: para_0055
+
+
+[R097]
+  IF Saturn gets close to 19 degrees
+  THEN someone is going to come after for issues related to taxes
+  Teacher voice: "as Saturn comes up, especially as Saturn in about a year year and a half ish gets to not even 19 degrees a little bit before 19 degrees, it's going to cause a square here."
+  [high] Source: para_0055
+
+
+[R098]
+  IF Venus is over Chiron,
+  THEN you do not want to lose money over this, so vet them out.
+  Teacher voice: "you do not want to lose money over this so you have to be careful Dolores that you are getting somebody who is a value who can heal your situation."
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R099]
+  IF the time has passed for the best opportunity to reach out,
+  THEN you can still use this energy and work on that.
+  Teacher voice: "the time kind of already passed what we can still use this energy."
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R100]
+  IF you can complete it before the retrograde,
+  THEN do it before the retrograde.
+  Teacher voice: "you can do it while it's not retrograde as well. If you can complete it before the retrograde."
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R101]
+  IF things come up during the retrograde,
+  THEN allow that to come out.
+  Teacher voice: "otherwise just do it during the retrograde and allow that to come out."
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R102]
+  IF Saturn gets up here and creates a square
+  THEN it could bring up elements of death or loss
+  Teacher voice: "it could be once Saturn gets up here and creates a square"
+  [medium] Source: para_0057
+
+
+[R103]
+  IF there is conflict due to the square
+  THEN use the transit in a positive way to align travel plans around seeing children
+  Teacher voice: "they would have to use this transit in a positive way the square in a positive way to align their structure align their travel plans their vacations around seeing their children"
+  [medium] Source: para_0057
+
+
+[R104]
+  IF Uranus gets a little bit closer to the sun, as we get within a degree or two (from 18 to 19 degrees of the sun all the way up to 21-22 degrees)
+  THEN there will be changes to the career
+  Teacher voice: "as Uranus gets a little bit closer to the sun, there will be changes to the career."
+  Exceptions: not stated
+  [high] Source: para_0058
+
+
+[R105]
+  IF there are changes as Uranus gets closer to the Sun
+  THEN there could be sudden increases in public exposure and popularity
+  Teacher voice: "there are going to be changes as Uranus gets a little bit closer to the sun, and this is actually a time where there could be sudden increases in public exposure in popularity."
+  Exceptions: not stated
+  [high] Source: para_0058
+
+
+[R106]
+  IF the changes are related to entertainment
+  THEN it is likely not going to change the career but change the reputation
+  Teacher voice: "this is likely not going to change the career but change the reputation."
+  Exceptions: not stated
+  [high] Source: para_0058
+
+
+[R107]
+  IF something personal leaks
+  THEN their reputation may be harmed
+  Teacher voice: "something may leak some sort of communication."
+  [high] Source: para_0060
+
+
+[R108]
+  IF I don't want that to happen
+  THEN I have to make sure that my bonds are tight with my friends
+  Teacher voice: "If I don't want that to happen. Then I have to make sure that my bonds are tight with my friends."
+  [high] Source: para_0060
+
+
+[R109]
+  IF there is a drastic change in role
+  THEN they may get public recognition for the change
+  Teacher voice: "if like they're changing for a role, they may end up getting like public recognition for the change."
+  [high] Source: para_0060
+
+
+[R110]
+  IF I can get ahead of the game
+  THEN I can leak the information myself
+  Teacher voice: "I can get ahead of the game and know that this is gonna happen and leak it my damn self."
+  [high] Source: para_0060
+
+
+[R111]
+  IF she wants to change careers
+  THEN she should have done that two and a half years ago or should wait until next year
+  Teacher voice: "She should have done that, you know to two and a half years ago within that time frame. or you know She could change careers in about a year."
+  [high] Source: para_0061
+
+
+[R112]
+  IF Saturn goes retrograde
+  THEN start planning for whatever this business is
+  Teacher voice: "I would start planning for whatever this business is."
+  [high] Source: para_0061
+
+
+[R113]
+  IF she wants to initiate a change in career and do something different, something that is healing to her
+  THEN this is around the time to do it.
+  Teacher voice: "if she wants to initiate a change in career and do something different something that is healing to her, something that is going to heal other people…that's going to be something she puts out for the public...this is around the time to do it."
+  Exceptions: not stated
+  [medium] Source: para_0062
+
+
+[R114]
+  IF it is writing
+  THEN you have to write the stuff anyway
+  Teacher voice: "you have to write the stuff anyway"
+  Exceptions: not stated
+  [medium] Source: para_0063
+
+
+[R115]
+  IF you self-publish
+  THEN make sure you have the right partnership to help you publish
+  Teacher voice: "No don't self publish because chiron's over there. So make sure you have the right people the right partnership to help you publish"
+  Exceptions: not stated
+  [medium] Source: para_0063
+
+
+[R116]
+  IF Dolores changes her career
+  THEN she could change the amount of time she spends within her career
+  Teacher voice: "this is changing career. So this is doing something different now you she could change her career or she could change the amount of time she spends within her career"
+  Exceptions: not stated
+  [medium] Source: para_0063
+
+
+[R117]
+  IF her marriage is not naturally going to bring her a child
+  THEN her marriage may make her a mother out of nowhere.
+  Teacher voice: "her marriage may make her a mother out of nowhere."
+  Exceptions: not stated
+  [medium] Source: para_0064
+
+
+[R118]
+  IF Pluto is in Libra
+  THEN people are more prone to get divorced.
+  Teacher voice: "people who have been born during that time are more prone to get divorced than other people."
+  Exceptions: not stated
+  [high] Source: para_0064
+
+
+[R119]
+  IF the first relationship transforms the identity of this person
+  THEN they may no longer like who they are within the context of the relationship.
+  Teacher voice: "it could be to a point where they no longer like who they are within the context of the relationship."
+  Exceptions: not stated
+  [medium] Source: para_0064
+
+
+[R120]
+  IF Saturn is in the eighth house and ruler is in the fifth house,
+  THEN this is an amazing time to get married for this person.
+  Teacher voice: "this is an amazing time to get married for this person."
+  [high] Source: para_0065
+
+
+[R121]
+  IF they are already partnered with the right person,
+  THEN this could be something that they end up pushing forward with the romance and locking it in.
+  Teacher voice: "this could be something that they end up pushing forward with the romance and locking it in."
+  [high] Source: para_0065
+
+
+[R122]
+  IF Jupiter is tied in with the ascendant and squares off with Mercury,
+  THEN this could indicate someone that doesn't want to wait or have a public marriage.
+  Teacher voice: "this could be somebody that doesn't want to wait or they don't want to have a public marriage."
+  [high] Source: para_0065
+
+
+[R123]
+  IF Jupiter is at 19-ish degrees
+  THEN it is not a good time to get married
+  Teacher voice: "not a good time to get married if we look at like outside of the retrograde"
+  Exceptions: not stated
+  [high] Source: para_0066
+
+
+[R124]
+  IF Saturn is conflicting with personal views
+  THEN it should not impact the wedding.
+  Teacher voice: "you don’t want tradition to be conflicting with... anything that like came up out of nowhere"
+  Exceptions: not stated
+  [high] Source: para_0066
+
+
+[R125]
+  IF there are issues with the marriage regarding siblings or authority figures
+  THEN balance will have to be brought back in.
+  Teacher voice: "that balance will have to be brought back in"
+  Exceptions: not stated
+  [high] Source: para_0066
+
+
+[R126]
+  IF you're not remarrying or thinking about getting back together
+  THEN I wouldn't use a retrograde in that way
+  Teacher voice: "I wouldn't want a retrograde unless you're remarrying or if you were going to get married and then you've broken up and now you're thinking about getting back together with it."
+  [high] Source: para_0067
+
+
+[R127]
+  IF Saturn is out of retrograde and at One-ish degree
+  THEN move forward into 2024 and plan the marriage for a certain time in the future
+  Teacher voice: "So if I move forward into 2024, so 2023, I wouldn't get married."
+  [high] Source: para_0067
+
+
+[R128]
+  IF you marry with Venus at a low degree opposite Saturn
+  THEN it's not a bad thing
+  Teacher voice: "Venus is a low degree opposite Saturn if you confuse that that's not a bad thing"
+  [high] Source: para_0068
+
+
+[R129]
+  IF you do something before or after the marriage
+  THEN you can have some disagreements as long as you handle those appropriately
+  Teacher voice: "if you do it before right after the marriage you can have some disagreements so as long as you handle those appropriate"
+  [high] Source: para_0068
+
+
+[R130]
+  IF this is the first marriage
+  THEN wait and go to another date
+  Teacher voice: "if this is the first marriage probably not I'll say, you know, wait go to another date."
+  Exceptions: none stated
+  [high] Source: para_0069
+
+
+[R131]
+  IF this is the second marriage
+  THEN this is really good.
+  Teacher voice: "if it's the second marriage, this is great."
+  Exceptions: none stated
+  [high] Source: para_0069
+
+
+[R132]
+  IF Jupiter is over Chiron
+  THEN it brings healing and may change her career
+  Teacher voice: "Jupiter over Chiron. Like I said healing..."
+  Exceptions: not stated
+  [high] Source: para_0070
+
+
+[R133]
+  IF the Moon is over something creating an opposition or conjunction
+  THEN it creates a depressing vibe
+  Teacher voice: "Moon Over Moon, I wouldn't choose this exact day..."
+  Exceptions: not stated
+  [high] Source: para_0070
+
+
+[R134]
+  IF there is pain in the relationship without healing
+  THEN don't get married
+  Teacher voice: "if I haven't done the healing and this person's not good for me..."
+  Exceptions: not stated
+  [high] Source: para_0070
+
+
+[R135]
+  IF experiencing a spiritual connection and healing
+  THEN use it to push forward and gain experiences
+  Teacher voice: "there's a spiritual connection and you guys have kind of like met each other..."
+  Exceptions: not stated
+  [high] Source: para_0070
+
+
+[R136]
+  IF you have fears
+  THEN you have to address and communicate those fears
+  Teacher voice: "you can't have any fears. You have to address any fears that you might have especially since and communicate those fears."
+  [high] Source: para_0071
+
+
+[R137]
+  IF you choose March 4th as a date
+  THEN you will utilize the energy from that date
+  Teacher voice: "I'm gonna use this day you have to use this energy specifically."
+  [medium] Source: para_0071
+
+
+[R138]
+  if you are trying to manifest something
+  then you have to understand the nuances of the slow movement of the outer planets
+  Teacher voice: "If you're trying to manifest something you don't want to wait forever. Then you have to understand, you know, the the nuances of the slow movement of the outer planets."
+  [high] Source: para_0072
+
+
+[R139]
+  IF Moon is over certain aspects on a wedding
+  THEN it can create a depression or heightened emotions
+  Teacher voice: "when her moon is already aspected to too many things on a wedding, I don't think that that's a good thing"
+  [high] Source: para_0073
+
+
+[R140]
+  IF Dolores does not want to deal with any agitation
+  THEN go a day or two over to create a Trine with Saturn
+  Teacher voice: "go like a day or two over here create that Trine with sat."
+  [high] Source: para_0073
+
+
+[R141]
+  IF the moon's position is 8 degrees
+  THEN it is the desired time for marriage to be official.
+  Teacher voice: "when the moon's 8 degrees, that's when we're getting married because that's when I want my marriage to be official."
+  [high] Source: para_0074
+
+
+[R142]
+  IF a faster planet is applying to a slower planet
+  THEN the energy is stronger and more intense.
+  Teacher voice: "applying is stronger energy."
+  [high] Source: para_0074
+
+
+[R143]
+  IF a faster planet is separating from a slower planet
+  THEN the energy is less intense.
+  Teacher voice: "separating is the faster planet has already crossed over and is leaving."
+  [high] Source: para_0074
+
+
+[R144]
+  IF you remember back to December of 2020 with Jupiter and Saturn
+  THEN you remember that it was called the Great conjunction.
+  Teacher voice: "some people thought it was the start of the age of Aquarius."
+  [high] Source: para_0074
+
+
+[R145]
+  IF astrological ages are calculated
+  THEN they are calculated only by the Earth.
+  Teacher voice: "astrological ages are not calculated that way they're calculated only by the Earth."
+  [high] Source: para_0074
+
+
+[R146]
+  IF the conjunction involves Jupiter and Uranus
+  THEN Uranus takes the lead in the conjunction
+  Teacher voice: "the fact that this conjunction here is applying because the Moon is faster than Uranus means that Uranus is actually the stronger planet of these two."
+  [high] Source: para_0075
+
+
+[R147]
+  IF communication happens first
+  THEN it affects her on a personal level
+  Teacher voice: "it's always something that is said that causes an issue that affects her on a personal level."
+  [high] Source: para_0075
+
+
+[R148]
+  IF she finds value in somebody
+  THEN she sleeps with them
+  Teacher voice: "so she has to find Value in somebody before she sleeps with them."
+  [high] Source: para_0075
+
+
+[R149]
+  IF the moon's in the wrong place
+  THEN it could not work in the right way that you want
+  Teacher voice: "if the moon's in the wrong place, it could all not fall apart, but could not work in the right way that you want."
+  [high] Source: para_0076
+
+
+[R150]
+  IF the full moon is in Taurus
+  THEN it reflects Scorpio themes.
+  Teacher voice: "the moon in Taurus is reflecting Scorpio themes."
+  [high] Source: para_0078
+
+
+[R151]
+  IF you want to manifest on a new moon
+  THEN you can think clearly emotionally speaking.
+  Teacher voice: "you can manifest because the Moon is depowered."
+  [high] Source: para_0078
+
+
+[R152]
+  IF you are ready to use all that solar energy in the opposition
+  THEN you can manifest on a full moon.
+  Teacher voice: "you can manifest on a full moon if you're ready to use all that solar energy in the opposition."
+  [high] Source: para_0078
+
+
+[R153]
+  IF you're in the fifth class Journey
+  THEN no Tony Robbins chart.
+  Teacher voice: "if you're in the fifth class Journey, no Tony Robbins chart."
+  [medium] Source: para_0079
+
+
+[R154]
+  IF you know what the planet is all about
+  THEN you can work with it.
+  Teacher voice: "if you know what the planet is all about, then you can work with it."
+  [high] Source: para_0081
+
+
+[R155]
+  IF you can use this energy
+  THEN you can manifest.
+  Teacher voice: "you can use this energy that's the key to this manifestation."
+  [high] Source: para_0081
+
+
+[R156]
+  IF you don't remove toxic situations and toxic people from your life
+  THEN your life will be toxic.
+  Teacher voice: "There is no if ands or buts around it. You cannot change that."
+  [high] Source: para_0082
+
+
+[R157]
+  IF somebody has a knife and you keep thinking don't get stabbed
+  THEN guess what's going to happen?
+  Teacher voice: "Instead you have to turn that mindset around and say disarm the knife take the knife."
+  [high] Source: para_0082
+
+
+[R158]
+  IF you take that red light and you harness it and focus it in one spot
+  THEN it becomes a beam which is a laser and lasers cut diamonds.
+  Teacher voice: "if you take that red light and you harness it and you focus it in on a in one spot, it becomes a beam which is a laser and lasers cut diamonds."
+  [high] Source: para_0083
+
+
+[R159]
+  IF you keep going through the themes through the classes and you learn and you build and you practice
+  THEN you will start making changes in your life.
+  Teacher voice: "if you keep going through the themes through the classes and you learn and you build and you practice I guarantee you you will start making changes in your life."
+  [high] Source: para_0083
+
+
+[R160]
+  IF Neptune, Uranus, Pluto are in the second house
+  THEN it affects the ability to manifest money
+  Teacher voice: "To manifest the things that you want in life, even with Neptune Uranus Pluto in the second house."
+  Exceptions: not stated
+  [high] Source: para_0084
+
+
+[R161]
+  IF there is power from Pluto
+  THEN it can either bring chaos or create opportunities through career
+  Teacher voice: "Pluto is power. So either it's chaotic and a loss and I have restrictions or over time through my career, I create opportunities that bring me money."
+  Exceptions: not stated
+  [high] Source: para_0084
+
+
+[R162]
+  IF Jupiter is involved in shared resources
+  THEN it is used to bring money
+  Teacher voice: "because Jupiter is there through shared resources and you know the house of sales and communication I use that to bring me money."
+  Exceptions: not stated
+  [high] Source: para_0084
+
+
+## PROCEDURES (5 procedures)
+
+
+### Transmuting Energies
+  Step 1: Transmute on a daily basis.
+  Step 2: Ignore the transits unless they adversely affect you.
+  Step 3: Wait to transmute energies during adverse transit effects.
+  WARNING: Do not fight against energy of transits.
+  Source: para_0050
+
+
+### Maintain bonds with friends
+  WARNING: Be cautious around matters of career
+  WARNING: Something may leak, like a bad contract
+  Source: para_0060
+
+
+### Initiating a change in career based on planetary alignments
+  Step 1: Look for when Saturn squares Neptune.
+  Step 2: Choose the day based on the Moon's placement.
+  Outputs: A favorable time to initiate a career change.
+  Source: para_0062
+
+
+### Wedding Planning Strategy
+  Source: para_0073
+
+
+### Manifestation process
+  Source: para_0083
+
+
+## CALCULATION PIPELINE
+  Step 1: progressions are based on one degree per year
+    Formula: null
+    Notes: the progressions are based off of one degree per year
+
+
+  Additional calculation steps from transcript:
+  Step 1: progressions are based on one degree per year
+    Formula: null
+    Teacher voice: "the progressions are based off of one degree per year"
+  Step 0: Analyze the chart and determine influences from Venus and Jupiter.
+    Formula: null
+    Teacher voice: "we have to look how Venus and Jupiter sit"
+  Step 0: Checking the position of Uranus to see when it reaches 19 or 20 degrees.
+    Formula: null
+    Teacher voice: "when does Uranus hit basically 19 or 20 degrees or 18 or 19 degrees?"
+  Step 1: Checking the dates during the retrogrades for changes from the past.
+    Formula: null
+    Teacher voice: "let's check July during the two retrogrades that are happening."
+  Step 0: Calculate Saturn's influence period.
+    Formula: null
+    Teacher voice: "Saturn has an orb of influence of seven and a half degrees."
+  Step 0: Look at the placement of Mars and adjust for exact degrees.
+    Formula: not stated
+    Teacher voice: "Mars has a four degree. It's sitting at 19 degrees. So I'm not quite far enough. So I'm gonna move a month just to kind of see where Mars gonna go too far."
+  Step 0: Jupiter has about an 8 degree orb of influence and Saturn has about a 7.5 degree orb of influence.
+    Formula: null
+    Teacher voice: "Jupiter has about an 8 degree orb of influence. The Saturn has about a seven and a half degree orb of influence."
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string"
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "allowed_values": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "citation_segments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "name",
+    "definition",
+    "entity_type",
+    "citation_segments"
+  ]
+}
+
+
+Rules schema:
+{
+  "type": "object",
+  "properties": {
+    "condition": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "teacher_voice_phrasing": {
+      "type": "string"
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "citation_segment": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "condition",
+    "action",
+    "teacher_voice_phrasing"
+  ]
+}
+
+
+Meanings schema:
+{
+  "type": "object",
+  "properties": {
+    "term": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "citation": {
+      "type": "object",
+      "properties": {
+        "segment_id": {
+          "type": "string"
+        },
+        "time_range": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "term",
+    "definition",
+    "confidence"
+  ]
+}
+
+
+## PSEUDOCODE
+START
+INPUT user's astrological birth chart
+ANALYZE birth chart for planetary influences
+OUTPUT advice based on analysis
+DISPLAY guidelines and insights
+END
+
+
+## VOICE STYLE RULES
+Tone: motivational, insightful
+Cadence: steady and calming
+Signature phrases: if you believe, transmute your energy
+Do:
+  - Focus on personal growth
+  - Encourage self-awareness
+Avoid:
+  - Do not promise results without effort
+
+
+## MEANING RENDERING RULES
+- Ensure clarity by restating complex concepts in simple terms
+- Use metaphors when possible to relate astrological findings
+- Always link back advice to personal growth potential
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (153 snippets)
+
+
+  [motivation] (unknown): "I think and I know because I've used it I've manifested so many things for myself both with and without astrology"
+    Source: para_0000
+  [motivation] (unknown): "there's nothing like it"
+    Source: para_0000
+  [meaning] (unknown): "the energies for today's course line up perfectly with this being the culmination of this course"
+    Source: para_0000
+  [example] (unknown): "the Moon is trying my Saturn"
+    Source: para_0001
+  [motivation] (unknown): "the whole purpose in my opinion of learning astrology is not just to understand yourself, but to actually be able to do something with that."
+    Source: para_0001
+  [warning] (unknown): "when you're looking at your chart Chiron understanding your wounds understanding your insecurities and the things that hold you back within your own psyche is extremely important."
+    Source: para_0003
+  [motivation] (unknown): "anytime you're talking about manifestation, you have to also be okay with failure."
+    Source: para_0005
+  [definition] (unknown): "true failure means you fell down you never got back up."
+    Source: para_0005
+  [definition] (unknown): "that's what I wanted. I got it."
+    Source: para_0006
+  [definition] (unknown): "life is a popularity contest"
+    Source: para_0006
+  [warning] (unknown): "If you don't understand the game or the ways that you can play it or the ways you can manipulate the system."
+    Source: para_0007
+  [motivation] (unknown): "Nobody manifests to be rich and depressed."
+    Source: para_0008
+  [warning] (unknown): "because they allow toxic situations toxic thoughts. toxic people all of that to continue"
+    Source: para_0009
+  [motivation] (unknown): "you pay attention all that and you align your current position with what's attainable at the time"
+    Source: para_0009
+  [definition] (unknown): "once you have your mindset down that's locked"
+    Source: para_0010
+  [definition] (unknown): "we know what we want and it has to be something that is attainable"
+    Source: para_0010
+  [procedure] (unknown): "you have to sit there and break it down"
+    Source: para_0010
+  [motivation] (unknown): "the agitation can always be transmuted."
+    Source: para_0011
+  [definition] (unknown): "Moon moves into a new sign every two to two and a half years."
+    Source: para_0011
+  [warning] (unknown): "people talk about how it's so bad Communications terrible and contracts are bad and you shouldn't sign anything"
+    Source: para_0012
+  [motivation] (unknown): "retrogrades are really good actually because they help restore you and change course"
+    Source: para_0012
+  [motivation] (unknown): "I know what it means and because I know what it means, I know what it could mean."
+    Source: para_0013
+  [motivation] (unknown): "You can figure out exactly what it has to do with."
+    Source: para_0013
+  [definition] (unknown): "That is what transmutation is to transmute the energies meaning to take what was going to happen and make it be something I want to happen."
+    Source: para_0014
+  [example] (unknown): "money and love are the two main topics everyone wants to know because they revolve their entire life around these two things."
+    Source: para_0014
+  [motivation] (unknown): "we want to use the energies differently"
+    Source: para_0015
+  [motivation] (unknown): "I think I may actually expand upon that because there's a lot that I wasn't able to say"
+    Source: para_0015
+  [definition] (unknown): "the 12th house rules film."
+    Source: para_0017
+  [warning] (unknown): "there's an insecurity that has to do with their hair and their presence."
+    Source: para_0017
+  [motivation] (unknown): "this person does not do this normally unless they need to bring in that 12th house energy."
+    Source: para_0017
+  [definition] (unknown): "Taurus does rule food."
+    Source: para_0018
+  [definition] (unknown): "you have to use the healing. And that's what all transmutation is about"
+    Source: para_0019
+  [motivation] (unknown): "you’re going to harp on the focus on the Chiron here."
+    Source: para_0019
+  [definition] (unknown): "it's like a distorted affirmations."
+    Source: para_0020
+  [motivation] (unknown): "this sounds like erratic and out of base but I promise you it works."
+    Source: para_0020
+  [warning] (unknown): "You do not want this off and on again based off of your fears because this is stage fright."
+    Source: para_0021
+  [motivation] (unknown): "I want to open up to you guys real quick that are in the live class here."
+    Source: para_0021
+  [motivation] (unknown): "please keep commenting because this is an interesting topic."
+    Source: para_0021
+  [meaning] (unknown): "I will show you with this chart how they could attain the thing that you're looking for."
+    Source: para_0021
+  [example] (unknown): "they like to be seen they like to be out."
+    Source: para_0022
+  [example] (unknown): "nature is very important to where they go."
+    Source: para_0022
+  [warning] (unknown): "they like to eat good food, but they do have to be careful with this Chiron, which I said I was gonna ignore"
+    Source: para_0023
+  [warning] (unknown): "they do not eat the wrong things because they could have like structural issues when it comes to food and whatnot."
+    Source: para_0023
+  [instruction] (unknown): "That's how you handle that square."
+    Source: para_0024
+  [motivation] (unknown): "you link everything again again, you use all the all the techniques."
+    Source: para_0026
+  [example] (unknown): "I want this here's the planet that I have to work with and here's all my words. I Circle the one I want."
+    Source: para_0026
+  [motivation] (unknown): "you can manifest you can do this you can do this."
+    Source: para_0026
+  [example] (unknown): "creating a business through a legal partnership"
+    Source: para_0027
+  [meaning] (unknown): "the relationships may have the tendency to be public but there may be some fears about it being public because it may change the emotional connection."
+    Source: para_0029
+  [meaning] (unknown): "there is a strategy that comes along with that that is likely tied to their professional career."
+    Source: para_0029
+  [warning] (unknown): "you have to clarify that"
+    Source: para_0030
+  [warning] (unknown): "you have to transmute you'd have to intentionally do that"
+    Source: para_0030
+  [warning] (unknown): "every little thing will get out and cause agitation here"
+    Source: para_0031
+  [motivation] (unknown): "use that energy as motivation as part of who you are"
+    Source: para_0031
+  [definition] (unknown): "I want to know it's there but I don't want to work with it."
+    Source: para_0032
+  [definition] (unknown): "she has the power the thing is it's not Authority it's power."
+    Source: para_0033
+  [motivation] (unknown): "she has the magnetism and the ability to manipulate through communication to her partner into others."
+    Source: para_0033
+  [meaning] (unknown): "they are known for those things"
+    Source: para_0034
+  [warning] (unknown): "this person is very prone potentially prone to feeling like an outsider."
+    Source: para_0035
+  [warning] (unknown): "it's extremely important to understand how to transmute energy because you don't want to be depressed"
+    Source: para_0036
+  [warning] (unknown): "finding your happiness within Neptune and type things can be very difficult as well"
+    Source: para_0036
+  [definition] (unknown): "each one has a definition"
+    Source: para_0037
+  [example] (unknown): "I don't think placements are difficult. I think aspects are difficult certain ones."
+    Source: para_0039
+  [motivation] (unknown): "in order to not hidden agitation, I need to know why it's agitated."
+    Source: para_0039
+  [definition] (unknown): "I have to know what it is."
+    Source: para_0040
+  [motivation] (unknown): "So I have to make that game plan to figure out how it is."
+    Source: para_0040
+  [example] (unknown): "one thing ties to the next ties to the next and then you use all that information to resolve your identity and your evolution of identity and your midlife crisis"
+    Source: para_0041
+  [example] (unknown): "for you it's going to be Pluto in your like it was for me Pluto in the third house."
+    Source: para_0041
+  [warning] (unknown): "identity health communication work. All of that is going to go through a huge change in a crisis where you may feel like, I don't know what I'm doing."
+    Source: para_0041
+  [warning] (unknown): "you can default to arguing especially when you're at home arguing with your partner, especially over domestic issues and sex"
+    Source: para_0042
+  [warning] (unknown): "you have to have a healthy sex life"
+    Source: para_0042
+  [example] (unknown): "they need to find a career that makes the money"
+    Source: para_0044
+  [warning] (unknown): "if they're smart, they'll utilize daily systems here"
+    Source: para_0044
+  [warning] (unknown): "they should do so in a way that is a long-term strategy because it is Saturn that we're talking about here."
+    Source: para_0045
+  [example] (unknown): "it's like this person in the beginning of their life could have tried to go job the job finding something that would be lucrative."
+    Source: para_0045
+  [warning] (unknown): "I won't get through their chart probably get to the fifth or sixth house and it won't be as detailed as I as I want it to be"
+    Source: para_0046
+  [meaning] (unknown): "there are more challenging charts than some other ones"
+    Source: para_0047
+  [motivation] (unknown): "none of these energies are impossible to work with"
+    Source: para_0047
+  [motivation] (unknown): "this is for everybody who takes this class because we made it for a t-shirt"
+    Source: para_0048
+  [definition] (unknown): "this is Taylor's calling card here"
+    Source: para_0048
+  [example] (unknown): "I should have named it Taylor"
+    Source: para_0048
+  [motivation] (unknown): "we are deciding we're manifesting but by using exactly what I'm teaching you in this class"
+    Source: para_0049
+  [motivation] (unknown): "I had a lot of time to really just like obsess"
+    Source: para_0049
+  [motivation] (unknown): "doing this professionally"
+    Source: para_0049
+  [definition] (unknown): "Divine timing is for very specific things and it helps guide you into where to focus your energy."
+    Source: para_0050
+  [example] (unknown): "her energies are a little bit different."
+    Source: para_0051
+  [example] (unknown): "we're just looking at Los Angeles, California."
+    Source: para_0051
+  [example] (unknown): "she could be very well known and respected for the things that she does in Los Angeles"
+    Source: para_0052
+  [meaning] (unknown): "we do have the sixth house in doing this would be great"
+    Source: para_0052
+  [definition] (unknown): "this is her relocated chart in Los Angeles for Dolores"
+    Source: para_0052
+  [motivation] (unknown): "Astro cartography so freaking important"
+    Source: para_0053
+  [warning] (unknown): "remember that when you move your natal energy still stick with you"
+    Source: para_0053
+  [meaning] (unknown): "Saturn is the most important in my opinion planet outside of the Moon."
+    Source: para_0054
+  [definition] (unknown): "the Eighth House has to do with shared resources anything. That's Hayden taboo anything that has to do with the occult debt installments inheritances Secrets lies deception whatnot."
+    Source: para_0054
+  [definition] (unknown): "Saturn's all about goals."
+    Source: para_0054
+  [motivation] (unknown): "Saturn are moving into Pisces is the reason why so many people are getting into astrology getting into taboo and spirituality in general."
+    Source: para_0054
+  [motivation] (unknown): "you want to take care of this."
+    Source: para_0055
+  [warning] (unknown): "You know, things should come up."
+    Source: para_0056
+  [example] (unknown): "How does the North Node know it's time for this?"
+    Source: para_0056
+  [motivation] (unknown): "the square in a positive way"
+    Source: para_0057
+  [definition] (unknown): "they make better? After they show you what the conflict is"
+    Source: para_0057
+  [example] (unknown): "Changing career makes a lot of sense here because we do have Uranus over the 10th house."
+    Source: para_0058
+  [rule] (unknown): "there could be sudden increases in public exposure in popularity"
+    Source: para_0058
+  [warning] (unknown): "it is going to expand this person and it could be good or it could be bad."
+    Source: para_0058
+  [warning] (unknown): "things from the past are going to come up which are going to change."
+    Source: para_0059
+  [example] (unknown): "communication that's either going to be healing or painful."
+    Source: para_0059
+  [example] (unknown): "she could blow up on social media whether it's of her own doing or not."
+    Source: para_0059
+  [warning] (unknown): "they have to be very cautious around this time when it comes to matters of their career."
+    Source: para_0060
+  [example] (unknown): "this is close to an exact square here Could Happen a little bit before this, but let's just use this for now."
+    Source: para_0062
+  [motivation] (unknown): "this is a beautiful time for Dolores"
+    Source: para_0063
+  [definition] (unknown): "And then get it out there."
+    Source: para_0063
+  [definition] (unknown): "the rate of divorce climbs so much is because it says Pluto says, I'm either going to transform within this relationship or because of this relationship"
+    Source: para_0064
+  [warning] (unknown): "anytime during here, I would keep it not at the square."
+    Source: para_0066
+  [motivation] (unknown): "I don’t want a wedding to feel like I'm trying to make it work."
+    Source: para_0066
+  [meaning] (unknown): "I would just kind of rethink I would use the retrograde to rethink what I wanted the wedding to be."
+    Source: para_0067
+  [definition] (unknown): "So, I know that the think around the fifth or so of this year the retrograde for Saturn ends."
+    Source: para_0067
+  [example] (unknown): "I wouldn't get married. I would just start thinking about it and kind of planning a bit of it."
+    Source: para_0067
+  [personal preference] (unknown): "I do not want to Queen kunk's with something in Libra when we're talking about marriage"
+    Source: para_0068
+  [example] (unknown): "I think that's Saint Patty's Day, right?"
+    Source: para_0068
+  [example] (unknown): "this could feel like a perfect partnership here and we can grow together and heal together."
+    Source: para_0069
+  [meaning] (unknown): "all of these energies here are creating and here we go again with this whole healing aspect over the ninth house again."
+    Source: para_0069
+  [example] (unknown): "this marriage may actually be a catalyst to what changes happen within her reputation and career."
+    Source: para_0070
+  [motivation] (unknown): "you want to make sure you're aligning them with their history to set them up for the positive future"
+    Source: para_0071
+  [warning] (unknown): "there's going to be a heavy amount of pain and healing and whatnot that is going to be highlighted by this that's going on right now."
+    Source: para_0071
+  [definition] (unknown): "there's no such thing as a perfect time perfect date."
+    Source: para_0071
+  [motivation] (unknown): "this becomes healing and we can move forward in our journey"
+    Source: para_0072
+  [motivation] (unknown): "this is a really good thing"
+    Source: para_0072
+  [definition] (unknown): "outer planets have importance for stages of life"
+    Source: para_0072
+  [motivation] (unknown): "this is the day I want to get married book."
+    Source: para_0073
+  [meaning] (unknown): "she should be strategizing so that she can set it up for next year to get married."
+    Source: para_0073
+  [definition] (unknown): "she knows how everything's gonna be."
+    Source: para_0073
+  [definition] (unknown): "applying aspects are the hardest because that faster moving planet is being blocked in some way or stonewalled by the slower moving planet."
+    Source: para_0074
+  [meaning] (unknown): "it's always this way."
+    Source: para_0075
+  [meaning] (unknown): "the Moon is the trigger"
+    Source: para_0076
+  [motivation] (unknown): "Divine timing is everything"
+    Source: para_0076
+  [meaning] (unknown): "I think the Moon is so important."
+    Source: para_0077
+  [motivation] (unknown): "I'm glad you enjoyed this because like I said, this was the exciting class for me."
+    Source: para_0077
+  [warning] (unknown): "when people do full moon readings and they ignore or omit the sun..."
+    Source: para_0078
+  [warning] (unknown): "I can't answer that without seeing your full chart"
+    Source: para_0079
+  [example] (unknown): "one aspect. Changes the entire thing"
+    Source: para_0079
+  [motivation] (unknown): "I did go back and correct it"
+    Source: para_0079
+  [warning] (unknown): "you can't fight a planet the planet will win"
+    Source: para_0081
+  [example] (unknown): "if you stick your hand in trash, you're gonna smell like garbage, too."
+    Source: para_0081
+  [meaning] (unknown): "You are the energy you're the company you keep."
+    Source: para_0082
+  [example] (unknown): "What are you thinking about?"
+    Source: para_0082
+  [motivation] (unknown): "Your mind is set on the other thing and you have such more of an exponential guarantee that you will achieve the things that you're trying to achieve."
+    Source: para_0082
+  [definition] (unknown): "It's just red light you come in. You notice it you see it. It's energy."
+    Source: para_0083
+  [motivation] (unknown): "this is where the mindset comes in for manifestation"
+    Source: para_0083
+  [example] (unknown): "you will get a certification on that"
+    Source: para_0083
+  [example] (unknown): "the first 20 of my 20 years of my life. I didn't know how to manifest anything"
+    Source: para_0084
+  [meaning] (unknown): "you can see that there's a sextile here with with Neptune and Juno."
+    Source: para_0084
+  [motivation] (unknown): "I know how to make money."
+    Source: para_0084
+  [motivation] (unknown): "Thank you guys so much for taking this course, you will receive a certificate for this course very soon and I will talk to you guys soon very soon on the next class Vibe higher."
+    Source: para_0085
+
+
+## EDGE CASES (29 cases)
+
+
+- Scenario: Having a toxic family member
+  Handling: Limit interactions to manage stress
+- Scenario: you achieve something on the first try
+  Handling: considered a stroke of luck
+- Scenario: Having a toxic family member
+  Handling: Limit interactions to manage stress
+- Scenario: you achieve something on the first try
+  Handling: considered a stroke of luck
+- Scenario: neglecting sun sign while pursuing happiness
+  Handling: pursue balance between money and sun sign
+- Scenario: when you see stelliums and satellidiums in a chart
+  Handling: you have to allow a lot for more time because you have to break down all the energies that are feeding into one source
+- Scenario: When not many people know how to transmute energy
+  Handling: Energy plays out in its lowest vibrational setting.
+- Scenario: some energies play out nicely except one or two things
+  Handling: change those two things so they don't play out poorly and instead play out in my benefit
+- Scenario: not stated
+  Handling: not stated
+- Scenario: using energy when solo
+  Handling: use deep memory or thought of family that no one else knows.
+- Scenario: Some people may say I'm happy at my job.
+  Handling: they have to come to a compromise here with the things that they want to do in the things your partner wants to do.
+- Scenario: taboo secrets occur
+  Handling: they usually go there first
+- Scenario: When she feels chaos in the relationship
+  Handling: She experiences rage as part of her identity
+- Scenario: the individual feels like an outsider
+  Handling: they may want to seclude themselves.
+- Scenario: Power and control comes out randomly
+  Handling: It will agitate the emotional stability.
+- Scenario: bodybuilder on a strict diet
+  Handling: the person could actually get a nice dietary routine and become very strong and very fit
+- Scenario: Transmuting energies during adverse transits
+  Handling: Wait until the adverse effects pass to transmute.
+- Scenario: person has not done their taxes and has had no consequences
+  Handling: this luck may run out as Saturn comes up
+- Scenario: Other structural government-wise things come up while processing tasks during retrograde.
+  Handling: You may have to deal with those additional factors.
+- Scenario: children moving far away
+  Handling: could create conflicts in relationships
+- Scenario: Information leaks from friends
+  Handling: Make sure private life remains private with friends.
+- Scenario: Mars does not reach a favorable degree.
+  Handling: Adjust the month to find a suitable alignment.
+- Scenario: when a person is unhappy in the relationship
+  Handling: the relationship dynamics may change their identity.
+- Scenario: Square aspect in astrology during marriage planning
+  Handling: avoid using it as it brings agitation.
+- Scenario: Toxic relationship but wanting to marry
+  Handling: Don't marry, as it will cause pain
+- Scenario: someone might forget their vows
+  Handling: not stated
+- Scenario: Even if you haven't had money or been in poverty
+  Handling: There are always ways.
+- Scenario: Even if your reputation has been bad
+  Handling: There are always ways.
+- Scenario: Even if you can't find friendships
+  Handling: There are always ways.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Verify belief in success leads to successful outcomes
+  Input: {"belief": "this can work"}
+  Expected (teacher voice): If you believe that this cannot work, it won't.
+  Rules: R001
+  Entities: mindset
+
+
+[TC002] Verify belief in astrology leading to a passive role in life
+  Input: {"belief": "astrology is a roadmap"}
+  Expected (teacher voice): If you believe that astrology is a roadmap to your fate and destiny and you're just along for the ride like a side seat passenger, then that's what you will be.
+  Rules: R002
+
+
+[TC003] Check transmutation validation during adverse transits
+  Input: {"transit_effect": "adverse"}
+  Expected (teacher voice): Do not fight against energy of transits.
+  Entities: transmutation
+
+
+[TC004] Verify normal procedure for initiating career change using Saturn and Neptune
+  Input: {"planetary_alignment": "Saturn squares Neptune", "moon_placement": "favorable"}
+  Expected (teacher voice): A favorable time to initiate a career change.
+  Entities: transmutation
+
+
+[TC005] Edge case missing belief in astrology
+  Input: {"belief": null}
+  Expected (teacher voice): If you believe that astrology is a roadmap to your fate and destiny and you're just along for the ride like a side seat passenger, then that's what you will be.
+  Rules: R002
+  [EDGE CASE]
+
+
+[TC006] Edge case for unknown entity 'destiny control'
+  Input: {"entity": "destiny control"}
+  Expected (teacher voice): Not applicable as 'destiny control' is not defined in the known entities.
+  [EDGE CASE]
+
+
+[TC007] Verify default scenario for unclear mindset
+  Input: {"mindset": "unsettled"}
+  Expected (teacher voice): Setting a mindset that allows for a clear path.
+  Entities: mindset
+
+
+[TC008] Check influence of 'toxic people' on outcomes
+  Input: {"social_influence": "toxic people"}
+  Expected (teacher voice): Social influences that negatively impact personal well-being.
+  Entities: toxic people
+
+
+[TC009] Test scenario for Chiron understanding limitations
+  Input: {"event": "personal crisis"}
+  Expected (teacher voice): Chiron is significant for understanding limitations and personal wounds.
+  Entities: Chiron
+
+
+[TC010] Edge case conflicting belief statements
+  Input: {"belief": "this can work", "astrology": true}
+  Expected (teacher voice): Conflicting beliefs need reconciliation for clarity.
+  Rules: R001, R002
+  [EDGE CASE]
+
+
+## UNRESOLVED (14 items)
+
+
+- No specific calculation steps or procedures mentioned.
+  Needed: More details on steps to improve relationship with money or manifesting using Chiron.
+- lack of specific attributes for failure
+  Needed: definition or examples of failed experiences
+- specific parameters for manifestation
+  Needed: details on what can be manifested within energy parameters
+- Clarification on how to transmute energy
+  Needed: Specific techniques or methods for transmuting energy effectively.
+- meaning of opposition
+  Needed: definition or explanation
+- further explanation on energies and their play out
+  Needed: examples or clarification
+- exact connection to me as a person
+  Needed: elaboration on what it means to be connected
+- Details about queen kunks
+  Needed: Clarification on definition and attributes
+- specific attributes or constraints on planets and houses
+  Needed: more clarification on how attributes affect astrology
+- Effectiveness of consolidating debt using energies
+  Needed: more explanation or explicit examples
+- No explicit information on allowed values or constraints for entities.
+  Needed: Exact allowed values and constraints for the North Node and South Node.
+- Definitions of planetary positions and terms used.
+  Needed: More clarity on entities mentioned like Fama.
+- Specific aspects to consider in astrology for marriage timing
+  Needed: in-depth examples or calculations regarding timing.
+- specific calculations for aligning energies
+  Needed: exact positions or further references for confirmation
+
+
+================================================================================
+END OF BUILDER PROMPT

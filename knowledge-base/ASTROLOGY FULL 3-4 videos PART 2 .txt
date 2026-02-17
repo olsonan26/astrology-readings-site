@@ -1,0 +1,1407 @@
+﻿================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+Compilation failed: Expecting ',' delimiter: line 154 column 11 (char 5982)
+
+
+## INPUTS
+
+
+## OUTPUTS
+
+
+## ENTITY CATALOG (10 entities)
+
+
+### aspects
+  Type: astrology
+  Meaning: aspects are mathematical relationships between planets
+  Meaning: mathematical relationships between planets
+  Attributes: differentiation of personality, mathematical relationships
+  Allowed values: different degrees of aspects (30, 60, 90, 0)
+  Constraints: sharing the same number within one to two degrees
+  Source: ts_0000, 25:57-5:15
+
+
+### Sun
+  Type: planet
+  Meaning: not stated
+  Attributes: sign (e.g., Gemini), not reflecting off of the Moon during a new moon, degree
+  Allowed values: 21 degrees, Gemini
+  Constraints: must be aspecting other planets to understand true manifestation
+  Source: ts_0001, 5:15-1:44, ts_0000, 25:57-5:15
+
+
+### transits
+  Type: astrology phenomenon
+  Meaning: not stated
+  Source: ts_0000, 25:57-5:15
+
+
+### Saturn
+  Type: planet
+  Meaning: not stated
+  Attributes: orb of influence of seven to eight degrees
+  Allowed values: seven to eight degrees
+  Source: ts_0001, 5:15-1:44
+
+
+### Moon
+  Type: planet
+  Meaning: not stated
+  Attributes: orb of influence of two to three degrees
+  Allowed values: two to three degrees
+  Source: ts_0001, 5:15-1:44
+
+
+### New Moon
+  Type: astrological event
+  Meaning: A new moon is the sun conjunct the Moon.
+  Meaning: A new moon occurs when the sun and moon are aligned.
+  Source: ts_0001, 5:15-1:44
+
+
+### opposition
+  Type: astrological aspect
+  Meaning: not stated
+  Source: ts_0001, 5:15-1:44
+
+
+### quintile
+  Type: astrological aspect
+  Meaning: It shows where you are creatively innovative and purposefully manifest things.
+  Meaning: Represents a creative and innovative aspect in astrology.
+  Attributes: creative expression, innovation, manifestation
+  Allowed values: between two angles
+  Constraints: thin margin between angles
+  Source: ts_0002, 1:44
+
+
+### bi-quintile
+  Type: astrological aspect
+  Meaning: Shows you where you have access to creative and artistic talents.
+  Meaning: Indicates access to creative and artistic abilities in astrology.
+  Attributes: internal expression, creative solutions, talent utilization
+  Allowed values: between two planets
+  Constraints: less obvious than quintiles
+  Examples: between Mercury and Jupiter
+  Source: ts_0002, 1:44
+
+
+## DEFINITIONS (5 definitions)
+
+
+  aspect: aspects are mathematical relationships between planets that differentiate personality and context
+    [high] Source: ts_0000, 25:57-5:15
+  conjunction: When two planets are together, strengthening and amplifying each other.
+    [high] Source: ts_0001, 5:15-1:44
+  opposition: When one planet is playing tug of war with another, creating a balance of energies.
+    [high] Source: ts_0001, 5:15-1:44
+  quintile: An astrological aspect that denotes creativity and manifestation.
+    [high] Source: ts_0002, 1:44
+  bi-quintile: An astrological aspect that signifies access to internal creative talents.
+    [high] Source: ts_0002, 1:44
+
+
+## RULE ENGINE (4 rules)
+
+
+[R001]
+  IF planet aspects are present
+  THEN this influences how the Sun plays out in a person's chart
+  Teacher voice: "It's not just the Sun and Gemini. It's a sun in Gemini opposite Neptune and Sagittarius..."
+  [high] Source: ts_0000, 25:57-5:15
+
+
+[R002]
+  IF planets are in conjunction
+  THEN they strengthen and amplify each other.
+  Teacher voice: "Planets in conjunction strengthen and amplify."
+  [high] Source: ts_0001, 5:15-1:44
+
+
+[R003]
+  IF the Sun and Moon are in conjunction
+  THEN this is a new moon.
+  Teacher voice: "A new moon is the sun conjunct the Moon."
+  [high] Source: ts_0001, 5:15-1:44
+
+
+[R004]
+  IF one planet is involved in an opposition
+  THEN there exists a tug of war with another planet.
+  Teacher voice: "It's one planet is playing tug of war with another planet."
+  [high] Source: ts_0001, 5:15-1:44
+
+
+## CALCULATION PIPELINE
+
+
+  Additional calculation steps from transcript:
+  Step 0: Look to see if another planet is sharing the same number within one to two degrees
+    Formula: not stated
+    Teacher voice: "Is there another planet sharing the same number within one to two degrees?"
+
+
+## DATA MODEL
+
+
+## PSEUDOCODE
+
+
+
+
+## VOICE STYLE RULES
+
+
+## MEANING RENDERING RULES
+
+
+ANTI-HALLUCINATION: 
+
+
+## TEACHER PHRASING SNIPPETS (7 snippets)
+
+
+  [definition] (unknown): "aspects are the glue to astrology"
+    Source: ts_0000, 25:57-5:15
+  [example] (unknown): "multiple planets can create aspects"
+    Source: ts_0000, 25:57-5:15
+  [definition] (unknown): "This is called a satellitium; these planets do not affect each other."
+    Source: ts_0001, 5:15-1:44
+  [explanation] (unknown): "When people ask me about the new moon and New Moon energies, I always go back to the astrological definition."
+    Source: ts_0001, 5:15-1:44
+  [example] (unknown): "I usually stay pretty close to one to two degrees though. So it's not really a big deal."
+    Source: ts_0002, 1:44
+  [definition] (unknown): "the quintile shows where you are creatively Innovative and purposefully manifest things."
+    Source: ts_0002, 1:44
+  [motivation] (unknown): "That's why I do that."
+    Source: ts_0002, 1:44
+
+
+## EDGE CASES (1 cases)
+
+
+- Scenario: approaching conjunctions
+  Handling: use the entire orb of influence for aspects
+
+
+## TEST CASES (0 test cases)
+
+
+## UNRESOLVED (1 items)
+
+
+- details on mathematical calculation of aspects and degrees
+  Needed: explicit calculation methodology shared in the segment
+
+
+{
+  "entities": [
+    {
+      "entity": "aspects",
+      "entity_type": "astrology",
+      "meaning_in_teacher_words": "aspects are mathematical relationships between planets",
+      "meaning_normalized": "mathematical relationships between planets",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "mathematical relationships",
+        "differentiation of personality"
+      ],
+      "allowed_values": [
+        "different degrees of aspects (30, 60, 90, 0)"
+      ],
+      "constraints": [
+        "sharing the same number within one to two degrees"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "entity": "Sun",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "degree",
+        "sign (e.g., Gemini)"
+      ],
+      "allowed_values": [
+        "21 degrees",
+        "Gemini"
+      ],
+      "constraints": [
+        "must be aspecting other planets to understand true manifestation"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "entity": "transits",
+      "entity_type": "astrology phenomenon",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "not stated",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "entity": "Saturn",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "orb of influence of seven to eight degrees"
+      ],
+      "allowed_values": [
+        "seven to eight degrees"
+      ],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "entity": "Moon",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "orb of influence of two to three degrees"
+      ],
+      "allowed_values": [
+        "two to three degrees"
+      ],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "entity": "New Moon",
+      "entity_type": "astrological event",
+      "meaning_in_teacher_words": "A new moon is the sun conjunct the Moon.",
+      "meaning_normalized": "A new moon occurs when the sun and moon are aligned.",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "entity": "Sun",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "not reflecting off of the Moon during a new moon"
+      ],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "entity": "opposition",
+      "entity_type": "astrological aspect",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "entity": "quintile",
+      "entity_type": "astrological aspect",
+      "meaning_in_teacher_words": "It shows where you are creatively innovative and purposefully manifest things.",
+      "meaning_normalized": "Represents a creative and innovative aspect in astrology.",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "creative expression",
+        "innovation",
+        "manifestation"
+      ],
+      "allowed_values": [
+        "between two angles"
+      ],
+      "constraints": [
+        "thin margin between angles"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    },
+    {
+      "entity": "bi-quintile",
+      "entity_type": "astrological aspect",
+      "meaning_in_teacher_words": "Shows you where you have access to creative and artistic talents.",
+      "meaning_normalized": "Indicates access to creative and artistic abilities in astrology.",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "internal expression",
+        "creative solutions",
+        "talent utilization"
+      ],
+      "allowed_values": [
+        "between two planets"
+      ],
+      "constraints": [
+        "less obvious than quintiles"
+      ],
+      "examples_stated": [
+        "between Mercury and Jupiter"
+      ],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "condition": "IF planet aspects are present",
+      "action": "THEN this influences how the Sun plays out in a person's chart",
+      "teacher_voice_phrasing": "It's not just the Sun and Gemini. It's a sun in Gemini opposite Neptune and Sagittarius...",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "condition": "IF planets are in conjunction",
+      "action": "THEN they strengthen and amplify each other.",
+      "teacher_voice_phrasing": "Planets in conjunction strengthen and amplify.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "condition": "IF the Sun and Moon are in conjunction",
+      "action": "THEN this is a new moon.",
+      "teacher_voice_phrasing": "A new moon is the sun conjunct the Moon.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "condition": "IF one planet is involved in an opposition",
+      "action": "THEN there exists a tug of war with another planet.",
+      "teacher_voice_phrasing": "It's one planet is playing tug of war with another planet.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    }
+  ],
+  "formulas": [],
+  "procedures": [],
+  "definitions": [
+    {
+      "term": "aspect",
+      "definition": "aspects are mathematical relationships between planets that differentiate personality and context",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "term": "conjunction",
+      "definition": "When two planets are together, strengthening and amplifying each other.",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "term": "opposition",
+      "definition": "When one planet is playing tug of war with another, creating a balance of energies.",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "term": "quintile",
+      "definition": "An astrological aspect that denotes creativity and manifestation.",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    },
+    {
+      "term": "bi-quintile",
+      "definition": "An astrological aspect that signifies access to internal creative talents.",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "speaker": "unknown",
+      "snippet": "aspects are the glue to astrology",
+      "use_case": "definition",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "multiple planets can create aspects",
+      "use_case": "example",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "25:57-5:15"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "This is called a satellitium; these planets do not affect each other.",
+      "use_case": "definition",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "When people ask me about the new moon and New Moon energies, I always go back to the astrological definition.",
+      "use_case": "explanation",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "5:15-1:44"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "I usually stay pretty close to one to two degrees though. So it's not really a big deal.",
+      "use_case": "example",
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "the quintile shows where you are creatively Innovative and purposefully manifest things.",
+      "use_case": "definition",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "That's why I do that.",
+      "use_case": "motivation",
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "1:44"
+      }
+    }
+  ],
+  "calculation_steps": [
+    {
+      "step_number": 0,
+      "description": "Look to see if another planet is sharing the same number within one to two degrees",
+      "formula_ref": "not stated",
+      "teacher_voice": "Is there another planet sharing the same number within one to two degrees?"
+    }
+  ],
+  "edge_cases": [
+    {
+      "scenario": "approaching conjunctions",
+      "handling": "use the entire orb of influence for aspects",
+      "confidence": "high"
+    }
+  ],
+  "voice_profiles": {},
+  "unresolved": [
+    {
+      "issue": "details on mathematical calculation of aspects and degrees",
+      "needed": "explicit calculation methodology shared in the segment",
+      "confidence": "medium"
+    },
+    {
+      "item": "compilation",
+      "why": "Expecting ',' delimiter: line 154 column 11 (char 5982)",
+      "suggestion": "retry"
+    }
+  ]
+}
+
+
+
+
+================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+Create a software application that analyzes and interprets astrological charts and entities, providing insights based on known astrological concepts and rules.
+
+
+## INPUTS
+- Astrological chart data
+- Specific positions of planets, asteroids, and other astrological bodies
+
+
+## OUTPUTS
+- Interpretations of astrological phenomena
+- Advice and insights based on chart data
+- Suggestions for personal growth and understanding
+
+
+## ENTITY CATALOG (13 entities)
+
+
+### stellium
+  Type: astrology concept
+  Meaning: a grouping of planets that are within the same house and sign that are within an orb of influence of each other.
+  Meaning: grouping of planets in same house and sign within orb of influence
+  Attributes: orb of influence, same sign, same house
+  Allowed values: within orb, not within orb
+  Constraints: must be in the same house and sign
+  Source: ts_0000, 1:30-22:28
+
+
+### satellitium
+  Type: astrology concept
+  Meaning: a bunch of planets that are in the same sign in house, but they are not within each other's orb of influence.
+  Meaning: grouping of planets in the same sign and house but outside orb of influence
+  Attributes: not within orb of influence, same sign, same house
+  Allowed values: influence with each other, not influence with each other
+  Constraints: must be in the same house and sign
+  Source: ts_0000, 1:30-22:28
+
+
+### Part of Fortune
+  Type: astrological concept
+  Meaning: not stated
+  Source: ts_0001, 22:28-11:11
+
+
+### Uranus
+  Type: planet
+  Meaning: Uranus is too fast to allow luck to come in.
+  Meaning: Uranus signifies quickness regarding luck.
+  Source: ts_0001, 22:28-11:11
+
+
+### Neptune
+  Type: planet
+  Meaning: Neptune has to do with lack of or Illusion or thinking that health is a certain way.
+  Meaning: Neptune represents illusion related to health.
+  Source: ts_0001, 22:28-11:11
+
+
+### Pluto
+  Type: planet
+  Meaning: Pluto has to do with transformation, Evolution and potential death.
+  Meaning: Pluto signifies transformation and evolution.
+  Source: ts_0001, 22:28-11:11
+
+
+### Chiron
+  Type: asteroid
+  Meaning: Chiron is forming a sextile which is a hidden opportunity.
+  Meaning: Chiron signifies hidden opportunities.
+  Meaning: there's definitely an issue that happened at 28
+  Meaning: related to issues or challenges around age 28
+  Attributes: issues at 28
+  Allowed values: not stated
+  Constraints: not stated
+  Source: ts_0001, 22:28-11:11, ts_0002, 11:11
+
+
+### Vesta
+  Type: asteroid
+  Meaning: Vesta is the spark of life.
+  Meaning: Vesta represents life and vitality.
+  Source: ts_0001, 22:28-11:11
+
+
+### Pluto retrograde
+  Type: astrological phenomenon
+  Meaning: Pluto Works inwardly internally
+  Meaning: suggests internal psychological changes
+  Attributes: internal transformation, spiritual aspect
+  Allowed values: inwardly
+  Constraints: not stated
+  Source: ts_0002, 11:11
+
+
+### North Node
+  Type: astrological point
+  Meaning: who this person's supposed to grow into
+  Meaning: represents personal growth direction
+  Attributes: career, public image, personal growth
+  Allowed values: not stated
+  Constraints: not stated
+  Source: ts_0002, 11:11
+
+
+### Aries
+  Type: zodiac sign
+  Meaning: Aries means passion
+  Meaning: associated with passion and motivation
+  Attributes: drive, passion, lust
+  Allowed values: not intimate
+  Constraints: can be selfish in relationships
+  Source: ts_0002, 11:11
+
+
+### Libra
+  Type: zodiac sign
+  Meaning: Libra can have that issue of being selfish within relationships
+  Meaning: can be selfish but find themselves in relationships
+  Attributes: selfishness, finding self
+  Allowed values: not stated
+  Constraints: not stated
+  Source: ts_0002, 11:11
+
+
+## DEFINITIONS (1 definitions)
+
+
+  empty houses: Empty houses mean that your energy is not focused in that area of life. It does not mean that nothing happens in that area of life.
+    [high] Source: ts_0000, 1:30-22:28
+
+
+## RULE ENGINE (6 rules)
+
+
+[R001]
+  IF you have not honed in on what it is you're looking for in a chart
+  THEN you are not going to find any answers.
+  Teacher voice: "you are not going to find any answers if you have not honed in on what it is you're looking for."
+  Exceptions: not stated
+  [high] Source: ts_0000, 1:30-22:28
+
+
+[R002]
+  IF a ruler is aspecting other things
+  THEN that area of life could be extremely active.
+  Teacher voice: "this imaginary person could have an extremely active romantic life if its ruler is also aspecting other things."
+  Exceptions: not stated
+  [high] Source: ts_0000, 1:30-22:28
+
+
+[R003]
+  IF you haven't dealt with issues from childhood, relationships, and insecurities
+  THEN relocation astrology doesn't really matter where you move.
+  Teacher voice: "if you haven't dealt with those and learned how to use those positively then like I said relocation astrology doesn't really matter where you move that's not going anywhere."
+  [high] Source: ts_0001, 22:28-11:11
+
+
+[R004]
+  IF Pluto is retrograde in the 12th house
+  THEN it indicates that psychological changes need to be handled inwardly
+  Teacher voice: "Pluto Works inwardly internally."
+  [high] Source: ts_0002, 11:11
+
+
+[R005]
+  IF a person is associated with Aries in relationships
+  THEN they are driven by passion and motivation, but not intimacy
+  Teacher voice: "Aries means passion."
+  [high] Source: ts_0002, 11:11
+
+
+[R006]
+  IF someone has a Moon in Libra
+  THEN they may feel a need for relationships but can also find themselves within them
+  Teacher voice: "Libra can have that issue of being selfish within relationships."
+  [high] Source: ts_0002, 11:11
+
+
+## CALCULATION PIPELINE
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "stellium": {
+    "type": "object",
+    "properties": {
+      "sameHouse": {
+        "type": "boolean"
+      },
+      "sameSign": {
+        "type": "boolean"
+      },
+      "orbOfInfluence": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "sameHouse",
+      "sameSign"
+    ]
+  },
+  "satellitium": {
+    "type": "object",
+    "properties": {
+      "sameSign": {
+        "type": "boolean"
+      },
+      "sameHouse": {
+        "type": "boolean"
+      },
+      "notWithinOrbOfInfluence": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "sameSign",
+      "sameHouse"
+    ]
+  }
+}
+
+
+Rules schema:
+{
+  "conditions": {
+    "type": "string"
+  },
+  "actions": {
+    "type": "string"
+  }
+}
+
+
+Meanings schema:
+{
+  "terms": {
+    "type": "string"
+  },
+  "definitions": {
+    "type": "string"
+  }
+}
+
+
+## PSEUDOCODE
+initialize_input(chart_data);
+determine_planet_positions(chart_data);
+for each entity in entity_catalog do
+   interpret_entity(entity) based on attributes;
+   apply_rule_engine(entity);
+generate_summary();
+
+
+## VOICE STYLE RULES
+Tone: informative, guiding
+Cadence: steady, deliberate
+Signature phrases: it's important to consider, remember that
+Do:
+  - be clear and concise
+  - provide practical examples
+Avoid:
+  - avoid complex jargon
+  - don't assume user knowledge
+
+
+## MEANING RENDERING RULES
+- Explain each concept clearly in layman's terms.
+- Use examples where applicable to clarify meanings.
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (6 snippets)
+
+
+  [warning] (unknown): "empty houses are not really empty houses."
+    Source: ts_0000, 1:30-22:28
+  [motivation] (unknown): "it's also important to understand that again."
+    Source: ts_0001, 22:28-11:11
+  [warning] (unknown): "not every single reading is going to be rainbow as a butterfly."
+    Source: ts_0001, 22:28-11:11
+  [warning] (unknown): "you're just relocating some of the issues and highlighting."
+    Source: ts_0001, 22:28-11:11
+  [definition] (unknown): "This is something that would happen over time because the North Node..."
+    Source: ts_0002, 11:11
+  [warning] (unknown): "You do have to look at the sign you have to look at the planets..."
+    Source: ts_0002, 11:11
+
+
+## EDGE CASES (2 cases)
+
+
+- Scenario: house is empty
+  Handling: Empty houses mean that your energy is not focused in that area of life, but it does not mean that nothing happens.
+- Scenario: house is empty
+  Handling: Empty houses mean that your energy is not focused in that area of life, but it does not mean that nothing happens.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Verifies that without focusing on a chart, answers are not found
+  Input: {"focus_on_chart": false}
+  Expected (teacher voice): You are not going to find any answers if you have not honed in on what it is you're looking for.
+  Rules: R001
+
+
+[TC002] Tests if a ruler aspecting other things indicates an active area of life
+  Input: {"ruler_aspecting": true}
+  Expected (teacher voice): This imaginary person could have an extremely active romantic life if its ruler is also aspecting other things.
+  Rules: R002
+
+
+[TC003] Verifies relocation astrology's irrelevance if past issues are unresolved
+  Input: {"childhood_issues_resolved": false}
+  Expected (teacher voice): If you haven't dealt with those and learned how to use those positively then like I said relocation astrology doesn't really matter where you move that's not going anywhere.
+  Rules: R003
+
+
+[TC004] Tests that Pluto retrograde in the 12th house requires inward psychological change
+  Input: {"Pluto_position": "retrograde in 12th house"}
+  Expected (teacher voice): Pluto works inwardly internally.
+  Rules: R004
+  Entities: Pluto retrograde
+
+
+[TC005] Tests if Aries association in relationships implies passion but not intimacy
+  Input: {"relationships_association": "Aries"}
+  Expected (teacher voice): Aries means passion.
+  Rules: R005
+
+
+[TC006] Tests that Moon in Libra signifies the need for relationships and self-discovery
+  Input: {"Moon_sign": "Libra"}
+  Expected (teacher voice): Libra can have that issue of being selfish within relationships.
+  Rules: R006
+
+
+[TC007] Tests entity definition of 'stellium' with planets not in the orb of influence
+  Input: {"planet_grouping": {"same_house": true, "same_sign": true, "orb_of_influence": false}}
+  Expected (teacher voice): Definition mismatch since the planets are outside the orb of influence.
+  Entities: stellium
+  [EDGE CASE]
+
+
+[TC008] Tests edge case where Pluto is not retrograde in the 12th house
+  Input: {"Pluto_position": "direct in 12th house"}
+  Expected (teacher voice): Psychological changes might manifest outwardly instead.
+  Rules: R004
+  [EDGE CASE]
+
+
+[TC009] Tests influence of Uranus on luck
+  Input: {"planet": "Uranus"}
+  Expected (teacher voice): Uranus signifies quickness regarding luck.
+  Entities: Uranus
+
+
+[TC010] Tests Neptune's representation of illusion in health without defined health context
+  Input: {"planet": "Neptune", "context": null}
+  Expected (teacher voice): Neptune represents illusion related to health; however, the specific context is missing.
+  Entities: Neptune
+  [EDGE CASE]
+
+
+
+
+{
+  "entities": [
+    {
+      "entity": "stellium",
+      "entity_type": "astrology concept",
+      "meaning_in_teacher_words": "a grouping of planets that are within the same house and sign that are within an orb of influence of each other.",
+      "meaning_normalized": "grouping of planets in same house and sign within orb of influence",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "same house",
+        "same sign",
+        "orb of influence"
+      ],
+      "allowed_values": [
+        "within orb",
+        "not within orb"
+      ],
+      "constraints": [
+        "must be in the same house and sign"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "1:30-22:28"
+      }
+    },
+    {
+      "entity": "satellitium",
+      "entity_type": "astrology concept",
+      "meaning_in_teacher_words": "a bunch of planets that are in the same sign in house, but they are not within each other's orb of influence.",
+      "meaning_normalized": "grouping of planets in the same sign and house but outside orb of influence",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "same sign",
+        "same house",
+        "not within orb of influence"
+      ],
+      "allowed_values": [
+        "influence with each other",
+        "not influence with each other"
+      ],
+      "constraints": [
+        "must be in the same house and sign"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "1:30-22:28"
+      }
+    },
+    {
+      "entity": "Part of Fortune",
+      "entity_type": "astrological concept",
+      "meaning_in_teacher_words": "not stated",
+      "meaning_normalized": "not stated",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "not stated",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "entity": "Uranus",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "Uranus is too fast to allow luck to come in.",
+      "meaning_normalized": "Uranus signifies quickness regarding luck.",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "entity": "Neptune",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "Neptune has to do with lack of or Illusion or thinking that health is a certain way.",
+      "meaning_normalized": "Neptune represents illusion related to health.",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "entity": "Pluto",
+      "entity_type": "planet",
+      "meaning_in_teacher_words": "Pluto has to do with transformation, Evolution and potential death.",
+      "meaning_normalized": "Pluto signifies transformation and evolution.",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "entity": "Chiron",
+      "entity_type": "asteroid",
+      "meaning_in_teacher_words": "Chiron is forming a sextile which is a hidden opportunity.",
+      "meaning_normalized": "Chiron signifies hidden opportunities.",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "entity": "Vesta",
+      "entity_type": "asteroid",
+      "meaning_in_teacher_words": "Vesta is the spark of life.",
+      "meaning_normalized": "Vesta represents life and vitality.",
+      "how_derived_stated": "not stated",
+      "attributes": [],
+      "allowed_values": [],
+      "constraints": [],
+      "examples_stated": [],
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "entity": "Chiron",
+      "entity_type": "astrological body",
+      "meaning_in_teacher_words": "there's definitely an issue that happened at 28",
+      "meaning_normalized": "related to issues or challenges around age 28",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "issues at 28"
+      ],
+      "allowed_values": [
+        "not stated"
+      ],
+      "constraints": [
+        "not stated"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "entity": "Pluto retrograde",
+      "entity_type": "astrological phenomenon",
+      "meaning_in_teacher_words": "Pluto Works inwardly internally",
+      "meaning_normalized": "suggests internal psychological changes",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "internal transformation",
+        "spiritual aspect"
+      ],
+      "allowed_values": [
+        "inwardly"
+      ],
+      "constraints": [
+        "not stated"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "entity": "North Node",
+      "entity_type": "astrological point",
+      "meaning_in_teacher_words": "who this person's supposed to grow into",
+      "meaning_normalized": "represents personal growth direction",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "personal growth",
+        "public image",
+        "career"
+      ],
+      "allowed_values": [
+        "not stated"
+      ],
+      "constraints": [
+        "not stated"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "entity": "Aries",
+      "entity_type": "zodiac sign",
+      "meaning_in_teacher_words": "Aries means passion",
+      "meaning_normalized": "associated with passion and motivation",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "passion",
+        "lust",
+        "drive"
+      ],
+      "allowed_values": [
+        "not intimate"
+      ],
+      "constraints": [
+        "can be selfish in relationships"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "entity": "Libra",
+      "entity_type": "zodiac sign",
+      "meaning_in_teacher_words": "Libra can have that issue of being selfish within relationships",
+      "meaning_normalized": "can be selfish but find themselves in relationships",
+      "how_derived_stated": "not stated",
+      "attributes": [
+        "selfishness",
+        "finding self"
+      ],
+      "allowed_values": [
+        "not stated"
+      ],
+      "constraints": [
+        "not stated"
+      ],
+      "examples_stated": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "condition": "IF you have not honed in on what it is you're looking for in a chart",
+      "action": "THEN you are not going to find any answers.",
+      "teacher_voice_phrasing": "you are not going to find any answers if you have not honed in on what it is you're looking for.",
+      "exceptions": [
+        "not stated"
+      ],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "1:30-22:28"
+      }
+    },
+    {
+      "condition": "IF a ruler is aspecting other things",
+      "action": "THEN that area of life could be extremely active.",
+      "teacher_voice_phrasing": "this imaginary person could have an extremely active romantic life if its ruler is also aspecting other things.",
+      "exceptions": [
+        "not stated"
+      ],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "1:30-22:28"
+      }
+    },
+    {
+      "condition": "IF you haven't dealt with issues from childhood, relationships, and insecurities",
+      "action": "THEN relocation astrology doesn't really matter where you move.",
+      "teacher_voice_phrasing": "if you haven't dealt with those and learned how to use those positively then like I said relocation astrology doesn't really matter where you move that's not going anywhere.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "condition": "IF Pluto is retrograde in the 12th house",
+      "action": "THEN it indicates that psychological changes need to be handled inwardly",
+      "teacher_voice_phrasing": "Pluto Works inwardly internally.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "condition": "IF a person is associated with Aries in relationships",
+      "action": "THEN they are driven by passion and motivation, but not intimacy",
+      "teacher_voice_phrasing": "Aries means passion.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "condition": "IF someone has a Moon in Libra",
+      "action": "THEN they may feel a need for relationships but can also find themselves within them",
+      "teacher_voice_phrasing": "Libra can have that issue of being selfish within relationships.",
+      "exceptions": [],
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    }
+  ],
+  "formulas": [],
+  "procedures": [],
+  "definitions": [
+    {
+      "term": "empty houses",
+      "definition": "Empty houses mean that your energy is not focused in that area of life. It does not mean that nothing happens in that area of life.",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "1:30-22:28"
+      }
+    }
+  ],
+  "meanings": [
+    {
+      "speaker": "unknown",
+      "snippet": "empty houses are not really empty houses.",
+      "use_case": "warning",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0000",
+        "time_range": "1:30-22:28"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "it's also important to understand that again.",
+      "use_case": "motivation",
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "not every single reading is going to be rainbow as a butterfly.",
+      "use_case": "warning",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "you're just relocating some of the issues and highlighting.",
+      "use_case": "warning",
+      "confidence": "medium",
+      "citation": {
+        "segment_id": "ts_0001",
+        "time_range": "22:28-11:11"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "This is something that would happen over time because the North Node...",
+      "use_case": "definition",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    },
+    {
+      "speaker": "unknown",
+      "snippet": "You do have to look at the sign you have to look at the planets...",
+      "use_case": "warning",
+      "confidence": "high",
+      "citation": {
+        "segment_id": "ts_0002",
+        "time_range": "11:11"
+      }
+    }
+  ],
+  "calculation_steps": [],
+  "edge_cases": [
+    {
+      "scenario": "house is empty",
+      "handling": "Empty houses mean that your energy is not focused in that area of life, but it does not mean that nothing happens.",
+      "confidence": "high"
+    }
+  ],
+  "voice_profiles": {},
+  "unresolved": []
+}

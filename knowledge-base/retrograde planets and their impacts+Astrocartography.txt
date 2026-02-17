@@ -1,0 +1,791 @@
+﻿retrograde planets and their impacts
+
+
+
+
+## PURPOSE
+To create an application that interprets astrology chart elements focusing on retrograde planets and their impacts.
+
+
+## INPUTS
+- astrological chart data
+- planet positions
+- planet retrograde statuses
+
+
+## OUTPUTS
+- interpretation of career direction
+- insights on personal control and authority
+- understanding of spiritual and intuitive challenges
+
+
+## ENTITY CATALOG (6 entities)
+
+
+### Saturn
+  Type: planet
+  Meaning: authority, long-term goals, career
+  Meaning: authority and long-term goals related to career
+  Attributes: in retrograde, position in 12th house
+  Allowed values: retrograde, direct
+  Source: ts_0000, 7:04-8:51
+
+
+### 10th house
+  Type: astrological house
+  Meaning: public image, reputation, long-term daily activities
+  Meaning: public image and reputation aligned with long-term daily activities
+  Attributes: ruler may be retrograde or direct
+  Source: ts_0000, 7:04-8:51
+
+
+### retrograde
+  Type: astrological term
+  Meaning: planets that do not operate fully direct
+  Meaning: planets in a reverse motion
+  Attributes: can affect authority preferences
+  Allowed values: pre-grade, retrograde, post-grade
+  Source: ts_0000, 7:04-8:51
+
+
+### Neptune
+  Type: planet
+  Meaning: Neptune is all about illusion, spirituality, creativity, and imagination.
+  Meaning: spirituality and creativity aspects of Neptune
+  Attributes: spirituality, illusion, imagination, creativity
+  Source: ts_0001, 8:51-11:57
+
+
+### Neptune retrograde
+  Type: astrological condition
+  Meaning: Neptune retrograde is a challenge of not understanding reality.
+  Meaning: confusion about reality associated with Neptune retrograde
+  Attributes: haze, unconscious mind, not understanding, utopian visions
+  Examples: vivid dreams, recurring dreams
+  Source: ts_0001, 8:51-11:57
+
+
+### Pluto retrograde
+  Type: astrological influence
+  Meaning: Pluto retrograde means you don't have any power and control.
+  Meaning: Pluto retrograde signifies a lack of power and control.
+  Attributes: influence, transformation, control issues
+  Allowed values: not stated
+  Constraints: applicable only to individuals with Pluto retrograde in their chart
+  Source: ts_0002, 11:57
+
+
+## DEFINITIONS (5 definitions)
+
+
+  career: not just about the job, but what you've done over a long time
+    [high] Source: ts_0000, 7:04-8:51
+  post grade: revisiting and reworking placements in a natal chart
+    [medium] Source: ts_0000, 7:04-8:51
+  pre grade: may be more challenging as it requires redoing
+    [medium] Source: ts_0000, 7:04-8:51
+  utopian visions: the expectations of how things should be on an ethereal level.
+    [high] Source: ts_0001, 8:51-11:57
+  Pluto retrograde: A phase where the influence of Pluto is seen as reworking power and control in one's life.
+    [high] Source: ts_0002, 11:57
+
+
+## RULE ENGINE (6 rules)
+
+
+[R001]
+  IF you have Saturn in retrograde
+  THEN you don't respect authority figures just because of their title, you need them to prove their authority.
+  Teacher voice: "you think you have the authority more than other people"
+  [high] Source: ts_0000, 7:04-8:51
+
+
+[R002]
+  IF 10th house ruler is retrograde
+  THEN you are not meant to have careers in the standard traditional sense.
+  Teacher voice: "most people with a Saturn retrograde or a 10th house ruler that is retrograde are not meant to have careers in the standard traditional sense"
+  [high] Source: ts_0000, 7:04-8:51
+
+
+[R003]
+  IF you have Neptune retrograde
+  THEN you don't understand why things can't just be as you envision.
+  Teacher voice: "your level of utopianism is inward, you don't understand why in this area of life it can't just be."
+  [high] Source: ts_0001, 8:51-11:57
+
+
+[R004]
+  IF you have recurring dreams
+  THEN it's usually your unconscious mind that is talking to you.
+  Teacher voice: "it is usually your unconscious mind that is talking to you."
+  [high] Source: ts_0001, 8:51-11:57
+
+
+[R005]
+  IF Pluto is retrograde in your chart
+  THEN you feel powerless and lack control throughout your life.
+  Teacher voice: "when you're born, all the power and control, all the transformation had already been happening."
+  [high] Source: ts_0002, 11:57
+
+
+[R006]
+  IF you have any retrograde in your chart
+  THEN you tend to overcompensate to prove that you have control.
+  Teacher voice: "we always overcompensate to try to prove that we have that normally."
+  [high] Source: ts_0002, 11:57
+
+
+## CALCULATION PIPELINE
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "Saturn": {
+    "type": "object",
+    "properties": {
+      "position": {
+        "type": "string"
+      },
+      "retrograde": {
+        "type": "boolean"
+      }
+    }
+  }
+}
+
+
+Rules schema:
+{
+  "Rule": {
+    "type": "object",
+    "properties": {
+      "condition": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      }
+    }
+  }
+}
+
+
+## PSEUDOCODE
+
+
+Load astrological chart data
+For each planet, check retrograde status
+If Saturn is in retrograde, trigger rule R001
+If 10th house ruler is retrograde, trigger rule R002
+If Neptune retrograde is present, analyze its impact on creativity
+Check for recurring dreams to apply Neptune retrograde insights
+Evaluate Pluto retrograde for power issues
+Output interpretations related to career, control, and personal insights
+
+
+
+
+## VOICE STYLE RULES
+Tone: insightful, authoritative
+Cadence: steady and clear, maintain logical flow
+Signature phrases: The astrological implications are clear:, In view of these placements:
+Do:
+  - Explain each rule with clarity
+  - Highlight authority and impact
+Avoid:
+  - Avoid unnecessary jargon
+  - Steer clear of ambiguous terms
+
+
+## MEANING RENDERING RULES
+- Always provide astrological meanings in context of life impacts
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (8 snippets)
+
+
+  [example] (unknown): "you've got a lot of ... you've got a 21 degree Venus that goes into a 23 degree sun ..."
+    Source: ts_0000, 7:04-8:51
+  [definition] (unknown): "the beautiful thing ... they are powerful ..."
+    Source: ts_0000, 7:04-8:51
+  [definition] (unknown): "Neptune is all about what? Illusion. Spirituality, creativity, imagination, all of these things."
+    Source: ts_0001, 8:51-11:57
+  [meaning] (unknown): "your level of utopianism is inward."
+    Source: ts_0001, 8:51-11:57
+  [example] (unknown): "you have vivid dreams."
+    Source: ts_0001, 8:51-11:57
+  [meaning] (unknown): "Pluto is the same thing. You try to have control over everything."
+    Source: ts_0002, 11:57
+  [meaning] (unknown): "you feel often in situations like you are powerless and that you don't have control over things."
+    Source: ts_0002, 11:57
+  [example] (unknown): "you had to share with everybody. You didn't have anything that was, that was yours."
+    Source: ts_0002, 11:57
+
+
+## EDGE CASES (2 cases)
+
+
+- Scenario: having deep intuition associated with Neptune retrograde
+  Handling: you may not understand your intuition, making it hard to connect with inspiration.
+- Scenario: having deep intuition associated with Neptune retrograde
+  Handling: you may not understand your intuition, making it hard to connect with inspiration.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Verifies Saturn's influence when it is in retrograde.
+  Input: {"Saturn": "retrograde"}
+  Expected (teacher voice): You think you have the authority more than other people.
+  Rules: R001
+  Entities: Saturn
+
+
+[TC002] Determines career implications of having the 10th house ruler in retrograde.
+  Input: {"10th house ruler": "retrograde"}
+  Expected (teacher voice): Most people with a Saturn retrograde or a 10th house ruler that is retrograde are not meant to have careers in the standard traditional sense.
+  Rules: R002
+  Entities: 10th house
+
+
+[TC003] Assesses the influence of Neptune retrograde on perception.
+  Input: {"Neptune": "retrograde"}
+  Expected (teacher voice): Your level of utopianism is inward, you don't understand why in this area of life it can't just be.
+  Rules: R003
+  Entities: Neptune
+
+
+[TC004] Evaluates subconscious mind's messages through recurring dreams.
+  Input: {"recurring dreams": true}
+  Expected (teacher voice): It is usually your unconscious mind that is talking to you.
+  Rules: R004
+  Entities: Neptune retrograde
+
+
+[TC005] Checks influence of Pluto being retrograde in the chart.
+  Input: {"Pluto": "retrograde"}
+  Expected (teacher voice): When you're born, all the power and control, all the transformation had already been happening.
+  Rules: R005
+  Entities: Pluto retrograde
+
+
+[TC006] Tests the general effect of any planet in retrograde.
+  Input: {"retrograde": true}
+  Expected (teacher voice): We always overcompensate to try to prove that we have that normally.
+  Rules: R006
+  Entities: retrograde
+
+
+[TC007] Edge case: Missing data in Saturn retrograde calculation.
+  Input: {}
+  Expected (teacher voice): No information to determine authority perception based on Saturn status.
+  [EDGE CASE]
+
+
+[TC008] Edge case: Unknown astrological entity provided.
+  Input: {"unknown_entity": "unknown_status"}
+  Expected (teacher voice): Entity not recognized - unable to apply astrological rules.
+  [EDGE CASE]
+
+
+[TC009] Conflicting retrograde conditions from different planets.
+  Input: {"Saturn": "retrograde", "Neptune": "retrograde"}
+  Expected (teacher voice): You think you have the authority more than other people and your level of utopianism is inward, you don't understand why in this area of life it can't just be.
+  Rules: R001, R003
+  Entities: Saturn, Neptune
+
+
+[TC010] Combines multiple retrogrades to test overcompensation behavior.
+  Input: {"Saturn": "retrograde", "10th house ruler": "retrograde", "Neptune": "retrograde", "Pluto": "retrograde"}
+  Expected (teacher voice): We always overcompensate to try to prove that we have that normally. Most people with a Saturn retrograde or a 10th house ruler that is retrograde are not meant to have careers in the standard traditional sense. Your level of utopianism is inward, you don't understand why in this area of life it can't just be. When you're born, all the power and control, all the transformation had already been happening.
+  Rules: R001, R002, R003, R005, R006
+  Entities: Saturn, 10th house, Neptune, Pluto retrograde
+
+
+================================================================================
+END OF BUILDER PROMPT for retrograde planets and their impacts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ASTROCARTOGRAPHY - 
+
+
+BUILDER PROMPT
+
+
+
+
+## PURPOSE
+Build a tool that leverages astrological knowledge to understand the influence of planetary positions and lines on individuals in astro cartography.
+
+
+## INPUTS
+- Natal chart details
+- Current location
+- Desired movement in relation to astrological lines
+
+
+## OUTPUTS
+- Astrological reading based on current and possible locations
+- Analysis of planetary influences
+- Personalized recommendations based on relocated positions
+
+
+## ENTITY CATALOG (10 entities)
+
+
+### Scorpio Rising
+  Type: Astrological Sign
+  Meaning: not stated
+  Attributes: chart ruler, house placement, 12 degrees, 1st house
+  Allowed values: not stated, rising sign in Scorpio
+  Constraints: not stated, must have chart ruler in Pluto
+  Source: ts_0000, 4:15-4:15, ts_0002, 4:15-4:15
+
+
+### Pluto
+  Type: Planet
+  Meaning: not stated
+  Attributes: chart ruler, influence on identity
+  Allowed values: house placement, aspects
+  Constraints: must relate to Scorpio Rising
+  Source: ts_0000, 4:15-4:15
+
+
+### Saturn Return
+  Type: Astrological Event
+  Meaning: not stated
+  Attributes: position in Pisces, degrees
+  Allowed values: 18 degrees
+  Constraints: occurs approximately every 29.5 years
+  Source: ts_0000, 4:15-4:15
+
+
+### Neptune
+  Type: Planet
+  Meaning: not stated
+  Attributes: transit impacts, house placement
+  Allowed values: in the third house
+  Constraints: must relate to other astrological influences
+  Source: ts_0000, 4:15-4:15
+
+
+### Harrisburg
+  Type: Location
+  Meaning: not stated
+  Attributes: Pennsylvania
+  Allowed values: not stated
+  Constraints: not stated
+  Source: ts_0002, 4:15-4:15
+
+
+### Part of Fortune
+  Type: Astrological Point
+  Meaning: not stated
+  Attributes: 12 degrees, 15 degrees
+  Allowed values: not stated
+  Constraints: not stated
+  Source: ts_0002, 4:15-4:15
+
+
+### Crossing Lines
+  Type: Astrological Lines
+  Meaning: Crossing Lines are latitude and Alliance.
+  Meaning: Lines that indicate astrological influences based on latitude.
+  Attributes: latitude, alignment
+  Allowed values: west, east
+  Constraints: not stated
+  Examples: Crossing Jupiter Saturn, Crossing Moon and Jupiter, Crossing Moon and Mercury
+  Source: ts_0003, 4:15
+
+
+### Moon
+  Type: Planet
+  Meaning: It may or may not be better based on its position.
+  Meaning: Refers to the influence of the Moon in astrology.
+  Attributes: influence
+  Allowed values: better, not better
+  Constraints: depends on position
+  Examples: Moon on the midheaven with Jupiter on the ascendant
+  Source: ts_0003, 4:15
+
+
+### Jupiter
+  Type: Planet
+  Meaning: It indicates certain energies depending on position.
+  Meaning: Refers to the influence of Jupiter in astrology.
+  Attributes: influence
+  Allowed values: weaker, stronger
+  Constraints: based on number
+  Examples: Jupiter on the midheaven
+  Source: ts_0003, 4:15
+
+
+## DEFINITIONS (5 definitions)
+
+
+  Astro cartography: not stated
+    [not stated] Source: ts_0000, 4:15-4:15
+  House: not stated
+    [not stated] Source: ts_0000, 4:15-4:15
+  Capricorn rising: A natal chart aspect indicating one's ascendant sign.
+    [high] Source: ts_0003, 4:15
+  Scorpio rising: Another natal chart aspect indicating one's ascendant sign.
+    [high] Source: ts_0003, 4:15
+  Midheaven: The highest point in a natal chart, indicating career and life purpose.
+    [high] Source: ts_0003, 4:15
+
+
+## RULE ENGINE (7 rules)
+
+
+[R001]
+  IF someone moves to their Venus line
+  THEN it is believed it will be amazing
+  Teacher voice: "someone will tell them move to your venous line. It will be amazing."
+  Exceptions: if Neptune is negatively aspecting or conflicting
+  [medium] Source: ts_0000, 4:15-4:15
+
+
+[R002]
+  IF someone moves to their Jupiter line
+  THEN it is believed it will be amazing
+  Teacher voice: "or move to your Jupiter line. It will be amazing."
+  Exceptions: if bad transits are happening to Jupiter
+  [medium] Source: ts_0000, 4:15-4:15
+
+
+[R003]
+  IF 12 degrees is in the natal chart
+  THEN it is in the second of the first house
+  Teacher voice: "right? So they are a Neptune. They're basically a Scorpio Pisces, right?"
+  [high] Source: ts_0002, 4:15-4:15
+
+
+[R004]
+  IF the person has a 16 degree Part of Fortune
+  THEN it is out of the orb of influence at 15 degrees
+  Teacher voice: "it's still kind of out of the orb of influence because both of these are mathematical points."
+  [high] Source: ts_0002, 4:15-4:15
+
+
+[R005]
+  IF they go a little bit further east
+  THEN they could have a sex tile between their Part of Fortune and their ascendant
+  Teacher voice: "which could make them inherently lucky especially through sales Communications their local neighborhood."
+  [high] Source: ts_0002, 4:15-4:15
+
+
+[R006]
+  IF the ascendant and midheaven stay in the same sign and house
+  THEN general readings will involve these placements.
+  Teacher voice: "all stay in the same sign in the same deck in in the same house."
+  [medium] Source: ts_0002, 4:15-4:15
+
+
+[R007]
+  IF the Moon is on the midheaven with Jupiter on the ascendant
+  THEN it may be a better situation based on Moon's position.
+  Teacher voice: "it's interesting, it's Jupiter on the midheaven and Saturn the ascendant."
+  Exceptions: not stated
+  [medium] Source: ts_0003, 4:15
+
+
+## CALCULATION PIPELINE
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "type": "object",
+  "properties": {
+    "entity": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string"
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "allowed_values": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "citation_segments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
+
+
+Rules schema:
+{
+  "type": "object",
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "teacher_voice_phrasing": {
+      "type": "string"
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "citation_segment": {
+      "type": "string"
+    }
+  }
+}
+
+
+Meanings schema:
+{
+  "type": "object",
+  "properties": {
+    "term": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "citation": {
+      "type": "object",
+      "properties": {
+        "segment_id": {
+          "type": "string"
+        },
+        "time_range": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+
+
+## PSEUDOCODE
+1. Input: Collect user natal chart and potential relocation details.
+2. Process: Analyze current location with respect to natal chart.
+3. Check influence: Apply rules to interpret positional changes and potential outcomes.
+4. Output: Provide recommendation for optimal locations or confirm relocation benefits influenced by astrological entities.
+5. Display results in an easily understandable format to the user along with caveats.
+
+
+## VOICE STYLE RULES
+Tone: informative, cautious
+Cadence: ensure clarity, provide detailed reasoning
+Signature phrases: It's important to note..., You'll want to consider...
+Do:
+  - Explain with examples
+  - Be precise and clear
+Avoid:
+  - Do not assume prior knowledge
+  - Avoid astrological jargon without explanation
+
+
+## MEANING RENDERING RULES
+- Provide context for each astrological term as if explaining to a novice
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (5 snippets)
+
+
+  [warning] (unknown): "please beware that a lot of the astrology books are just very inaccurate."
+    Source: ts_0000, 4:15-4:15
+  [example] (unknown): "they just know that Venus sounds good because it has to do with love and money."
+    Source: ts_0000, 4:15-4:15
+  [motivation] (unknown): "a lot of people when they jump they dive into real location astrology after cartography astrology."
+    Source: ts_0000, 4:15-4:15
+  [motivation] (unknown): "it's really important to also know this is fun."
+    Source: ts_0003, 4:15
+  [meaning] (unknown): "the longer they stay the more this is going to happen."
+    Source: ts_0003, 4:15
+
+
+## EDGE CASES (6 cases)
+
+
+- Scenario: moving to a line without understanding its implications
+  Handling: be careful and consider the aspects of the planets involved
+- Scenario: Moving to a location with no city
+  Handling: You have to remember sometimes there's just no City there. It might be the middle of a desert or not in Pennsylvania.
+- Scenario: Clicking too close to a line
+  Handling: You won't see the proper peronlines.
+- Scenario: moving to a line without understanding its implications
+  Handling: be careful and consider the aspects of the planets involved
+- Scenario: Moving to a location with no city
+  Handling: You have to remember sometimes there's just no City there. It might be the middle of a desert or not in Pennsylvania.
+- Scenario: Clicking too close to a line
+  Handling: You won't see the proper peronlines.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Verifying amazing experience on Venus line without conflicts
+  Input: {"movement": "Venus line", "aspecting": "positive"}
+  Expected (teacher voice): Someone will tell them move to your Venus line. It will be amazing.
+  Rules: R001
+
+
+[TC002] Verifying blocked amazing experience on Venus line due to Neptune conflict
+  Input: {"movement": "Venus line", "aspecting": "negative", "planet": "Neptune"}
+  Expected (teacher voice): Someone will tell them be cautious moving to your Venus line with Neptune conflicts.
+  Rules: R001
+  Entities: Neptune
+  [EDGE CASE]
+
+
+[TC003] Verifying amazing experience on Jupiter line with positive transits
+  Input: {"movement": "Jupiter line", "transits": "positive"}
+  Expected (teacher voice): Or move to your Jupiter line. It will be amazing.
+  Rules: R002
+
+
+[TC004] Handling bad transits on Jupiter line blocking amazing experience
+  Input: {"movement": "Jupiter line", "transits": "bad"}
+  Expected (teacher voice): Someone will tell them be cautious with bad transits on Jupiter line.
+  Rules: R002
+  Entities: Jupiter
+  [EDGE CASE]
+
+
+[TC005] Checking 12 degrees placement confirms Scorpio Rising
+  Input: {"degrees": 12, "natal_chart": "Scorpio Rising"}
+  Expected (teacher voice): Right? So they are a Neptune. They're basically a Scorpio Pisces, right?
+  Rules: R003
+  Entities: Scorpio Rising
+
+
+[TC006] 16 degrees Part of Fortune does not influence due to degree limit
+  Input: {"degrees": 16, "Part_of_Fortune": true}
+  Expected (teacher voice): It's still kind of out of the orb of influence because both of these are mathematical points.
+  Rules: R004
+  Entities: Part of Fortune
+
+
+[TC007] Verifying possible luck with a sextile by moving east
+  Input: {"direction": "east", "aspect": "sextile"}
+  Expected (teacher voice): Which could make them inherently lucky especially through sales Communications their local neighborhood.
+  Rules: R005
+  Entities: Crossing Lines
+
+
+[TC008] Checking ascendant and midheaven staying in the same sign
+  Input: {"ascendant_sign": "same", "midheaven_sign": "same"}
+  Expected (teacher voice): All stay in the same sign in the same deck in in the same house.
+  Rules: R006
+
+
+[TC009] Improving situation with Moon on midheaven and Jupiter on the ascendant
+  Input: {"Moon_position": "midheaven", "Jupiter_position": "ascendant"}
+  Expected (teacher voice): It's interesting, it's Jupiter on the midheaven and Saturn the ascendant.
+  Rules: R007
+  Entities: Moon, Jupiter
+
+
+[TC010] Handling unknown ascendant sign case
+  Input: {"ascendant_sign": "unknown", "midheaven_sign": "same"}
+  Expected (teacher voice): Insufficient data to determine if all stay in the same sign.
+  Rules: R006
+  [EDGE CASE]
+
+
+## UNRESOLVED (2 items)
+
+
+- no explicit calculation or decision logic was presented
+  Needed: specific decision logic for Astro cartography interpretation
+- Specific influences of each line crossing
+  Needed: More detailed examples and contexts for each crossing line's influence.
+
+
+================================================================================
+END OF BUILDER PROMPT
+
+
+
+
+
+
+End of Astrocartography

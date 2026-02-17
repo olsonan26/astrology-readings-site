@@ -1,0 +1,3254 @@
+﻿SUPER NEWBIE:
+
+
+
+
+Hey, everybody.
+
+
+Welcome to the Uber Newbie Basics.
+
+
+Basically, it's a tutorial and a walkthrough of everything you need to know to get into astrology, especially alchemistic astrology, because we view astrology differently than other systems.
+
+
+If you're brand new to astrology, then this is great.
+
+
+This is like an an intro class.
+
+
+When you join a martial arts school, usually, at least in my school, before you get your white belt, before you take that first class, there's an intro class.
+
+
+It's kind of like where we, the instructor take you, um, ahead of time onto the mat.
+
+
+We show you the flags, we show you the mat, we show you the mirrors, we show you your space, we teach you how to bow, to enter, ready position, all of that, and we basically get you clued in so that as you jump into class, you don't feel completely lost.
+
+
+Now, we are doing this kind of a, not kind of in four days, it'll be the one year anniversary of Mystic Circle, which is an exciting time for us.
+
+
+All of our classes, all of our replays, all of our information, it's all good stuff.
+
+
+But if you're brand new to astrology, and a lot of people are, uh, we can't do courses where we're teaching people or talking to people as if they know all this stuff because they don't, they're jumping in and it's very easy to get lost in the sauce and try to learn all this when you don't have the very, very basic, basic basics down.
+
+
+So that's what this is all about.
+
+
+If you already know how to read a glyph, you already know that alchemistic astrology is all about energy.
+
+
+You already know these things, then this isn't necessarily for you.
+
+
+But if you're getting in and you've either come from a different system of astrology or you're trying to unlearn to learn, or this is brand new to you to begin with, and this is gonna be great for you.
+
+
+So what we're gonna do is share the screen, and we're gonna go through, uh, what we have here.
+
+
+So again, Uber Newbie Basics, it's the the class before the class.
+
+
+Uh, this is the introduction class, and this is, um, by the way, this PDF is going to be available to you when this video goes into the replay realm.
+
+
+If you're already watching it from the replay realm, check below the video for the PDF.
+
+
+You can download it and you can refer to it as many times as you want as a resource.
+
+
+So first thing that you need to know is energy.
+
+
+Everything in alchemistic, astrology is energy.
+
+
+We do not look at placements in a chart and say, oh, this planet is sitting in this house, or This planet is sitting in this sign.
+
+
+Therefore it means X, y, z. We don't do that.
+
+
+You should not be doing that because that's not what you're actually looking at.
+
+
+Now, I'm gonna come back to this slide in just a second, and I'm going to open up a separate webpage.
+
+
+Uh, do, do, do here first, and I'm gonna be using astro.com.
+
+
+Where did my share button go? Sorry, share.
+
+
+I'm gonna be using astro.com.
+
+
+I already show you this in the Foundation's legacy class, but the foundation's legacy class might not exist for very long because we're gonna be overriding redoing all these classes.
+
+
+So I'm sure I'll teach you in those classes again, but I'm gonna show you right now that when you go to astro.com, this is our homepage.
+
+
+And when you go to horoscopes down to extended chart selection, you will get this.
+
+
+Now on your end, because you guys are probably not paying or logged in, you may see it like this.
+
+
+All these accordions will be closed, and there's certain things that you need.
+
+
+There's certain things that I use versus what you use.
+
+
+I'm gonna show you what you should be using at the very, very beginning, and then you could start adding things in over time.
+
+
+First thing is in the birth data section, again, I'm already saved in here because I pay for the service and I've been doing readings for a very long time.
+
+
+But you're gonna put your birth information, your birth time, your birth date, and your birthplace.
+
+
+And yes, they do have to be accurate.
+
+
+You cannot have a time range, you can't have a guest time.
+
+
+It has to be the exact place, uh, and exact time of birth.
+
+
+When you come down here, you're not gonna change any of this special ephemeris, pullin, astrology.
+
+
+You're, that's for something completely different.
+
+
+You're gonna keep it round, which is the round chart, the wheel, and you're gonna have the chart type.
+
+
+A lot of options in here for the very, very basics and beginners.
+
+
+We are gonna keep it at natal chart wheel.
+
+
+It is the default. Keep it there. Web default style.
+
+
+Again, a lot of options, just keep it.
+
+
+The date is not going to matter until we activate transits.
+
+
+Now, if you're looking to understand the energies in the universe and how they're affecting you now, then this will populate as today's date, August 6th, 2025.
+
+
+But if I wanted to see where the transits were, let's just say a year ago, I would change this to 2024, I won't change anything else.
+
+
+I'm just gonna show the chart and I'll show you what that means later.
+
+
+So I'm gonna keep it at 2025. Under Zodiac.
+
+
+In houses, it's going to say default.
+
+
+This is what it's going to look like.
+
+
+You're not gonna touch any of this information.
+
+
+You're only gonna take the house system, which these are the same default and plaus, and you're gonna change it to whole signs.
+
+
+Whole signs is the only accurate system. Plaus is wrong.
+
+
+All of these are wrong. These are nothing.
+
+
+In fact, when you read my book, I fixed astrology.
+
+
+You're gonna see where I talk about azimuth.
+
+
+Azimuth doesn't even make sense as a whole, as a, um, health system.
+
+
+So it's funny how it still exists.
+
+
+But anyway, whole science is what you want when you open up display and calculation objects, options, rather, I have a lot of things selected.
+
+
+You're going to select traditional deens to make sure that's checked under calculation objects, true node mean known and descending node, you can, you could just use mean known and descending node for now.
+
+
+Don't worry about true node. That's a whole different thing.
+
+
+I'm gonna uncheck it just so that I have this and this, this is what I want you guys to have.
+
+
+When you go under additional objects, there are a lot of things you can see here in the gray that I have selected.
+
+
+I use all of these things over here.
+
+
+We have H 13, um, 20,000, which is technically a duplicate.
+
+
+We have all these different things here.
+
+
+You do not need all of this selected.
+
+
+The only, technically we don't need any of these, so let's just leave that e uh, empty over here.
+
+
+We want mean Lilith, and we want Chiron for now for the very Uber, Uber basics.
+
+
+Those are the only two things you need me, Lilith, Chiron, and we are going to show the chart.
+
+
+Those are all the settings.
+
+
+This is what your chart will look like for context and contrast.
+
+
+Uh, sorry, let me reset this.
+
+
+Boop boop boop.
+
+
+This is what it looks like for me when I do a reading and you see the difference, right?
+
+
+Uh, let me zoom in a little bit.
+
+
+Let me zoom in a little bit.
+
+
+So you see that versus that, that versus that.
+
+
+You see how much additional context is in this chart, how busy it looks versus this one, which you have your main points to look at.
+
+
+These are what are important, these are the things that you should understand.
+
+
+These are all, when we start getting into all the details, all the additional stuff, the asteroids, mathematical points.
+
+
+And this isn't everything. And this is why when you're looking at a natal chart and you're making assessments over, let's say, um, this Mars placement, you just say, oh, Mars is in a third.
+
+
+It means this Mars is in Libra. It means this.
+
+
+Well, technically you're gonna learn that Mars is actually in Gemini and it expresses through Libra, and I'll get to that in a minute.
+
+
+But Mars is sitting here conjunct polythene.
+
+
+When you don't have that activated, you don't know that Mars is conjunct polythene.
+
+
+So you're trying to make an assessment, not understanding that there's other energies that contribute to Mars, which change the flavor, if you will, or the expression of, um, all of these energies.
+
+
+Julie, yes, you will have the PDF at the end.
+
+
+You're not, I don't, I don't give the PDFs during the class because I need you to pay attention to where I am.
+
+
+And when the replay comes up, you will, um, you will have access to the PDF.
+
+
+But you see here, Mars is sitting here at five degrees, 56 arc minutes when I include everything else.
+
+
+Yes, Mars is still at five degrees, 56 arc minutes.
+
+
+Nothing changes, but there's a conjunction to three degrees, 57 arc minutes of the asteroid polythene.
+
+
+So again, just know that it does get more intricate, it gets more complex.
+
+
+There's way more that goes on.
+
+
+And as you learn more and more and more in alchemistic astrology, you will learn these asteroids, you will learn these aspects, you'll learn all of these things, and they will help you understand and kind of, uh, whittle away at the rock that you're sculpting so that you get this beautiful statue instead of this lump of clay.
+
+
+So for here, this is what you're gonna be looking at, uh, for now, you can see all the main planets.
+
+
+We're gonna get into the, these glyphs.
+
+
+Um, I'm not gonna be going through deens right now, but these, I told you to activate the deens.
+
+
+You will need them. You will want them.
+
+
+But every single one of these, um, zodiac signs is split into three other ones.
+
+
+These are called deens, and they do have elemental energy.
+
+
+This is a different class, a different course, but um, from the get go, I want you to have them activated so that you can use them as we, uh, as we move forward.
+
+
+So this is what a natal chart will look like.
+
+
+That's how you pull one up.
+
+
+Then up here, remember we talked about those dates, you're gonna see back to chart selection or add transits.
+
+
+So all I'm gonna do is add transits.
+
+
+I'm not pulling up a different chart.
+
+
+You're gonna notice that these green glyphs pop up, right?
+
+
+And this is for today. I didn't use any other date.
+
+
+You would change the date in the screen before if we wanted to see something different.
+
+
+So for instance, right now you can see that Chiron is sitting at 27 and change in retrograde in the sign of Aries.
+
+
+That goes through my ninth house.
+
+
+Again, this will make more sense in a couple minutes.
+
+
+If I go back to chart selection, I can change this and I can go 20, 24, same thing.
+
+
+No transits are showing. I gotta show the transits.
+
+
+And now I can see that Chiron, this time last year was sitting at, uh, what's that, 23 degrees, 23 and a half degrees, also retrograde this time last year.
+
+
+But Saturn was not sitting in Aries.
+
+
+Saturn was sitting in Pisces.
+
+
+You get to see where everything is and how it connects in the chart.
+
+
+So that's all I'm gonna show you for that.
+
+
+That is what a natal chart looks like.
+
+
+I do wanna highlight, I do wanna highlight one other thing here, which is I'm gonna turn these transits off.
+
+
+You are going to, in this class, you're not gonna learn about orbs of influence, but orbs of influence are extremely important.
+
+
+An orb of influence is what helps you determine what an aspect is.
+
+
+We're gonna be talking about aspects a little bit in this introductory class, but there are certain lines that you see in the middle of these charts.
+
+
+You can't go off of these lines because they use 10 degree orb of influences, and there's only one planet that has a 10 degree orb of influence, which is the sun.
+
+
+All the other ones have a lesser degree.
+
+
+The moon, for instance, in alchemistic, astrology has a three degree orb of influence.
+
+
+So you have to be careful to say, is this actually an aspect?
+
+
+A good example of that is you'll see mercury sitting retrograde at six degrees, 41 arc minutes, and then you'll trace this blue line, this one right here, blue line goes to Saturn at 15 degree, 34, uh, 15 degrees, 32 arc minutes.
+
+
+Saturn retrograde. That line is not real.
+
+
+This line is showing in this astrology software, because they use a 10 degree orb of influence, but Saturn has a seven and a half degree orb of influence.
+
+
+Mercury has a three degree orb of influence, and therefore, if you take 15 degrees minus six, you have about nine degrees.
+
+
+Neither one of those planets reaches up to nine degrees.
+
+
+This blue line is a lie.
+
+
+So don't look at these lines and think, oh, I have an aspect there.
+
+
+You have to verify every single one of these lines.
+
+
+Eventually, I'm gonna be creating an astrology software.
+
+
+I'm still looking for the right developers, and it will be 100% accurate.
+
+
+You can rely on those lines, but unfortunately, you can't just blindly rely on those lines in most systems of astrology, most astrology software, because they use orbs of influence that don't apply.
+
+
+Let's go back to this. How did I know that math?
+
+
+I figured it out. Observational science. Um, I don't know what I'm sharing, but it's not highlighting the right thing.
+
+
+Uh, do, do, do, do, do.
+
+
+That's something I describe in my book, like how did I come up with these orbs of influence?
+
+
+It was a lot of, oh, showing the entire desktop that would've worked, but let's do this way.
+
+
+Okay? So we're, we're looking at this now, okay, um, to come up with that math, you have to watch time.
+
+
+You have to kind of pull it together.
+
+
+Just asking because I have no ideas.
+
+
+Just one to clarify it, it's is a lot of work.
+
+
+It was six years of determining when something was happening, when it wasn't, and, uh, watching the observable outcomes of aspects, which we had to clarify for this system.
+
+
+Alright, so energy here again, you are not reading placements, you are not reading Mars as in my seventh, you are reading, Mars has this energy, it is this, and it expresses through this area of life, through this sign.
+
+
+You have to read everything as energy.
+
+
+When you get down to the molecular level, everything in realism, in, in the realistic world, rather in existence is energy.
+
+
+It is not definitives.
+
+
+We are not opening up the page 42 of our lifeline and saying, oh, Mars is doing this to me.
+
+
+We're understanding that Mars is simply a representation of an energetic field.
+
+
+It's kind of like if I, and I don't have any musical instruments, which is a, if I go don, Well, the actual striking of the instrument, the instrument is what creates the reverberation and the frequency, the shape of it, the material of it, so on and so forth.
+
+
+But the lingering don, that happens.
+
+
+That is not the planet itself. That is not a thing.
+
+
+That is a frequency, that is a sound.
+
+
+That is an energy that comes out and it permeates until it fades.
+
+
+It has a gradient roll off, if you will.
+
+
+That's the same thing with when you're talking about planets.
+
+
+Mars does not actually affect you.
+
+
+Mars affects the earth and through the earth you are extended energies and then it affects you through the earth.
+
+
+A lot of people will ask me, where's the earth?
+
+
+In a natal chart? I'm gonna show you that, but it's everywhere.
+
+
+It's everything. The earth is you. You are the earth.
+
+
+You are an extension of the earth.
+
+
+And that's where your energies come from in alchemistic astrology.
+
+
+You're not reading those zodiac signs or planets.
+
+
+You're not memorizing definitions or analyzing placements.
+
+
+Again, you're not looking at the moon in the ninth house.
+
+
+What does it mean? You're looking at the moon and saying, these are the themes in my life.
+
+
+How are they expressed?
+
+
+And because you're working with energy, like light, color and sound, everything is frequency.
+
+
+None of an ax alone, they all blend and meld energy by definition is the ability to do work.
+
+
+And I talk about this in my book.
+
+
+I extend this out a lot because you have to understand that you are not reading what is you're reading how something manifests, right?
+
+
+Unlike every other system of astrology, it's not what does it mean?
+
+
+You're never asking what does it mean?
+
+
+You are always asking, how does it manifest?
+
+
+Because alchemistic speaking, because we alchemize, it's going to manifest in a normal way, and then it can alchemize, it can manifest in a myriad of other ways.
+
+
+What is alchemy? Alchemy, alchemistic, astrology.
+
+
+Alchemistic is alchemy plus mystic as in mystic rebels.
+
+
+That's why it's called alchemistic.
+
+
+Alchemy is a seemingly magical process of transformation, creation or combination.
+
+
+In alchemistic, astrology, alchemy is the practice of using energetic awareness to shift, harmonize, or redirect energy within your chart or transit experience.
+
+
+To manifest favorable outcomes, you have to be working with energy to understand what alchemy is.
+
+
+If you're looking at definitions, you can't alchemize the definition.
+
+
+A lot of systems of astrology are fatalistic.
+
+
+They are deterministic.
+
+
+They basically say you have fate, you have destiny, you have karma.
+
+
+You have all of this that says, boop, this is what's gonna happen.
+
+
+Tough noogies and alchemistic astrology.
+
+
+We say, this is what's likely to happen.
+
+
+If you don't want that to happen, let's talk about it.
+
+
+And then you would say, oh, I want Mars to act like this.
+
+
+Not different than Mars, but Mars has a whole spectrum of the ways that it can play out.
+
+
+You say, I don't want Mars to be aggression.
+
+
+I want Mars to be something blunt.
+
+
+I want Mars to be assertive.
+
+
+I don't want Mars to come off too direct.
+
+
+I want Mars to come off in a, in a, uh, in an actionable way.
+
+
+You can, you can turn that around.
+
+
+So it's not about aggression, it's just about action.
+
+
+You're still using Mars.
+
+
+You're just changing how it's being used.
+
+
+You are not a prisoner to your chart.
+
+
+The universe does not dictate your life. You have free will.
+
+
+Free will is extremely important in this system.
+
+
+A natal chart, or any chart really is a snapshot of the sky.
+
+
+Everything. Not just the sun, not just the moon, not just the ascendant.
+
+
+Everything comprises your chart the exact time, the exact place tells you how that sits.
+
+
+Now, there's certain things that are not even in a natal chart.
+
+
+Again, in my book, I go into depth here.
+
+
+When you get into astrocartography or or locational astrology, we go into depth here.
+
+
+There's certain things that are azimuth based, that are based on where it is in the sky.
+
+
+That's not something that shows in the natal chart.
+
+
+Every single one of your planets has something called a declination, whether it's above the celestial equator or below the sus celestial equator or in line with it tells you how in tune with reality that planet is in your chart.
+
+
+That doesn't show in the natal chart.
+
+
+It shows through calculations outside of it.
+
+
+This is why you have to understand how everything works together.
+
+
+But on the basic basic basics, we're gonna understand how this chart is comprised, what makes it, and why, and how it works.
+
+
+Everything about the energetic imprint becomes you.
+
+
+It is you not one thing.
+
+
+You're not your sun sign, you're not any sign.
+
+
+You are an amalgam of everything that is in your chart.
+
+
+And at the basic level, you're gonna see this 360 degree model, which is the universe all around you shown with planet signs and houses.
+
+
+Picture yourself. Look that way. Look that way.
+
+
+Look that way. Every direction.
+
+
+360 around you is a zodiac energy based off of directional application.
+
+
+The sun might be sitting over there and the sun at that moment based on the orbit of the earth around the sun.
+
+
+That way right now is Leo.
+
+
+The other way is a 360 direction, uh, alchemy doesn't mean manifesting alchemy is the tool you're gonna use to manifest.
+
+
+Manifesting is its entire thing.
+
+
+That includes intention, action, and alignment.
+
+
+And yes, Sharon, vibe and hire.
+
+
+So this is basically what a natal chart is.
+
+
+Before I get into the natal chart itself, let's discuss planets as, uh, alchemistic astrology uses astronomy.
+
+
+It is one of the only systems of astrology that actually cares about the actual astronomy.
+
+
+This is why it's so accurate.
+
+
+Now, these are the 10 ruling planets. The 11th one is Earth.
+
+
+This is us. So this is the, whoops.
+
+
+This is the order of the planet.
+
+
+So we have the sun, we have mercury.
+
+
+Venus, Mercury's a little too big here.
+
+
+This is not a hundred percent, you know, to size, but it does give you a general size relationship.
+
+
+Pluto's way too big in this picture too.
+
+
+But uh, and then we have the moon here.
+
+
+The order of planets matters, and you're gonna see that when I get to the next parts.
+
+
+In the next sections, there is a specific order you should memorize.
+
+
+This is the order. This is the grand design of the solar system.
+
+
+The reason why this matters, astronomically speaking, is mercury comes first from the sun.
+
+
+Mercury. That tells you through what's called the astronomical doctrine of signatures.
+
+
+Its traits, its velocity, its speed, its proximity, its size, its atmosphere.
+
+
+All of that stuff goes into its interpretation of its energetic frequency.
+
+
+Why it is the way it is and why it can't be something else.
+
+
+Venus is the same, the moon is the same.
+
+
+Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto.
+
+
+Pluto is a binary system.
+
+
+It is one planet, but it's technically two.
+
+
+It with its moon creates a binary system, which is why it has to do with intimacy and bonds.
+
+
+So understanding these things, once you get beyond these basics into the astronomical doctrine of signatures that I lay out within my book, I fix astrology.
+
+
+You're gonna understand why this is so important, why Saturn's rings and uranus's rings are different and why that matters.
+
+
+So you're gonna understand that.
+
+
+Now, to get into the planets, when you're talking about astrology, we have to understand the glyphs.
+
+
+Each planet's gonna have a symbol, an icon, or a glyph.
+
+
+Doesn't matter which word you use, it's the same thing.
+
+
+It's that thing on the NATO chart that you're gonna be like, what is that?
+
+
+What is that? And it, at first, it's all gonna look Greek to you.
+
+
+And if you do speak Greek, it's gonna look Japanese to you.
+
+
+Whatever language you don't understand is what it's gonna look like to you.
+
+
+You need to remember these.
+
+
+There's not a lot that you have to remember, or I guess there is a lot of it be becomes intuitive.
+
+
+So we have something called intuitive flow that we're going to be, um, working on in a workshop pretty soon.
+
+
+But you have to understand the core.
+
+
+You have to understand the basics.
+
+
+And the glyphs are something you have to memorize so that you can identify 'em like, oh, that represents not just the sun, but it represents all of the energies of the sun.
+
+
+It represents this in my chart.
+
+
+The star, this star and this satellite are the first two planets you need to know.
+
+
+Now, everything in astrology is a planet when we're talking about the 10 ruling planets.
+
+
+So these are the grand design order.
+
+
+These are always called planets, even though we know that out, uh, Pluto is a dwarf planet.
+
+
+The moon is considered a satellite, and the sun is actually a star.
+
+
+We call them all planets and astrology.
+
+
+I'm not gonna fight that. It's easier.
+
+
+Now, I do break these down for you, and I do group these because this is really important and I talk about this in my book, but I'm gonna give this to you now.
+
+
+These are the first two planets you need to know about, and I'm grouping them intentionally because these are called ultra personal planets.
+
+
+These are the ones that are going to be the most personal to you and the closest to heart.
+
+
+Now, when you hear about the ascendant, the sun and the moon, and they call it your big three, the big three concept is terrible.
+
+
+However, the ascendant, the sun and the moon are the most important.
+
+
+You do have to know these. You have to know why.
+
+
+They are not everything.
+
+
+They don't take over everything else, but they're gonna be the things that you make the most decisions in life based off of.
+
+
+Um, they have to do with your sense of happiness and purpose and your sense of, uh, emotional security, safety and needs.
+
+
+So these are gonna be extremely important.
+
+
+The ascendant, which you'll learn later, is a gateway.
+
+
+It is a portal into the world.
+
+
+Uh, but the sun and the moon are the planets that are gonna be the most personal.
+
+
+That's why they're called ultra personal planets.
+
+
+Now, understanding, I'm not gonna go through all of these, but you'll see in this PDF that you can look at it later that there is an origin of why that glyph is the way that it is and where it came from.
+
+
+Greek and Egyptians both have the same, uh, glyph for the sun has to do with the circle, and the dot has to do with raw or helios, depending on the culture.
+
+
+It is the sun God, that has always been, you know, their representation of that.
+
+
+And it has to do with the god's eye.
+
+
+So you're looking at your greatest achievements are all gonna come from understanding your sun placement and the other energies.
+
+
+Now, we aren't gonna get into related energies, but just know that the sun shows up.
+
+
+The sun glyph shows up once in your chart, but the sun's energy shows up four times in your chart.
+
+
+Your, your Leo house, your fifth house, your sun in terms of the house it's in.
+
+
+And then the sun in terms of the sign that it's in.
+
+
+Those are four times that it's gonna show up.
+
+
+Same thing with the moon, same thing with Venus, which is actually a little bit more.
+
+
+Same thing with Mars. The moon is gonna be, uh, based off of lunar phases.
+
+
+That one's pretty obvious of all of them.
+
+
+It's like, oh, we looked up the moon does a crescent moon.
+
+
+That's what they use for the glyph when we get to the next set, these are your personal planets, and they actually operate between intrapersonal and interpersonal.
+
+
+And this is very important. The Mercury and Venus have a very special place in the chart because of their position in the solar system.
+
+
+When we looked up here, we saw the sun, and we heard have the earth between the sun and the Earth is something called the ecliptic.
+
+
+The ecliptic is an imaginary tether that says, here's the sun and the thing that gives us life.
+
+
+The thing that we orbit around, here's the earth, the planet of existence in reality that we sit on, and these two are anchored.
+
+
+Everything in astrology is based on the ecliptic.
+
+
+It's extremely important to learn that word.
+
+
+You're gonna see the word pop up later, and as you'll notice, the only two planets that sit between it are Mercury and Venus.
+
+
+This is why they're inter and intrapersonal.
+
+
+However, mercury can also be on the other side of the sun.
+
+
+Venus could be on the other side of the sun because they orbit the sun as well.
+
+
+You can have earth over here and Mercury or Venus over here, and that creates a difference.
+
+
+So when we get to them, we see two positions.
+
+
+We see inferior positions, which is when they sits between the earth and the sun, and then we see superior, which is when it's on the other side.
+
+
+You look at it as the sun is between those planets and Earth.
+
+
+Now, the inferior, inferior rather is intrapersonal.
+
+
+It is how we connect to each other, um, or, or connect to ourselves rather from within.
+
+
+So that is gonna be your Taurus energy, and it's gonna be your ver uh, I'm sorry, it's just gonna be your Taurus energy and your Gemini energy.
+
+
+Superior is outward. It's going away from us.
+
+
+So that is going to be your Libra energy and your Virgo energy.
+
+
+So you have Mercury, which rules Gemini.
+
+
+It also rules Virgo.
+
+
+You have Venus that rules Taurus and also rules Libra.
+
+
+So Taurus is the inward version. It's the inferior position.
+
+
+Libra is the external.
+
+
+It is the superior position with mercury.
+
+
+Gemini is the interior or the inferior position inward.
+
+
+And then Virgo is the outward is how you relate to other people in the world.
+
+
+It still has to do with the same keywords.
+
+
+We're not doing keywords in this, uh, class, but when we get to what would be one of the next things is understanding that mercury means the mind.
+
+
+It means mental, um, faculty basically, and it means mental faculty when it's Gemini.
+
+
+And it means that when it's Virgo, Venus rules value.
+
+
+When it is tars, it is self value.
+
+
+When it is venous, it is outward value or value in relation to others.
+
+
+So both of those retain certain themes and keywords, but it's whether or not that's inward or outward.
+
+
+When we get to the next one, there's only one planet in this category, Mars.
+
+
+Now, this is a tricky one because Mars is considered a personal planet in literally every system of astrology except Alchemistic.
+
+
+And that is because again, I use the astronomy and I have documented how these planets actually play a role.
+
+
+Mars is not a personal planet.
+
+
+It does not ever sit between the earth and the sun at any point in its orbit.
+
+
+It will never be personal.
+
+
+So it is actually a connector and an extra personal planet.
+
+
+It is what connects the earth.
+
+
+You reality to the outside world.
+
+
+Mars rules the physical body. Is that your soul?
+
+
+Is that you? No, it's that outer layer that enables you to do things in the world.
+
+
+Without your body, you would just be a floating set of energy that couldn't connect.
+
+
+The body gives you that ability.
+
+
+It is the action, it is the go.
+
+
+It it is its origin.
+
+
+As the ruler of masculine energy is a, an arrow and a shield.
+
+
+So you have the spear and the shield that create the Mars energy, Roman and, and Greek depictions of Aries and Mars as the God of war.
+
+
+Now, it, it doesn't really represent war war's, a complicated word.
+
+
+Scorpio is very much needed for war. You need that conflict.
+
+
+You need that, um, that brewing that leads in.
+
+
+But there is a queen Kungs, you'll learn about these later from Scorpio to Aries.
+
+
+Aries is the action of war.
+
+
+It is all this stuff that festered is now coming out in competition, aggression and, and assertion.
+
+
+So that is where Mars is again, it's the only extra personal planet and it is a connector planet.
+
+
+So whenever you see Mars or Aries energy, we always look at it as this personal, it's not personal.
+
+
+It's a connector. It is what takes me to the rest of the world.
+
+
+It's what takes me to the thing I'm doing.
+
+
+That's the way that that energy operates.
+
+
+Next, we have our transpersonal planets.
+
+
+This is where society, the world, the general public.
+
+
+This is the next stage, um, in energetic frequency happens with Jupiter, which was based on Zeus and then Saturn, which is based on Kronos.
+
+
+So basically you have the ultimate God.
+
+
+That's supposed to be, I mean, Zeus is a, a piece of work in most mythology, but you know, he's sat at the top for the most part.
+
+
+And then you have Kronos, which has to do with time.
+
+
+So you have the sickle, and then you have the, the stylized version of, um, uh, uh, zeus's, uh, weapon, the lightning bolt and Zeus himself.
+
+
+So it's a Z in a lightning bolt, and it's just a fancy, uh, form of it.
+
+
+But these transpersonal planets are beyond taking action.
+
+
+They actually have to do with the thing that you're connecting with.
+
+
+When you get beyond the public, then you're hitting the meta personal planets.
+
+
+Meta personal planets is not generational.
+
+
+I've always, from day one, I've always hated the term generational planets.
+
+
+They say Uranus, Neptune and Pluto are generational.
+
+
+I understand why they say it, it's because it literally can cross generations.
+
+
+But when you hear generational, you think, oh, Pluto for me was here.
+
+
+Pluto for my kids is here.
+
+
+And you think that the generations are marked by these planets.
+
+
+They are not. There's something separate called astrological APOs.
+
+
+And that is the ally based incremental time splices, so to speak.
+
+
+When there's an era, when there's an age, when there are phases, when there's certain like timeframes where something happens that is not based on urines, it is not based on Neptune, it is not based on Pluto.
+
+
+It's actually based on the planet itself in its own cycles.
+
+
+Because the axial tilt, the axis itself where we rotate upon wobbles, and that creates your, um, your astrological ages and such.
+
+
+So these are meta personal planets.
+
+
+What they are is they set the stage beyond.
+
+
+So it's not about the world, it's what's beyond the world.
+
+
+So for instance, Uranus is not about time.
+
+
+It's what's beyond time.
+
+
+Your uh, Neptune is not about reality.
+
+
+It's what's beyond reality.
+
+
+Pluto is not about, you know, value.
+
+
+It's what's beyond value or immersing yourself into depths of value.
+
+
+It's anything that is not in the, in the static, in the now these are your meta personal planets.
+
+
+So I'm gonna go back up real quick.
+
+
+You have your ultra personal, you have your personal, which includes intra and interpersonal.
+
+
+You have your, um, extra personal planet, you have your transpersonal planets, and you have your meta personal planets.
+
+
+So they're all personal. Do you see that?
+
+
+All personal? They all connect to you.
+
+
+So when we call them generational planets, the other problem is that you are not connecting it to yourself.
+
+
+You assume that Pluto is only other people.
+
+
+When in reality it's connecting you to others, connecting you to other people's resources, connecting you to trauma.
+
+
+You are still a part of it. Every planet is personal.
+
+
+These are the glyphs.
+
+
+You'll have this PDF for reference, so that you can see why like Neptune being poseidon's, Trident, which is water, it's the c, it's, um, it can, it, uh, connects itself to royalty from the Quin cos to Leo.
+
+
+That's again, something you'll learn later. Zodiac signs.
+
+
+This is where everybody gets hung up.
+
+
+Everybody thinks that all astrology is zodiac signs.
+
+
+They're very important. They're the foundational base of astrology.
+
+
+The 12, they call them archetypes, but they're not.
+
+
+They're just 12, um, ordered energies of grand design, which is based on this.
+
+
+The zodiac signs are based off of these 10 planets, mercury and Venus Rule two, because they can be inward and they can be outward, and they position themselves in 360 degree wheel around us.
+
+
+That looks like this. That's the chart.
+
+
+And you can see the division. There's the order.
+
+
+Oops, order, Aries, Taurus, Gemini, cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, Pisces, and back.
+
+
+This order will always be the order, unless you're talking about astrological ages, which go backwards.
+
+
+You'll read that in my book.
+
+
+So when we get to zodiac signs, instead of putting them in order, you see them in order, in your chart.
+
+
+I've grouped them by modality.
+
+
+Modality is not the primary influence.
+
+
+Some people say all fixed signs, all cardinal signs, all mutable signs.
+
+
+Yes, those are the three cardinal fixed mutable.
+
+
+And in a future class, I'm going to break down what cardinal means.
+
+
+Fixed means mutable means it does not mean that they're connected and, um, and they're together.
+
+
+It doesn't mean that you are supposed to look at a mutable sign as something that can't be stagnant.
+
+
+Mutable signs can be stagnant.
+
+
+Even though mutable means change, you can get stuck.
+
+
+A fixed sign is not always about what stays.
+
+
+It's about what is sustainable.
+
+
+A cardinal sign is not always about what begins, although we represent the initiators, it is about what we're setting in motion.
+
+
+So when we break this down, you'll realize that it's only a function, like a secondary descriptor of an energy.
+
+
+We don't start with the modality, but anyway, of the cardinal signs, there are four of the fix.
+
+
+There are four of the mutable, therefore those are the 12 signs.
+
+
+So you have Aries cancer, Libra, Capricorn.
+
+
+These represent the solstice and the equinoxes.
+
+
+Aries is the sign that, uh, when the sun, because of the axial tilt of the earth and the earth goes like this around the sun, the sun in an illusion goes up and down in the sky at zero degrees when it's completely even at the median point or the middle ground going north is Aries.
+
+
+When it hits the top, it's cancer.
+
+
+When it comes back and hits the middle, it's Libra.
+
+
+When it hits the bottom, it's Capricorn.
+
+
+When it comes back, it's Aries again.
+
+
+Those are how we mark the changes.
+
+
+What ends up happening is you're crossing barriers, you're crossing markers, you're crossing the zero degree, you're crossing the height, which is 23.44 degrees.
+
+
+Middle again, bottom 23.44 degrees.
+
+
+Now, Aries looks like this because it's the ram now it's stylized ram hoards.
+
+
+It's talking about forward, concentrated, directed energy.
+
+
+That is why it's not the face of a ram. It is a V shape.
+
+
+It points at the bottom because it emulates Aries energy with the arrow.
+
+
+When you get to cancer, a lot of people don't realize that these are boobies.
+
+
+Everyone thinks that they're just crab claws.
+
+
+They're actually boobies because cancer has to do with nurturing and motherhood.
+
+
+It can be the clause as well. It kind of envelops both.
+
+
+But like Sharon said, in all caps, boobies.
+
+
+So remember that. And uh, I always see a 69 there, but that's my, that's my brain doing that.
+
+
+It also represents the duality.
+
+
+And I want to point something out.
+
+
+Every one of these zodiac glyphs that has two lines or two sections that are separated, every one of them has a duality.
+
+
+I always hear people say duality is Gemini.
+
+
+And yes, Gemini has to do with a, uh, uh, literally two duality, but it is not the only one.
+
+
+In fact, the duality of Gemini is blurred.
+
+
+And you're gonna see that when we get to Gemini's glyph that there's no separation.
+
+
+It is together. However, there's a duality with a bunch of other ones.
+
+
+In this PDF slide alone, cancer and Libra both have a separated and nuanced duality to them.
+
+
+This is something that we'll discuss further in Mystic Circle and future classes, but realize that Gemini is not the only one that has a dual nature to it.
+
+
+So this is the protective cancer.
+
+
+Um, Libra, Libra is the next one.
+
+
+A lot of people say it's the scales, and yes, it is the scales.
+
+
+However, what it really is, is the horizon line.
+
+
+Libra is sunset in alchemistic astrology.
+
+
+When you read my book, you're going to, this is all gonna make sense.
+
+
+But there is sunrise and there is sunset.
+
+
+Sunrise sits here with Aries. Sunset sits with Libra.
+
+
+Sunset is arguably more important than sunrise in astrology because what it does is it's a point that says, this is what's public.
+
+
+This is what's personal. This is the transition of where things public come back to me, it transitions back into my personal life.
+
+
+Your descendant is a point that we'll talk about in a minute.
+
+
+Sits in that seventh house, sits in that Libra energy, and it is a point that you have to realize that the people that you connect with and the people that you attract are gonna come in and f**k up your sense of emotional security and your foundations because you are bringing that in.
+
+
+This is why it's very important to protect yourself, because that sunsetted energy is no longer public.
+
+
+It's private. So whatever you are connecting to on that level is coming back inward.
+
+
+Then we have Capricorn, which is the sea goat.
+
+
+It is a Babylonian god, um, a hybrid creature.
+
+
+And this is what you're gonna wanna look at, Capricorn, is this is the tail.
+
+
+This is the serpent's tale of the sea, sea creature.
+
+
+What's interesting is Capricorn and Sea, Capricorn and water, it is an earth element.
+
+
+I didn't put the elements on here, uh, intentionally, but we have fire, water, air, earth, I might add them, but you have to know that yes, Capricorn is a earth energy, but it is a water-based earth energy.
+
+
+Why? It's sextile back to Scorpio.
+
+
+It, um, sextile forward back to, uh, Pisces.
+
+
+It represents ice.
+
+
+It re like the planet that rules it is Saturn.
+
+
+What is Saturn made of?
+
+
+What is the, the rings made of water. Ice.
+
+
+So understanding that you can't look at modality, which is cardinal in this case and say, oh, it's only about starting.
+
+
+You can't look at element and say it's only earth stuff.
+
+
+Earth is a very loose term.
+
+
+It doesn't actually mean rock, although Capricorn does rule rock.
+
+
+It has to do with structure, which we contribute or attribute to earthly things.
+
+
+Even though it's earth, it rules water when it's hardened, right?
+
+
+So this is why we have to be very careful how we learn this and why a lot of people unlearn to relearn here.
+
+
+Fixed energies. These are the sustainers.
+
+
+Something that's already started brought a new, uh, initiated.
+
+
+This is where we sustain it.
+
+
+Sus sustenance and sustaining is another thing because sustaining something literally is a Capricorn trait, but it's a cardinal energy.
+
+
+The reason why it's a cardinal energy is because we are changing directions.
+
+
+We are not preparing ourself for the change that's mutable.
+
+
+We are changing directions. It is a pivot point.
+
+
+That's one thing that's not talked about in Cardinal.
+
+
+The reason it's a start is because it's a pivot.
+
+
+When we get to what is fixed, oh, by the way, Saturn and Capricorn represent the past because of where it sits.
+
+
+It's at the bottom of the sun's declination.
+
+
+That's also why it's sustaining.
+
+
+It's you, you're taking something that already is and pulling it until you end up hitting Aquarius energy, which is next, which is saying, this is what we have.
+
+
+How do we move this forward?
+
+
+So the Taurus is, uh, glyph is pretty obvious.
+
+
+It is the bull's head with the horns.
+
+
+Uh, and the circle also represents life.
+
+
+Whenever you see a circle in a zodiac, gly, there's an element of life or vitality, Leo included.
+
+
+So Leo's the fixed fire sign.
+
+
+It's the lion's main and tail, but this is also life.
+
+
+Uh, Scorpio, this one's an interesting one because when you get to Virgo later, the M is for maiden.
+
+
+That is why it's an M.
+
+
+Now, Scorpio represents a couple of things.
+
+
+One, yes, it's still based off of the maiden.
+
+
+It's textiles back to Virgo, which means there's an inclusion.
+
+
+But that m is also the back of a scorpion and it has the Scorpio's tail, the stinger, and has to do with protection and transformation.
+
+
+The protection is coming from the trine from cancer.
+
+
+The tail points outward.
+
+
+It's a red readiness to strike, which is why it feeds directly into Aries.
+
+
+It's a readiness to strike. It does not strike.
+
+
+Scorpio doesn't strike Aries strikes.
+
+
+Aquarius is the water bearer.
+
+
+Another one that has to do with water, the waves, the energy, knowledge flow, things of that nature.
+
+
+Again, there's a duality to Aquarius, double zigzags, streams, transmission, all of that.
+
+
+When we get to the mutable energies, these are the adapters.
+
+
+These are the ones trying to find their way, see what needs to change, how do we flow with it?
+
+
+How do we take what we're sustaining and say, oh, we gotta manipulate, move course.
+
+
+Correct. These are the energies that do that.
+
+
+Like I said before, Gemini is the Roman numeral two.
+
+
+It represents the twins, castor and Pollocks, which are stars that are in that zodiac constellation.
+
+
+But it is not disconnected. They work together.
+
+
+So your duality in Gemini is not two different things.
+
+
+It's two things you can do that connect together.
+
+
+It's why it's options. Gemini rules, options.
+
+
+Because you're not saying I could do this or I could do that, and they're completely unrelated.
+
+
+It's like, I'm going to the restaurant, I can go get Chinese, I can go get Mediterranean.
+
+
+I'm still looking for food. These are just options.
+
+
+Within the same paradigm, Gemini is a connected duality.
+
+
+And this is again, why it's so misinterpreted in other systems is they just say, oh, it's two different things.
+
+
+Eh, not usually. It is not usually two different things.
+
+
+It's two options within the same thing.
+
+
+So of the duality, it's the least dual Virgo.
+
+
+There's the m and its tail comes back in, does not have a stinger, comes back in, wraps in the legs are closed.
+
+
+She's a prude. This is the maiden modesty also signifies the harvest.
+
+
+So holding the, the wheat.
+
+
+When we get into Sagittarius, this one's pretty obvious.
+
+
+It's the arrow of the centar. It is aiming up.
+
+
+We're looking for a a heightened visibility.
+
+
+We're looking to go outward. We're rising.
+
+
+It's about, you know, vision, truth seeking, looking for something bigger, better, higher.
+
+
+It is not better. We haven't achieved it.
+
+
+We're looking for it. It's why it's search, it's seek.
+
+
+We're aiming Pisces.
+
+
+This one is two fish swimming in two different oppositions and they're tethered by a chord.
+
+
+So this one is another duality that is trying to pull against itself, but is stuck.
+
+
+This is about surrendering.
+
+
+This is about you can't fight your other, your other half.
+
+
+You can't fight your duality. They are stuck together.
+
+
+You're gonna have to learn how to integrate them.
+
+
+The curves with the bridge, inner and outer realms, transcendence, dualism, all of that is together.
+
+
+That is what Pisces represents.
+
+
+These are why these zodiac, uh, glyphs were created and what they mean.
+
+
+Study this. Know how to, uh, see it in a chart so that you can easily identify it.
+
+
+The natal chart, you saw the chart before.
+
+
+This is the dual wheel natal chart.
+
+
+This is the only system of astrology that teaches it like this.
+
+
+Alchemistic astrology recognizes that there are mechanics that create how things work and how things manifest in this world.
+
+
+It has to be scientifically based or it is garbage.
+
+
+When you look at a natal chart and people just look at the houses and they, they say, oh, placid this, we're gonna cut the lines like this and say that, you know, the planet or the, the sun itself goes a certain distance over a certain amount of time, and we're gonna mark that as a house cusp.
+
+
+No, that doesn't mean anything.
+
+
+There's no reason to do that because the mechanics are, the inner wheel represents the earth.
+
+
+The outer wheel represents the universe. What do you have?
+
+
+You have the earth that spins on its axis one rotation, or one revolution or one rotation, sorry, the right word.
+
+
+The first time one rotation is called a al rotation.
+
+
+It is going from here, spinning 360 degrees and getting back to the same 0.1, um, circular orbit of the earth going around the sun.
+
+
+That is a revolution. That's aerial revolution.
+
+
+Now, the position, the ecliptic we talked about before, wherever that sun is, designates the zodiac signs because of its declination.
+
+
+So when we look over there, based on how high or low the sun goes based on our axial tilt, the earth isn't sit like this.
+
+
+It, it's tilted. It's also called obliquity.
+
+
+For those of you who like technical terms, when the sun looks like this, we are at the peak.
+
+
+We're in cancer. When it's all the way at the bottom, we're at the lowest point.
+
+
+We are in Capricorn.
+
+
+And then there's a variance in between that creates the zodiac signs.
+
+
+They are not based on constellations.
+
+
+We don't care where the constellations are.
+
+
+Those are only relevant as marker points in a arial structure.
+
+
+This becomes a tropical structure because we're talking about the seasons essentially, and the mechanism that creates those seasons.
+
+
+So as the earth spins it's ascendant point, it's horizon marker.
+
+
+So wherever the horizon is and where that meets the ecliptic, that point is gonna keep moving as I rotate.
+
+
+And that is the earth spinning and that is how we get the houses.
+
+
+And the ascendant point itself, the universe doesn't spin.
+
+
+The universe is static.
+
+
+So here's what we have is blue, blue, purple, purple blue.
+
+
+The center of the natal chart comprises your core of your energy.
+
+
+And this is why when we get to true placements, if you've ever caught me on TikTok and I've done true placements for people and I say, uh, people will be like, oh, I'm a Sagittarius.
+
+
+And you know, they go, they're a Sagittarius rising.
+
+
+I say, no, you're not a Sagittarius, you're an Aries.
+
+
+The reason why I say that, and if you go into the replay realm, you'll see a webinar for true placements.
+
+
+The reason why that matters so much is because you are based on the earth's energies.
+
+
+You and everything that exists upon you is an extension of the earth and the earth.
+
+
+Spinning is the inner wheel.
+
+
+So therefore, no, you are not a Sagittarius.
+
+
+If you have an Aries, if you have a Sagittarius ascendant, you are an Aries because the ascendant sits in your first house.
+
+
+The first house is naturally ruled by Aries.
+
+
+Therefore you, in terms of the position of that placement, that sun, technically you are not in Aries because you are not assigned, but your sun placement is in Aries.
+
+
+And then secondly expresses through Sagittarius energy.
+
+
+So the way you express yourself is going to be direct.
+
+
+That direction is gonna go through something expansive.
+
+
+You do not express yourself expansively without the direct part of it.
+
+
+So the inner wheel is the core of your energies.
+
+
+Those houses that we call fields in alchemistic astrology are arguably more important, at least initially pertinent over the zodiac signs themselves.
+
+
+Other systems of astrology prioritize the zodiac signs and that is incorrect.
+
+
+That's why nobody can read a chart and they certainly can't align with it 'cause their information is wrong.
+
+
+We call the 12 intersections of this wheel.
+
+
+The houses natural rulership will replace the numbers one through 12 to give you true placements.
+
+
+One is Aries, two is tars, three is Gemini, four is cancer.
+
+
+If I'm looking at my eighth house, the eighth house is the eighth zodiac.
+
+
+The eighth zodiac is Scorpio.
+
+
+So therefore, if I have any planets in the eighth house, they are Scorpio planets.
+
+
+They're Scorpio placements.
+
+
+The outer ring is the universe outside.
+
+
+It becomes the stained glass window that we peer through that comprises the zodiac energies that extend beyond earth, relationally and spatially.
+
+
+Not the earth itself, but everything outside the earth.
+
+
+These sections become the lens.
+
+
+We call these the tone, these, this is what dictates planetary rulership.
+
+
+So if you have those eighth house placements, because we're talking about the house, you do not look at the ruler of the house.
+
+
+You're not looking for Pluto in a chart to know what your eighth house placements are.
+
+
+If your eighth house is in Scorpio because you're a Capricorn rising, then the ruler is still going to be the sun.
+
+
+'cause you have to get to that outer membrane.
+
+
+Like I said here, this is the membrane in which all energy transfers.
+
+
+When transits sit out here, they go through the membrane to get to you.
+
+
+So when you have for that same example, when you have Venus in, well, right now we have a mercury retrograde in Leo.
+
+
+It is permeating Leo themes to get to your Scorpio themes.
+
+
+It is not in your Scorpio themes.
+
+
+It is permeating through Leo.
+
+
+It is going through, you have to think of this as a two-way window.
+
+
+It has to get through Leo to get to that.
+
+
+So it has to get through, uh, confidence.
+
+
+It has to get through, uh, presence.
+
+
+It has to get through ego, personality, character to be able to get to your debt, to be able to get to your, um, shared resources to get to your trauma.
+
+
+It is the barrier between you and the outside world and the universe and also the outside world.
+
+
+And you also within Ry, you can't just look at house overlays.
+
+
+You hear that all the time. Oh, their second house overlays my first house.
+
+
+So their value overlays my sense of self.
+
+
+Yeah, through what, what's the zodiac sign?
+
+
+Yes, the house overlay is important, but through what is it doing that everyone ignores that it only applies to that theme.
+
+
+So if the house overlay is Gemini, then this only happens through communications, siblings, um, how you think ideas, local environment, so on and so forth.
+
+
+It doesn't happen with everything else.
+
+
+It only happens within that energy. Okay, cool. We get that.
+
+
+Now, the center, the very center that you'll usually see a circle with an X is the earth.
+
+
+This is what I was talking about before, the blue.
+
+
+The inner is the circle. No, none of this is house overlays.
+
+
+I'm, I'm ta house overlays is not on the PDF I'm talking about when you get to Ry and you're trying to compare somebody else's chart to yours, there's something called house overlays.
+
+
+If you've gotten to that point, yes, that's a little bit much for this webinar.
+
+
+But those house overlays have to go through that membrane, the center of the earth, that that's the earth.
+
+
+So people say, where's the earth in a chart? Everywhere.
+
+
+The whole damn chart is the earth.
+
+
+You as an extension, every point is sensitive.
+
+
+So if my body was the earth and I tap my hand, that's different than if I tap my elbow.
+
+
+That's the same thing with where you live.
+
+
+You live in California, that's different than if you lived in sve.
+
+
+It's gonna have a different effect, different energies.
+
+
+Um, anytime you move the relocated chart shifts.
+
+
+So this is your static natal chart.
+
+
+You have your relocated chart, you're gonna see that it's gonna do this, it's gonna shift.
+
+
+This stays the same. This changes the pinpoint of how you interact with that area of the planet because you are pre mapped to the entire globe.
+
+
+Now here you'll see that a bunch of different planets will be here.
+
+
+These are called transits.
+
+
+They are the universes Ry with us.
+
+
+And the ry is kind of a one-way street.
+
+
+The universe is huge. It is massive.
+
+
+It is like you and a corporation.
+
+
+You can't fight a corporation 'cause the com the corporation is just too damn big where you could fight another person because you're on more of an equal playing field.
+
+
+You are not on an equal playing field of the universe.
+
+
+Your minuscule universe huge.
+
+
+So you can't fight these things and you have to understand you have to work with them.
+
+
+But the transits tell you where the planet is at any given moment.
+
+
+Earlier I showed you that it's the green glyphs that sit on the outside of your natal chart.
+
+
+Those are the transits.
+
+
+They are going to permeate that outer membrane, that outer wheel, and they always sit there.
+
+
+So whether you're interacting with anything that's not you and anything that's a separate ecosystem, meaning everything, that's my energy is one ecosystem.
+
+
+The universe and its energy is an ecosystem.
+
+
+You and your energy is a different ecosystem.
+
+
+My business is its own ecosystem.
+
+
+That means it has its own natal chart, its own way that its energies interact within itself.
+
+
+And when we get into Ry, which is the comparison of those energies and how that affects me and how I affect it, I have my ecosystem.
+
+
+It has its ecosystem. Never is it working with me.
+
+
+It is always working upon me. Can I work with it? Yes.
+
+
+But it is not natural for it to do.
+
+
+So it's always impressing its energies on me and me on that.
+
+
+If you and I sit in a room and we're interacting, you are not talking with me.
+
+
+You're talking upon me.
+
+
+Even if you're having a conversation with me, how you speak is impressing my energy.
+
+
+And I don't mean impressing. Like, yay, we, that's so great.
+
+
+I mean, impressing in, in terms of pressuring me, how you speak is going to trigger my energies to have a certain type of reaction.
+
+
+Is it a square? Do I feel like it's in conflict?
+
+
+Is it a trying? Do I feel like it's a natural flow whether I like it or not?
+
+
+Like every, every single time you're around me, I get annoyed.
+
+
+Not because you're doing anything, just something about you that's a trying Tryings are not always good.
+
+
+So this is how these energies work.
+
+
+Transits are always on that outside.
+
+
+They're pushing in, they're literally doing that to you.
+
+
+And you have to learn how to deal with it.
+
+
+You have to learn how to use those energies.
+
+
+PHSR, very important. And this is exactly what it means.
+
+
+You have your inner wheel and you have your outer wheel, planet house sign, ruler, PHSR.
+
+
+You must, must, must, must read in this order.
+
+
+Alchemistic astrology is the only system of astrology that has a very specific order of how you read energy.
+
+
+Again, you're not reading plan, it's you're reading energies and you need all of this.
+
+
+This is why you can't say, oh, Mars is in my seventh house.
+
+
+That means this. No it doesn't.
+
+
+You have the planet and you have the house.
+
+
+You didn't talk about the sign, you didn't talk about the ruler.
+
+
+And when you expand PHSR, you're gonna insert deens degrees, aspects and things of that nature.
+
+
+You don't have any of that context.
+
+
+You can't say Mars in the seventh house means anything.
+
+
+You can have one person where Mars in the seventh house makes them an amazing designer and they do interior design for work.
+
+
+You have another person that beats their wife.
+
+
+And that's very extreme. And I'm sorry if I trigger somebody by saying it that way, but they're very aggressive towards their partner.
+
+
+That doesn't always play out that way, but somebody might say it does.
+
+
+Oh, Mars and Libra Mars and the seventh house, you're aggressive towards your partner.
+
+
+No, no.
+
+
+It doesn't mean that your energy is directed into partnership for sure.
+
+
+It doesn't mean that you're angry or you're abusive.
+
+
+Drawing that conclusion is very dangerous.
+
+
+And 99.999%, let's just say almost everyone does that.
+
+
+That's why astrology has been so wrong for so long.
+
+
+You can't do that. All we know is Aries energy directs into that.
+
+
+Now, if you have Mars directed into the seventh house, which is Libra Energy, and that is going through, let's say Taurus, that means your Scorpio rising and, and Aries energy is coming from the sixth house.
+
+
+So that means you're pulling sense of service, duty and criticism into your partners.
+
+
+But if you are a Sagittarius rising with Mars in the seventh house, then you are pulling fifth house energy.
+
+
+You're pulling sense of purpose, um, uh, happiness.
+
+
+You're pulling childhood children in general, which means your children contribute greatly to your partner.
+
+
+That has nothing to do with Mars in the seventh in terms of you are abusive to your partner.
+
+
+All we did was change one thing, which was the rising sign.
+
+
+And we have a completely different context of what Mars in the seventh house means.
+
+
+Again, why you cannot have definitions.
+
+
+You're reading energies.
+
+
+So this is the order that you have to read.
+
+
+What is the focus? What is the field?
+
+
+What is the tone and what is it all wrapped up in?
+
+
+And then where is that ruler?
+
+
+When you go chase that ruler, what house is it in?
+
+
+So the ruler becomes the planet again. So you're back here.
+
+
+What houses it in? What signs it in? Where's that ruler?
+
+
+That's the planet again, what house is in what sign?
+
+
+You just keep this going. Now you don't keep it going without understanding each step of the way.
+
+
+So you just start with the first one. Where's the planet?
+
+
+Where's the house? Where's the sign? Where's the ruler?
+
+
+This is the order you do for every reading, everything you do, aspects.
+
+
+And these are the words that you're gonna hear the most, especially in alchemistic astrology.
+
+
+Outside of alchemistic, you will never hear PHSR 'cause it doesn't exist.
+
+
+It's a technique exclusive to what we do, aspects you hear all the time.
+
+
+This all it is, is an energy that makes a geometric angle to another.
+
+
+That is all an aspect is no energy ever stands alone, which is why definitions of placements don't apply.
+
+
+Each relationship is different.
+
+
+Creating what we call interactions.
+
+
+That is what an aspect is.
+
+
+How does this planet relate to this planet?
+
+
+What is the, how do they interact?
+
+
+How do they feed into each other? Do they repel?
+
+
+Do they hate each other? And I, I would actually refrain from making them personalized, like, um, adding human characteristics to them.
+
+
+Is there conflict? Is there easy flow?
+
+
+Is there a companion energy? Do they work together?
+
+
+Are they sitting in opposition? So on and so forth.
+
+
+That's what you need to know about the aspects.
+
+
+So you'll see these different planets will, you know, have these different, um, associations with each other and you need to be able to break those down.
+
+
+The aspect glyphs.
+
+
+In alchemistic astrology, there are seven major aspects.
+
+
+In every other system of astrology, there are five.
+
+
+The reason why there are seven is because aspects have to be broken down mathematically and scientifically.
+
+
+When you take the astrology wheel, it is 360 degrees.
+
+
+When you take 360 degrees and mark out 12, there are 12 zodiac signs.
+
+
+You are left with the number 30. 30 is 30 degrees.
+
+
+30 degrees for each house.
+
+
+That means that every 30 degree relationship must be a major aspect, otherwise there wouldn't be a house associated with it.
+
+
+In order to get there from the conjunction to the opposite point, that's a 180 degrees.
+
+
+That's half of the chart.
+
+
+You're going to have all the major aspects.
+
+
+So the first one is the conjunction.
+
+
+The key word for conjunction is together when you see them, they are within the orb of influence of zero degrees.
+
+
+Every planet has a different orb of influence, which is how far that planet reaches.
+
+
+The moon reaches out three degrees, the sun reaches out 10 degrees.
+
+
+That's for a future class.
+
+
+But you'll need to know that when they are at zero degrees or within the orb of that meaning from zero, if it's the moon, from zero to three and from zero back to 27 degrees forward and backward, three degrees or the sun from zero degrees to 10 degrees, zero degrees back to 20 degrees, which is 10 degrees ago.
+
+
+That entire span would be a conjunction.
+
+
+Planets would be conjunct if they sit within that range.
+
+
+So a conjunction is together, you'll see the planets near each other.
+
+
+As long as they're within each other's orbit of influence, they will be conjunct.
+
+
+The next one, uh, uh, so up, you know, in terms of houses, Aries, conjuncts Aries.
+
+
+Aries is in a semis sex tile with Taurus.
+
+
+It is a 30 degree is the next sign over.
+
+
+That keyword is hard stop.
+
+
+This is what ends up creating an issue.
+
+
+When we ha when we take action on something, most of the time we haven't considered its value and a lot of what we do has no value.
+
+
+It literally has no no worth to it.
+
+
+You maximize the abilities of Aries, the first planet when you put it into something that is of value.
+
+
+So this is what that gly will look like. Okay?
+
+
+It's showing like two different directions.
+
+
+That's exactly what it feels like. A convergence.
+
+
+You need to pull those two things into one spot.
+
+
+When you get to the sextile, this is what's called a companion energy.
+
+
+It's 60 degrees apart.
+
+
+A lot of times in other systems you'll hear a 60 a yeah, 60 degree, uh, aspect known as a mini trine.
+
+
+It is not a mini trine. This is the trine over here.
+
+
+At 120, it is half of that. It is not half of the effect.
+
+
+It has nothing to do with a trine.
+
+
+It is a companion partnership energy.
+
+
+It means you have to consider the other energy and they have to be used together to either resolve what you're trying to do or just realize that it's there.
+
+
+A square is conflict. It's 90 degrees.
+
+
+It's also growth by the way.
+
+
+Squares are very important, can be very positive.
+
+
+This is what that's gonna look like.
+
+
+Okay, Wes, I'll see you in the replay and uh, I'll be in touch with you.
+
+
+Uh, the trying the triangle is gonna be the direct effect.
+
+
+No matter what happens from the first, it is going to affect the second.
+
+
+Tryings are not always easy.
+
+
+In fact, usually they're not easy.
+
+
+It's 120 degrees apart within the orbits of influence.
+
+
+The next one is a Queen Cox. It is a toggle.
+
+
+It's 150 degrees.
+
+
+A toggle means I can do this or I can do this, but I cannot do both at the same time.
+
+
+You take any house that's 150 degrees apart, for instance, you can't have rage and anger at the same time.
+
+
+You cannot hold something in and do something about it at the same time.
+
+
+So one or the other, Scorpio, Aries, either it's repressed and it's within and I'm holding onto it and just within me or I'm pushing all of that out and doing something with it.
+
+
+And there is an order.
+
+
+It has to go from the eighth to the first.
+
+
+It does not go from the first to the eighth action.
+
+
+And anger does not contribute to trauma.
+
+
+You being angry doesn't make you rageful.
+
+
+Being rageful makes you angry. Eight of one opposition.
+
+
+First and seventh for a good example is about counterbalancing.
+
+
+Counterbalancing does not mean combining.
+
+
+So you'll read a lot of people, uh, a a lot of things for astrology that'll say 180 degrees apart.
+
+
+Something that's in opposition is about finding the middle ground.
+
+
+And technically there is a compromise there.
+
+
+But the compromise is not to lose either.
+
+
+It is to say, how do we make both of these work without losing the essence of either?
+
+
+And this is where people get really stuck.
+
+
+Aries is in opposition to Libra, not because you are Libra is the, is the uh, compromise.
+
+
+Libra is the balancing. The opposition to Aries is not.
+
+
+So I've seen it taught that the opposition carries Libra energy because you have to balance the energies that is very, very wrong whenever you're talking about Aries energy and Libra energy and they're in opposition of each other.
+
+
+Yes, Libra has to do with those things, but it does not with the association with Aries.
+
+
+Aries says, how do I maintain myself and the things that I want to do and my autonomy while also being in a relationship?
+
+
+Most people lose that they side one way or the other.
+
+
+It becomes a seesaw.
+
+
+You need to find the middle ground of the seesaw where it's not teetering on one end.
+
+
+That doesn't mean come to the middle.
+
+
+It means balance both of them equally at the same time from their respective points.
+
+
+Maintain this, maintain this.
+
+
+This will feel like it's detracting from this.
+
+
+When you're in a relationship, you feel like you can't do your own stuff.
+
+
+When you're doing your own stuff, you feel like you can't be partnered with somebody else or you won't be able to do your own stuff 'cause you won't be autonomous.
+
+
+There is a natural opposition of those energies.
+
+
+It's about this not beating in the middle.
+
+
+If you, in fact, if you meet in the middle of a seesaw, what happens?
+
+
+It doesn't stay like this. It does this crap.
+
+
+It's way outta balance because you're trying to meet in the middle of something when Libra means that an opposition does not.
+
+
+So these are the glyphs that you'll be looking for to understand how these energies associate with each other.
+
+
+Vitality anchors. This is a alchemistic astrology term.
+
+
+These are the four main things. You see 'em all the time.
+
+
+The ascendant, the descendant, the midheaven, and the sub heaven.
+
+
+Sub heaven is alchemistic as well. It is not the nadir.
+
+
+The nadir is a different point.
+
+
+It has nothing to do with the ic.
+
+
+The nadir is a very deep point.
+
+
+If you draw a line straight through the earth at the very bottom, that is the nadir.
+
+
+If you look straight up, that is not the midheaven, that is the zenith.
+
+
+So it's very important that you do not call the midheaven the zenith.
+
+
+You do not call the ic the nadir.
+
+
+When I first started learning, that's how I learned them.
+
+
+That's wrong. The ascendant is a point the descendants appoint.
+
+
+These are all mathematical points.
+
+
+They don't have an orb of influence.
+
+
+They are always in a forced aspect.
+
+
+Meaning any planet that is touching any of these points is not being pushed by these points.
+
+
+It is being enveloped by them.
+
+
+So if you have your sun conjunct, the mid-heaven, the mid-heaven is not acting upon the sun.
+
+
+The sun is forcing the midheaven to be a part of it.
+
+
+And when we get into forced and true aspects, this will make much more sense.
+
+
+Again, that's also in my book.
+
+
+They're not visible celestial bodies.
+
+
+They are rooted in the astronomical trigonometry that involves the ecliptic.
+
+
+Again, there's that word again.
+
+
+So all of these are rooted in where the plane of reality sits.
+
+
+The ascendant, the key word for the ascendant is emergence.
+
+
+This is where you come out into the world and through your actions.
+
+
+It only sits in the first house.
+
+
+Every time you come up and you say, this is my motivation, this is how I'm gonna do it, this is why I'm doing it and this is the way that I'm gonna do it.
+
+
+It's always through your action.
+
+
+That is the key word of ascendant.
+
+
+It is not the mask you wear, it's not how you show up.
+
+
+The first house is how you show up.
+
+
+The ascendant is why you showed up.
+
+
+The descendant is submergence.
+
+
+It is not my partner, my partner's Libra.
+
+
+That's the seventh house itself.
+
+
+The D descendant is, what do I want to bring from the, from the physical realm back into my private realm?
+
+
+From the public to my personal, your D descendant is you need to oblige by those energies and say, I'm connecting to you because I want you a part of my personal world.
+
+
+That is the sunset point. The sun is disappearing.
+
+
+Descendant only connect to people that are going to be the people you wanna bring into your personal life.
+
+
+Descendant seventh house only Midheaven, peak aspiration.
+
+
+Highest publical public, highest public visibility.
+
+
+The midheaven can show up in the first house.
+
+
+The midheaven can show up in the seventh house and it can show up in any house as long as it's above the ascendant descendant axis.
+
+
+So you can have your midheaven and your ascendant in the seventh in the first house, rather.
+
+
+The sub heaven, which is what sits before, is your core anchor.
+
+
+This is your deepest emotional truths.
+
+
+This is what keeps you tethered to this world.
+
+
+It can show up in the first house.
+
+
+It can show up in the seventh house in anywhere below the ascendant descendant access.
+
+
+Depending on where you are on this planet.
+
+
+It is what pulls you and roots you to reality.
+
+
+It has nothing to do with cancer, it has nothing to do with where you came from.
+
+
+It has nothing to do with your emotional stability.
+
+
+It is not cancer. It is has nothing to do with the fourth house whatsoever.
+
+
+Can you have it in the fourth house? Absolutely.
+
+
+And in that case, it will show up through your ancestry.
+
+
+It'll show up through what makes you emotionally secure.
+
+
+But this is not that.
+
+
+It is an anchor of what pulls you to this earth and makes you feel grounded on a very personal, I don't, nobody sees this way.
+
+
+I dive further into these, into my book.
+
+
+Obviously self-growth, and this is the last one that I, you need to be able to identify.
+
+
+These four are key.
+
+
+And this is at the very beginning when I showed you which ones to highlight, which ones to, um, to activate in your chart.
+
+
+I told you north node, south node, Chiron, black moon, Lilith and black moon.
+
+
+Lilith has two versions.
+
+
+Uh, actually Chiron's the only one on this list that does not have two versions because Chiron is an asteroid.
+
+
+Black moon Lilith is a mathematical point off of the moon, and so are the north and south node.
+
+
+The north and south node and black moon Lilith have an orb of influence of three degrees because they are moon derived.
+
+
+Chiron has an orb of influence of a degree to a degree and a half.
+
+
+We're still whittling that one down degree and a half max degree is where we're sitting at so far.
+
+
+These are calculations of the moon, which means they're all based on the moon, which means the north node cannot be your soul's destiny unless the moon is the soul.
+
+
+Now the problem with that is if the moon's the soul and it represents cancer and it represents your ancestry, that means your grandmother is your soul.
+
+
+So this is why we have to be very cautious on how we word things.
+
+
+The soul is the entire chart. It is all you.
+
+
+The soul is everything.
+
+
+So we can't call the north node the soul's destiny because it isn't.
+
+
+The truth is that the calculation of the north node is when the moon is heading south to north across the ecliptic in its orbital cycle.
+
+
+The moment you were born, that is the point where it's crossing between the anchor, between the sun and the earth.
+
+
+That line, and we have the moon in its orbit.
+
+
+This is the point from down here to up here where it crosses the ecliptic.
+
+
+That is your north node when it comes all the way back around and it's coming down.
+
+
+That is your south node.
+
+
+Everything in astrology, especially Alchemistic astrology, but everything is north, is future south is past ecliptic, is now how.
+
+
+Think about the civilizations on this planet.
+
+
+Think about how they form.
+
+
+Think about which ones are more primitive or more historically stuck in the past in their traditions and which ones are always progressive and forward thinking.
+
+
+The forward thinking progressive ones are in the northern hemisphere.
+
+
+The more attached to how things have always been are in the southern hemisphere.
+
+
+And the ones that are living in the moment in the now are sitting on the equator.
+
+
+You apply the same thing when you get into the astrology.
+
+
+The north node is the moon.
+
+
+It is your emotional needs, your emotional security, your family and sense of family, the things that are gonna make you feel comfortable on an emotional level in the future.
+
+
+Therefore, you can know you can never actually reach your north node.
+
+
+You can never embody or embrace your north node because it is always in the future.
+
+
+It hasn't happened yet and it never will.
+
+
+All you can do is align a trajectory towards your north node to say, that's where I'm going to emotionally grow.
+
+
+That is where it is my out of comfort zone that I need to start acquiring comfort with.
+
+
+I will never be fully comfortable with this energy, but I'm always going to try to align with it.
+
+
+The south node is the opposite.
+
+
+It says, this is the relationship I had with my mother, the north node's, the relationship you never had with your mother, but you wish you had.
+
+
+That's why it's uncomfortable.
+
+
+The south knows the relationship with the mother and the family that you always had.
+
+
+It's the things that became habit, instinct.
+
+
+It's the things that are rooted in the core of you can make you feel stuck, but also gives you great strength and skill.
+
+
+It's based off of familiarity and routine emotional focus.
+
+
+I've, this has always been the way it's been for me with my family, with my home, with my sense of security, with my needs.
+
+
+I've always needed this. I've always been good at this.
+
+
+It's because the south node is rooted in what always has been.
+
+
+It doesn't allow for emotional growth.
+
+
+However, because of the opposition, you use one to fuel the other.
+
+
+Chiron, uh, is an asteroid.
+
+
+It sits for most of its orbit between Saturn and Uranus.
+
+
+So it embodies both themes, but it's anchored twice to Saturn.
+
+
+We have a, uh, webinar that you can watch in the replay realm for Chiron.
+
+
+This one is about insecurities, breakdowns in structures, wounds and where you are just not normal.
+
+
+This is an authenticity asteroid.
+
+
+This is where things don't work well for you because you're trying to do it like other people.
+
+
+If you have it in the fourth house, you expect emotion to process the normal way for you expect your, you're looking for how you can have typical family normalcy and you never will.
+
+
+If you're looking for Chiron in the sixth house, you are trying to, you're trying to work, you're trying to have, you know, normal routines.
+
+
+You're trying to, uh, have a sense of mental health that is just the norm.
+
+
+You never will. If you have it in the seventh house, you think that relationships are supposed to be a certain way, but for you they never are.
+
+
+You think that the way that you see design and balance and interaction with other people, that your wounds and insecurities, you expect something outta the other person or you think that they expect something out of you and then you feel insecure about it when it doesn't happen because it's not supposed to.
+
+
+You're supposed to find a way that works for you.
+
+
+That's what Chiron is all about.
+
+
+And once you do, it becomes something that other people look at and say, holy s**t, how did you do that?
+
+
+Because it's not normal.
+
+
+Michael Jackson has his Chiron in Aquarius in the 12th house.
+
+
+So basically Chiron's in Pisces expressing through, uh, Aquarius with its ruler in the sixth house through Leo.
+
+
+His insecurity is about judgment over his music dance, his work ethic.
+
+
+Imagine the biggest pop star in the world having insecurity over music.
+
+
+It's always that way and the, that's where the wound will be.
+
+
+And because he's weird behind closed doors because he did things different.
+
+
+It's also his vulnerability point is where people attacked him.
+
+
+This is where the world will attack you because it's your weak spot and you have to stand strong in that authenticity.
+
+
+That's why he got accused of what he did behind closed doors, especially around bedtime.
+
+
+Literally kids sleeping in his bed.
+
+
+That ruler in the sixth house routine.
+
+
+Leo kids sleeping in his bed.
+
+
+That's why he was attacked for that in his chart.
+
+
+I can tell he never did anything.
+
+
+You can believe what you want, but they attacked him for that 'cause they didn't know in the 11th house.
+
+
+It has to do with your intelligence depending on what sign it goes through.
+
+
+So if you have Chiron, the 11th house, your weak spot is groups.
+
+
+It is, I don't function well in groups.
+
+
+I'm very concerned that I don't have a future plan.
+
+
+I don't know how to change things. I don't know how to be an individual.
+
+
+TAUs just associates value with that.
+
+
+I don't have value in groups when I'm in a group.
+
+
+It doesn't seem to work right and I don't feel valuable within it.
+
+
+My intelligence and the things that I, the way that my mind works through the resources that I have, I have to use those resources a different way.
+
+
+If I try to do it normal, it doesn't work and therefore I feel insecure about those things.
+
+
+I don't feel smart. And then we have to attach it to the rest of the chart.
+
+
+Black Moon Lilith is another calculation of the moon.
+
+
+The opposite is something called in other systems of Astrology's called Priapus.
+
+
+We do not use Priapus because Priapus is a male fertility God with an erect penis that won't go away.
+
+
+That has nothing to do with the moon.
+
+
+It has nothing to do with femininity or motherhood.
+
+
+So you'll see in my book that I replaced Priapus with White Moon, Sophia White Moon Sophia makes a lot more sense and that's what we're gonna use it.
+
+
+White Moon Sophia is the direct oppositional point to Black Moon.
+
+
+Lilith has a completely different meaning.
+
+
+You'll learn about that later.
+
+
+Black Moon Lilith is the apogee of the moon, whereas white mo Sofia is the perge.
+
+
+Perge means it's the closest to the earth in orbit.
+
+
+Apogee means it's the furthest away in orbit.
+
+
+So the moment you were born, wherever that furthest point was, becomes your Black Moon.
+
+
+Lilith. There is a webinar in the replay realm about taming and embracing your black moon Lilith.
+
+
+There are two versions.
+
+
+There is a mean version and there is a true version.
+
+
+Same thing goes with the north and south node.
+
+
+There's one that has to do with the averages that sits very much internally.
+
+
+And then there's one that adjusts for, um, uh, orbital variances and fluctuations, gravity paths, things of that nature.
+
+
+That is your true one's inward. One's outward.
+
+
+The one I want you to focus on now is the inward one.
+
+
+Black Moon Lilith. It's mean Black Moon Lilith.
+
+
+It looks like this. It has the, um, the shape of the moon above a cross.
+
+
+This is the calculation at the Apogee.
+
+
+It is an untethered liberation seeking raw emotional needs and truth for raw emotional needs and truth, which disconnects from reality.
+
+
+Thus creating deep guilt and shame.
+
+
+You need to know why you feel guilt and shame around things.
+
+
+You need to understand what's stopping you from doing things because you feel like it's not okay for you to do it because the general world won't understand.
+
+
+Your family won't understand that point's extremely important.
+
+
+So this is all the way to the top.
+
+
+Boom. This was the Uber newbies basic introductory introduction.
+
+
+I can't speak to now. To now. Oh my God.
+
+
+The introduction class.
+
+
+Uh, you know, the class before the class.
+
+
+Use this PDF, refer to it.
+
+
+Understand what it is so that we can build upon this as you take future classes.
+
+
+Uh, and know what the cliffs are, why they exist, how they came about, and how do I identify them in your chart.
+
+
+As always, I will see y'all on the next one. Vibe, hire.
+
+
+
+
+NOTES ABOUT THIS TRANSCRIPT (IMPORTANT!*)
+
+
+This webinar goes way back to the first day. It’s the intro class before you put on your white belt.   Planet names, zodiac symbols, the dual wheel system. This webinar will go through the fundamentals you need to know as a newbie.   Consider this the class before the classes. Gemini doesn’t represent mirror or interaction. I see you say between 2 thoughts but it’s about how you process thought itself.   Mercury doesn’t rule movement. The glyph has a reason it’s shaped the way it is but that’s not the theme of the energy.   Useful to others—maybe. But it just needs to make sense for you. We do need to make sure we’re using the right themes though to avoid confusion. I have not taught these asteroids yet—they are in my book though. I spoke about them briefly because they were brought up in the Q&A today but not ready to formally teach them.  N is North (future), S is South (past)—this is Declination alignment. It shows where that energy is directed and whether you can bring it to the present moment.

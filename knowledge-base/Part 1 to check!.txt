@@ -1,0 +1,2909 @@
+﻿- PURPOSE
+To make sure we have all these things in place within our app!
+
+ INPUTS
+- astrological aspect
+- planets involved
+- degree positions
+
+
+ OUTPUTS
+- interpretation of astrological aspects
+- degree differences
+
+
+ ENTITY CATALOG (5 entities)
+
+
+ Grand Trine
+  Type: astrological aspect
+  Meaning: a harmonious aspect involving three planets
+  Attributes: harmonious, involves three planets
+  Allowed values: three planets forming equal angles
+  Constraints: none mentioned
+  Source: ts_0001, 25:21
+
+
+ Kite
+  Type: astrological aspect
+  Meaning: a combination of a Grand Trine and an opposition
+  Attributes: derived from Grand Trine, involves opposition
+  Allowed values: a Grand Trine with an opposition
+  Constraints: none mentioned
+  Source: ts_0001, 25:21
+
+
+ Queen Kunk
+  Type: astrological aspect
+  Meaning: an aspect related to influence based on degree
+  Attributes: two degrees orb of influence
+  Allowed values: within two degrees
+  Constraints: none mentioned
+  Source: ts_0001, 25:21
+
+
+ Jupiter
+  Type: planet
+  Meaning: planet associated with expansion and healing
+  Attributes: associated with healing, expansive
+  Allowed values: not stated
+  Constraints: none mentioned
+  Source: ts_0001, 25:21
+
+
+ Chiron
+  Type: astrological body
+  Meaning: associated with healing and wounds
+  Attributes: associated with healing
+  Allowed values: not stated
+  Constraints: none mentioned
+  Source: ts_0001, 25:21
+
+
+ RULE ENGINE (0 rules)
+
+
+ FORMULAS (1 formulas)
+
+
+  Formula: 10 + 2 or 10 + 3
+  Why: to explain distance in degrees in astrology
+  Source: ts_0001, 25:21
+
+
+ CALCULATION PIPELINE
+  Step 1: Determine the distance in degrees between two aspects.
+    Notes: When evaluating two points, such as one at 10 degrees and another at 13 degrees, they are three degrees apart.
+  Step 2: Calculate the degree difference for boundary cases (e.g., 28 degrees and 2 degrees).
+    Notes: Understand boundary conditions where positions might indicate a larger ordistance.
+
+
+  Additional calculation steps from transcript:
+  Step 1: Determine the distance between two degrees in astrology.
+    Teacher voice: "when I'm looking here this part of fortunate 10 degrees in this North Node it 13 degrees this right here is you know, three degrees away from each other."
+  Step 2: Calculate the difference when the degrees are at 28 and 2.
+    Teacher voice: "25 you might have something at 28 degrees something at 2 degrees just understand that's four degrees away."
+
+
+ DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "astrological_aspects": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "entity_type": {
+        "type": "string"
+      },
+      "attributes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "allowed_values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "constraints": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "examples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "citation_segments": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+
+
+Rules schema:
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "condition": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      },
+      "teacher_voice_phrasing": {
+        "type": "string"
+      },
+      "exceptions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "citation_segment": {
+        "type": "string"
+      }
+    }
+  }
+}
+
+
+Meanings schema:
+{
+  "type": "object",
+  "properties": {
+    "entity": {
+      "type": "string"
+    },
+    "meaning": {
+      "type": "string"
+    }
+  }
+}
+
+
+ PSEUDOCODE
+INPUT astrological aspect, planets, degrees
+FOR each entity in aspect
+  CALCULATE degree difference using provided steps
+  IF entity has attributes THEN display expanded meaning
+OUTPUT extended interpretations
+
+
+ VOICE STYLE RULES
+Tone: educational, informative
+Cadence: neutral pace, avoid jargon
+Signature phrases: You're part of our Vibe tribe, Gain a deeper understanding
+Do:
+  - Use clear language
+  - Provide examples when possible
+Avoid:
+  - Avoid advanced mathematics unless essential
+
+
+ MEANING RENDERING RULES
+- Maintain harmony in descriptions and clarify influence details.
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+ TEACHER PHRASING SNIPPETS (4 snippets)
+
+
+  [motivation] (unknown): "I think you're going to have like just a much deeper understanding of the fundamentals that make astrology work without having to get into the nitty-gritty of all the math"
+    Source: ts_0001, 25:21
+  [definition] (unknown): "you guys are our Vibe tribe"
+    Source: ts_0001, 25:21
+  [motivation] (unknown): "not everybody's learning needs to be a teacher but you can do some amazing things"
+    Source: ts_0001, 25:21
+  [definition] (unknown): "Mystic Rebels was never meant to be Ashley and I it was meant to be everybody anybody who wanted to rebel against Pop Culture astrology"
+    Source: ts_0001, 25:21
+
+
+ TEST CASES (10 test cases)
+
+
+[TC001] Verify the recognition of the Grand Trine within the astrological chart
+  Input: {"chart_configuration": {"aspect": "Grand Trine", "planet_positions": ["planet1", "planet2", "planet3"]}}
+  Expected (teacher voice): The system should recognize a Grand Trine as a harmonious aspect involving three planets.
+  Entities: Grand Trine
+
+
+[TC002] Verify the identification of the Kite aspect with a given opposition
+  Input: {"chart_configuration": {"aspect": "Kite", "base_aspect": "Grand Trine", "opposition": "planet4-opposes-planet5"}}
+  Expected (teacher voice): A Kite should be correctly identified as a combination of a Grand Trine and an opposition.
+  Entities: Kite
+
+
+[TC003] Verify handling of an aspect that falls within the two degrees of orb influence
+  Input: {"chart_configuration": {"aspect": "Queen Kunk", "degree_difference": 1.5}}
+  Expected (teacher voice): The aspect should be recognized as Queen Kunk due to being within a two-degree orb of influence.
+  Entities: Queen Kunk
+
+
+[TC004] Verify planet recognition focusing on Jupiter
+  Input: {"planet_data": {"name": "Jupiter"}}
+  Expected (teacher voice): Jupiter should be identified as a planet associated with expansion and healing.
+  Entities: Jupiter
+
+
+[TC005] Verify recognition of astrological body Chiron
+  Input: {"planet_data": {"name": "Chiron"}}
+  Expected (teacher voice): Chiron should be identified as an astrological body associated with healing and wounds.
+  Entities: Chiron
+
+
+[TC006] Handle missing data in planet positions for Grand Trine
+  Input: {"chart_configuration": {"aspect": "Grand Trine", "planet_positions": ["planet1", "planet2"]}}
+  Expected (teacher voice): An error should be reported due to insufficient planet positions for a Grand Trine.
+  Entities: Grand Trine
+  [EDGE CASE]
+
+
+[TC007] Handle unknown entity in chart recognition
+  Input: {"chart_configuration": {"aspect": "Unknown Aspect", "planet_positions": ["planet6", "planet7", "planet8"]}}
+  Expected (teacher voice): The system should indicate that 'Unknown Aspect' is not a recognized astrological aspect.
+  [EDGE CASE]
+
+
+[TC008] Verify aspect identification with an exact two degrees difference
+  Input: {"chart_configuration": {"aspect": "Queen Kunk", "degree_difference": 2.0}}
+  Expected (teacher voice): The system should classify the aspect as Queen Kunk as it is at the boundary of the allowed influence.
+  Entities: Queen Kunk
+
+
+[TC009] Test recognition of a Kite aspect without a Grand Trine
+  Input: {"chart_configuration": {"aspect": "Kite", "base_aspect": null, "opposition": "planet9-opposes-planet10"}}
+  Expected (teacher voice): The Kite aspect should not be recognized without the presence of a Grand Trine.
+  Entities: Kite
+  [EDGE CASE]
+
+
+[TC010] Identify Jupiter's attributes in the context of an astrological chart
+  Input: {"planet_data": {"name": "Jupiter"}, "context": "astrological chart analysis"}
+  Expected (teacher voice): In an astrological chart, Jupiter should be assessed for its expansive and healing qualities.
+  Entities: Jupiter
+
+
+- foundations of interpretations
+  Type: course
+  Meaning: the steps after learning the basics
+  Meaning: foundational principles for interpreting charts
+  Attributes: course sequence
+  Allowed values: chart interpretation principles
+  Constraints: must follow the basics
+  Source: para_0000
+
+
+- aspects and transits
+  Type: topic
+  Meaning: main things, the glue to be able to read
+  Meaning: crucial concepts for chart reading
+  Attributes: essential for interpretation
+  Allowed values: aspects, transits
+  Constraints: only these two topics discussed in next class
+  Source: para_0000
+
+
+- manifestation with energies
+  Type: application
+  Meaning: taking what you see and finding different ways to actually use that energy
+  Meaning: application of observed energies
+  Attributes: usage of energies
+  Allowed values: varied routes to use energies
+  Constraints: requires understanding of cycles
+  Source: para_0000
+
+
+- Ascendant
+  Type: astrological component
+  Meaning: the rising sign in astrology
+  Meaning: how I react
+  Meaning: reaction to engagement
+  Attributes: ascendant sign, first house, planetary placements, ruler placement
+  Allowed values: 8th house, not stated, 12th house, any zodiac sign
+  Constraints: ruler placement affects visibility, not stated, must correspond to a person's birth time
+  Examples: Sagittarius with Gemini, Leo Rising with Aquarius seventh house, Libra rising with Aries
+
+
+- Desendant
+  Type: astrological component
+  Meaning: the opposite of the ascendant in astrology
+  Attributes: descendant sign
+  Allowed values: any zodiac sign
+  Constraints: must correspond to a person's birth time
+
+
+- Midheaven
+  Type: astrological component
+  Meaning: the highest point in an astrological chart
+  Meaning: translates to middle of the sky
+  Meaning: Medium Coeli
+  Meaning: the outward expression of internalized energy
+  Attributes: public image, highest point, public reputation, midheaven sign
+  Allowed values: ninth house, tenth house, eleventh house, placement in zodiac signs, any zodiac sign
+  Constraints: opposite of the IC, must correspond to a person's birth time
+  Examples: Midheaven in Taurus
+
+
+
+
+- Nadir
+  Type: astrological component
+  Meaning: the lowest point in an astrological chart
+  Attributes: nadir sign
+  Allowed values: any zodiac sign
+  Constraints: must correspond to a person's birth time
+  Source: para_0001
+
+
+- ascendant
+  Type: astrological point
+  Meaning: the point can float around anywhere within the first house.
+  Meaning: point in astrology representing one's outward personality
+  Meaning: the ascendant can only be in the first house
+  Meaning: the sign that was rising on the eastern horizon at the time of birth
+  Meaning: can only be in the first house
+  Meaning: It literally is you.
+  Meaning: Self-awareness and immediate reactions.
+  Meaning: the rising sign at the time of birth affecting personality and first impression
+  Attributes: self-awareness, 18 degrees, in Cancer, the constellation at the horizon, house, immediate gut reactions, first impressions, 10 degrees, in Gemini decan, degree
+  Allowed values: any degree within the first house, not stated, degrees, mathematical points specific to themes
+  Constraints: must be exact, derived points; specific to how you react to the world, not stated, always in the first house, always sits in the first house
+  Examples: ascendant sits at 13 degrees 6 minutes
+
+
+- mid Heaven
+  Type: astrological point
+  Meaning: mid Heaven can float.
+  Meaning: point representing one's public life or career in astrology
+  Attributes: degree
+  Allowed values: any degree
+  Constraints: not fixed, can change
+  Examples: mid Heaven at three degrees
+
+
+
+
+- descendant
+  Type: astrological point
+  Meaning: the Descent is always in the seventh house.
+  Meaning: point representing partnerships and relationships in astrology
+  Meaning: this is my descendant
+  Meaning: the point opposite the ascendant in an astrological chart
+  Meaning: How you are versus how you act with other people.
+  Meaning: Relations and interactions with others.
+  Attributes: the type of partners you attract, house, how you handle direct one-to-one influence, how others impact you, relationship with other people, degree
+  Allowed values: mathematical points specific to themes, any degree, not less than 180 degrees from ascendant, not stated
+  Constraints: derived points; how you work with others, always in the seventh house, not stated, can only be stationed in the seventh house
+  Examples: the Descent positioned at an exact place 180 degrees from the ascendant
+
+
+- IC (Imum Coeli)
+  Type: astrological point
+  Meaning: the nadir is sitting down here at three degrees
+  Meaning: the point in an astrological chart that represents one's roots or childhood
+  Meaning: your innermost feelings and privacy things that you do not share with other people
+  Meaning: deep emotional self, privacy
+  Meaning: everything you keep private
+  Attributes: connects to ancestry and familial roots, inner expression, childhood, degree: 3 degrees, expresses childhood feelings, start of the fourth house
+  Allowed values: not stated, mathematical points specific to themes
+  Constraints: contextual to upbringing and family relations, not stated, derived points
+
+
+- Jupiter
+  Type: planet
+  Meaning: Zero Degrees 47 minutes for Jupiter
+  Meaning: a planet in an astrological chart
+  Meaning: offering teaching, travel, culture, and higher education learning
+  Meaning: energy of teaching and culture
+  Meaning: associated with the ninth house
+  Attributes: orb of influence, making a semi-sextile to Chiron, expansive, degree: 0 degrees 47 minutes, orb influence, moves a sign depending on retrogrades, connects fourth house with eleventh house, can be in retrograde, traditional ruler of Pisces
+  Allowed values: not retrograde, seven and a half to eight degrees, not stated, three to five, retrograde
+  Constraints: getting fat off Jupiter, not stated
+  Examples: taking another crack at things that others have tried and failed, seeing luck where others don't
+  
+- Vesta
+  Type: asteroid
+  Meaning: this will be we'll talk about Vesta in a different class
+  Meaning: an asteroid included in astrological interpretations
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0003
+
+
+- moon
+  Type: planet
+  Meaning: the moon is 25 degrees third twenty-three degrees
+  Meaning: the natural satellite of Earth, which influences emotions in astrology
+  Attributes: influence of 2 to 3 degrees, degree: 25 degrees
+  Allowed values: 3 degrees, 2 degrees, not stated
+  Constraints: none stated, not stated
+
+
+- house system
+  Type: astrology
+  Meaning: not stated
+  Attributes: cusp, size
+  Allowed values: Whole Signs, Placidus
+  Constraints: size of houses can vary, depends on latitude
+  Examples: Mercury sits in the 11th house in whole signs, first house sits at 13 degrees
+  Source: para_0004
+
+
+- orb of influence
+  Type: astrology concept
+  Meaning: not stated
+  Examples: Jupiter's position affecting both third and fourth houses
+  Source: 
+
+
+- Uranus
+  Type: planet
+  Meaning: strong reformer instincts for everybody else
+  Meaning: strong reformer instincts focused on self-improvement and testing abilities
+  Attributes: trying to break the system, looking for change, orb influence, strong inner need and desire to test personal abilities, degree at one degree, deck of Libra, degrees
+  Allowed values: any degree, three to five, not stated
+  Constraints: aspecting Venus, not stated
+  Examples: Uranus over Venus, its ruler is Uranus, which is again in the same place
+  Source: para_0014, para_0032, para_0038, para_0027, para_0005, para_0064, para_0033, para_0018, para_0037
+
+
+- Neptune
+  Type: planet
+  Meaning: ruler of Pisces
+  Attributes: placement influences money, ruler of the second house, orb influence, rules Pisces, degrees
+  Allowed values: any degree, four ish to five, not stated
+  Constraints: aspects from Chiron and the Moon, not stated
+  Examples: Neptune in relation to Moon and Chiron
+  Source: para_0044, para_0014, para_0032, para_0043, para_0038, para_0005, para_0056, para_0018, para_0037
+
+
+- Sagittarius
+  Type: zodiac sign
+  Meaning: associated with the ninth house
+  Attributes: ruled by Jupiter
+  Allowed values: not stated, Sagittarius
+  Constraints: not stated, comes after Leo
+  Source: para_0044, para_0057, para_0030, para_0005, para_0073
+
+
+- Mercury
+  Type: planet
+  Meaning: co-ruler
+  Meaning: the planet associated with communication and intellect
+  Meaning: Mercury indicates thought processes and communication.
+  Attributes: orb influence, placement in the second house, in Aries
+  Allowed values: not fully aspecting or influencing all of Saturn, not stated, two to three, second house
+  Constraints: natal and Transit, not stated
+  Examples: cares about money for their family
+  Source: para_0014, para_0038, para_0048, para_0049, para_0005, para_0072, para_0039, para_0037
+
+
+- Gemini
+  Type: zodiac sign
+  Meaning: not stated
+  Allowed values: Gemini, not stated
+  Constraints: not stated
+  Source: para_0030, para_0005
+
+
+- fifth house
+  Type: house
+  Meaning: House of Fun and Recreation
+  Meaning: more about your creativity and creative expression
+  Meaning: creativity and recreation
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0012, para_0005
+
+
+- IC
+  Type: astrological point
+  Meaning: the southernmost point, translates to bottom of the sky
+  Meaning: Imum Coeli
+  Meaning: describes your childhood environment
+  Attributes: influential surroundings, southernmost point, impactful energies
+  Allowed values: fifth house, third house, not stated, fourth house
+  Constraints: focuses on first five to six years of life, not stated
+  Source: para_0010, para_0011, para_0005
+
+
+- first house
+  Type: astrological house
+  Meaning: the house of self
+  Meaning: self
+  Meaning: The first house represents the individual's identity and fundamental self.
+  Attributes: physical appearance, self, initial reactions
+  Allowed values: not stated
+  Constraints: specific to physical body and appearance
+  Examples: What's the first house?
+  Source: para_0072, para_0006
+
+
+- Leo Rising
+  Type: astrological sign and ascendant
+  Meaning: the point in a constellation that was coming up on the Eastern Horizon at the moment of birth
+  Attributes: Jupiter vibe, 13 degrees
+  Allowed values: not stated
+  Constraints: middle of Leo
+  Examples: Minds that 13 degrees
+  Source: para_0006
+
+
+- Seventh House
+  Type: Astrological House
+  Meaning: house of relationships and marriage
+  Meaning: relationship dynamics
+  Attributes: ruler of the seventh house
+  Allowed values: Mercury, Venus
+  Source: para_0008
+
+
+- Descendant
+  Type: Astrological Sign
+  Meaning: how The Descendant plays out
+  Meaning: relationship needs
+  Attributes: ruler's placement, seventh house
+  Allowed values: Pisces, Aquarius, Aries, not stated, Gemini
+  Constraints: not stated
+  Source: para_0008, para_0009
+
+
+- MC (Midheaven)
+  Type: astrological point
+  Meaning: not stated
+  Attributes: start of the tenth house
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0009
+
+
+- Tenth house
+  Type: house
+  Meaning: career reputation and so on
+  Meaning: career and reputation
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0009
+
+
+- Seventh house
+  Type: house
+  Meaning: focus is put back on the theme
+  Meaning: focus on relationships and one-to-one interactions
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0009
+
+
+- midheaven
+  Type: astrological point
+  Meaning: your outward purpose might not be to have a nine-to-five job or climb a corporate ladder
+  Meaning: how people see you and how your reputation goes
+  Meaning: social standing and reputation
+  Meaning: the highest point in an astrological chart indicating public life and career
+  Meaning: your life purpose
+  Meaning: life purpose
+  Attributes: outward expression, career, life purpose, Sagittarius, outward purpose, expression in this lifetime, outward expression
+  Allowed values: working with groups, multiple interpretations, humanitarian efforts, mathematical points specific to themes, networking
+  Constraints: must stay within the energy, not directly career-oriented, derived points
+  Source: para_0014, para_0059, para_0011, para_0049, para_0015, para_0056
+
+
+- Eighth House
+  Type: astrological concept
+  Meaning: not stated
+  Source: para_0012
+
+
+- third house
+  Type: astrological house
+  Meaning: Communications in early childhood and your relationships with your siblings or cousins
+  Meaning: childhood communications, sibling relationships
+  Meaning: feeds into the second house themes
+  Meaning: themes related to the second house
+  Meaning: sales communication siblings close environments neighbors cousins
+  Meaning: house related to communication and values
+  Meaning: where the Sun is, it's here with Saturn
+  Meaning: focusing on ideas and communication.
+  Attributes: ruler is Mars, relationship to second house, neighbors, close environments, communication, sales, energy, siblings, cousins
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0012, para_0048, para_0055, para_0046, para_0050, para_0047
+
+
+- fourth house
+  Type: astrological house
+  Meaning: how you related to your family, your mother, and your physical home
+  Meaning: family relations, home life
+  Meaning: connected in, we have a little bit of that work already done
+  Attributes: feeds into the eleventh house, feeds into the sixth house, Aries
+  Allowed values: t, a, d, n,  , o, s, e, not stated
+  Constraints: t, a, d, n,  , o, connected to home and family matters, s, e
+  Source: para_0012, para_0061, para_0048, para_0065, para_0062
+
+
+- 10th House
+  Type: Astrological House
+  Meaning: how they see you as a person, your reputation
+  Attributes: life purpose, career direction
+  Source: para_0013
+
+
+- 7th House
+  Type: Astrological House
+  Meaning: how you deal with the public
+  Source: para_0013
+
+
+- Sun Sign
+  Type: Astrological Concept
+  Meaning: not stated
+  Source: para_0013
+
+
+- Aries
+  Type: zodiac sign
+  Meaning: energy that you read through planets
+  Meaning: Aries energy
+  Meaning: represents spicy in this case
+  Meaning: associated with spicy food
+  Attributes: ruled by Mars, first house involvement, ruler in tenth house
+  Allowed values: t, a, d, n,  , o, Aries, s, e
+  Constraints: ,, t, h, a, d, n, v, o,  , first decan is purest form, y, s, l, c, e, p, i, r
+  Examples: real estate, career in nurturing, housewife role
+  Source: para_0014, para_0061, para_0051, para_0030, para_0033
+
+
+- Mars
+  Type: planet
+  Meaning: rules Aries
+  Meaning: pure Libra energy
+  Meaning: Libra energy
+  Meaning: ruler of Aries and associated with action and drive
+  Meaning: action and drive
+  Meaning: ruler of Aries
+  Attributes: rulership, 12 degrees, in the third house, action, orb influence, sitting in the second house, five degrees, 3 to 4 degree orb of influence, in Pisces, pure energy
+  Allowed values: three to four, degrees, not stated, Libra
+  Constraints: must be exact for points, only a 3 to 4 degree orb of influence, not stated
+  Source: para_0014, para_0038, para_0065, para_0060, para_0046, para_0056, para_0033, para_0037
+
+
+- Part of Fortune
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0014
+
+
+- Saturn
+  Type: planet
+  Meaning: not stated
+  Attributes: orb of influences, in retrograde, orb influence, sitting in the Uranus deck of Libra, sitting in Uranus, 15 degrees, usually takes two to two and a half years to move a sign
+  Allowed values: seven to eight, interacting with Mercury, not stated, in Libra, in Aquarius
+  Constraints: not stated, has different speeds
+  Examples: my Saturn is a Libra Aquarian Saturn
+  Source: para_0014, para_0032, para_0038, para_0057, para_0039, para_0022, para_0033, para_0035, para_0037
+
+
+- Pluto
+  Type: planet
+  Meaning: has to do with communication and potentially siblings
+  Meaning: communication and siblings energy
+  Meaning: transformation
+  Attributes: orb influence, Gemini energy, roughly the same size as Moon, degrees
+  Allowed values: two to three degrees, Gemini, any degree, not stated
+  Constraints: aspects from Chiron and the Moon, not stated
+  Examples: Pluto in relation to Moon and Chiron
+  Source: para_0014, para_0038, para_0057, para_0033, para_0018, para_0035, para_0037
+
+
+- retrograde planets
+  Type: astrology
+  Meaning: lessons; karmic lessons that you're supposed to learn.
+  Meaning: astrological retrogrades represent lessons to be learned.
+  Attributes: significance, opportunity for reflection and redirection, learning
+  Allowed values: direct, Mercury, retrograde, Saturn
+  Constraints: retrogrades apply to all planets except the sun and moon, only during retrograde
+  Source: para_0019, para_0015
+
+
+- Mercury retrograde
+  Type: astrological phenomenon
+  Meaning: the people with Mercury retrograde are critical thinkers who constantly question what other people say.
+  Meaning: people with Mercury in retrograde reflect inwardly and are critical thinkers.
+  Attributes: associated with transits, Works differently than usual, can be positive, Effects are inward, It creates an internalization of energy, critical thinker, constant questioner
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: When you have Mercury retrograde in your natal chart, you absorb thoughts and ideas through repetition and osmosis rather than deliberate study., negotiated thousands off a car lease, saved $700 on a TV purchase
+  Source: para_0021, para_0016, para_0020
+
+
+- monthly forecasts
+  Type: astrological predictions
+  Meaning: not stated
+  Attributes: for specific rising signs, generalization
+  Allowed values: not stated
+  Constraints: does not take into account your own chart and ruler shifts and aspects
+  Examples: not stated
+  Source: para_0016
+
+
+- transit energies
+  Type: astrology concept
+  Meaning: not stated
+  Attributes: associations with planets, time-sensitive
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: Pluto's here, Mercury's here, the sun's here
+  Source: para_0017
+
+
+- houses
+  Type: astrology structure
+  Meaning: not stated
+  Attributes: thematic interpretations, associated with rising signs
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: sixth house for Virgo Rising, another house for Cancer Rising
+  Source: para_0017
+
+
+- Moon
+  Type: astrological body
+  Meaning: the Moon is also a planet and astrology.
+  Meaning: considered a planet in astrology despite being a satellite.
+  Attributes: orb of influence, connects fourth house with sixth house, orb influence, roughly the same size as Pluto, a planet in astrology, satellite, degrees
+  Allowed values: two to three degrees, any degree, not stated
+  Constraints: not all of it from the center point, natal and Transit, must be in relation to Chiron, Neptune, and Pluto, not stated
+  Examples: Moon at 25 degrees
+  Source: para_0036, para_0038, para_0039, para_0018, para_0062, para_0037
+
+
+- Chiron
+  Type: astrological body
+  Meaning: not stated
+  Attributes: spicy areas, throws a wrench in communication, mentioned in relation to the 12th house, degrees
+  Allowed values: any degree, not stated
+  Constraints: activated by the Moon, not able to have spicy food, not stated
+  Examples: Chiron stuff in the asteroids and part of Fort and Arabic Parts class, Chiron in retrograde, Chiron at same degree as the Moon
+  Source: para_0053, para_0051, para_0050, para_0064, para_0018, para_0073
+
+
+- Venus
+  Type: astrological body
+  Meaning: Venus rules Taurus and Venus rules Libra.
+  Meaning: planet associated with value and relationships
+  Meaning: natural ruler of money
+  Attributes: orb influence, sits in the third house, self-worth, inherent talents, conjunction with South node, values, degrees
+  Allowed values: Libra, any degree, not stated, five to six, Taurus
+  Constraints: not aspecting anything aside from conjunction, natal and Transit, associated with relationships and home, not stated, must be aspecting Uranus
+  Examples: Venus aspecting Uranus
+  Source: para_0035, para_0038, para_0065, para_0018, para_0062, para_0047, para_0037
+
+
+- 10th house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0019
+
+
+- 7th house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0019
+
+
+- 5th house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0019
+
+
+- 3rd house
+  Type: astrological house
+  Meaning: money is coming from the third house
+  Meaning: source of money relates to communication
+  Source: para_0019, para_0067
+
+
+- Venus retrograde
+  Type: astrological aspect
+  Meaning: the way that you view pleasure and love is different, more of an inward process.
+  Meaning: people with Venus in retrograde have unconventional views on beauty and love.
+  Attributes: internalized beauty standards, different love needs
+  Source: para_0021
+
+
+- Mars retrograde
+  Type: astrological aspect
+  Meaning: they end up not being as competitive outwardly and often compete with themselves.
+  Meaning: people with Mars in retrograde tend to internalize competition.
+  Attributes: tend to internalize anger, internal competition
+  Source: para_0021
+
+
+- Jupiter retrograde
+  Type: astrological placement
+  Meaning: they're not looking to do the same thing as everybody else; they forge their own path and usually in areas that are untested.
+  Meaning: a unique approach characterized by exploration of new areas
+  Attributes: not conforming to norms, seeking abundance in new areas
+  Allowed values: not stated
+  Constraints: none, areas must be untied and unproven
+  Source: para_0023
+
+
+- retrograde Saturn
+  Type: astrological placement
+  Meaning: these people may doubt their worthiness as human beings.
+  Meaning: self-doubt and lack of perceived authority
+  Meaning: a position in astrology that may cause people to avoid taking responsibility for mistakes
+  Meaning: Saturn in retrograde causing avoidance of responsibility
+  Attributes: constant inward seeking of authority, self-doubt
+  Allowed values: not stated
+  Constraints: if Venus or Taurus is ill-aspected, contributes to worthlessness feelings
+  Source: para_0024, para_0023
+
+
+- late bloomers
+  Type: personal development concept
+  Meaning: individuals who learn lessons more slowly, particularly in the context of Saturn's position in their chart
+  Meaning: individuals who develop later in life
+  Source: para_0024
+
+
+- Saturn retrograde
+  Type: astrological phenomenon
+  Meaning: not stated
+  Source: para_0025
+
+
+- Uranus, Neptune, Pluto
+  Type: outer planets
+  Meaning: not stated
+  Source: para_0025
+
+
+- Hellenistic, Vedic, Traditional astrology
+  Type: astrological systems
+  Meaning: people who do Hellenistic Vedic or Traditional astrology do not use these three planets
+  Meaning: astrology systems that exclude certain planets
+  Source: para_0025
+
+
+- Uranus in retrograde
+  Type: astrology aspect
+  Meaning: you are just a natural born Rebel
+  Meaning: rebellious nature
+  Source: para_0026
+
+
+- Neptune retrograde
+  Type: planetary alignment
+  Meaning: confused inwardly as to whether they're virtuous or not
+  Meaning: difficulty in self-perception of virtue
+  Attributes: confusion about being a good person, issues with unsolicited help
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027
+
+
+- Pluto retrograde
+  Type: planet
+  Meaning: very difficult time accepting transformation or fully accepting death
+  Meaning: struggles with accepting change and mortality
+  Attributes: issues with mortality, difficulty recognizing transformation
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027
+
+
+- retrogrades
+  Type: concept
+  Meaning: not stated
+  Attributes: natal, internalized, transit
+  Allowed values: different interpretations based on context
+  Constraints: natal retrogrades are different than transit retrogrades
+  Source: para_0028
+
+
+- personal power
+  Type: concept
+  Meaning: not stated
+  Attributes: unaware of their effect on others
+  Allowed values: can be outwardly projected, can be internalized
+  Constraints: acceptance necessary for projection
+  Source: para_0028
+
+
+- deccan
+  Type: astrological division
+  Meaning: It's based off of deca meaning 10.
+  Meaning: ten degree subdivision in astrology
+  Attributes: each deccan is a 10 degree subdivision within a zodiac sign
+  Allowed values: 10 degrees
+  Constraints: each sign comprises 30 degrees
+  Source: para_0029
+
+
+- zodiac sign
+  Type: astrological sign
+  Meaning: not stated
+  Attributes: comprised of 30 degrees
+  Allowed values: Pisces
+  Constraints: not stated
+  Source: para_0029
+
+
+- Pisces
+  Type: zodiac sign
+  Meaning: things that end, illusions, compassion
+  Meaning: compassion and illusions
+  Meaning: represents the water
+  Meaning: associated with seafood
+  Attributes: compassion, associated with relationships with money, ruler is Neptune, illusions, ruled by Neptune, 12th house, condition of the second house being Pisces means money flows
+  Allowed values: spiritual, things behind the scenes, Pisces, musical, media-related, not stated
+  Constraints: sits at the 12th house, not stated
+  Source: para_0043, para_0042, para_0051, para_0030, para_0046
+
+
+- Cancer
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: ruled by the Moon, 2nd decan
+  Allowed values: Cancer
+  Constraints: 2nd decan in the sequence
+  Source: para_0030
+
+
+- Scorpio
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: ruled by Pluto
+  Allowed values: Scorpio
+  Constraints: comes before returning to Pisces
+  Source: para_0030
+
+
+- Leo
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: ruled by the Sun, 2nd decan, associated with the third house
+  Allowed values: Leo
+  Constraints: comes after Aries
+  Source: para_0030, para_0073
+
+
+- Taurus
+  Type: zodiac sign
+  Meaning: money, value, self-worth, Mother Nature, food, money equates to finance
+  Meaning: values related to finance and nurturing
+  Meaning: money can come through children and recreation
+  Attributes: money, ruled by Venus, self-worth, value
+  Allowed values: finance, food, Taurus
+  Constraints: first decan is purest form
+  Source: para_0030, para_0065, para_0045
+
+
+- deckons
+  Type: astrological concept
+  Meaning: adds further detail to the position of each planet within the Zodiac wheel.
+  Meaning: adds detail to planetary positions in astrology.
+  Attributes: Chaldean deckons, modern deckons, traditional deckons
+  Allowed values: modern, traditional
+  Constraints: must use traditional/modern deckons in learning system
+  Source: para_0031
+
+
+- Chaldean deckons
+  Type: deckon type
+  Meaning: a ranking of planets by speed up till Saturn.
+  Meaning: ranking of planets by speed.
+  Attributes: ranking by speed
+  Allowed values: order up till Saturn
+  Constraints: Saturn is the slowest, Moon is the fastest
+  Source: para_0031
+
+
+- Sun
+  Type: celestial_body
+  Meaning: a little bit of drama, entertainment, ego, or personality into the Aries energy
+  Meaning: Aries energy with personality traits
+  Meaning: the sun is huge. It's the biggest planet. Obviously it's a star but in astrology it is a planet.
+  Meaning: a significant celestial body in astrology, referred to as a planet.
+  Attributes: a star in astronomy, biggest orb of influence, associated with the third house, a planet in astrology, huge
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033, para_0036, para_0037, para_0073
+
+
+- sixth house ruler
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: sitting in Capricorn
+  Allowed values: not stated
+  Constraints: sat at 13 and a half degrees
+  Source: para_0034
+
+
+- sixth house
+  Type: astrological house
+  Meaning: the house associated with work and health
+  Meaning: Health, chores, routine, day to day stuff, service to others, sense of Duty, small pets
+  Meaning: The sixth house represents health and daily responsibilities.
+  Attributes: chores, routine, service to others, small pets, health, sitting in the Taurus Deccan, nurturing, sense of duty
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0063, para_0034, para_0049
+
+
+- tenth house
+  Type: astrological house
+  Meaning: corporations and government
+  Attributes: is Taurus
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034, para_0065
+
+
+- seventh house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: would be Gemini
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+- North Node
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0057, para_0035
+
+
+- second house
+  Type: astrological house
+  Meaning: how I make money
+  Meaning: associated with money
+  Meaning: money themes
+  Meaning: money
+  Meaning: financial matters
+  Meaning: action based off of communication.
+  Meaning: physical action related to communication.
+  Meaning: house of money, value, self-worth, possessions
+  Meaning: house of material aspects
+  Attributes: foods liked, design, value, art related, possessions, self-worth, connected to eleventh house, public facing, money
+  Allowed values: corporation, t, government, a, d, n, online tech, o,  , s, not stated, e
+  Constraints: t, r, h, d, n,  , o, empty second house, s, e, l, not stated, c, none stated, i, u
+  Examples: money focused on teams, groups, and organization
+  Source: para_0061, para_0055, para_0052, para_0065, para_0046, para_0050, para_0056, para_0071, para_0035
+
+
+- Mercury Deccan
+  Type: astrological decan
+  Meaning: not stated
+  Source: para_0035
+
+
+- Earth
+  Type: celestial body
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0037
+
+
+- stellium
+  Type: astronomy/astrology
+  Meaning: a grouping of three or more planets in the same sign that influence each other
+  Meaning: this would be a stellium if it were planets because they're within each other's orb of influence there are cluster and they work with each other
+  Meaning: a cluster of planets influencing each other
+  Attributes: orb of influence, three or more planets, same sign, cluster
+  Allowed values: planets, not stated
+  Constraints: must be within each other's orb of influence, must be within an orb of influence
+  Source: para_0040, para_0041
+
+
+- satellitium
+  Type: astronomy/astrology
+  Meaning: a cluster of planets within the same sign that do not impact each other
+  Meaning: they work independently within the same energy or same area of life
+  Meaning: independent energy configurations in astrology
+  Attributes: cluster of planets, same sign, independently working, do not impact each other
+  Allowed values: not stated
+  Constraints: must not be within an orb of influence, must work independently
+  Source: para_0040, para_0041
+
+
+- Random person's chart
+  Type: astrological chart
+  Meaning: not stated
+  Attributes: location, gender, birth time, birth date, rising sign
+  Allowed values: 4:14, March 22nd, 1977, female, Pittsburgh
+  Constraints: located in the states, whole signs
+  Examples: female born on March 22nd, 1977, at 4:14 in Pittsburgh
+  Source: para_0042
+
+
+- Bidirectional rulership
+  Type: astrological concept
+  Meaning: not stated
+  Source: para_0042
+
+
+- Layered rulership
+  Type: astrological concept
+  Meaning: not stated
+  Source: para_0042
+
+
+- 11th house
+  Type: Astrological house
+  Meaning: anything money has to do with how groups are impacted
+  Meaning: financial dealings involving groups
+  Attributes: related to teams, organizations, groups, hopes, dreams, humanitarianism, friends, networking, and technology, money-making, condition, money comes through 11th house matters
+  Allowed values: Sagittarius, Jupiter, not stated
+  Constraints: sitting in the second house, not stated
+  Source: para_0067, para_0043, para_0045
+
+
+- 11th house themes
+  Type: Astrological Concept
+  Meaning: not stated
+  Examples: cultural groups, International Teams, learning or education
+  Source: para_0044
+
+
+- 4th house
+  Type: astrological house
+  Meaning: has to do with home, nurturing, agriculture, mother, family, real estate
+  Meaning: home and family matters
+  Attributes: mother, agriculture, nurturing, home, family
+  Allowed values: real estate
+  Source: para_0045
+
+
+- Mars in second house
+  Type: planetary position
+  Meaning: the planet of action towards second house matters, plays out in piscian ways
+  Meaning: action relating to finances and values
+  Attributes: passion, drive
+  Allowed values: negative, basic
+  Constraints: higher vibration
+  Source: para_0045
+
+
+- lens
+  Type: concept
+  Meaning: topic we are talking about
+  Meaning: topic
+  Attributes: topic
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0046
+
+
+- retrograde
+  Type: astrological phenomenon
+  Meaning: Venus is not going to operate in its normal way.
+  Meaning: a period when a planet appears to move backward in the sky
+  Source: para_0047
+
+
+- Virgo
+  Type: zodiac sign
+  Meaning: service to others or being critical
+  Source: para_0048
+
+
+- Leo theme
+  Type: astrological theme
+  Meaning: entertainment, drama, children, something that's fun recreational could be Sports
+  Source: para_0048
+
+
+- Aries energy
+  Type: astrological energy
+  Meaning: communication
+  Source: para_0048, para_0052
+
+
+- eleventh house
+  Type: astrological house
+  Meaning: the house associated with friendships, groups, and technology
+  Attributes: pulls additional information from fourth house, Technology, networking
+  Allowed values: t, a, d, n,  , o, s, e
+  Constraints: t, a, d, n,  , o, s, e
+  Source: para_0061, para_0049
+
+
+- home country
+  Type: location
+  Meaning: the country where a person resides or is originally from
+  Attributes: Taurus Finance
+  Source: para_0049
+
+
+- decons
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: only a flavor, do not add weight
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0050
+
+
+- cultural spicy cultural Seafood
+  Type: food preference
+  Meaning: not stated
+  Attributes: spicy, cultural
+  Allowed values: seafood
+  Constraints: may not like it
+  Source: para_0051
+
+
+- the seventh house ruler of culture
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: ruler is Venus, sitting in the third house
+  Source: para_0051
+
+
+- Sun at one degree
+  Type: astrological position
+  Meaning: not stated
+  Source: para_0051
+
+
+- Mars at one degree
+  Type: astrological position
+  Meaning: not stated
+  Source: para_0051
+
+
+- Pisces energy
+  Type: astrological energy
+  Meaning: energy that's spiritual as well.
+  Meaning: a spiritual energy.
+  Source: para_0055, para_0052
+
+
+- sales energy
+  Type: concept related to sales
+  Meaning: they have insecurities here, but their work here
+  Meaning: concept regarding salesmanship and its challenges
+  Source: para_0052
+
+
+- Western tropical Leo
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0054
+
+
+- Vedic Leo
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0054
+
+
+- part of Fortune
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0054
+
+
+- Juno
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0054
+
+
+- aspects
+  Type: concept
+  Meaning: aspects are the glue to interpreting something.
+  Meaning: aspects are essential for interpretation.
+  Meaning: glue in chart interpretation
+  Meaning: aspects
+  Attributes: sex tile, semi-sextile
+  Allowed values: supports interpretation
+  Constraints: cannot only rely on ruler ships
+  Source: para_0055, para_0056
+
+
+- energies
+  Type: concept
+  Meaning: it's what are the energies that we're working with.
+  Meaning: energies are the core of interpretation.
+  Source: para_0055
+
+
+- Capricorn
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: structure, hierarchy
+  Allowed values: not stated
+  Constraints: none stated
+  Source: para_0057, para_0071
+
+
+- numerology
+  Type: concept
+  Meaning: I believe in numerology I use numerology but I don't use it as deep as some people
+  Meaning: numerology is a belief system relating to the significance of numbers
+  Attributes: resonating frequencies
+  Allowed values: not stated
+  Constraints: easy to manipulate
+  Source: para_0058
+
+
+- human design
+  Type: concept
+  Meaning: I really want to get into it just to either prove it or disprove it in my own mind
+  Meaning: human design is a completely different system related to personal insights
+  Attributes: different types
+  Allowed values: not stated
+  Constraints: not enough knowledge to make any awareness
+  Source: para_0058
+
+
+- house of self
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0060
+
+
+- money ruler
+  Type: astrological house ruler
+  Meaning: not stated
+  Attributes: sits in house, visits other rulers
+  Allowed values: not stated
+  Constraints: must go visit the ruler in the fourth house to interact with teams
+  Source: para_0062
+
+
+- home life
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: connected to sixth house and eleventh house
+  Allowed values: not stated
+  Constraints: connected through the Moon and Jupiter
+  Source: para_0062
+
+
+- work
+  Type: concept
+  Meaning: related to financial value, can support work done from home, involves groups internationally
+  Meaning: Work includes financial aspects, can be done from home, and may involve international collaboration.
+  Attributes: financial, health food, value, mother nature oriented (like herbalism)
+  Examples: online work with groups, working from home
+  Source: para_0063
+
+
+- Second House
+  Type: Astrological House
+  Meaning: not stated
+  Examples: empty second house means I've got nothing to work with here
+  Source: para_0064
+
+
+- identity
+  Type: third house
+  Meaning: identity is never listed anywhere as identity. It's always just communication.
+  Meaning: identity and communication qualities associated with the third house in astrology.
+  Source: para_0066
+
+
+- money
+  Type: second house
+  Meaning: money is not concerned with money.
+  Source: para_0066
+
+
+- orbs of influence
+  Type: astrological concept
+  Meaning: when you're at 27 degrees or even one degree with the moon
+  Meaning: range of astrological influence
+  Attributes: degree
+  Allowed values: two to three degrees, one to two degrees
+  Constraints: only refers to certain degrees mentioned
+  Examples: moon in Taurus in the fourth house
+  Source: para_0067
+
+
+- degrees in houses
+  Type: astrology
+  Meaning: positioning within astrological houses
+  Attributes: house number, degree value
+  Allowed values: less than three degrees, about five degrees
+  Examples: 27 degrees, 22 degree Mars
+  Source: para_0068
+
+
+- hurricanes
+  Type: natural phenomenon
+  Meaning: not stated
+  Source: para_0069
+
+
+- media coverage
+  Type: information source
+  Meaning: not stated
+  Source: para_0069
+
+
+- 22 degree Moon
+  Type: astrology degree
+  Meaning: Guess this person is a serial killer took me a second to get it
+  Source: para_0070
+
+
+- 18 and 22 degrees
+  Type: astrology degrees
+  Meaning: one of them is a serial killer one's a killer be killed
+  Source: para_0070
+
+
+- series
+  Type: asteroid
+  Meaning: like a mother earth kind of nurturing
+  Meaning: nurturing aspect of series
+  Attributes: connected to moon, nurturing
+  Allowed values: not stated
+  Constraints: none stated
+  Source: para_0071
+
+
+- eighth house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: potentially manipulative nurturing
+  Allowed values: not stated
+  Constraints: none stated
+  Source: para_0071
+
+
+- psychology
+  Type: field of study
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: none stated
+  Source: para_0071
+
+
+- Cancers
+  Type: astrological sign
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: none stated
+  Source: para_0071
+
+
+- Capricorn Saturn
+  Type: Planetary Placement
+  Meaning: Capricorn Saturn is a planetary placement indicating certain traits and influences.
+  Attributes: in the third house, in Leo
+  Allowed values: third house, Leo
+  Constraints: not stated
+  Examples: could be a child therapist
+  Source: para_0072
+
+
+- ninth house
+  Type: astrological house
+  Meaning: associated with schooling
+  Source: para_0073
+
+
+- DEFINITIONS (46 definitions)
+
+
+  energy: default pattern that energies tend to manifest as
+    [medium] Source: para_0000
+  cycles: things manifest over and over; cyclical patterns in energies
+    [medium] Source: para_0000
+  Cancer Rising: A person with Cancer as their ascendant sign.
+    [high] Source: para_0001
+  whole signs house system: a method in astrology where each sign corresponds to a whole house.
+    [medium] Source: para_0002
+  Placidus house system: a complex house system in astrology differing from the whole signs approach.
+    [medium] Source: para_0002
+  first house: the house in astrology associated with self and personal identity
+    [high] Source: para_0003
+  fourth house: the house in astrology associated with home and family
+    [high] Source: para_0003
+  seventh house: the house in astrology associated with partnerships and relationships
+    [high] Source: para_0003
+  tenth house: the house in astrology associated with career and public life
+    [high] Source: para_0003
+  ascendant: The basis of self-awareness and immediate reactions.
+    [high] Source: para_0007
+  descendant: The influence of how one relates to others and is perceived while not engaging.
+    [high] Source: para_0007
+  Leo Rising: A person with Leo as their ascendant who may struggle to see both their ability to be a good friend and their detachment.
+    [high] Source: para_0008
+  Pisces Rising: A person with Pisces as their ascendant who often gives service to others but can be critical.
+    [high] Source: para_0008
+  Soul's outward projection: the essence of who you need to be in your career
+    [medium] Source: para_0009
+  childhood environment: describes the most influential types of energies surrounding one's upbringing
+    [high] Source: para_0011
+  Queen Kunks: not stated
+    [not stated] Source: para_0018
+  semi-sextile: not stated
+    [not stated] Source: para_0018
+  retrograde: the apparent backward motion of planets from the perspective of Earth.
+    [high] Source: para_0019
+  Saturn retrograde: a period when the planet Saturn appears to move backward in its orbit, associated with self-reflection and responsibility
+    [high] Source: para_0024
+  Mercury's influence: not stated
+    [not stated] Source: para_0028
+  deccan: a 10 degree subdivision within a zodiac sign
+    [high] Source: para_0029
+  Libra: not stated
+    [not stated] Source: para_0032
+  Aquarius: not stated
+    [not stated] Source: para_0032
+  stellium: a grouping of three or more planets in the same sign that influence each other
+    [high] Source: para_0040
+  satellitium: a cluster of planets within the same sign that do not impact each other
+    [high] Source: para_0040
+  third house: the house relating to communication and sales
+    [high] Source: para_0041
+  Bidirectional rulership: not stated
+    [medium] Source: para_0042
+  Layered rulership: not stated
+    [medium] Source: para_0042
+  11th house: not stated
+    [not stated] Source: para_0044
+  compassion: a good thing, but can be negative if excessive
+    [medium] Source: para_0046
+  third house: house related to communication and values
+    [high] Source: para_0047
+  Venus: planet associated with value and relationships
+    [high] Source: para_0047
+  retrograde: a period when a planet appears to move backward in the sky
+    [high] Source: para_0047
+  Sagittarius: a fire sign associated with movement, travel, and culture
+    [medium] Source: para_0049
+  communication: the act of sharing information or messages
+    [high] Source: para_0049
+  technology: the application of scientific knowledge for practical purposes, especially in industry
+    [high] Source: para_0049
+  rulership: not stated
+    [not stated] Source: para_0052
+  aspects: essential components that help in the interpretation of astrological charts.
+    [medium] Source: para_0055
+  energies: the underlying themes or forces in astrological readings.
+    [medium] Source: para_0055
+  semi-sextile: an aspect that indicates a connection between two planets
+    [medium] Source: para_0056
+  semi-sextile: a minor aspect representing 30 degrees between two astrological points
+    [medium] Source: para_0056
+  2023: a seven spiritual year with Saturn moving into Pisces
+    [high] Source: para_0058
+  orb of influence: the range within which a planet affects another point, specifically limited to 3 to 4 degrees for Mars.
+    [high] Source: para_0060
+  exact points: points in astrology that must be at an exact degree to have influence.
+    [high] Source: para_0060
+  decan: derived off of 10 degrees
+    [high] Source: para_0061
+  ascendant: not stated
+    [not stated] Source: para_0072
+
+
+- RULE ENGINE (92 rules)
+
+
+[R001]
+  IF ascendant point reaches Virgo
+  THEN the whole chart would shift
+  Teacher voice: "as soon as this ascended point would reach Virgo then the whole chart would shift."
+  [high] Source: para_0002
+
+
+[R002]
+  IF planets access these points
+  THEN they're felt much stronger than just sitting in the first house or fourth or seventh or tenth house
+  Teacher voice: "the reason why we're talking about these four points is these are like hot wires Meaning that when planets access these points, they're felt much stronger than just sitting in the first house or fourth or seventh or tenth house"
+  [high] Source: para_0003
+
+
+[R003]
+  IF a person has Leo Rising
+  THEN not every Leo Rising is going to have the same childhood
+  Teacher voice: "the IC does float which means that not every Leo Rising is going to have the same childhood"
+  [high] Source: para_0003
+
+
+[R004]
+  IF Jupiter is occupying the third house
+  THEN it also influences the fourth house
+  Teacher voice: "moving it to the third house and putting it here right next to the cusp still affects third and fourth"
+  [medium] Source: para_0004
+
+
+[R005]
+  if Uranus is at one degree
+  then it is noted that it is far away from the cuspline for the fifth house
+  Teacher voice: "you'll notice that Uranus is at one degree. But you see how far it is away from the cuspline for the fifth house."
+  Exceptions: not stated
+  [high] Source: para_0005
+
+
+[R006]
+  if you go to the fifth house
+  then it includes Capricorn, Sagittarius, and Neptune.
+  Teacher voice: "we have Capricorn. We have Sagittarius we have Neptune."
+  Exceptions: not stated
+  [high] Source: para_0005
+
+
+[R007]
+  IF Leo is coming up over the Eastern Horizon
+  THEN it creates the sunrise
+  Teacher voice: "when Leo was coming up over the Eastern Horizon and therefore creates my sunrise"
+  [high] Source: para_0006
+
+
+[R008]
+  IF the first house is being discussed
+  THEN it involves your physical appearance
+  Teacher voice: "when we're talking about the first house, we're always talking about your physical appearance"
+  [high] Source: para_0006
+
+
+[R009]
+  IF you are discussing the ascendant
+  THEN it relates to how you outwardly present yourself
+  Teacher voice: "who you are in this world is the ascendant"
+  [high] Source: para_0006
+
+
+[R010]
+  not stated
+  not stated
+  Teacher voice: "The ascendant is the mask you wear that could be the that couldn't be further from the truth."
+  [medium] Source: para_0007
+
+
+[R011]
+  not stated
+  not stated
+  Teacher voice: "This is what they see you as here when you're not engaging."
+  [medium] Source: para_0007
+
+
+[R012]
+  IF you have a Leo Rising with an Aquarius seventh house
+  THEN you need friendship
+  Teacher voice: "If you're a Leo Rising for instance that has an Aquarius seventh house, you need friendship."
+  [high] Source: para_0008
+
+
+[R013]
+  IF you are a Libra Rising
+  THEN you need a little bit of competition
+  Teacher voice: "If you are a Libra rising you have Aries, you need a little bit of competition."
+  [high] Source: para_0008
+
+
+[R014]
+  IF you are a Sagittarius Rising
+  THEN you need somebody who will communicate with you
+  Teacher voice: "If you're Sagittarius you have Gemini you need somebody who will communicate with you."
+  [high] Source: para_0008
+
+
+[R015]
+  IF ruler of a house sits in that house
+  THEN focus is put back on the theme.
+  Teacher voice: "if you have the seventh house here rulership... the ruler of the house sitting in the same house means that the focus is put back on the theme."
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R016]
+  IF Capricorn rising and have a Capricorn descendant with Saturn in the seventh house
+  THEN life's goals are attributed back to having a relationship or working with other people.
+  Teacher voice: "if you're a Capricorn rising... that means that your life goals are attributed back to having a relationship..."
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R017]
+  IF Aries in the tenth house and Mars in the tenth house
+  THEN focus is on climbing the corporate ladder.
+  Teacher voice: "same thing with the tenth house Aries in the tenth house Mars being in the tenth house in Aries means that your focus is back on climbing the corporate ladder..."
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R018]
+  IF the ruler is in its own house
+  THEN the themes of that house are put back into the same house
+  Teacher voice: "the ruler in its own house just means that the themes of that house are put back into the same house"
+  [high] Source: para_0010
+
+
+[R019]
+  IF the Midheaven is in the 11th house
+  THEN it is possible
+  Teacher voice: "the Midheaven can be in the 11th house absolutely"
+  [high] Source: para_0010
+
+
+[R020]
+  IF the IC is in the fourth house
+  THEN family might know you
+  Teacher voice: "if the IC is in the fourth house, but if the IC is in the third or fifth house, these are things from your childhood that either you did..."
+  [medium] Source: para_0012
+
+
+[R021]
+  IF using the IC with the moon and sometimes the South node
+  THEN one can derive where you came from and what type of energy you had prior to this lifetime
+  Teacher voice: "And if anyone does any sort of like akashic records or past life readings or anything like that, they use the IC along with the moon..."
+  [medium] Source: para_0012
+
+
+[R022]
+  if people ignore their sun sign and midheaven
+  then they may not be aligned with their happiness and expression
+  Teacher voice: "there's a lot of people who ignore their sun sign and their midheaven and those are extremely important"
+  [high] Source: para_0013
+
+
+[R023]
+  IF Saturn is retrograde
+  THEN take a deep dive and look inside to ensure you are doing the necessary things
+  Teacher voice: "when Saturn's retrograde because Saturn's like hey, you know, take a deep dive and look inside."
+  [high] Source: para_0015
+
+
+[R024]
+  IF Mercury is going retrograde
+  THEN take a second to look at details involving communication and contracts
+  Teacher voice: "Mercury is going retrograde which literally just says anything that has to do with Mercury type stuff... to like take a second and go look at the details."
+  [high] Source: para_0015
+
+
+[R025]
+  if I didn't pay attention to Mercury retrograde
+  then I wouldn't have done that
+  Teacher voice: "if I didn't pay attention to Mercury retrograde and I just thought they were bad things then I wouldn't have done that"
+  Exceptions: not stated
+  [high] Source: para_0016
+
+
+[R026]
+  IF you're a Virgo Rising
+  THEN it will be in your sixth house
+  Teacher voice: "If you're a Virgo Rising. It'll be in your sixth house."
+  Exceptions: not stated
+  [high] Source: para_0017
+
+
+[R027]
+  IF you're a Cancer Rising
+  THEN it will be over in another house
+  Teacher voice: "If you're a Cancer Rising it'll be over in another house."
+  Exceptions: not stated
+  [high] Source: para_0017
+
+
+[R028]
+  IF the Moon is over Chiron
+  THEN it means the Moon is creating aspects with Chiron
+  Teacher voice: "Moon going over my Chiron means Chiron is creating a square to my moon"
+  Exceptions: not stated
+  [high] Source: para_0018
+
+
+[R029]
+  the sun in the moon cannot go retrograde
+  the sun and moon always move in the same path and cannot be retrograde.
+  Teacher voice: "the sun cannot be retrograde."
+  [high] Source: para_0019
+
+
+[R030]
+  IF you have a child with a Mercury retrograde
+  THEN it can make it really difficult for them to show their work in school, especially in math class.
+  Teacher voice: "If you have a child with a Mercury retrograde it can make it really difficult for them to show their work in school, especially in math class."
+  [high] Source: para_0020
+
+
+[R031]
+  IF Mars is in the seventh house
+  THEN you are taking it out on your partner.
+  Teacher voice: "if it's in the seventh house you're taking it out on your partner."
+  [high] Source: para_0021
+
+
+[R032]
+  IF Mars is in Libra
+  THEN you are taking it out on your partner.
+  Teacher voice: "if it's in Libra you're taking out on your partner."
+  [high] Source: para_0021
+
+
+[R033]
+  IF Mars is in the first house
+  THEN you could be taking it out on anyone or just in the actions you do.
+  Teacher voice: "if it's in the first house you could be taking out anyone or just in the actions that you do."
+  [high] Source: para_0021
+
+
+[R034]
+  IF Jupiter is in retrograde
+  THEN you are capable of taking advantage of opportunities others ignore or pass by
+  Teacher voice: "If you have Jupiter in retrograde, you're capable of taking advantage of opportunities others ignore or pass by."
+  [high] Source: para_0022
+
+
+[R035]
+  IF Jupiter retrograde eager for new attempts
+  THEN may lead to success where previous attempts by others failed
+  Teacher voice: "They prefer to take another crack at things that others have tried and failed."
+  [high] Source: para_0022
+
+
+[R036]
+  IF your Venus or Taurus is ill-aspected
+  THEN you may feel constant depression or viewed as lazy.
+  Teacher voice: "especially if your Venus your Taurus is ill aspected."
+  [high] Source: para_0023
+
+
+[R037]
+  IF you have a child with retrograde Saturn
+  THEN you want to work on this to ensure they have self-worth
+  Teacher voice: "if you have a child with retrograde Saturn you want to work on this you want to make sure that they have self-worth"
+  [high] Source: para_0024
+
+
+[R038]
+  if you have half of your planets in retrograde
+  then you need to understand what they mean
+  Teacher voice: "if you have half of your planets are in retrograde, you need to understand what they mean"
+  [medium] Source: para_0025
+
+
+[R039]
+  IF your Uranus is in retrograde
+  THEN you are just a natural born Rebel
+  Teacher voice: "if your Uranus is in retrograde, then you are just a natural born Rebel."
+  [high] Source: para_0026
+
+
+[R040]
+  IF you are helping others whether the help is wanted or not
+  THEN be careful because you may be super generous and trying to help others while being taken advantage of
+  Teacher voice: "obviously, you have to be careful there super generous super helpful always looking out for the underdog because you feel like the underdog"
+  [high] Source: para_0027
+
+
+[R041]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  Exceptions: not stated
+  [low] Source: para_0031
+
+
+[R042]
+  IF you have a planet in Aries
+  THEN you're reading Aries energy
+  Teacher voice: "if you have a planet in Aries, you're still reading Aries energy."
+  [high] Source: para_0033
+
+
+[R043]
+  IF you want more detail
+  THEN you go into the decan
+  Teacher voice: "if you want more detail, then you go into the decan just to highlight what flavor of Aries are we talking about."
+  [high] Source: para_0033
+
+
+[R044]
+  the orbs of influence are based on the size of the planet
+  consider how close the planet is to us
+  Teacher voice: "think to the size of the planet think to how close the planet is to us"
+  Exceptions: not stated
+  [high] Source: para_0037
+
+
+[R045]
+  when talking about orbs of influence
+  consider the degrees in each direction
+  Teacher voice: "when we're talking about orbs of influence, we're talking about from the degree in each either direction here"
+  Exceptions: not stated
+  [high] Source: para_0037
+
+
+[R046]
+  IF Saturn is influencing Mercury,
+  THEN Mercury will not be influencing Saturn.
+  Teacher voice: "Saturn will be influencing Mercury Mercury will not be influencing Saturns the way I've seen it now."
+  [high] Source: para_0038
+
+
+[R047]
+  IF Saturn's orb of influences is reaching Mercury
+  THEN this is Saturn with Mercury
+  Teacher voice: "So if Saturn's orb of influences here and it's reaching Mercury and Mercury is here, then this is Saturn without Mercury. And then this is Saturn with Mercury."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R048]
+  IF a planet is applying its energy onto another planet
+  THEN it is called applying
+  Teacher voice: "as transits are coming up... it's called applying."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R049]
+  IF a planet passes forward
+  THEN it is separating
+  Teacher voice: "and then as it passes forward, it's it is separating."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R050]
+  IF planets are not within an orb of influence
+  THEN they are classified as a satellitium
+  Teacher voice: "these are not a stellium, they are a satellitium"
+  Exceptions: not stated
+  [high] Source: para_0040
+
+
+[R051]
+  IF three planets are in the same sign and within an orb of influence
+  THEN they are classified as a stellium
+  Teacher voice: "a stellium is there much closer"
+  Exceptions: not stated
+  [high] Source: para_0040
+
+
+[R052]
+  IF you read it as five
+  THEN you could be a little off in some of your calculations
+  Teacher voice: "If you read it as five you could be a little off in some of your calculations"
+  Exceptions: not stated
+  [high] Source: para_0041
+
+
+[R053]
+  IF Mars is in the second house
+  THEN the person actively pursues money
+  Teacher voice: "they do things for money and they do it in this manner"
+  [high] Source: para_0043
+
+
+[R054]
+  IF the second house is Pisces
+  THEN money naturally flows
+  Teacher voice: "the condition of the second house being Pisces means that money naturally flows"
+  [high] Source: para_0043
+
+
+[R055]
+  If it is teams
+  Then it is International Teams.
+  Teacher voice: "If it is teams, it is International Teams."
+  [high] Source: para_0044
+
+
+[R056]
+  If it is groups
+  Then it is cultural groups.
+  Teacher voice: "If it is groups, it is cultural groups."
+  [high] Source: para_0044
+
+
+[R057]
+  If it is technology
+  Then it has to do with learning or education.
+  Teacher voice: "If it is technology it has to do with learning or education."
+  [high] Source: para_0044
+
+
+[R058]
+  If they do it through hospitals, film or media, music, or something creative or spiritual
+  Then it has to do with culture.
+  Teacher voice: "They do it through again. We're just going to retrace our steps they do it through either hospitals film or media music behind the scenes or something creative or something spiritual."
+  [high] Source: para_0044
+
+
+[R059]
+  Mars is in the second house
+  the person has drive and passion towards second house matters
+  Teacher voice: "Mars is sitting in the second house of money."
+  Exceptions: plays out in a negative way or in a very basic way
+  [high] Source: para_0045
+
+
+[R060]
+  IF Mars is in the third house
+  THEN it influences themes related to money in the second house
+  Teacher voice: "their third house always feeds into the second house themes because of the rulership"
+  [high] Source: para_0046
+
+
+[R061]
+  Venus is in retrograde
+  Venus is not going to operate in its normal way.
+  Teacher voice: "we see Venus in retrograde at this time, so we know that Venus is not going to operate in its normal way."
+  [high] Source: para_0047
+
+
+[R062]
+  If you look at the sign and said what's the ruler
+  Then you pull all this together
+  Teacher voice: "you've gone forward. You looked at the sign you said what's the ruler"
+  [medium] Source: para_0048
+
+
+[R063]
+  If there's a planet in there
+  Then look at what's it the ruler of
+  Teacher voice: "you said there's a planet in there. What's it the ruler of"
+  [medium] Source: para_0048
+
+
+[R064]
+  midheaven is in Sagittarius
+  then it relates to travel and culture
+  Teacher voice: "one of the ways with the midheaven in Sagittarius could have to do a travel could have to do with culture."
+  [medium] Source: para_0049
+
+
+[R065]
+  Mercury is in Aries
+  then it has to do with communication in their own way
+  Teacher voice: "it definitely has to do with communication because Mercury is sitting here in Aries. It has to be their own way."
+  [medium] Source: para_0049
+
+
+[R066]
+  ascendant is considered
+  then they are doing something their own way and using technology
+  Teacher voice: "they're doing something their own way because you always factor in the ascendant."
+  [medium] Source: para_0049
+
+
+[R067]
+  IF the third house ruler is Mars
+  THEN take the whole package of the third house energy as it applies to the second house
+  Teacher voice: "So the third house ruler is Mars and Mars is sitting in the second house. So that literally means you take the package the whole package of the third house..."
+  Exceptions: not stated
+  [high] Source: para_0050
+
+
+[R068]
+  Sun at one degree and Mars at one degree create agitation
+  tend not to make money the way that they want based on what's happy
+  Teacher voice: "this creates an agitation"
+  Exceptions: not stated
+  [medium] Source: para_0051
+
+
+[R069]
+  IF they try to force Aries energy out there
+  THEN it will lead to nothing
+  Teacher voice: "they'll have to really connect with groups"
+  [medium] Source: para_0052
+
+
+[R070]
+  IF they don't believe in what they're selling
+  THEN it can actually kill their sale
+  Teacher voice: "how they push forward to make money or sell something especially if it's something they don't believe in can actually like kill their sale"
+  [medium] Source: para_0052
+
+
+[R071]
+  IF they have issues with how they interact with money
+  THEN they can have bank issues
+  Teacher voice: "be very cautious how they interact with money or they can have issues here Bank issues too"
+  [medium] Source: para_0052
+
+
+[R072]
+  IF there are 30-degree angles present
+  THEN it indicates agitations or limitations regarding spicy food
+  Teacher voice: "these two angles here are saying that there's something about it that they can't have or they can't have too much of it."
+  Exceptions: not stated
+  [medium] Source: para_0053
+
+
+[R073]
+  IF you look at ruler ships and aspects
+  THEN you cannot stop there for chart interpretation
+  Teacher voice: "you couldn't stop here"
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R074]
+  IF this person's marriage is viewed at 10 degrees in Sagittarius
+  THEN it indicates a long-term marriage that is religious and philosophical
+  Teacher voice: "this person wants a long-term marriage. It's at 10. So it's in Sagittarius. So this is more of a religious marriage one based on philosophy with their partner"
+  [high] Source: para_0057
+
+
+[R075]
+  IF the public image involves Saturn square aspects
+  THEN it may initially come off as conflict but squares can be very good
+  Teacher voice: "squares are not always bad squares can be very good, but they will initially come off as conflict."
+  [high] Source: para_0057
+
+
+[R076]
+  IF the chosen name is based on numerology
+  THEN it won't resonate that way; it'll resonate as intentional instead of organic
+  Teacher voice: "do not choose a name based on numerology because it won't resonate that way it'll resonate as intentional as opposed to organic"
+  [high] Source: para_0058
+
+
+[R077]
+  IF Mars were closer and on the ascendant
+  THEN the energy of Mars would be embedded in your physical body.
+  Teacher voice: "Now if Mars were closer and we're on the ascendant then The energy of Mars would be embedded in baked into your physical body."
+  [medium] Source: para_0060
+
+
+[R078]
+  IF the ruler of the second house is not in the second house
+  THEN money is focusing on teams, groups, and organization
+  Teacher voice: "money is not focusing on money, money is focusing up here in teams in groups and organizations"
+  [high] Source: para_0061
+
+
+[R079]
+  IF we're looking at home life in the fourth house
+  THEN it is connected to the sixth house because of the Moon and the eleventh house because of Jupiter
+  Teacher voice: "If we're looking at home life in the fourth house, is it connected to the sixth house because of the Moon? Yes. And the 11th house because of Jupiter absolutely, right?"
+  [high] Source: para_0062
+
+
+[R080]
+  IF work is supported from home
+  THEN it is aligned with sixth house energy
+  Teacher voice: "work from home is supported right here"
+  [high] Source: para_0063
+
+
+[R081]
+  IF there is an empty second house
+  THEN money is not a main focus of life
+  Teacher voice: "empty second house means I've got nothing to work with here. It means that money is not a main focus of life."
+  [high] Source: para_0064
+
+
+[R082]
+  the second house ruler is not in the second house
+  money is not concerned with money.
+  Teacher voice: "the second house ruler is not in the second house. So money is not concerned with money."
+  [high] Source: para_0066
+
+
+[R083]
+  IF home life work is brought home
+  THEN there's work at home
+  Teacher voice: "Right because it's coming in as opposed to the other way around"
+  [high] Source: para_0067
+
+
+[R084]
+  IF the moon in Taurus is in the fourth house
+  THEN it pulls its energy into communication
+  Teacher voice: "the moon in Taurus in the fourth house is pulling its energy into communication"
+  [high] Source: para_0067
+
+
+[R085]
+  IF planet is in house 5
+  THEN it influences communication and sense of humor derived from home and family
+  Teacher voice: "it's all spilled into the way you communicate and your sense of humor"
+  [high] Source: para_0068
+
+
+[R086]
+  IF you listen to the media
+  THEN you may believe lies about a hurricane
+  Teacher voice: "the media was going to be an issue. That they were gonna lie and they did lie over and over."
+  [medium] Source: para_0069
+
+
+[R087]
+  IF 22 degrees is associated with the Moon
+  THEN it may suggest characteristics of a serial killer
+  Teacher voice: "Guess this person is a serial killer took me a second to get it"
+  Exceptions: not all people with 22 degrees are serial killers
+  [medium] Source: para_0070
+
+
+[R088]
+  IF a person has 18 or 22 degrees
+  THEN they might have near-death experiences
+  Teacher voice: "one's a killer be killed like these people are like constantly having near-death experiences"
+  Exceptions: it doesn't play out that way for everyone
+  [medium] Source: para_0070
+
+
+[R089]
+  IF planet is in house 4
+  THEN it relates to identity in house 3
+  Teacher voice: "Forward rulership of fourth house has to do with identity third house in Reverse rulership."
+  [high] Source: para_0071
+
+
+[R090]
+  IF planet is in the third house
+  THEN it could be a child therapist.
+  Teacher voice: "So it could be a child therapist."
+  [medium] Source: para_0072
+
+
+[R091]
+  Focus on one aspect at a time
+  Answer questions based on specific astrological associations
+  Teacher voice: "We talk about one thing at a time until we get through an hour reading."
+  Exceptions: not stated
+  [high] Source: para_0073
+
+
+[R092]
+  If someone has a question about schooling
+  Look for associations with the ninth house, Sagittarius, and Jupiter.
+  Teacher voice: "I take this and its rulerships and I take this in its rulerships and I take this in this rulerships."
+  Exceptions: not stated
+  [high] Source: para_0073
+
+
+- PROCEDURES (6 procedures)
+
+
+- Checking current planetary positions
+  Step 1: Go to horoscopes on astro.com
+  Step 2: Check current planets
+  Inputs: not stated
+  Outputs: current planetary positions
+  WARNING: especially the moon moves quickly
+  Source: para_0017
+
+
+- Communication for Venus retrograde
+  Step 1: Communicate your unique perspectives on love and beauty to those around you.
+  WARNING: People may not understand your internalized needs concerning love and beauty.
+  Source: para_0021
+
+
+- Creating an astrological chart
+  Step 1: Go to astro.com
+  Step 2: Navigate to Extended chart selection
+  Step 3: Ensure your birth info is loaded
+  Step 4: Check under zodiac and houses if it’s not expanded
+  Step 5: Activate whole signs
+  Step 6: Click the green button at the top or bottom to show your chart
+  Inputs: birth info
+  Outputs: astrological chart
+  Source: para_0025
+
+
+- Interpret Third House Astrological Influences
+  Step 1: Consider the aspects and placements in astrology.
+  Step 2: Look at cultural influences on food preferences.
+  Step 3: Interpret the significance of planetary relationships.
+  Inputs: astrological chart
+  Outputs: interpretation of food preferences
+  WARNING: Taking influences one at a time may complicate interpretation.
+  Source: para_0051
+
+
+- Interpretation Process
+  Step 1: Write down the ideas based on the connections between houses.
+  Step 2: Narrow down the options as more information is obtained.
+  Source: para_0055
+
+
+- Breaking down a natal chart reading
+  Step 1: Start with the first house and clean the slate.
+  Step 2: Move to the second house and continue.
+  Step 3: Focus on one aspect at a time for the reading.
+  Step 4: Answer questions based on the associated houses and planets.
+  Inputs: Questions regarding schooling or other life aspects.
+  Outputs: Insights based on the astrological houses and their associations.
+  WARNING: Do not overwhelm or fluster yourself during readings.
+  Source: para_0073
+
+
+- CALCULATION PIPELINE
+  Step 1: Determine the effect of Jupiter's position across different houses.
+    Formula: null
+    Notes: These planets resonate in two different houses.
+  Step 2: Identify the decans according to the zodiac signs in counterclockwise order starting from Pisces.
+    Formula: null
+    Notes: So the next one here would be cancer.
+  Step 3: Find the exact minutes for the sixth house ruler in Placidus.
+    Formula: null
+    Notes: You have to go find the exact minutes for that.
+
+
+  Additional calculation steps from transcript:
+  Step 0: Determine the effect of Jupiter's position across different houses.
+    Formula: null
+    Teacher voice: "these planets resonate in two different houses"
+  Step 0: Identifying the decans according to the zodiac signs in counterclockwise order starting from Pisces.
+    Formula: null
+    Teacher voice: "So the next one here would be cancer."
+  Step 0: find the exact minutes for the sixth house ruler in Placidus
+    Formula: null
+    Teacher voice: "you have to go find the exact minutes for that"
+  Step 1: determine themes related to work based on the sixth house in Taurus
+    Formula: null
+    Teacher voice: "that would actually mean that my work will be specific to like Taurus types themes"
+  Step 2: recognize the impact of the seventh house being Gemini on relationships
+    Formula: null
+    Teacher voice: "my main aspects to communication or to relationships would always be communication"
+  Step 1: Sun has a huge orb of influence
+    Formula: not stated
+    Teacher voice: "the sun 8 to 10 degrees. It's a huge orb of influence"
+  Step 2: Orbs of influence technically span 16 to 20 degrees
+    Formula: not stated
+    Teacher voice: "it's technically 16 to 20 degrees from like for the entire span"
+  Step 0: Calculating whether planets are within an orb of influence
+    Formula: not stated
+    Teacher voice: "Mars's four degrees would put it at nine. Saturn's 15 plus 7 or minus seven."
+  Step 0: When looking at the degrees, consider both degrees and minutes
+    Formula: not stated
+    Teacher voice: "So when you're looking at the degrees, this is the degree. This is the minutes and it goes to 60 minutes, right?"
+  Step 1: To interpret degrees in astrology accurately, understand whole numbers rather than fractions with decimals
+    Formula: not stated
+    Teacher voice: "You can't do 5.56. But you have to know that this is this is basically six degrees."
+  Step 0: reverse engineering the influence of planets in the third house
+    Formula: null
+    Teacher voice: "I'm taking every single one of these planets and I'm reverse engineering the planet."
+  Step 0: analyzing aspects and rulers to interpret the chart
+    Formula: not stated
+    Teacher voice: "understanding there's a semi sextile here"
+  Step 0: Adding 4 degrees to 12 degrees Mars results in 16 degrees.
+    Formula: null
+    Teacher voice: "So if we take a 12 degree Mars, and we add 4 degrees at 16 you have an ascendant at 18."
+
+
+- DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "entity": {
+    "name": "string",
+    "definition": "string",
+    "entity_type": "string",
+    "attributes": [
+      "string"
+    ],
+    "allowed_values": [
+      "string"
+    ],
+    "constraints": [
+      "string"
+    ],
+    "examples": [
+      "string"
+    ],
+    "citation_segments": [
+      "string"
+    ]
+  }
+}
+
+
+Rules schema:
+{
+  "rule": {
+    "rule_id": "string",
+    "condition": "string",
+    "action": "string",
+    "teacher_voice_phrasing": "string",
+    "exceptions": [
+      "string"
+    ],
+    "citation_segment": "string"
+  }
+}
+
+
+- PSEUDOCODE
+1. Input birth details and fetch current planetary positions.
+2. Generate the astrological chart based on inputs.
+3. Interpret the main astrological components (Ascendant, Descendant, etc.).
+4. Evaluate rules and triggers for specific astrological points and positions.
+5. Render output by compiling the chart interpretation and insights.
+
+
+- VOICE STYLE RULES
+Tone: motivational, informative
+Cadence: Even paced, Clear enunciation
+Signature phrases: you have to consider, the key point
+Do:
+  - Use clear and concise language
+  - Provide examples where possible
+Avoid:
+  - Do not overcomplicate explanations
+  - Avoid vague terminology
+
+
+- MEANING RENDERING RULES
+- Use relatable analogies
+- Provide clear examples from everyday life
+- Use plain language for complex concepts
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+- TEACHER PHRASING SNIPPETS (151 snippets)
+
+
+  [motivation] (unknown): "you will be able to read a chart and interpret by studying these five classes and moving forward"
+    Source: para_0000
+  [meaning] (unknown): "most of the energies have a default pattern a default type of energy that they tend to manifest as"
+    Source: para_0000
+  [warning] (unknown): "this class isn't you're not gonna walk away from this class by itself being like Oh, I can read charts"
+    Source: para_0000
+  [motivation] (unknown): "that's really like the in my opinion. That's what separates my methods from others"
+    Source: para_0001
+  [meaning] (unknown): "the mid Heaven can float."
+    Source: para_0002
+  [meaning] (unknown): "the Descent is always in the seventh house."
+    Source: para_0002
+  [warning] (unknown): "the mid Heaven does float the IC does float"
+    Source: para_0003
+  [definition] (unknown): "this will be we'll talk about Vesta in a different class"
+    Source: para_0003
+  [example] (unknown): "the first, second and third house are tiny and then the fourth and 10th house take up like half the chart"
+    Source: para_0004
+  [motivation] (unknown): "my Jupiter sits at zero degrees and we're gonna be talking about this today why orb of influence is so important"
+    Source: para_0004
+  [definition] (unknown): "the first house is the house of self"
+    Source: para_0006
+  [meaning] (unknown): "how you do things like your initial reactions that we discussed in the first class"
+    Source: para_0006
+  [meaning] (unknown): "this has to do with your physical presence on a Earthly Soul level"
+    Source: para_0006
+  [warning] (unknown): "not split into one planet"
+    Source: para_0006
+  [definition] (unknown): "the ascendant is the mask you wear that could be the that couldn't be further from the truth."
+    Source: para_0007
+  [example] (unknown): "Leo risings tend not to see how Good of a friend they can be but also how detached they can be."
+    Source: para_0008
+  [example] (unknown): "A Pisces Rising doesn't notice how much they give in terms of service to others, but they also sometimes don't realize how critical they are of other people."
+    Source: para_0008
+  [definition] (unknown): "the mid Haven always means the same thing as your tenth house meaning career reputation and so on"
+    Source: para_0009
+  [definition] (unknown): "It is a Soul's outward projection meaning that your 10th house rules your career"
+    Source: para_0009
+  [warning] (unknown): "I've seen some websites overcome over complicate that it shouldn't be it shouldn't be that complicated"
+    Source: para_0010
+  [example] (unknown): "it does not have to be the 10th and the fourth house"
+    Source: para_0010
+  [definition] (unknown): "your midheaven is not relegated to being directly career oriented"
+    Source: para_0011
+  [definition] (unknown): "the main thing that I look for in the IC is your childhood environment"
+    Source: para_0011
+  [definition] (unknown): "you don't have memories or many memories prior to five because your brain isn't formulated"
+    Source: para_0011
+  [definition] (unknown): "it's really how you connect to repressed memories lineage your ancestry familial Roots."
+    Source: para_0012
+  [meaning] (unknown): "You can use these things toward your mid Heaven you can use these things toward your career whenever you want."
+    Source: para_0012
+  [definition] (unknown): "This is the outward expression of internalized energy"
+    Source: para_0013
+  [definition] (unknown): "this is how people see you in terms of the public. This is your Public Image."
+    Source: para_0013
+  [definition] (unknown): "that outward. It's what you want to put out in the world."
+    Source: para_0013
+  [warning] (unknown): "there's nothing else is in and the part of Fortune will be another class."
+    Source: para_0014
+  [example] (unknown): "it's interesting and then Pluto is sitting here and that is part of my kite."
+    Source: para_0014
+  [motivation] (unknown): "the most Successful, I've been on a positive transformative level is where I live now."
+    Source: para_0014
+  [motivation] (unknown): "it presents opportunities to not be going full steam in the energy of whatever Planet we're talking about"
+    Source: para_0015
+  [warning] (unknown): "you're not going down a path that's gonna lead to nothingness"
+    Source: para_0015
+  [warning] (unknown): "go make sure that everything is the way you want it to be and if there's anything wrong fix it"
+    Source: para_0015
+  [warning] (unknown): "you have to realize that it's a generalization."
+    Source: para_0016
+  [example] (unknown): "what they don't talk about is what happens when you're born with a retrograde"
+    Source: para_0016
+  [definition] (unknown): "these are thematic. they're not specific to you."
+    Source: para_0017
+  [warning] (unknown): "that's the trouble I always have with horoscopes..."
+    Source: para_0017
+  [motivation] (unknown): "you want to learn astrology for yourself"
+    Source: para_0017
+  [example] (unknown): "you want to know the funny thing is 25 degrees is right here on my Chiron"
+    Source: para_0018
+  [warning] (unknown): "if I didn’t know that I had Chiron right where the Moon is. I wouldn’t know that this was this would be activating a semi-sex style."
+    Source: para_0018
+  [motivation] (unknown): "the reason I can get so accurate and go so many levels in is because of this system that I created."
+    Source: para_0019
+  [definition] (unknown): "retrograde has to do with the point of view the perspective from Earth."
+    Source: para_0019
+  [definition] (unknown): "astrology is all about perspective."
+    Source: para_0019
+  [definition] (unknown): "you're constantly editing reviewing and rethinking replaying it over in your mind."
+    Source: para_0020
+  [example] (unknown): "you kind of do this until you get to it"
+    Source: para_0020
+  [example] (unknown): "if you start hammering something and you're you got this repressed anger you start hammering harder like just building a chair or something."
+    Source: para_0021
+  [definition] (unknown): "these are the giant planets Jupiter and Saturn here"
+    Source: para_0022
+  [meaning] (unknown): "I see them as semi-generational"
+    Source: para_0022
+  [example] (unknown): "they seek answers from within they're always asking themselves questions philosophically to find an answer"
+    Source: para_0022
+  [warning] (unknown): "this is a really tough retrograde to have trust me. I know."
+    Source: para_0023
+  [definition] (unknown): "There's a sub often a subconscious fear of rejection and loss limitation"
+    Source: para_0024
+  [example] (unknown): "But when I was younger, I never wanted to be blamed for something because I always thought that it may it always diminish myself worth"
+    Source: para_0024
+  [opinion on astrology systems] (unknown): "I think it's ridiculous."
+    Source: para_0025
+  [humility in teaching] (unknown): "I don't know everything."
+    Source: para_0025
+  [warning] (unknown): "make sure you're rounding it out meaning everything that you're talking about everything that you're theoreticizing."
+    Source: para_0026
+  [warning] (unknown): "you know just have to be careful what you're learning out there."
+    Source: para_0026
+  [meaning] (unknown): "you must constantly prove yourselves to yourselves"
+    Source: para_0027
+  [warning] (unknown): "you could be a savior type person"
+    Source: para_0027
+  [definition] (unknown): "you had such an internalized power that you're more powerful in some ways once you accept that you're powerful"
+    Source: para_0028
+  [definition] (unknown): "retrogrades are internalized and natal retrogrades are different than Transit retrogrades"
+    Source: para_0028
+  [definition] (unknown): "each deccan matches the current sign that is highlighted or in question"
+    Source: para_0029
+  [definition] (unknown): "the first deccan is the same as the sign"
+    Source: para_0029
+  [example] (unknown): "this is Pisces Pisces"
+    Source: para_0029
+  [definition] (unknown): "the first Decon is always the purest form the first 10 degrees of the purest form"
+    Source: para_0030
+  [example] (unknown): "I'm telling you both ways of saying it because if you're reading up on deccans, you may see it in either way often"
+    Source: para_0030
+  [definition] (unknown): "It's always the same element meaning water water."
+    Source: para_0031
+  [definition] (unknown): "Chaldean deckons are a ranking of planets by speed up till Saturn."
+    Source: para_0031
+  [example] (unknown): "I don't even bother with this one manelius."
+    Source: para_0031
+  [example] (unknown): "my Saturn is a Libra Aquarian Saturn"
+    Source: para_0032
+  [warning] (unknown): "it's confusing and more importantly than it being confusing is that it just doesn't work if you actually use it and play around with it."
+    Source: para_0032
+  [definition] (unknown): "I apply uranium themes because I think in terms of planets more than I think in terms of signs."
+    Source: para_0032
+  [definition] (unknown): "deckons are pretty simple"
+    Source: para_0033
+  [definition] (unknown): "that's pretty simple."
+    Source: para_0033
+  [warning] (unknown): "that would be so confusing in."
+    Source: para_0034
+  [definition] (unknown): "that's actually no different."
+    Source: para_0034
+  [example] (unknown): "my work will be specific to like Taurus types themes."
+    Source: para_0034
+  [example] (unknown): "communication within friendship."
+    Source: para_0034
+  [example] (unknown): "this aspect takes over but my second house of how I make money is not always through service to others"
+    Source: para_0035
+  [warning] (unknown): "I am not organized with money"
+    Source: para_0035
+  [motivation] (unknown): "video games are super important and we're starting a gaming company"
+    Source: para_0035
+  [example] (unknown): "I've noticed that Pluto kind of dips in it's interesting Pluto how Pluto plays out."
+    Source: para_0038
+  [warning] (unknown): "five degrees and like I looked at my Saturn return right before this class actually."
+    Source: para_0038
+  [motivation] (unknown): "It's important to know."
+    Source: para_0041
+  [rule] (unknown): "IF planet is in house 7, THEN the meaning is partnership."
+    Source: para_0042
+  [meaning] (unknown): "money comes through 11th house matters"
+    Source: para_0043
+  [warning] (unknown): "money kind of escapes them"
+    Source: para_0043
+  [definition] (unknown): "this is how you work with layers. That is a double layer."
+    Source: para_0045
+  [motivation] (unknown): "to get to a higher vibration, which is the purpose of living we have to use the energy harness it and turn it into something."
+    Source: para_0045
+  [warning] (unknown): "when I'm looking at Mars, I'm not talking about romance."
+    Source: para_0046
+  [example] (unknown): "although I can keep that in the back of my mind because it could have something to do with the way that they do it."
+    Source: para_0046
+  [meaning] (unknown): "Children are fun or Recreation has to be there needs to be something that makes you happy."
+    Source: para_0047
+  [warning] (unknown): "Don't get hung up on retrogrades come back to retrogrades when you need to get into the details."
+    Source: para_0047
+  [motivation] (unknown): "that's why it's so important here"
+    Source: para_0048
+  [example] (unknown): "this is like doing the the sales for the Food Network"
+    Source: para_0049
+  [definition] (unknown): "the deckons don't add weight. The deckons are only a flavor."
+    Source: para_0050
+  [example] (unknown): "they probably like seafood spicy Seafood."
+    Source: para_0050
+  [warning] (unknown): "you can also take it one at a time right I do it collectively but you could take it one of the time problem with doing it one at a time. Is that it makes it difficult."
+    Source: para_0051
+  [motivation] (unknown): "again, nobody talks about this and it's so freaking important"
+    Source: para_0051
+  [warning] (unknown): "nobody's going to be able to take these five classes back to back and just recharge immediately."
+    Source: para_0053
+  [motivation] (unknown): "it takes time. But once you get it, I know that you'll be able to do this."
+    Source: para_0053
+  [motivation] (unknown): "this method works so, you know, don't get hung up on."
+    Source: para_0053
+  [warning] (unknown): "just be sure that you're not looking at Vedic meanings because Vedic Leo is different than Western tropical Leo."
+    Source: para_0054
+  [motivation] (unknown): "you guys are going to be so ahead when you get this down and you start understanding you start reading charts."
+    Source: para_0054
+  [motivation] (unknown): "it's because of the system that you're using and your trial and erroring everything and you're not using the stuff that doesn't work."
+    Source: para_0054
+  [warning] (unknown): "aspects are the glue so it does make it difficult to read without knowing aspects."
+    Source: para_0055
+  [example] (unknown): "you just write down, you know third house to in a little arrow to two house."
+    Source: para_0055
+  [example] (unknown): "as long as you're doing reverse and standard ruler ships"
+    Source: para_0056
+  [definition] (unknown): "the glue"
+    Source: para_0056
+  [definition] (unknown): "the North Node and Saturn don't have a relationship."
+    Source: para_0057
+  [motivation] (unknown): "the layers make so much sense. I'm glad it does I was worried that I would lose you guys on that but layers are so important because you know, it's one thing to know. What's another one to look at?"
+    Source: para_0057
+  [warning] (unknown): "you have to be very careful with how numerology they"
+    Source: para_0058
+  [example] (unknown): "I remember reading up numerology while I was doing it"
+    Source: para_0058
+  [definition] (unknown): "the ascendant has to do with you how you react to the world"
+    Source: para_0059
+  [definition] (unknown): "descendant how you work with others? What type of Partners you attract"
+    Source: para_0059
+  [definition] (unknown): "midheaven also career and life purpose"
+    Source: para_0059
+  [meaning] (unknown): "So there is no correlation between the two they don't impact each other."
+    Source: para_0060
+  [definition] (unknown): "It's just 18 degrees. That's it. It was a line. It was a point."
+    Source: para_0060
+  [example] (unknown): "Everything would be all about Fitness vs. Fitness."
+    Source: para_0060
+  [example] (unknown): "the second house is connected to the 11th and the 11th pulls additional information from the fourth house."
+    Source: para_0061
+  [definition] (unknown): "decan like it's not it's not it's literally means 10."
+    Source: para_0061
+  [motivation] (unknown): "your brain is working properly"
+    Source: para_0062
+  [definition] (unknown): "everything that has to do with family has to do with siblings or cousins"
+    Source: para_0062
+  [definition] (unknown): "the sixth house for instance is Health. It is your chores. It is routine."
+    Source: para_0063
+  [example] (unknown): "sometimes small pets end up in the fifth house because we treat them like children"
+    Source: para_0063
+  [example] (unknown): "this could be group therapy that this person works like online group therapy"
+    Source: para_0064
+  [example] (unknown): "they maybe take Tech and they repurpose it for something that they want to do"
+    Source: para_0064
+  [example] (unknown): "you could take this again you could go deeper and it goes to the fourth house in Aries"
+    Source: para_0065
+  [motivation] (unknown): "just want you to know that the basics are going to get you so far which is you're gonna get a lot further than most people"
+    Source: para_0065
+  [meaning] (unknown): "identity third house is your identity."
+    Source: para_0066
+  [rule] (unknown): "the second house ruler is not in the second house. So money is not concerned with money."
+    Source: para_0066
+  [example] (unknown): "the moon goes two to three degrees, but it's only one degree left"
+    Source: para_0067
+  [example] (unknown): "positively it's healing negatively ... emotional like deep emotional pain from the mother based on communication"
+    Source: para_0067
+  [warning] (unknown): "you're just pulling that out of your butt and just saying things that kind of go with the planets"
+    Source: para_0068
+  [motivation] (unknown): "I could fit around with this and I could get this a little bit closer"
+    Source: para_0069
+  [warning] (unknown): "they were gonna lie and they did lie over and over"
+    Source: para_0069
+  [warning] (unknown): "22 degrees is supposedly ... both ridiculous 18 and 22"
+    Source: para_0070
+  [motivation] (unknown): "degree Theory. It's bunk. It's fake. It's crap. It's pop culture astrology."
+    Source: para_0070
+  [warning] (unknown): "And the one thing I just want to remind you guys before I answer the last questions is When you guys are doing these charts do not get overwhelmed by all of this information."
+    Source: para_0072
+  [motivation] (unknown): "Everything has to have a question."
+    Source: para_0072
+  [motivation] (unknown): "you have to look at. What's the question?"
+    Source: para_0072
+  [meaning] (unknown): "all I care about is who's this person fundamentally when I'm looking at the first house"
+    Source: para_0072
+  [warning] (unknown): "don't get overwhelmed don't get flustered."
+    Source: para_0073
+  [motivation] (unknown): "it will be a long two weeks before your next class like a kid waiting for Christmas"
+    Source: para_0074
+  [definition] (unknown): "this does get I'm trying to like take all the complicated stuff."
+    Source: para_0074
+  [definition] (unknown): "I can review it over and over right now."
+    Source: para_0074
+  [motivation] (unknown): "you guys can just use this to really manifest amazing things in your life."
+    Source: para_0074
+  [motivation] (unknown): "I look forward to your classes and I'm so excited to keep learning and growing the visuals and charts are awesome."
+    Source: para_0075
+  [example] (unknown): "I'm glad you appreciate it because I throw it together and like an hour or two, and I'm just like here it is."
+    Source: para_0075
+  [motivation] (unknown): "All right, y'all thank you so much, and I'll see you next time."
+    Source: para_0075
+
+
+- EDGE CASES (18 cases)
+
+
+- Scenario: Ascendant ruler is in the 12th house or 8th house
+  Handling: Could be that it's hard for you to be seen or that you intentionally hide your true self.
+- Scenario: What if there is no planet sitting in a house?
+  Handling: It plays out differently.
+- Scenario: Ascendant ruler is in the 12th house or 8th house
+  Handling: could be that it's hard for you to be seen or that you intentionally hide your true self
+- Scenario: generalizations in forecast videos
+  Handling: not stated
+- Scenario: What if there is no planet sitting in a house?
+  Handling: it plays out differently
+- Scenario: What if there is a stellium in a house?
+  Handling: it plays out completely different
+- Scenario: Moon in Taurus or the 10th house without considering Chiron
+  Handling: Chiron would not be a thought in aspects involving the Moon
+- Scenario: Internalized anger leaks out unexpectedly.
+  Handling: Be aware and look where Mars is positioned to understand the expression of repressed anger.
+- Scenario: When attempting something that others have failed at
+  Handling: May work out positively or negatively depending on the conditions
+- Scenario: Rebelling against everything, especially Authority
+  Handling: This can be good, but it can also get yourself into trouble.
+- Scenario: sixth house ruler in Capricorn
+  Handling: confusing due to needing to find exact minutes
+- Scenario: Person could work for a church
+  Handling: They could also be a pastor or teach Sunday school.
+- Scenario: Chiron affecting third house communication
+  Handling: to be ignored as it is a whole other class
+- Scenario: initial conflict perception due to Saturn's square
+  Handling: squares can be very good despite initial conflict.
+- Scenario: Mars at a greater distance than the orb of influence
+  Handling: no impact on the ascendant; attributes are not completely attached
+- Scenario: small pets sometimes end up in the fifth house
+  Handling: but for the most part it's in the sixth house
+- Scenario: discussing famous individuals like Ted Bundy
+  Handling: not stated
+- Scenario: people with 22 degrees not exhibiting serial killer traits
+  Handling: there are plenty of charts where neither of those things were true
+
+
+- TEST CASES (10 test cases)
+
+
+[TC001] Verify chart shift when Ascendant point reaches Virgo
+  Input: {"ascendant_point": "Virgo"}
+  Expected (teacher voice): As soon as this ascendant point would reach Virgo then the whole chart would shift.
+  Rules: R001
+  Entities: Ascendant
+
+
+[TC002] Verify stronger planetary influence when planets are at hot wire points
+  Input: {"planet_position": "hot wire points"}
+  Expected (teacher voice): The reason why we're talking about these four points is these are like hot wires. Meaning that when planets access these points, they're felt much stronger than just sitting in the first house or fourth or seventh or tenth house.
+  Rules: R002
+
+
+[TC003] Check variable childhood experiences in Leo Rising
+  Input: {"rising_sign": "Leo"}
+  Expected (teacher voice): The IC does float which means that not every Leo Rising is going to have the same childhood.
+  Rules: R003
+  Entities: Ascendant
+
+
+[TC004] Edge case test for missing astrological component in chart creation
+  Input: {"ascendant_point": null}
+  Expected (teacher voice): The ascendant must correspond to a person's birth time.
+  Entities: Ascendant
+  [EDGE CASE]
+
+
+[TC005] Edge case with conflicting astrological data for planetary position
+  Input: {"planet_position": "unknown"}
+  Expected (teacher voice): Only known positions can be interpreted meaningfully.
+  [EDGE CASE]
+
+
+[TC006] Check calculation for Ascendant when given valid birth data
+  Input: {"ascendant_sign": "Gemini"}
+  Expected (teacher voice): The Ascendant must correspond to a person's birth time.
+  Entities: Ascendant
+
+
+[TC007] Ensure correct interpretation of Third House influences
+  Input: {"chart_data": "valid astrological chart"}
+  Expected (teacher voice): Interpret the significance of planetary relationships and assess cultural influences on food preferences.
+  Entities: aspects and transits
+
+
+[TC008] Test chart creation procedure with complete steps
+  Input: {"website": "astro.com", "birth_info": "1990-04-25 14:30"}
+  Expected (teacher voice): Follow the steps to produce an astrological chart.
+
+
+[TC009] Address lack of clarity in Venus retrograde communication
+  Input: {"transit": "Venus retrograde"}
+  Expected (teacher voice): People may not understand your internalized needs concerning love and beauty.
+
+
+[TC010] Edge case with unknown Ascendant sign
+  Input: {"ascendant_sign": "Unknown"}
+  Expected (teacher voice): Every zodiac sign must be identifiable for the Ascendant.
+  Entities: Ascendant
+  [EDGE CASE]
+
+
+- UNRESOLVED (8 items)
+
+
+- how transits specifically impact areas of life
+  Needed: detailed explanation of forecast breakdown by signs
+- Definition of Queen Kunks and semi-sextile
+  Needed: Definitions for these terms
+- What specific meanings and impacts Uranus, Neptune, and Pluto have
+  Needed: examples or explanations of specific meanings and impacts
+- definition of Uranus deck
+  Needed: clear explanation of Uranus deck meaning
+- Details on specific aspects or energies
+  Needed: further elaboration on the rules and interpretations.
+- mid Heaven information
+  Needed: details on how it adds information
+- specific procedures for interpretation
+  Needed: steps or guidelines for accurate interpretation
+- definition of astrology terms
+  Needed: clarification on astrological terms and houses mentioned
+
+
+================================================================================
+END OF BUILDER PROMPT
+================================================================================

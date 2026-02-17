@@ -1,0 +1,3522 @@
+﻿ACCEPTING CHIRON Part of the chart:
+
+
+BUILDER PROMPT
+
+
+## PURPOSE
+Create a software application to understand and simulate the representation of Chiron in astrology, focusing on its mythological and astronomical aspects.
+
+
+## INPUTS
+- Chiron's placement in the chart
+- Astrological aspects involving Chiron
+- Time period of birth relative to Chiron's orbit
+
+
+## OUTPUTS
+- Interpretation of Chiron's role in the chart
+- Analysis of potential life struggles related to Chiron
+- Guidance on turning weaknesses into strengths
+
+
+## ENTITY CATALOG (155 entities)
+
+
+### Chiron
+  Type: astrological body
+  Meaning: not the wounded healer in the sense that Chiron was a centaur who got shot with a poison arrow and couldn't heal himself but could heal others.
+  Meaning: not the wounded healer; represents weaknesses and wounds.
+  Meaning: a large centaur that acts like its own system and has rings
+  Meaning: a celestial object with an irregular shape, orbiting within its own mini system
+  Meaning: it is its own presence. It is its own system.
+  Meaning: Chiron is a unique astronomical and astrological position.
+  Meaning: wounded healer
+  Meaning: Chiron in your chart is a place where structures have been broken down and are on their path to being broken down until they reach the Uranus point.
+  Meaning: Astrological body that indicates areas of healing and broken structures.
+  Meaning: it's like you don't like the structure of Saturn. That's why Chiron is orbiting out there for most of its time.
+  Meaning: a celestial body whose influence reveals personal weaknesses and challenges related to structure and authority
+  Meaning: Chiron's the key to everything in your life.
+  Meaning: Chiron is central to personal development.
+  Meaning: Chiron itself is, I already have the authority
+  Meaning: Chiron represents authority and its expression.
+  Meaning: different characteristics when in different houses
+  Meaning: entity in astrology influencing authority and structures
+  Meaning: there's gonna be an element of mentorship, there's gonna be an element of things going weird, different.
+  Meaning: Mentorship and deviation from tradition.
+  Meaning: it's like when you don't try, you win.
+  Meaning: a concept of winning without effort.
+  Meaning: Chiron is a gift in the fact that you are literally authentic in this area.
+  Meaning: the thing I'm supposed to identify with
+  Meaning: the authority's already there but tricky to deal with
+  Meaning: an astrological point representing healing and challenges
+  Meaning: not wounded
+  Meaning: a concept relating to healing and acceptance
+  Meaning: has a connection to healing and insecurity when in context with Lilith.
+  Meaning: symbol of healing and mentoring connected to personal shame.
+  Meaning: the wounded healer of Chiron
+  Attributes: associated themes, represents weaknesses and wounds, attached to the sixth house, most authentic, associated with medicine and healing, sign ruler, labeled as a centaur in astronomy, 220 kilometers in diameter, placement, position in astrological chart, expressed through Taurus, delicate, intense, influences intimacy issues, orbit fluctuates,  positioned in the 11th house, has a hybrid feature, has rings, affected by other planets, wounded healer, acts like its own system, authority over physical presence,  placement in Gemini and Aquarius, has a hybrid physiology of comets and asteroids, conceptual feeling, the biggest difficulty, operates with an orbit as an asteroid, unknown axial tilt, non-conformist, has a cloud glow called a halo, associated themes (acceptance, structure, authority), house placement, can manifest as a wound, orb of half a degree to a degree, influence on areas of life, position in houses, position in the 10th house, resulting impact on identity formulation, influences from the midheaven, gift, orbital position, house, placement in chart, difficult to deal with, sign, first house, influence on self-perception, the biggest strife, sitting over a specific house, positive influence from aspects, malleability, support from community, impacts the sixth house, oblong shape, mentorship, affects reproductive system, placement at 24 degrees, 42 arc minutes, aspect, discovered in 1977, composed of water and ice, unknown rotational period, position in Capricorn, aspects, authenticity, unstable resource, significant astronomical and astrological position, 136 miles in diameter, personal spirituality, influence, wounds, wisest of all centaurs, centaur, position, position in house, malleable, not stable
+  Allowed values: none stated, carbon dioxide, not stated, 3rd house, emotional connection, tenth house, location in house, Aquarius, fifth house, Gemini, negative manifestations, ninth house, varies by location in the chart, fourth house, orbiting in various signs, 9th house, weakness that can be turned into strength, 10th house, Capricorn, various signs, different interpretations based on context, different placements possibly leading to different meanings, location in sign, first house, seventh house, part of mythology where it is half person, half horse, eighth house, carbon monoxide, eleventh house, various houses, supportive aspects
+  Constraints: none stated, must be interpreted in context of the entire chart, affects personal authenticity, must be in a specific astrological house, must be considered in terms of value and authority, not stated, position in astrological chart, must consider the broader context of the chart, mythology does not apply to the playout of celestial objects, must be in a house, position relates to cultural identity, the weakness must be accepted and understood, must be accepted and understood, not a perfect sphere, there is no standardized coma, always changing, needs honoring for positive effect, able to mentor based on perception and beliefs, not a very big object compared to planets, invariable, varies per individual, associated with areas of insecurity
+  Examples: Chiron in the eighth house relates to intimacy issues, I don't like communication or the expectations of communication., Chiron in the fifth house may imply difficulties in having children, I don't like what I'm supposed to do traditionally., I don't like facts, figures, numbers or math., I don't like money or value., Justin Timberlake has his Chiron in the 10th house, Chiron and the north node in the 11th house, I don't like networking and friendships., I don't like authority., Chiron in the 10th house, I don't like early education., Chiron in the ninth house, I don't like my body the way that it's supposed to be., Chiron in the first house
+  Source: para_0053, para_0038, para_0039, para_0040, para_0027, para_0007, para_0034, para_0000, para_0009, para_0014, para_0008, para_0026, para_0044, para_0006, para_0021, para_0025, para_0056, para_0003, para_0032, para_0035, para_0029, para_0002, para_0004, para_0042, para_0045, para_0058, para_0019, para_0005, para_0020, para_0022, para_0015, para_0041, para_0001, para_0033, para_0048, para_0013, para_0057, para_0016, para_0050, para_0036, para_0049, para_0055, para_0011
+
+
+### Lilith
+  Type: astrological body
+  Meaning: you can become very outlandish within your Lilith placement where you feel like guilt and shame over yourself, over your truest raw desires.
+  Meaning: Lilith influences feelings of guilt and shame related to desires.
+  Meaning: the mechanism to do things without grounding.
+  Meaning: concept of personal freedom and danger without consequences.
+  Attributes: concept related to embracing, influence on desires and guilt, impacts the fifth house, placement
+  Allowed values: true Lilith, not stated, retrograde Lilith, mean Lilith
+  Constraints: not stated, must be within three degrees for conjunction
+  Source: para_0053, para_0057, para_0056, para_0054, para_0000, para_0055
+
+
+### Rainbow Bridge
+  Type: mythological concept
+  Meaning: another name for Chiron, connects the inner and outer planets
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004
+
+
+### Centaur range
+  Type: region in space
+  Meaning: not stated
+  Attributes: highly unstable, sits between Saturn and Uranus
+  Examples: Nessus, Foss
+  Source: para_0005
+
+
+### Saturn
+  Type: planet
+  Meaning: planet representing discipline and structure
+  Meaning: pushing Chiron's energy back to Saturn's level
+  Meaning: an astrological planet related to authority and structure
+  Attributes: authority, discipline, largest planet, rings, associated with comparison and self-doubt, structure, reputation, accumulation energy, associated with authority, roller of Chiron
+  Allowed values: not stated
+  Constraints: none stated, requires structure within lack of structure, comes closer to Jupiter, major influence
+  Source: para_0042, para_0050, para_0009, para_0017, para_0015, para_0012, para_0033, para_0047
+
+
+### Jupiter
+  Type: planet
+  Meaning: not stated
+  Attributes: placement, wisdom, mentorship, belief systems
+  Allowed values: 10th house, not stated
+  Constraints: not so much about medicine, not so much about healing, not stated
+  Source: para_0009, para_0058
+
+
+### Aquarian Energy
+  Type: Astrological Energy
+  Meaning: not stated
+  Attributes: inclusion
+  Source: para_0010
+
+
+### Uranus
+  Type: Planet
+  Meaning: not stated
+  Attributes: associated with the 11th house, associated with tradition and authority, ruler of Aquarius, points of comparison for success
+  Source: para_0010, para_0015, para_0053
+
+
+### Aquarius Energy
+  Type: astrological concept
+  Meaning: Aquarius is energy that naturally has relatability, an interactive property, dissection of organization, and concern with details and practicality.
+  Meaning: Energy associated with the sign Aquarius characterized by independence, interaction, and practicality.
+  Attributes: relatability, includes Leo themes, organization dissection, attention to details, practicality, interactive property
+  Source: para_0011
+
+
+### Leo themes
+  Type: astrological concept
+  Meaning: Includes entertainment, pride, and ego.
+  Meaning: Themes associated with the sign Leo.
+  Attributes: pride, ego, entertainment
+  Source: para_0011
+
+
+### Capricorn and Saturn's energy
+  Type: astrological concept
+  Meaning: Best energy for structures that have been turned on their head.
+  Meaning: Astrological concepts associated with stability and structures.
+  Source: para_0011
+
+
+### Uranian energy
+  Type: energy type
+  Meaning: energy associated with innovation and rebellion
+  Attributes: rebellious, innovative
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0012
+
+
+### Chiron's energy
+  Type: energy type
+  Meaning: energy related to healing and the process of breaking down
+  Attributes: breaking down, healing
+  Allowed values: not stated
+  Constraints: does not reach confidence
+  Source: para_0012
+
+
+### Capricorn's energy
+  Type: energy type
+  Meaning: energy associated with responsibility and structure
+  Attributes: structured, responsible
+  Allowed values: not stated
+  Constraints: default energy used
+  Source: para_0012
+
+
+### Leo infused aquarian energy
+  Type: energy type
+  Meaning: energy combining creativity and uniqueness
+  Attributes: creative, unique
+  Allowed values: not stated
+  Constraints: does not feel confident
+  Source: para_0012
+
+
+### confidence
+  Type: psychological state
+  Meaning: you don't have the confidence and you haven't rebuilt the structure in a way that works.
+  Meaning: a feeling of self-assurance
+  Attributes: self-assurance in abilities
+  Allowed values: high, low
+  Constraints: not stated
+  Source: para_0013
+
+
+### authority
+  Type: social concept
+  Meaning: you do not have the conformity, you don't have the authority in this area.
+  Meaning: recognized power or influence
+  Attributes: established in a field or area, emotion processing, value, respect, perception
+  Allowed values: non-traditional, perceived authority, general public, astrologer, traditional, possess authority
+  Constraints: must command respect to receive it, not stated, related to family dynamics
+  Source: para_0018, para_0020, para_0013, para_0023
+
+
+### houses in astrology
+  Type: astrological concept
+  Meaning: the houses are far more important than the signs
+  Meaning: houses are more significant than zodiac signs
+  Source: para_0014
+
+
+### zodiac signs
+  Type: astrological concept
+  Meaning: more like a lens to the universe
+  Meaning: interpretive tools in astrology
+  Source: para_0014
+
+
+### Venus
+  Type: planet
+  Meaning: Venus rules gifts.
+  Meaning: Venus is associated with gift giving.
+  Attributes: placement, rules gifts, decans, semis exile
+  Allowed values: 5th house, Aries, not stated, Sagittarius decan
+  Constraints: none stated, not stated, related to gift giving
+  Source: para_0016, para_0058, para_0050
+
+
+### Second House
+  Type: astrological house
+  Meaning: The second house rules gifts.
+  Meaning: Second House is linked to possessions and values.
+  Attributes: rules gifts
+  Allowed values: not stated
+  Constraints: related to gifts and values
+  Source: para_0016
+
+
+### Taurus
+  Type: zodiac sign
+  Meaning: Taurus rules gifts.
+  Meaning: Taurus is associated with physical sensory pleasures and possessions.
+  Attributes: rules gifts
+  Allowed values: not stated
+  Constraints: related to gifts
+  Source: para_0016
+
+
+### gift giving
+  Type: social custom
+  Meaning: not stated
+  Attributes: detailed, service oriented
+  Allowed values: spa package, something she has talked about
+  Constraints: gifts should be given without wanting anything in return
+  Examples: random gifts, birthday party, an entire spa package for his wife
+  Source: para_0018, para_0017
+
+
+### second house
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: Virgo as ruler
+  Source: para_0017
+
+
+### 12th house
+  Type: astrological concept
+  Meaning: not stated
+  Source: para_0017
+
+
+### Christmas
+  Type: holiday
+  Meaning: not stated
+  Attributes: specific interaction expectations
+  Allowed values: specific way, specific time
+  Constraints: Capricorn rules Holidays
+  Source: para_0018
+
+
+### Authority
+  Type: Concept
+  Meaning: the way that I perceive authority is going to be different
+  Meaning: Authority varies based on personal perception.
+  Attributes: relationship to others, perception
+  Allowed values: colleague, boss
+  Constraints: context-dependent
+  Source: para_0019
+
+
+### first house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: associated with personal identity
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022, para_0035
+
+
+### seventh house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: associated with partnerships and relationships
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022, para_0035
+
+
+### Capricorn
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: associated themes of authority, earth sign
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022
+
+
+### Libra energy
+  Type: concept
+  Meaning: not stated
+  Attributes: aesthetic, relationships, balance
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022
+
+
+### astrology
+  Type: concept
+  Meaning: not stated
+  Attributes: system, value
+  Allowed values: not stated
+  Constraints: not an authority on astrology
+  Source: para_0044, para_0023
+
+
+### book
+  Type: product
+  Meaning: not stated
+  Attributes: completion status
+  Allowed values: not completed, completed
+  Constraints: written 80-85%
+  Source: para_0023
+
+
+### self-esteem
+  Type: psychological concept
+  Meaning: not stated
+  Attributes: concept of valuing oneself
+  Allowed values: high, medium, low
+  Constraints: context-dependent
+  Source: para_0024
+
+
+### talent
+  Type: skill or ability
+  Meaning: not stated
+  Attributes: learned skill, innate ability
+  Allowed values: varies by individual
+  Constraints: can be subjective
+  Source: para_0024
+
+
+### martial arts forms
+  Type: practice
+  Meaning: your forms or your structure, and it just helps you condition your body.
+  Meaning: structured movements in martial arts.
+  Attributes: important for conditioning the body
+  Examples: called what it was called, made up own form
+  Source: para_0025
+
+
+### House
+  Type: Astrological Concept
+  Meaning: not stated
+  Attributes: areas of life
+  Allowed values: 2nd house, 1st house, 3rd house, ..., 12th house
+  Constraints: has to be identified
+  Source: para_0026
+
+
+### Sign
+  Type: Astrological Concept
+  Meaning: not stated
+  Attributes: astrological signs
+  Allowed values: Gemini, Taurus, Pisces, ..., Aries
+  Constraints: has to be identified
+  Source: para_0026
+
+
+### Aspects
+  Type: Astrological Concept
+  Meaning: not stated
+  Attributes: relationships between planets
+  Allowed values: opposition, square, conjunction, trine
+  Constraints: has to be identified
+  Source: para_0026
+
+
+### Ruler
+  Type: Astrological Concept
+  Meaning: not stated
+  Attributes: planetary ruler of a sign or house
+  Allowed values: Mercury, Mars, Venus, ...
+  Constraints: has to be identified
+  Source: para_0026
+
+
+### Pluto
+  Type: astrological entity
+  Meaning: Pluto rules my fourth house
+  Attributes: low vibration, associates with death, depth, placement, decay
+  Allowed values: 6th house, represents darkness
+  Constraints: associated with trauma, not stated, associated with cycles, adds information, must be seen contextually
+  Source: para_0046, para_0044, para_0027, para_0058, para_0041, para_0047
+
+
+### Chiron in the ninth house
+  Type: astrological placement
+  Meaning: a lot of people who have Chiron in the ninth house, usually they don't go to college because they've already kind of understood philosophy and higher education.
+  Meaning: an astrological placement indicating a relationship with higher education and philosophical ideas.
+  Examples: they don't go to college, they already have authority in this area
+  Source: para_0028
+
+
+### Chiron in Gemini
+  Type: astrological placement
+  Meaning: Chiron and Gemini has to do with your thought practices, your ideas, your identity.
+  Meaning: an astrological placement related to issues of thought, ideas, and identity.
+  Source: para_0028
+
+
+### Gemini
+  Type: Astrological Sign
+  Meaning: the way the brain's working
+  Source: para_0053, para_0029
+
+
+### 11th house
+  Type: Astrological House
+  Meaning: the friction created in groups and teams
+  Meaning: a domain in astrology related to social connections
+  Source: para_0029
+
+
+### science
+  Type: Concept
+  Meaning: needs to be a certain way to care about it
+  Examples: herbalism, Alchemistic
+  Source: para_0029
+
+
+### chiron in sixth house
+  Type: astrological position
+  Meaning: if it's in your sixth house, it's like, I don't like routine. My health is already good, but in some cases it's broken down.
+  Meaning: having chiron in the sixth house affects one's routine and health perceptions
+  Attributes: health perception, routine
+  Allowed values: broken down health, good health
+  Constraints: depends on individual perception
+  Source: para_0030
+
+
+### uranius
+  Type: astrological planet
+  Meaning: Uranus also rules allergies.
+  Meaning: Uranus is associated with allergies
+  Attributes: allergies
+  Source: para_0030
+
+
+### chiron in seventh house
+  Type: astrological position
+  Meaning: My mental health works a certain way when it's in the seventh house. It's how you relate to other people.
+  Meaning: chiron in the seventh house influences social relationships
+  Attributes: social interaction, relationships
+  Source: para_0030
+
+
+### Chiron in the seventh house
+  Type: astrological placement
+  Meaning: People with Chiron attached to the seventh House may always be doing different things to try to prove that they are good at different things that they can express themselves.
+  Meaning: Chiron's influence in the seventh house may lead to a struggle with self-expression and validation.
+  Attributes: self-expression, validation
+  Allowed values: aesthetics, design
+  Constraints: none stated
+  Source: para_0031
+
+
+### Chiron in relation to the sun
+  Type: astrological placement
+  Meaning: I don't like myself.
+  Meaning: Discomfort with self-identity.
+  Attributes: self-worth
+  Allowed values: not stated
+  Constraints: none stated
+  Source: para_0031
+
+
+### Chiron in the second house
+  Type: astrological placement
+  Meaning: They don't like the expectations around money.
+  Meaning: Issues with societal expectations regarding financial value.
+  Attributes: expectations, money, value
+  Allowed values: revolutionary, humanitarian
+  Constraints: none stated
+  Source: para_0031
+
+
+### fifth House
+  Type: Astrological House
+  Meaning: not stated
+  Attributes: ruler Leo Energies
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0032
+
+
+### North Node (NN)
+  Type: Astrological Point
+  Meaning: not stated
+  Attributes: position influencing socialization
+  Source: para_0033
+
+
+### Saturn retrograde
+  Type: Astrological concept
+  Meaning: not stated
+  Source: para_0034
+
+
+### Alchemistic astrology
+  Type: Astrological practice
+  Meaning: not stated
+  Examples: developed Alchemistic astrology in nine years
+  Source: para_0034
+
+
+### sixth house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0035
+
+
+### Justin Timberlake
+  Type: person
+  Meaning: not stated
+  Attributes: couldn't belt, Chiron in sign of Taurus but in Capricorn, Chiron in 10th house, Leo Rising, couldn't do the trills, not the best singer, leader of the group, couldn't hit high notes
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0037, para_0036
+
+
+### vocal coach
+  Type: profession
+  Meaning: not stated
+  Attributes: supported switching to falsetto, did not support switching to falsetto
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: Justin Timberlake's vocal coach, my vocal coach
+  Source: para_0037
+
+
+### third house
+  Type: astrological position
+  Meaning: my third house which is also my eye, my artistic eye.
+  Attributes: artistic perspective
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0038
+
+
+### Chiron energy
+  Type: energy
+  Meaning: not stated
+  Source: para_0043
+
+
+### moon sensitivity
+  Type: astrological aspect
+  Meaning: I'm sensitive to it.
+  Meaning: sensitivity related to moon's position
+  Source: para_0043
+
+
+### north node in the 12th house
+  Type: astrological placement
+  Meaning: not stated
+  Source: para_0043
+
+
+### Pisces energy
+  Type: astrological property
+  Meaning: not stated
+  Source: para_0043
+
+
+### vibrations
+  Type: concept
+  Meaning: not stated
+  Attributes: high, low
+  Allowed values: high frequency, low frequency
+  Constraints: spectrum of energy
+  Source: para_0046
+
+
+### the moon
+  Type: celestial body
+  Meaning: not stated
+  Source: para_0047
+
+
+### cultural identity
+  Type: concept
+  Meaning: how one identifies culturally, including ethnicity and beliefs
+  Meaning: the identity related to culture which could include ethnicity and belief systems
+  Attributes: relation to identity revolution, influence of family
+  Allowed values: traditional, ethnically diverse, non-traditional
+  Constraints: must integrate personal beliefs and history
+  Source: para_0048
+
+
+### ninth house
+  Type: astrological house
+  Meaning: conceptual understanding
+  Meaning: a domain of concepts and themes
+  Source: para_0049
+
+
+### Chiron's ruler
+  Type: astrology
+  Meaning: not stated
+  Attributes: authority, personal connection
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0051
+
+
+### moon
+  Type: astrology
+  Meaning: whenever the moon is sitting here, we feel directly connected to the moon, like our emotional security and the things that are happening are directly related to whatever's happening on earth.
+  Meaning: the moon affects emotional security and feelings based on its position in the sky.
+  Attributes: emotional security, emotional influence, position in the sky, placement, relationship to earthly happenings
+  Allowed values: Scorpio, bad, good, seventh house
+  Constraints: not stated
+  Source: para_0051, para_0054
+
+
+### emotional overwhelm
+  Type: experience
+  Meaning: not stated
+  Attributes: depth of feeling, sensory overload
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0051
+
+
+### sensory overload
+  Type: experience
+  Meaning: not stated
+  Attributes: personal experience
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0051
+
+
+### Mercury
+  Type: planet
+  Meaning: not stated
+  Attributes: placement, decans
+  Allowed values: 7th house, Libra decan, Gemini
+  Constraints: must be interpreted alongside Chiron
+  Source: para_0053, para_0058
+
+
+### Descendant
+  Type: Astrological Point
+  Meaning: not stated
+  Attributes: placement, decans
+  Allowed values: 7th house, Libra decan, Gemini
+  Constraints: should consider conjunction with Mercury
+  Source: para_0058
+
+
+### Energy Flow
+  Type: concept
+  Meaning: not stated
+  Attributes: direction
+  Allowed values: from 5H Venus, from Descendant
+  Constraints: not stated
+  Source: para_0059
+
+
+### Chiron return
+  Type: astrological event
+  Meaning: not stated
+  Attributes: 50 year cycle
+  Allowed values: Factors into midlife crisis
+  Constraints: not stated
+  Source: para_0059
+
+
+### Pluto square
+  Type: astrological aspect
+  Meaning: not stated
+  Constraints: not stated
+  Source: para_0059
+
+
+### Neptune square
+  Type: astrological aspect
+  Meaning: not stated
+  Constraints: not stated
+  Source: para_0059
+
+
+### Uranus opposition
+  Type: astrological aspect
+  Meaning: not stated
+  Constraints: not stated
+  Source: para_0059
+
+
+### midlife crisis
+  Type: life phase
+  Meaning: not stated
+  Attributes: series of aspects
+  Constraints: not stated
+  Source: para_0059
+
+
+## DEFINITIONS (23 definitions)
+
+
+  alchemistic astrology: not stated
+    [not stated] Source: para_0000
+  astronomical doctrine of signatures: important in understanding Chiron
+    [medium] Source: para_0000
+  centaur: mythological creature that is half person, half horse
+    [high] Source: para_0001
+  Chiron mythology: Chiron was the wisest of all the centaurs, involved with medicine.
+    [high] Source: para_0002
+  centaur: labeled that because they have a hybrid physiology of comets and asteroids
+    [high] Source: para_0004
+  malleability: the quality of being able to be shaped and molded
+    [medium] Source: para_0006
+  centaur: a type of celestial body that acts like a small asteroid and has characteristics of both asteroids and comets
+    [not stated] Source: para_0007
+  orbit path: the trajectory that an astronomical body follows around another body.
+    [medium] Source: para_0008
+  grand design: the overarching structure and themes embodied in the universe.
+    [medium] Source: para_0008
+  pop astrology: not stated
+    [low] Source: para_0014
+  Capricorn: rules Christmas and expectations around holidays
+    [high] Source: para_0018
+  Chiron: An astrological body that represents mentorship and the struggle against traditional meanings.
+    [high] Source: para_0021
+  form: structured movements in martial arts that help to condition the body.
+    [high] Source: para_0025
+  chiron: a celestial body in astrology associated with healing and emotional wounds
+    [medium] Source: para_0030
+  authority: not stated
+    [not stated] Source: para_0034
+  astrology: active participation in understanding spiritual and emotional energies
+    [high] Source: para_0042
+  authority in conversation: the ability to direct the conversation or hold a position of power based on knowledge or experience.
+    [medium] Source: para_0043
+  void, of course: the idea that a planet is not aspecting something
+    [high] Source: para_0047
+  accepting Chiron: the process of recognizing and embracing one's Chiron placement and its implications
+    [high] Source: para_0048
+  grounding: an earthly principle that helps provide stability and connection.
+    [high] Source: para_0055
+  wounded healer: the aspect of Chiron that reflects the insecurities and wounds leading to teaching others and personal growth
+    [high] Source: para_0056
+  midlife crisis: a series of aspects starting with the Pluto square, then Neptune square, then Uranus opposition, influenced by Chiron return.
+    [high] Source: para_0059
+  Chiron return: not stated
+    [low] Source: para_0059
+
+
+## RULE ENGINE (90 rules)
+
+
+[R001]
+  not stated
+  accept who they are
+  Teacher voice: "to really help people accept who they are"
+  Exceptions: not stated
+  [not stated] Source: para_0000
+
+
+[R002]
+  Chiron to the sun is not an aspect, nucleus wise
+  not stated
+  Teacher voice: "Chiron to the sun is not an aspect, nucleus wise."
+  [high] Source: para_0001
+
+
+[R003]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  Exceptions: not stated
+  [not applicable] Source: para_0002
+
+
+[R004]
+  the closest we get to Wounded Healer
+  Chiron does represent what we perceive as weaknesses and wounds.
+  Teacher voice: "the closest we get to Wounded Healer is that Chiron does represent what we perceive as weaknesses and wounds."
+  [high] Source: para_0003
+
+
+[R005]
+  there is a weakness there
+  that weakness can be turned into strength.
+  Teacher voice: "however, that weakness can be turned into strength."
+  [high] Source: para_0003
+
+
+[R006]
+  if Chiron is in the Centaur range
+  then it is highly unstable and could merge into a planet or be knocked off course
+  Teacher voice: "that area, because of Saturn's gravitational pull, Uranus's gravitational pull, is highly unstable."
+  [high] Source: para_0005
+
+
+[R007]
+  not stated
+  for you to accept Chiron and bring that into your life
+  Teacher voice: "that it's about malleability. It is about molding, it is about realizing that there is no concrete structure here."
+  Exceptions: not stated
+  [medium] Source: para_0006
+
+
+[R008]
+  IF we want to get to what's valid about accepting Chiron
+  THEN it is wounds that we are able to mentor based on our own perception and beliefs.
+  Teacher voice: "If we wanna get to what's valid about it, it is wounds that we are able to mentor."
+  [high] Source: para_0009
+
+
+[R009]
+  Chiron comes over too, but does not reach Uranus
+  Chiron in your chart is a place where structures have been broken down.
+  Teacher voice: "Chiron in your chart is a place where structures have been broken down."
+  [high] Source: para_0011
+
+
+[R010]
+  When talking about Aquarius and Aquarian Energy
+  It will always have that inclusion from Leo into it.
+  Teacher voice: "Whenever you talk about Aquarian Energy, it's always gonna have that inclusion from Leo into it."
+  [high] Source: para_0011
+
+
+[R011]
+  IF you don't feel confident in this area
+  THEN you default back to the major influence, which is Saturn
+  Teacher voice: "you default back to the major influence, which is Saturn"
+  [high] Source: para_0012
+
+
+[R012]
+  IF you compare yourself to everyone else
+  THEN you overcompensate
+  Teacher voice: "the overcompensation comes from a lack of pride"
+  [high] Source: para_0012
+
+
+[R013]
+  you apply this to the house it sits in
+  the house tells you exactly what it is
+  Teacher voice: "you have to apply this to the house it sits in before you apply it to the zodiac sign in astrology"
+  [high] Source: para_0014
+
+
+[R014]
+  IF you look at Chiron in your chart, before you look at any aspects
+  THEN you just look at the house.
+  Teacher voice: "the first thing you do when you look at Chiron in your chart, before you look at any aspects, you just look at the house."
+  Exceptions: not stated
+  [high] Source: para_0015
+
+
+[R015]
+  IF you have expectations around Chiron
+  THEN there becomes a problem.
+  Teacher voice: "when you allow it to through expectation, there becomes a problem."
+  Exceptions: not stated
+  [high] Source: para_0016
+
+
+[R016]
+  IF you are expected to give a gift
+  THEN you feel bad if you can't give one back
+  Teacher voice: "Makes you feel bad if you can't give one back."
+  [medium] Source: para_0017
+
+
+[R017]
+  IF the gift is received on your birthday
+  THEN the expectation is ruined
+  Teacher voice: "I wasn't expecting it. But also it's on my birthday. So now the expectation is ruined."
+  [medium] Source: para_0017
+
+
+[R018]
+  IF pictures are taken
+  THEN my father wouldn't have to clean up the wrapping paper later
+  Teacher voice: "If pictures were taken, then, you know, my father who was cleaning up the wrapping paper wouldn't have to do it later."
+  [medium] Source: para_0018
+
+
+[R019]
+  IF Chiron is in Capricorn
+  THEN it represents authority expressed in a future-oriented manner.
+  Teacher voice: "Well, so, uh, Silas, mine is in Capricorn, right? It's expressed through Taurus, but my Chiron is in Capricorn."
+  [high] Source: para_0019
+
+
+[R020]
+  IF Chiron is in the 10th house
+  THEN it pertains to authority and structures.
+  Teacher voice: "that's what Chiron is when it's in the 10th house"
+  Exceptions: if it is in another house
+  [high] Source: para_0020
+
+
+[R021]
+  IF Chiron is in the 10th house
+  THEN one cannot make any inference over what Chiron in the 10th means without factoring everything else in.
+  Teacher voice: "you can't make any inference over what Chiron in the 10th means without factoring everything else in."
+  [high] Source: para_0021
+
+
+[R022]
+  IF one jumps into interpreting a house placement directly
+  THEN they have not analyzed the first step yet, which is defining the astrological body.
+  Teacher voice: "you're jumping right into the second step, which you haven't actually analyzed the first step yet."
+  [high] Source: para_0021
+
+
+[R023]
+  IF expectations are placed
+  THEN he has a hard time
+  Teacher voice: "when expectations are placed, he has a hard time."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R024]
+  IF there is an emotional connection and physical attraction
+  THEN everything's fine
+  Teacher voice: "when there's an emotional connection and when there is a physical attraction, then everything's fine."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R025]
+  IF doing it the normal way
+  THEN Chiron says, no, we don't do that
+  Teacher voice: "when I try to do it the normal way, Chiron says, no, b***h, we, we don't do that."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R026]
+  IF you stop trying to win
+  THEN you may win
+  Teacher voice: "when you stop trying to win, when you stop trying to have that form, when you st I actually won because I didn't make."
+  [medium] Source: para_0025
+
+
+[R027]
+  IF you know anything about martial arts
+  THEN your forms are your structure
+  Teacher voice: "if you know anything about martial arts, your forms or your structure."
+  [medium] Source: para_0025
+
+
+[R028]
+  IF you have to accept Chiron
+  THEN you should accept everything that Chiron is.
+  Teacher voice: "you have to accept that Chiron, where it sits, uh, the Chiron itself and accept everything that Chiron is, is step one."
+  [high] Source: para_0026
+
+
+[R029]
+  IF my Chiron was sitting over here in where my midheaven is and my midheaven wasn't there
+  THEN it would be directly into value.
+  Teacher voice: "it would be directly the value of the value of authority."
+  [high] Source: para_0027
+
+
+[R030]
+  IF someone has Chiron in the ninth house
+  THEN they may not go to college
+  Teacher voice: "they don't go to college because philosophy, higher education, uh, expanding the mind."
+  [high] Source: para_0028
+
+
+[R031]
+  IF you have authority in an area due to Chiron
+  THEN you may feel challenged by revolutionary ideas without confidence
+  Teacher voice: "you already have authority, which is the challenge with Chiron."
+  [high] Source: para_0028
+
+
+[R032]
+  IF Chiron is in Gemini
+  THEN it influences thought practices and identity depending on house placement
+  Teacher voice: "Chiron and Gemini has to do with your thought practices, your ideas, uh, your identity. And then depending on where it sits, this is the problem with the Chiron and Gemini thing is you're not talking about the house."
+  [high] Source: para_0028
+
+
+[R033]
+  if you have Chiron and Aquarius
+  then you have authority around rebellious things
+  Teacher voice: "It's like I already have the authority around rebellious things."
+  [high] Source: para_0029
+
+
+[R034]
+  if you are rebellious but don't fit in with groups
+  then you are better than those in the group
+  Teacher voice: "you are better than the people who are better"
+  [high] Source: para_0029
+
+
+[R035]
+  if you are the friend who's the better friend
+  then you network better than anybody else
+  Teacher voice: "you are the one who networks better than anybody else."
+  [high] Source: para_0029
+
+
+[R036]
+  IF chiron is in your sixth house
+  THEN you may not like routine and could have specific health issues.
+  Teacher voice: "if it's in your sixth house, it's like, I don't like routine."
+  [high] Source: para_0030
+
+
+[R037]
+  IF chiron is in your seventh house
+  THEN your mental health is affected by how you relate to other people.
+  Teacher voice: "My mental health works a certain way when it's in the seventh house."
+  [high] Source: para_0030
+
+
+[R038]
+  IF Chiron's in the second house or in relation to Venus
+  THEN they don't like the expectations around money and have self-worth issues.
+  Teacher voice: "if Chiron's in the second house or in relation to Venus, they don't like the expectations around money."
+  Exceptions: not stated
+  [high] Source: para_0031
+
+
+[R039]
+  IF you feel like you're supposed to be something
+  THEN you tend to overcompensate by either overly expressing yourself or shutting yourself down
+  Teacher voice: "You tend to overcompensate by either overly expressing yourself or shutting yourself down."
+  [high] Source: para_0032
+
+
+[R040]
+  IF you have Chiron in the first house
+  THEN you don't like the expectations around maintaining the physical body
+  Teacher voice: "You don't like the expectations around maintaining the physical body."
+  [high] Source: para_0032
+
+
+[R041]
+  IF you look to everybody else and the expectations there
+  THEN it creates a wound because you didn't know what you wanted to do
+  Teacher voice: "It created this wound because you didn't know what you wanted to do."
+  [high] Source: para_0032
+
+
+[R042]
+  IF you allow yourself to do the things you want to do the way you want to do them
+  THEN you might discover what you truly want
+  Teacher voice: "I allow myself to do the things I wanna do in the way that I wanna do them."
+  [high] Source: para_0032
+
+
+[R043]
+  IF you have Chiron in the first house
+  THEN you feel like you have to prove yourself to everybody.
+  Teacher voice: "People with Chiron in the first house have a very difficult time. 'cause they constantly feel like they have to prove themselves to everybody."
+  [high] Source: para_0033
+
+
+[R044]
+  IF you hear somebody say you need to do something based on their opinion
+  THEN you may feel insecure about your choices.
+  Teacher voice: "So when you hear somebody say, you need to do this, it's like, it's, there's no rule that says I'm supposed to do that. It's just your opinion."
+  [high] Source: para_0033
+
+
+[R045]
+  IF I have Saturn retrograde,
+  THEN I wouldn't have as big of an issue with authority.
+  Teacher voice: "But if we separated out my Saturn retrograde, I wouldn't have as big of an issue with authority..."
+  [high] Source: para_0034
+
+
+[R046]
+  IF you have insecurities in a relationship,
+  THEN you can dive into a relationship too quickly.
+  Teacher voice: "you can dive into a relationship too quickly"
+  [high] Source: para_0035
+
+
+[R047]
+  IF Chiron is attached to the sixth house,
+  THEN you do things quicker than other people do them.
+  Teacher voice: "if Chiron is attached to the sixth house, you do things quicker than other people do them."
+  [high] Source: para_0035
+
+
+[R048]
+  IF you have to do it the way that they do it,
+  THEN it won't happen; you'll end up slowing down and feeling insecure.
+  Teacher voice: "if you have to do it the way that they do it, it won't happen."
+  [high] Source: para_0035
+
+
+[R049]
+  If he couldn't hit high notes and hold them
+  Then he has to switch to falsetto
+  Teacher voice: "he ended up with, through his music coach switching to falsetto."
+  Exceptions: not stated
+  [high] Source: para_0037
+
+
+[R050]
+  IF he sings a high note
+  THEN you'll always hear him go, Hey, instead of belting it out like another singer would.
+  Teacher voice: "if he sings a high note, you'll always hear him go, Hey, instead of belting it out like another singer would."
+  [high] Source: para_0038
+
+
+[R051]
+  IF other people tell you that you're awesome in an area where your Chiron is placed
+  THEN you will always have the same response: 'Eh, no, I'm not that great. These people are way better.'
+  Teacher voice: "you will always have the same response. Eh, no, I'm not that great. These people are way better."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R052]
+  IF Chiron is in your eighth house
+  THEN there are intimacy issues because there's an expectation of that intimacy and diving deeper
+  Teacher voice: "if Chiron is in your eighth house, well there's intimacy issues because there's an expectation of that intimacy and diving deeper and you don't like it."
+  [high] Source: para_0040
+
+
+[R053]
+  IF Chiron is in the fifth house
+  THEN it might mean you might not be able to have children in a normal way
+  Teacher voice: "sometimes it means, you know, IVF or you know, someone else being involved."
+  [high] Source: para_0040
+
+
+[R054]
+  IF Chiron is in the tenth house
+  THEN read Chiron with aspects the same way you'd read any planet with aspects
+  Teacher voice: "you're gonna read Chiron with aspects the same way you'd read any planet with aspects."
+  [high] Source: para_0040
+
+
+[R055]
+  IF I'm feeling insecure and not really accepting and honoring Chiron
+  THEN it directly crushes my mood and makes me angry
+  Teacher voice: "anytime that I'm feeling insecure and not really accepting and honoring Chiron, it directly crushes my mood."
+  [high] Source: para_0041
+
+
+[R056]
+  IF I try to be the authority
+  THEN I'm no longer being authentic
+  Teacher voice: "when I try to be the authority, because I'm taking Chiron's energy and pushing it back to Saturn's level, I'm no longer being authentic"
+  [high] Source: para_0042
+
+
+[R057]
+  IF you learn astrology and apply zero of it
+  THEN it won't help you
+  Teacher voice: "you can learn all this astrology and apply zero of it, and it won't help you"
+  [high] Source: para_0042
+
+
+[R058]
+  IF I say this doesn't work in an authority level
+  THEN people are like, they wanna fight back.
+  Teacher voice: "As soon as I say this doesn't work in an authority level, people are like, they, they wanna fight back."
+  [high] Source: para_0043
+
+
+[R059]
+  IF I can't take the authority
+  THEN I can shift the conversation through the conversation based off of how I feel and the research that I've done.
+  Teacher voice: "I can't take the authority and say that I'm gonna direct the conversation, but I can shift the conversation through the conversation."
+  [high] Source: para_0043
+
+
+[R060]
+  not stated
+  not stated
+  Teacher voice: "I have to accept that I know something that is revolutionary that is going to change the structure of things"
+  [not stated] Source: para_0044
+
+
+[R061]
+  IF I allow Chiron to manifest in its normal way
+  THEN it becomes a problem
+  Teacher voice: "It's when I allow it to manifest in its normal way that it becomes a problem."
+  [high] Source: para_0045
+
+
+[R062]
+  IF I honor my personal spirituality and feed that into my Chiron positively
+  THEN Chiron is completely supported
+  Teacher voice: "When I honor my personal spirituality and I feed that in to my Chiron in a positive way, then Chiron is completely supported."
+  [high] Source: para_0045
+
+
+[R063]
+  IF you are transforming
+  THEN you must honor what got you to that point
+  Teacher voice: "What are you transforming from? What are you transforming with? You didn't honor what got you to that point."
+  Exceptions: not stated
+  [high] Source: para_0046
+
+
+[R064]
+  IF a planet is not aspecting something
+  THEN it is making a relationship.
+  Teacher voice: "There's no such thing as void, of course. Anything."
+  [high] Source: para_0047
+
+
+[R065]
+  IF the moon might not be aspecting anything in your chart
+  THEN it's aspecting everything in your chart at every moment.
+  Teacher voice: "that moon might not be aspecting anything in your chart, but I promise you it's aspecting everything in your chart at every moment."
+  [high] Source: para_0047
+
+
+[R066]
+  IF you do not accept your cultural identity
+  THEN you may feel uncomfortable or insecure with it.
+  Teacher voice: "you're just not always gonna be comfortable with it until you accept it."
+  Exceptions: not stated
+  [high] Source: para_0048
+
+
+[R067]
+  IF your thinking and ideas are different from your family's
+  THEN this reflects the implications of your Chiron's placement.
+  Teacher voice: "your way of thinking and your ideas are going to be different. Especially then your family's."
+  Exceptions: not stated
+  [high] Source: para_0048
+
+
+[R068]
+  IF you have a talent or challenge similar to Justin Timberlake
+  THEN you can find a unique way to express that talent.
+  Teacher voice: "Does Justin Timberlake stop singing because he can't hit those high notes by belting? Or does he sing in falsetto to hit those same notes and therefore creates his own way?"
+  Exceptions: not stated
+  [high] Source: para_0048
+
+
+[R069]
+  IF you approach watching a movie
+  THEN you can't expect yourself to understand the concept of the movie and the themes of the movie
+  Teacher voice: "you have to allow yourself to kind of navigate what they're saying in your own way"
+  [high] Source: para_0049
+
+
+[R070]
+  IF you have expectations going into the movie
+  THEN you might miss allowing yourself to immerse yourself into the movie
+  Teacher voice: "you don't wanna have expectations going into the movie of I understand what it is"
+  [medium] Source: para_0050
+
+
+[R071]
+  IF you get hung up on details of the movie
+  THEN you might not connect to how the movie made you feel
+  Teacher voice: "you get hung up on whether or not you know all the details"
+  [medium] Source: para_0050
+
+
+[R072]
+  IF you try to communicate directly what is being asked
+  THEN you may miss allowing your feelings to form your words
+  Teacher voice: "instead of trying to communicate directly what he's asking you, allow your, the way you felt about it to form your words"
+  [medium] Source: para_0050
+
+
+[R073]
+  IF you taste something and don't like it
+  THEN it's acceptable to express that feeling
+  Teacher voice: "you're allowed to do that."
+  [high] Source: para_0051
+
+
+[R074]
+  IF you're feeling too much while trying to connect with someone
+  THEN accept it instead of making it feel like a problem.
+  Teacher voice: "just accept it when it comes to those things."
+  [high] Source: para_0051
+
+
+[R075]
+  IF you try to explain something based on how you felt about it
+  THEN explain it in a different way.
+  Teacher voice: "explain something in a very different way based on how you felt about it."
+  [high] Source: para_0051
+
+
+[R076]
+  IF you lick the lollipop
+  THEN you might say it tastes like strawberries
+  Teacher voice: "if you lick the lollipop, oh, it's sweet. That would be the expectation."
+  Exceptions: it doesn't taste like strawberries. I don't like it.
+  [high] Source: para_0052
+
+
+[R077]
+  IF Chiron is conjunct to Lilith
+  THEN there is a kind of a double whammy with this one because there's already insecurities that are now tied into guilt and shame.
+  Teacher voice: "IF Chiron is conjunct to Lilith, THEN there is a kind of a double whammy with this one because there's already insecurities that are now tied into guilt and shame."
+  [high] Source: para_0053
+
+
+[R078]
+  IF you have gone beyond the expectation and you're seeking something different
+  THEN your perspective is being broken down in the process.
+  Teacher voice: "it's because you have gone beyond the expectation and you're seeking something different, but it's being broken down in the process."
+  [medium] Source: para_0053
+
+
+[R079]
+  IF it's true Lilith
+  THEN it's an outward projection.
+  Teacher voice: "if it's true Lilith, it's an outward projection."
+  [high] Source: para_0054
+
+
+[R080]
+  IF it's in retrograde
+  THEN it brings it back inward.
+  Teacher voice: "if it's in retrograde, it brings it back inward."
+  [high] Source: para_0054
+
+
+[R081]
+  IF it's mean Lilith
+  THEN it has to do with guilt and shame.
+  Teacher voice: "if it's mean Lilith, it has to do with guilt and shame."
+  [high] Source: para_0054
+
+
+[R082]
+  IF you embrace Lilith without grounding
+  THEN you risk being dangerous to yourself and alienating others.
+  Teacher voice: "it's a very dangerous thing."
+  [high] Source: para_0055
+
+
+[R083]
+  IF humor and adventure are prioritized over consequences
+  THEN relationships and career will suffer.
+  Teacher voice: "you're gonna find out that they don't have friends they thought they had."
+  [high] Source: para_0055
+
+
+[R084]
+  IF Lilith is connected with Chiron
+  THEN your deep desires need to be of a healing and mentoring nature.
+  Teacher voice: "you have to reflect those things that you really want for yourself."
+  [high] Source: para_0055
+
+
+[R085]
+  IF you embrace both insecurities and wounds in a positive way
+  THEN you become somebody who is a mentor to help other people
+  Teacher voice: "once you embrace both of these in a positive way, you become somebody who is a mentor to help other people."
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R086]
+  IF you have insecurities in certain areas
+  THEN your mentorship reflects an ability to have abundance and opportunity
+  Teacher voice: "your mentorship is going to reflect here because you have this ability to have abundance and opportunity."
+  Exceptions: not stated
+  [high] Source: para_0056
+
+
+[R087]
+  IF fifth house Chi Scorpio is successful
+  THEN the meaning is Sagittarius
+  Teacher voice: "Fifth house Chi Scorpio successful is Sagittarius."
+  Exceptions: not stated
+  [medium] Source: para_0057
+
+
+[R088]
+  IF Chiron is in the 9th house in Leo
+  THEN it signifies discomfort with expectations on higher education and religion.
+  Teacher voice: "this would play out as I don’t like the expectations on higher education, religion, etc."
+  [high] Source: para_0058
+
+
+[R089]
+  IF Chiron is sextile to Mercury and Descendant
+  THEN it may affect confidence in communicating approaches to themes matched with Chiron's placement.
+  Teacher voice: "it can also either make or break a partnership if I begin to lack the confidence to communicate different approaches to these themes."
+  [high] Source: para_0058
+
+
+[R090]
+  IF there is a midlife crisis
+  THEN it is influenced by a series of aspects including Pluto square, Neptune square, Uranus opposition, and Chiron return later on.
+  Teacher voice: "midlife crisis is a series of aspects starting with the Pluto square, then Neptune square, then Uranus opposition. Chiron return factors in there as well later on."
+  Exceptions: not stated
+  [high] Source: para_0059
+
+
+## PROCEDURES (3 procedures)
+
+
+### Understanding Chiron
+  Step 1: Step one is to accept Chiron itself and everything it represents.
+  Step 2: Step two is to identify the house and what area of life this is affecting.
+  Step 3: Step three is to determine the sign.
+  Step 4: Step four involves analyzing all the aspects.
+  Step 5: Step five is to find where the ruler is and what it feeds into.
+  Source: para_0026
+
+
+### Accepting Chiron
+  Source: para_0049
+
+
+### Accept feelings without judgment
+  Source: para_0051
+
+
+## CALCULATION PIPELINE
+  Step 1: Research the placement of Chiron in the birth chart.
+    Notes: Determine how Chiron's position affects aspects and life challenges.
+  Step 2: Analyze Chiron's potential influence on personal weaknesses and strengths.
+    Notes: Identify how perceived weaknesses can transform into strengths.
+  Step 3: Simulate Chiron's orbit and its effect over time.
+    Notes: Consider Chiron's orbit fluctuations and its instabilities.
+
+
+  Additional calculation steps from transcript:
+  Step 0: Discussion on the Chiron return in relation to when Chiron was discovered.
+    Formula: null
+    Teacher voice: "it hasn't even been the Chiron return of the founding of the Chiron asteroid."
+  Step 0: Research how people born during certain periods may be different based on Chiron's orbit.
+    Formula: null
+    Teacher voice: "I'm doing my own research to see how people born during that time are different and carry that signature forward."
+  Step 0: Check the placement of Pluto and Jupiter regarding direct retrograde and aspects.
+    Formula: null
+    Teacher voice: "We have to know Pluto and Jupiter's placement, direct retrograde, all the aspects and we have to tie them together."
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "type": "object",
+  "properties": {
+    "Chiron": {
+      "type": "object",
+      "properties": {
+        "definition": {
+          "type": "string"
+        },
+        "entity_type": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allowed_values": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+Rules schema:
+{
+  "type": "object",
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "condition": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    }
+  }
+}
+
+
+Meanings schema:
+{
+  "type": "object",
+  "properties": {
+    "term": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string"
+    }
+  }
+}
+
+
+## PSEUDOCODE
+FOR each chart with Chiron placement DO
+  IDENTIFY the house and sign of Chiron
+  CALCULATE influences based on aspects
+  TRANSFORM identified weaknesses into potential strengths
+  SIMULATE orbit changes and analyze impacts on life events
+END FOR
+
+
+## VOICE STYLE RULES
+Tone: Informative, Reflective
+Cadence: Steady and clear explanations, Allow for pauses to reflect
+Signature phrases: Let's explore..., Consider the impact...
+Do:
+  - Explain connections clearly
+  - Provide examples and scenarios
+Avoid:
+  - Avoid definitive statements when information is lacking
+
+
+## MEANING RENDERING RULES
+- Meanings should be written with clear connections to mythological background and modern implications in astrology.
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (111 snippets)
+
+
+  [definition] (unknown): "the biggest difficulty. It's the biggest strife"
+    Source: para_0000
+  [motivation] (unknown): "I wanna really get into some of the things that I think are super important in my own studies, in my own research"
+    Source: para_0000
+  [meaning] (unknown): "this area of life, you are unique, you are different, you are special, and things are chaotic and just off axis, so to speak."
+    Source: para_0001
+  [example] (unknown): "Chiron placement at 24 degrees, 42 arc minutes is in a direct, um, it forms a yard here, but it's in a direct, uh, Quin Cox to Pluto and from Neptune."
+    Source: para_0001
+  [motivation] (unknown): "I've been working on for over a year called Fringe Theory that I have recently proven to be accurate."
+    Source: para_0001
+  [definition] (unknown): "Now, Chiron was labeled in 1977 by its founders discoverer, um, you know, to be Chiron based on the mythology."
+    Source: para_0002
+  [warning] (unknown): "But the problem is when you take it directly from the mythology into real world, you get a lot of confusion."
+    Source: para_0002
+  [warning] (unknown): "I don't understand how people are trying to apply that to the real world."
+    Source: para_0003
+  [warning] (unknown): "it has no mathematical or scientific backing, and it doesn't play off for everyone the same way."
+    Source: para_0004
+  [definition] (unknown): "the ice that is formed on a lot of planets ends up sublimating, and then it becomes vapor essentially."
+    Source: para_0005
+  [definition] (unknown): "anything that sits between Saturn and Uranus... they call that the Centar range."
+    Source: para_0005
+  [warning] (unknown): "we do not know its axial tilt because we have not gotten a clear image."
+    Source: para_0006
+  [warning] (unknown): "we have the fact that Chiron, we do not know its axial tilt because we have not gotten a clear image."
+    Source: para_0006
+  [warning] (unknown): "we don't actually understand its rotational period."
+    Source: para_0006
+  [warning] (unknown): "it's just gonna be nominal. They have rings."
+    Source: para_0007
+  [meaning] (unknown): "it is always changing. It is invariable, and it is, it is its own presence."
+    Source: para_0008
+  [motivation] (unknown): "the themes embodied. There is a grand design of the universe."
+    Source: para_0008
+  [warning] (unknown): "calling higher on the wounded healer is just off."
+    Source: para_0009
+  [definition] (unknown): "Aquarion Energy has a natural inclusion."
+    Source: para_0010
+  [definition] (unknown): "Aquarians are the rebels who have broken the system."
+    Source: para_0011
+  [motivation] (unknown): "Damn, the man, like, I do it my way. I am independent and I'm proud of it."
+    Source: para_0011
+  [meaning] (unknown): "you don't have the structure, you do not have the conformity, you don't have the authority in this area."
+    Source: para_0013
+  [example] (unknown): "everybody else says you do. So you feel with like Kyron and Gemini or Kyron and Aquarius, you feel that you are not smart because you don't have the structure of being smart."
+    Source: para_0013
+  [warning] (unknown): "Things can happen that make you open to weakness"
+    Source: para_0014
+  [motivation] (unknown): "this area of life is not a problem"
+    Source: para_0014
+  [meaning] (unknown): "you don't get to choose to be structured in this area and be like everybody else, be traditional"
+    Source: para_0015
+  [warning] (unknown): "you can't match the Uranian person. You feel closer to them, but you don't have the confidence."
+    Source: para_0015
+  [definition] (unknown): "Chiron's Glyph, which is the little, looks like a key or spelled with a K, Chiron's, also spelled with a K."
+    Source: para_0015
+  [meaning] (unknown): "Chiron is the key to everything in your life."
+    Source: para_0016
+  [definition] (unknown): "Venus rules gifts."
+    Source: para_0016
+  [definition] (unknown): "The second house rules gifts."
+    Source: para_0016
+  [definition] (unknown): "Taurus rules gifts."
+    Source: para_0016
+  [example] (unknown): "You don't like getting gifts because you feel obligated to give one back."
+    Source: para_0016
+  [meaning] (unknown): "I don't like the expectation of gift giving."
+    Source: para_0017
+  [definition] (unknown): "I need gifts to be random."
+    Source: para_0017
+  [example] (unknown): "I'm not like, oh, I'll get that for you or whatever. I shut up, I don't say anything."
+    Source: para_0018
+  [warning] (unknown): "which again, authority stop and, and art, stop telling him what to do."
+    Source: para_0018
+  [meaning] (unknown): "I always treated everything."
+    Source: para_0019
+  [example] (unknown): "I knew I was the boss, but I never felt in that situation too much."
+    Source: para_0019
+  [instruction] (unknown): "what you have to do is you have to break it apart."
+    Source: para_0020
+  [warning] (unknown): "you weren't reading Planet House, sign ruler"
+    Source: para_0020
+  [definition] (unknown): "accepting Chiron is to say that traditionally..."
+    Source: para_0021
+  [meaning] (unknown): "I don't consider myself the authority over astrology."
+    Source: para_0023
+  [meaning] (unknown): "I don't like titles."
+    Source: para_0023
+  [motivation] (unknown): "I have to approach it as like, look, this is what I've created."
+    Source: para_0023
+  [motivation] (unknown): "I struggled with them on my own self."
+    Source: para_0024
+  [motivation] (unknown): "I don't want to be either."
+    Source: para_0024
+  [example] (unknown): "my dad dropped me off and said, and I said, why aren't you coming in? He said, I don't need to see you win anymore."
+    Source: para_0024
+  [example] (unknown): "I made the whole thing up as I was going."
+    Source: para_0025
+  [example] (unknown): "I just pretended that I was in the front yard practicing like I used to do."
+    Source: para_0025
+  [example] (unknown): "I won first place."
+    Source: para_0025
+  [motivation] (unknown): "I already know this."
+    Source: para_0026
+  [motivation] (unknown): "I'm not that I confused myself, but I just felt like, why am I doing this?"
+    Source: para_0026
+  [definition] (unknown): "I don't consider myself the authority, but other people see me as such."
+    Source: para_0026
+  [warning] (unknown): "This is the problem is that for me, 'cause it's tied into Venus, it's like sometimes I buy it just to prove I can buy it, which is the overcompensation."
+    Source: para_0026
+  [rule] (unknown): "it would be directly the value of the value of authority."
+    Source: para_0027
+  [example] (unknown): "a lot of people who have Chiron in the ninth house, one or two things usually happens"
+    Source: para_0028
+  [definition] (unknown): "they just see Chiron and they just say, oh, I'm broken."
+    Source: para_0028
+  [example] (unknown): "you don't fit in with groups and teams because you are better than them."
+    Source: para_0029
+  [motivation] (unknown): "the science isn't enough. We need a revolution in science."
+    Source: para_0029
+  [example] (unknown): "I don't like the expectation that I have to reply to you."
+    Source: para_0030
+  [warning] (unknown): "I feel insecure."
+    Source: para_0030
+  [motivation] (unknown): "I'm looking for something that's better. I'm looking for another way, a new way."
+    Source: para_0031
+  [motivation] (unknown): "you've, you already know who you are, but you don't feel like you're comfortable enough to express that in public with your individuality"
+    Source: para_0032
+  [motivation] (unknown): "It's likely when you were younger that you were always told to go do something, figure out your life"
+    Source: para_0032
+  [meaning] (unknown): "I do not value their authority."
+    Source: para_0034
+  [meaning] (unknown): "I feel like I should shrink down because I don't have the rebellious nature in place in this area."
+    Source: para_0034
+  [meaning] (unknown): "This person's been doing it longer time, Saturn 10th house."
+    Source: para_0034
+  [motivation] (unknown): "that was really my issue."
+    Source: para_0037
+  [example] (unknown): "if you actually watch like the dance choreography, Justin's telling the other members like, no, you man, you're supposed to be over here."
+    Source: para_0037
+  [rule] (unknown): "if he sings a high note, you'll always hear him go, Hey, instead of belting it out like another singer would."
+    Source: para_0038
+  [example] (unknown): "wow, you are awesome in this area. You're really good at this."
+    Source: para_0039
+  [meaning] (unknown): "if I dive deeper, it needs to be on my terms in a different way."
+    Source: para_0040
+  [meaning] (unknown): "you're seeing a physical manifestation of something that is energetic."
+    Source: para_0040
+  [meaning] (unknown): "I'm supposed to identify with."
+    Source: para_0041
+  [example] (unknown): "I don't finish things unless I'm emotionally connected into them."
+    Source: para_0041
+  [warning] (unknown): "I can't just show up on TikTok and teach."
+    Source: para_0041
+  [warning] (unknown): "most people keep asking me questions that have to do with other systems of astrology"
+    Source: para_0042
+  [meaning] (unknown): "I'm sensitive to it."
+    Source: para_0043
+  [motivation] (unknown): "I wish this moon wasn't there sometimes."
+    Source: para_0043
+  [example] (unknown): "it is crazy. Like, when we were doing night shadow, I was doing a bunch of things."
+    Source: para_0044
+  [motivation] (unknown): "I want it to be controversial 'cause I'm naturally a rebel, but I also want people to actually look into it."
+    Source: para_0044
+  [example] (unknown): "As soon as I hit 45 minutes, I feel it. But then I stay on and then stuff starts going downhill from that point."
+    Source: para_0045
+  [example] (unknown): "The first 45 minutes is usually amazing, can end it right there, end on a high note."
+    Source: para_0045
+  [motivation] (unknown): "Isn't that crazy? Vibing higher."
+    Source: para_0046
+  [definition] (unknown): "There are ways that are going to allow you to move, navigate your life in a way that is gonna be more auspicious for you and your outcomes with positive intention."
+    Source: para_0046
+  [definition] (unknown): "We have to honor the low and the high."
+    Source: para_0046
+  [motivation] (unknown): "I've mentioned this a million times on social media."
+    Source: para_0047
+  [warning] (unknown): "Pluto has literally been here your entire life."
+    Source: para_0047
+  [motivation] (unknown): "there's another theory that I am proving right now."
+    Source: para_0047
+  [motivation] (unknown): "you need to apply into your identity in a way where you feel comfortable that you've revolutionized your own identity."
+    Source: para_0048
+  [warning] (unknown): "There's no confidence in what you're saying"
+    Source: para_0049
+  [example] (unknown): "I literally can't do, like, when I have conversations with people, I can't look at them"
+    Source: para_0049
+  [motivation] (unknown): "you have to find a way to accept that"
+    Source: para_0049
+  [meaning] (unknown): "you have to find your own way"
+    Source: para_0050
+  [example] (unknown): "When I tasted this, I didn't like it 'cause it felt, it, it felt, I don't know if it was too sweet."
+    Source: para_0051
+  [example] (unknown): "I wouldn't, I wouldn't buy that. I wouldn't eat that."
+    Source: para_0051
+  [motivation] (unknown): "I feel too much."
+    Source: para_0051
+  [warning] (unknown): "it doesn't work, Right?"
+    Source: para_0051
+  [motivation] (unknown): "It's gotta be you."
+    Source: para_0051
+  [motivation] (unknown): "you have to allow yourself to say it the way that you feel it intuitively that leads into needing translation."
+    Source: para_0052
+  [motivation] (unknown): "whatever you say after that is going to require transformation."
+    Source: para_0052
+  [motivation] (unknown): "Understanding the energies that are causing that is extremely important."
+    Source: para_0053
+  [motivation] (unknown): "it's because you have gone beyond the expectation and you're seeking something different."
+    Source: para_0053
+  [warning] (unknown): "you think that you can just do whatever you want and that's gonna bring value and money or whatever, and it doesn't."
+    Source: para_0055
+  [meaning] (unknown): "the order matters, is it Lilith and Chiron or Chiron, then Lilith."
+    Source: para_0055
+  [warning] (unknown): "on the negative side, everything that you feel shame, guilt, and remorse for is tied directly into the fact that you are different."
+    Source: para_0056
+  [meaning] (unknown): "it leads you directly into a union with the things that you really want in this world."
+    Source: para_0056
+  [motivation] (unknown): "this is me, this is what I want, this is what I need"
+    Source: para_0057
+  [definition] (unknown): "midlife crisis is a series of aspects starting with the Pluto square, then Neptune square, then Uranus opposition."
+    Source: para_0059
+  [definition] (unknown): "Chiron return factors in there as well later on."
+    Source: para_0059
+
+
+## EDGE CASES (15 cases)
+
+
+- Scenario: Chiron's changing position relative to Saturn and Jupiter.
+  Handling: Understand that Chiron crosses over Saturn and approaches but does not quite reach Uranus.
+- Scenario: When you have a Chiron placement
+  Handling: It feels like a wound in some areas of life.
+- Scenario: Sensory overload during interaction
+  Handling: Accept the feeling instead of viewing it as a problem.
+- Scenario: Astrology and astrology split after the 17th century.
+  Handling: Spiritual community took over astrology leading to confusion.
+- Scenario: Chiron's changing position relative to Saturn and Jupiter.
+  Handling: Understand that Chiron crosses over Saturn and approaches but does not quite reach Uranus.
+- Scenario: Jupiter themes may not involve traditional notions of healing
+  Handling: Focus on wisdom and belief systems instead.
+- Scenario: not considering oneself the authority
+  Handling: results in inability to complete tasks if they don't feel compelled
+- Scenario: When you have a Chiron placement
+  Handling: It feels like a wound in some areas of life.
+- Scenario: Chiron's physical manifestation
+  Handling: It can manifest as a wound and can be influenced psychologically or physically.
+- Scenario: hitting a point of engagement after 45 minutes on TikTok live
+  Handling: feeling done and noting a decline in experience if staying longer
+- Scenario: not feeling comfortable with one's identity
+  Handling: recognition and acceptance are necessary to overcome discomfort
+- Scenario: Sensory overload during interaction
+  Handling: Accept the feeling instead of viewing it as a problem.
+- Scenario: when the moon is small in the sky
+  Handling: we feel very disconnected because it feels like what we're feeling and pressure from emotional security, stability, motherhood, family is not relating at all to what's actually happening.
+- Scenario: Negative side effects of embracing insecurities and wounds
+  Handling: It could lead to feeling shame, guilt, and remorse, manifesting weaknesses both psychologically and physically.
+- Scenario: Working in an unconventional field
+  Handling: Allow yourself to have fun within this work, even if it's outside of what others deem acceptable.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Test Chiron representing weaknesses when described as the Wounded Healer.
+  Input: {"condition": "the closest we get to Wounded Healer"}
+  Expected (teacher voice): The closest we get to Wounded Healer is that Chiron does represent what we perceive as weaknesses and wounds.
+  Rules: R001
+  Entities: Chiron
+
+
+[TC002] Test turning weakness into strength when a weakness is present.
+  Input: {"condition": "there is a weakness there"}
+  Expected (teacher voice): However, that weakness can be turned into strength.
+  Rules: R002
+  Entities: Chiron
+
+
+[TC003] Test instability of Chiron in Centaur range.
+  Input: {"condition": "if Chiron is in the Centaur range"}
+  Expected (teacher voice): That area, because of Saturn's gravitational pull, Uranus's gravitational pull, is highly unstable.
+  Rules: R003
+  Entities: Chiron, Centaur range
+
+
+[TC004] Test defaulting back to Saturn influence when confidence is lacking.
+  Input: {"condition": "IF you don't feel confident in this area"}
+  Expected (teacher voice): You default back to the major influence, which is Saturn
+  Rules: R004
+  Entities: Centaur range
+
+
+[TC005] Test procedure for understanding Chiron.
+  Input: {"procedure": "Understanding Chiron"}
+  Expected (teacher voice): The process involves accepting Chiron, identifying its house, determining the sign, analyzing aspects, and finding the ruler.
+  Entities: Chiron
+
+
+[TC006] Edge case: No relevant entity present for the specified rule condition.
+  Input: {"condition": "Chiron is bright and visible"}
+  Expected (teacher voice): No applicable rule action for described condition.
+  [EDGE CASE]
+
+
+[TC007] Edge case: Conflicting conditions for multiple rules.
+  Input: {"condition": "closest we get to Wounded Healer and no confidence"}
+  Expected (teacher voice): Chiron does represent what we perceive as weaknesses and wounds, and default back to the major influence, which is Saturn.
+  Rules: R001, R004
+  Entities: Chiron
+  [EDGE CASE]
+
+
+[TC008] Edge case: Unknown entity within the condition.
+  Input: {"condition": "if the Phoenix is in the Centaur range"}
+  Expected (teacher voice): Condition refers to an unknown entity, no applicable rule actions.
+  Entities: Centaur range
+  [EDGE CASE]
+
+
+[TC009] Test proper perception of weakness associated with Chiron.
+  Input: {"condition": "acknowledging weakness in Chiron"}
+  Expected (teacher voice): Acceptance of weakness can transform it into strength.
+  Rules: R002
+  Entities: Chiron
+
+
+[TC010] Test the application of healing concept associated with Chiron.
+  Input: {"procedure": "Accepting Chiron"}
+  Expected (teacher voice): Accepting Chiron involves recognizing and embracing weaknesses.
+  Rules: R001
+  Entities: Chiron
+
+
+## UNRESOLVED (7 items)
+
+
+- no true photo yet of Chiron
+  Needed: photographic evidence of Chiron
+- Chiron return timing and its implications.
+  Needed: More information on the Electional chart of when Chiron was discovered.
+- the correct attribution for the concept of Rainbow Bridge
+  Needed: confirmation of the correct author and source
+- unclear structure of Chiron
+  Needed: more information on Chiron's composition and behavior
+- the exact impact of Chiron in the first house
+  Needed: further detail or clarification
+- Specific allowed values and attributes for Lilith
+  Needed: detailed description of Lilith's attributes and constraints
+- Chiron return
+  Needed: clear definition and impact on midlife crisis.
+
+
+================================================================================
+END OF BUILDER PROMPT
+================================================================================
+
+
+
+
+
+
+True Placements + Base & Intro to Spark
+================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+Create an astrology app that generates and interprets natal charts, zodiac signs, and planetary influences based on user inputs.
+
+
+## INPUTS
+- birth date
+- birth time
+- birth place
+
+
+## OUTPUTS
+- natal chart
+- zodiac sign interpretations
+- planetary influence analysis
+
+
+## ENTITY CATALOG (127 entities)
+
+
+### natal chart
+  Type: astrological structure
+  Meaning: the inner wheel is the one that we really need to focus on more because it is the core
+  Meaning: a representation of astrological positions at the time of a person's birth
+  Attributes: Sagittarius rising, true placements, inner wheel, ascendant, houses
+  Allowed values: not stated, 12 degrees, bi-directional energy, Aries ascendant
+  Constraints: must include the Aries point, applies to all placements, only from the 10 ruling planets
+  Source: para_0026, para_0000, para_0001
+
+
+### zodiac signs
+  Type: astrological concept
+  Meaning: the zodiac signs are about the revolution of the earth around the sun
+  Meaning: the twelve divisions of the celestial sphere corresponding to the seasons
+  Attributes: revolution of the earth, even, odd
+  Allowed values: not stated, Scorpio, Taurus, Leo, Capricorn, Pisces, Libra, Cancer, Sagittarius, Aries, Gemini, Virgo, Aquarius
+  Constraints: not stated, Odd signs start at zero degrees with Aries, Even signs start at zero degrees with Libra
+  Source: para_0000, para_0009
+
+
+### houses
+  Type: astrological divisions
+  Meaning: we know is houses
+  Meaning: the twelve segments of the natal chart that represent different areas of life
+  Attributes: 3 as Gemini, 1 as Aries, split based on the Aries point, 2 as Taurus
+  Allowed values: not stated
+  Constraints: not stated, must be derived from the inner wheel
+  Source: para_0000, para_0005
+
+
+### sun sign
+  Type: astrological placement
+  Meaning: it's like, son in Gemini
+  Meaning: the position of the sun in the zodiac at the time of birth
+  Attributes: personal close placement
+  Allowed values: not stated
+  Constraints: not an indicator alone; context is needed
+  Source: para_0000
+
+
+### base energy
+  Type: astrology concept
+  Meaning: bi-directional energy that we are pulling from
+  Attributes: bi-directional energy
+  Allowed values: not stated
+  Constraints: only from the 10 ruling planets
+  Source: para_0001
+
+
+### sun
+  Type: planet
+  Meaning: represents all those Leo themes
+  Meaning: Leo themes representation
+  Meaning: focus, watch it five times over
+  Meaning: focus
+  Attributes: play, sign, relationship with the father, vitality, self-expression, ruler of Leo, recreation, ruler
+  Allowed values: Cancer, Leo, Sagittarius
+  Constraints: only doing ruling planets, not stated
+  Source: para_0012, para_0030, para_0003, para_0002, para_0013
+
+
+### Mercury
+  Type: planet
+  Meaning: not stated
+  Attributes: inferior position, superior position
+  Source: para_0026, para_0002
+
+
+### Gemini
+  Type: sign
+  Meaning: not stated
+  Source: para_0002
+
+
+### Virgo
+  Type: sign
+  Meaning: not stated
+  Source: para_0002
+
+
+### chart
+  Type: concept
+  Meaning: not stated
+  Attributes: analysis
+  Source: para_0002
+
+
+### Venus
+  Type: planet
+  Meaning: the first thing through true placements is that Venus is about authority
+  Meaning: represents authority
+  Attributes: placement in Capricorn, relationships, embodies Chiron, money, third house ruler, represents value, rules the 10th house
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0029, para_0003, para_0027, para_0028, para_0026
+
+
+### Taurus
+  Type: zodiac sign
+  Meaning: very personal self type of energy
+  Meaning: personal energy
+  Source: para_0003
+
+
+### Libra
+  Type: zodiac sign
+  Meaning: expressing outwardly
+  Meaning: outward expression
+  Source: para_0003
+
+
+### field
+  Type: astrological concept
+  Meaning: the house
+  Meaning: house in astrology
+  Attributes: field
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004, para_0003
+
+
+### Mystic Circle
+  Type: platform
+  Meaning: a place for access to resources
+  Meaning: resource platform
+  Source: para_0003
+
+
+### Mystic portal
+  Type: tool
+  Meaning: a lot of things, recipes, rituals, a wiki, articles, thoughts, energy forecast, tarot forecast
+  Meaning: all-encompassing resource
+  Source: para_0003
+
+
+### degree theory
+  Type: astrology
+  Meaning: the spark
+  Meaning: the first engagement within the energy
+  Attributes: degree theory
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004
+
+
+### Black Moon Lilith
+  Type: astrology
+  Meaning: the mechanics of Black Moon Lilith
+  Meaning: the empty focus which becomes the black moon
+  Attributes: empty focus
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004
+
+
+### Priapus
+  Type: astrology
+  Meaning: what we've renamed as black, white moon, Sophia
+  Meaning: black, white moon, Sophia
+  Attributes: renamed entity
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004
+
+
+### Chiron
+  Type: astronomical body
+  Meaning: not stated
+  Attributes: in the 10th house, delegate, public image, relationship with the sun, purple line, location in the chart, ruler of Venus, orbit path, squares from the moon, vulnerability
+  Allowed values: not stated, house position, aspect relations
+  Constraints: not stated, analyzed separately based on order
+  Source: para_0034, para_0017, para_0005, para_0028, para_0027
+
+
+### degrees
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: 5, 18, 17, 22, 29
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: 5 being famed degree, 22 being killer be killed degree
+  Source: para_0005
+
+
+### zero degrees
+  Type: degree theory
+  Meaning: zero is a, as they say, is this pure energy
+  Meaning: zero degrees represent purity of the astrological sign
+  Attributes: pure Aries, pure Cancer, pure energy, pure Gemini, pure Taurus
+  Allowed values: zero degrees Aries, zero degrees Taurus, zero degrees Gemini, zero degrees Cancer
+  Constraints: must be specified as zero degrees
+  Examples: zero degrees Aries, zero degrees Taurus, zero degrees Gemini, zero degrees Cancer
+  Source: para_0006
+
+
+### phase of cancer
+  Type: astrological phase
+  Meaning: not stated
+  Source: para_0007
+
+
+### Aries
+  Type: zodiac sign
+  Meaning: zero degrees of the sun's declination
+  Meaning: zero degrees
+  Constraints: the only role of 1 is in houses
+  Source: para_0007
+
+
+### degree
+  Type: astrology
+  Meaning: the spark
+  Attributes: 11 degrees, 1 degree, 24 degrees, 2 degrees, 29 degrees, 12 degrees, 23 degrees
+  Allowed values: Taurus, Pisces, Aries, Gemini, Virgo
+  Constraints: cannot be Aries if it comes from Aries
+  Examples: 12 degrees is an Aries degree, 11 degrees is a Pisces degree
+  Source: para_0008, para_0011
+
+
+### Aquarius degree
+  Type: astrological degree
+  Meaning: not stated
+  Attributes: even, odd
+  Allowed values: even, odd
+  Constraints: not specified
+  Source: para_0010
+
+
+### opposite sign of Aquarius
+  Type: astrological sign
+  Meaning: Leo
+  Examples: Leo
+  Source: para_0010
+
+
+### south node
+  Type: astrological point
+  Meaning: not stated
+  Attributes: themes of the father, sense of existence, sense of self, readings necessity, recreation expression
+  Allowed values: must do readings
+  Examples: 2023 was incredible for readings, averaging 8 to 12 readings or more a day
+  Source: para_0010, para_0025
+
+
+### north node
+  Type: astrological point
+  Meaning: this is a point of rolling
+  Meaning: an unattainable alignment path
+  Meaning: the alignment with how the now feeds the future.
+  Attributes: alignment, perpetual motion
+  Allowed values: personal basis
+  Constraints: unattainable, not a goal, associated with emotional growth
+  Source: para_0010, para_0023, para_0024
+
+
+### planet
+  Type: astrology
+  Meaning: the focus
+  Source: para_0011
+
+
+### decan
+  Type: astrology
+  Meaning: the pulse
+  Source: para_0011
+
+
+### sign
+  Type: astrology
+  Meaning: the tone
+  Source: para_0011
+
+
+### house
+  Type: astrology
+  Meaning: the field
+  Source: para_0011
+
+
+### Leo
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: governs the base
+  Constraints: has a ruling planet
+  Source: para_0012
+
+
+### base
+  Type: astrological concept
+  Meaning: the house that Leo governs
+  Attributes: Sagittarius base for Elvis's son
+  Constraints: specific to astrology
+  Examples: Sagittarius base
+  Source: para_0012
+
+
+### spark
+  Type: astrological concept
+  Meaning: the entry point into energy
+  Source: para_0012
+
+
+### pulse
+  Type: astrological concept
+  Meaning: the next stage after spark
+  Source: para_0012
+
+
+### tone
+  Type: astrological concept
+  Meaning: how the energy universally expresses
+  Attributes: expression through the stained glass window
+  Source: para_0012
+
+
+### decken
+  Type: astrological concept
+  Meaning: the step after pulse
+  Source: para_0012
+
+
+### fifth house
+  Type: astrological house
+  Meaning: It is a field. It is a general set of information. It is an area of life.
+  Meaning: field related to life and information
+  Meaning: representation of the father in your life
+  Meaning: astrological representation of the father
+  Constraints: is not the father itself
+  Source: para_0013, para_0014
+
+
+### channel
+  Type: astrological aspect
+  Meaning: What is channeling through? That's what it really means.
+  Meaning: channel of energy
+  Source: para_0013
+
+
+### aspects
+  Type: astrological characteristic
+  Meaning: it's how it's aspected.
+  Meaning: aspects of astrological entities
+  Source: para_0013
+
+
+### father
+  Type: astrological representation
+  Meaning: not stated
+  Attributes: stepfather, natural father, belief systems, relationship distance
+  Allowed values: universal father figures, lives far away
+  Constraints: not stated, stepfather does not equate to natural father in totality
+  Source: para_0014, para_0030
+
+
+### Sun
+  Type: Astrological Body
+  Meaning: rules this
+  Meaning: rules certain aspects of personality and expression
+  Attributes: influences talent, represents value and money
+  Allowed values: Sagittarius space
+  Constraints: not stated
+  Source: para_0015
+
+
+### Elvis Presley's son (Sun placement)
+  Type: Astrological Interpretation
+  Meaning: has a Sagittarius space
+  Meaning: Sagittarius Sun influences how he expresses himself
+  Attributes: even sign, 17 degrees
+  Allowed values: Virgo, Pisces
+  Constraints: not stated
+  Source: para_0015
+
+
+### Talent Pulse
+  Type: Concept
+  Meaning: always about the music or the value
+  Meaning: focuses on creative expression and material aspects
+  Attributes: music, includes talent, money, value
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0015
+
+
+### black Moon Lilith
+  Type: astrological term
+  Meaning: there is guilt and shame associated with it.
+  Meaning: associated with guilt and shame.
+  Attributes: guilt, shame
+  Source: para_0016
+
+
+### son
+  Type: astrological term
+  Meaning: represents the father and his expression.
+  Meaning: symbolizes paternal expression.
+  Attributes: expression, paternal connection
+  Source: para_0016
+
+
+### Vertex
+  Type: astrological component
+  Meaning: not stated
+  Attributes: location in the chart, influence on burnout
+  Allowed values: house position, aspect relations
+  Constraints: not in fusion cusp area
+  Source: para_0017
+
+
+### moon placement
+  Type: astrology
+  Meaning: his moon is his emotions, his relation to his mother, culture overwhelm, potentially religion.
+  Meaning: the astrological placement of the moon reflecting emotions and personal relationships.
+  Attributes: cultural influences, spirituality, addiction potential, emotions, relation to mother
+  Allowed values: Gemini, Sagittarius
+  Constraints: relates to personal experiences and emotional themes
+  Source: para_0018
+
+
+### cancer
+  Type: astrology
+  Meaning: the moon rules cancer.
+  Meaning: cancer is the sign associated with emotional matters governed by the moon.
+  Attributes: rules emotional matters
+  Allowed values: sign associated with nurturing and emotions
+  Constraints: not stated
+  Source: para_0018
+
+
+### eighth house
+  Type: astrology
+  Meaning: bringing in Scorpio themes which means deep bonds, toxicity, addiction.
+  Meaning: the eighth house is associated with deep emotional connections and challenges.
+  Attributes: addiction, deep bonds, toxicity
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0018
+
+
+### Lilith retrograde
+  Type: astrology
+  Meaning: delegates conjunction to south node.
+  Meaning: Lilith in retrograde affects the astrological interpretation related to the south node.
+  Attributes: relationship with south node
+  Allowed values: retrograde
+  Constraints: not stated
+  Source: para_0018
+
+
+### fusion cusp
+  Type: astrology
+  Meaning: not stated.
+  Attributes: crossing cusp lines
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0018
+
+
+### conjunction
+  Type: astrology
+  Meaning: brings in two different areas through a link.
+  Meaning: a conjunction links two astrological factors together.
+  Attributes: links energies from different houses
+  Allowed values: positive, negative
+  Constraints: not stated
+  Source: para_0018
+
+
+### mutual reception
+  Type: astrological concept
+  Meaning: the connection between two houses based on their ruling planets being in each other's houses
+  Meaning: a situation where two planets in different houses influence each other due to their placements.
+  Attributes: linked houses, ruling planets
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: Ashley has that, her fifth and her seventh house are forever linked together because they're on mutual reception.
+  Source: para_0019
+
+
+### Sagittarian degree
+  Type: astrological term
+  Meaning: not stated
+  Attributes: degree of Sagittarius
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: we're talking about this fourth house, two degree, Sagittarian degree.
+  Source: para_0019
+
+
+### Neptunian Pulse
+  Type: astrological term
+  Meaning: not stated
+  Attributes: energy from Neptune
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: Sagittarian sparked, Neptunian Pulse.
+  Source: para_0019
+
+
+### Piscean pulsed
+  Type: astrological term
+  Meaning: not stated
+  Attributes: energy from Pisces
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: Piscean pulsed Pisces Tone.
+  Source: para_0019
+
+
+### Scorpio base
+  Type: astrological term
+  Meaning: not stated
+  Attributes: Scorpio energy
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: has a Scorpio base with a retrograded Scorpio energy.
+  Source: para_0019
+
+
+### moon
+  Type: astro
+  Meaning: not stated
+  Attributes: sits in the seventh house, delegate, based off of Pisces, expresses through Aquarius, personal needs, associated with the 12th house, derives from Cancer, Scorpio base
+  Allowed values: Scorpio, when I need something, Pisces, Libra, Aquarius
+  Constraints: not stated, moon in Libra, Pisces base
+  Source: para_0025, para_0035, para_0023, para_0020
+
+
+### Pluto
+  Type: astro
+  Meaning: not stated
+  Attributes: retrograde
+  Allowed values: retrograde
+  Constraints: not stated
+  Source: para_0020
+
+
+### 12th house
+  Type: astro
+  Meaning: not stated
+  Source: para_0020
+
+
+### 8th house
+  Type: astro
+  Meaning: not stated
+  Source: para_0020
+
+
+### 4th house
+  Type: astro
+  Meaning: not stated
+  Source: para_0020
+
+
+### 10th house
+  Type: astro
+  Meaning: not stated
+  Attributes: sign, ruler
+  Allowed values: Capricorn
+  Constraints: not stated
+  Source: para_0020, para_0030
+
+
+### Neptune
+  Type: planet
+  Meaning: the planet that is in opposition to my expression
+  Meaning: planet in opposition
+  Attributes: associated with the 4th house, eighth house, in retrograde
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033, para_0021, para_0032
+
+
+### Moon
+  Type: celestial body
+  Meaning: not stated
+  Attributes: in Aquarius
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0021
+
+
+### moon in Aquarius
+  Type: astrological concept
+  Meaning: There's a level of detachment.
+  Meaning: detachment and emotional intelligence
+  Attributes: emotional intelligence, detachment
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0022
+
+
+### nessus
+  Type: astrology concept
+  Meaning: challenging, literally abuse.
+  Attributes: challenging experiences
+  Allowed values: abuse, other negative experiences
+  Constraints: associated with understanding difficulties
+  Source: para_0024
+
+
+### Mystic Rebels
+  Type: service
+  Meaning: not stated
+  Attributes: energy, service promotion, personal connection
+  Allowed values: here if you need me energy
+  Constraints: not promoting readings
+  Source: para_0025
+
+
+### North Node
+  Type: astrological term
+  Meaning: not stated
+  Attributes: spiritual alignment
+  Allowed values: semisextile to the ascendant
+  Source: para_0025
+
+
+### Midheaven
+  Type: Astrological Point
+  Meaning: not stated
+  Attributes: career, public image
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0027
+
+
+### Mars
+  Type: planet
+  Meaning: embodies Sagittarian energy
+  Attributes: blunt communication, influence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0028
+
+
+### Saturn
+  Type: planet
+  Meaning: my words, my identity, my ideas and my sense of authority are filtered through authority that is based off of not having authority
+  Meaning: influence on authority perception
+  Attributes: first planet, 180 rule relationship with Venus, second planet in context
+  Allowed values: not stated, 1st planet
+  Constraints: not stated, pushing beyond 180
+  Source: para_0028, para_0029, para_0032
+
+
+### Lilith
+  Type: aspect
+  Meaning: not stated
+  Attributes: contributes to feelings of worthiness
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0028
+
+
+### Capricorn
+  Type: astrological sign
+  Meaning: not stated
+  Attributes: authority structure
+  Constraints: not stated
+  Source: para_0030
+
+
+### college
+  Type: educational institution
+  Meaning: not stated
+  Source: para_0031
+
+
+### values
+  Type: belief or principle
+  Meaning: not stated
+  Source: para_0031
+
+
+### structure
+  Type: system or framework
+  Meaning: not stated
+  Source: para_0031
+
+
+### beliefs
+  Type: personal conviction
+  Meaning: not stated
+  Source: para_0031
+
+
+### grandmother
+  Type: family
+  Meaning: not stated
+  Source: para_0032
+
+
+### ex-wife
+  Type: relationship
+  Meaning: not stated
+  Source: para_0032
+
+
+### daughter
+  Type: family
+  Meaning: not stated
+  Source: para_0032
+
+
+### child
+  Type: relationship
+  Meaning: my first child
+  Meaning: first child
+  Attributes: very similar but very different, first child
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033
+
+
+### trauma
+  Type: experience
+  Meaning: my trauma fed everything that I was
+  Meaning: personal trauma
+  Attributes: positive and negative influence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033
+
+
+### Jupiter retrograde
+  Type: astrological phenomenon
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+### seventh house
+  Type: astrological placement
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+### Libra energy
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: associated with value or money
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0035
+
+
+### Pisces base
+  Type: astrological influence
+  Meaning: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0035
+
+
+### Spark
+  Type: concept
+  Meaning: not stated
+  Source: para_0036
+
+
+### Pulse
+  Type: concept
+  Meaning: interpreting the deens there
+  Source: para_0036
+
+
+### True Placements
+  Type: concept
+  Meaning: not stated
+  Source: para_0036
+
+
+### bi-directional rulership
+  Type: concept
+  Meaning: not stated
+  Source: para_0036
+
+
+### delegates
+  Type: concept
+  Meaning: not stated
+  Source: para_0036
+
+
+## DEFINITIONS (21 definitions)
+
+
+  inner wheel: the core element of the natal chart, representing the houses
+    [high] Source: para_0000
+  orientation: the aspect of astrology that is often ignored by others and is crucial for understanding a natal chart
+    [high] Source: para_0000
+  natal chart houses: the divisions of the natal chart that dictate different areas of life
+    [high] Source: para_0000
+  true placements: applies to every single energy that's sitting in this chart
+    [high] Source: para_0001
+  bi-directional rulership: not stated
+    [not stated] Source: para_0001
+  10 ruling planets: the ones that connect life together, they are the major overarching themes
+    [high] Source: para_0001
+  delegate: not stated
+    [low] Source: para_0002
+  Mystic portal: a platform for access to various resources and information
+    [high] Source: para_0003
+  spark: the first engagement within the energy.
+    [high] Source: para_0004
+  degree theory: not stated
+    [not stated] Source: para_0006
+  zero degrees: the point assigned to Aries which represents the sun's declination based on our relationship with the sun and the equator
+    [high] Source: para_0007
+  Spark: a tool for birth time rectification related to astrological analysis
+    [medium] Source: para_0010
+  base: the house that Leo governs
+    [high] Source: para_0012
+  spark: the entry point into energy
+    [high] Source: para_0012
+  pulse: the next stage after spark
+    [high] Source: para_0012
+  tone: how the energy universally expresses
+    [high] Source: para_0012
+  decken: the step after pulse
+    [high] Source: para_0012
+  derivative astrology: not stated
+    [not stated] Source: para_0014
+  burnout: state of physical or mental collapse caused by overwork
+    [high] Source: para_0017
+  link: means that those energies will always work together through houses.
+    [high] Source: para_0018
+  12th house: house of misunderstandings, loss, illusion, haze
+    [high] Source: para_0023
+
+
+## RULE ENGINE (42 rules)
+
+
+[R001]
+  most astrology ignores this inner wheel
+  the most important detail
+  Teacher voice: "it's the most important detail"
+  Exceptions: others in astrology who do not ignore inner wheel
+  [high] Source: para_0000
+
+
+[R002]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0001
+
+
+[R003]
+  IF planet is Mercury and in inferior position
+  THEN it creates Gemini's themes
+  Teacher voice: "because Mercury's position between the earth and the sun creates Gemini's themes"
+  [high] Source: para_0002
+
+
+[R004]
+  IF planet is Mercury and in superior position
+  THEN it relates to Virgo's position
+  Teacher voice: "which is a way it's going towards the outside is Virgo's position"
+  [high] Source: para_0002
+
+
+[R005]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0003
+
+
+[R006]
+  IF somebody says, oh, I'm a Sagittarius rising
+  THEN go back two houses to get to 11
+  Teacher voice: "I said, okay, well Sagittarius is nine. So if I'm gonna go back two houses to get to 11, nine minus two is seven."
+  Exceptions: not everyone will be able to do it that way
+  [medium] Source: para_0005
+
+
+[R007]
+  IF something sits at zero degrees Cancer
+  THEN it's pure Cancer
+  Teacher voice: "if you have something that sits at zero degrees cancer in degree theory, they say that zero degrees cancer is pure cancer"
+  Exceptions: not stated
+  [high] Source: para_0006
+
+
+[R008]
+  zero degrees is Aries
+  not one
+  Teacher voice: "Aries is never one, except for in houses."
+  [high] Source: para_0007
+
+
+[R009]
+  we hit 11 degrees
+  we hit Pisces
+  Teacher voice: "when we hit 11 degrees, we hit Pisces"
+  [high] Source: para_0008
+
+
+[R010]
+  we are into the 12th degree
+  we go into Aries
+  Teacher voice: "once we've hit that... we're into the 12th degree, which is Aries"
+  [high] Source: para_0008
+
+
+[R011]
+  we go all the way to 23
+  we hit Pisces again
+  Teacher voice: "we go all the way to 23. We hit Pisces again"
+  [high] Source: para_0008
+
+
+[R012]
+  degree is zero degrees
+  Aries/Taurus reset
+  Teacher voice: "zero degrees was Aries, uh, zero degrees was Taurus"
+  [high] Source: para_0008
+
+
+[R013]
+  IF you are in an odd sign based off of natural rulership
+  THEN it means you are in Aries, Gemini, Leo, Libra, Sagittarius, or Aquarius.
+  Teacher voice: "if you're in an odd sign, right? Based off of natural rulership, not your chart, natural rulership"
+  [high] Source: para_0009
+
+
+[R014]
+  IF you are in an even sign
+  THEN you will start at zero degrees with Libra.
+  Teacher voice: "if you're at the other six, the Evens, Taurus, cancer, Virgo, Scorpio, Capricorn, Pisces, then you're gonna be starting at zero degrees with Libra."
+  [high] Source: para_0009
+
+
+[R015]
+  IF the degree of the discussion aligns more with the degree before or after the sign
+  THEN their birth time is off
+  Teacher voice: "if they're talking about something that aligns more with the degree before, the degree after the sign, you know that their birth time is off."
+  [high] Source: para_0010
+
+
+[R016]
+  not stated
+  not stated
+  Teacher voice: "the degree is the spark, the planet is the focus, the decking is the pulse, the sign is the tone, the house is the field"
+  [high] Source: para_0011
+
+
+[R017]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0012
+
+
+[R018]
+  IF I want information on my father in my chart
+  THEN I should pull up mine real quick
+  Teacher voice: "if I want information on my father in my chart, I should pull up mine real quick"
+  [high] Source: para_0013
+
+
+[R019]
+  IF fifth house is present
+  THEN it represents the father in your life
+  Teacher voice: "the fifth house is the representation of the father in your life."
+  [high] Source: para_0014
+
+
+[R020]
+  IF considering father figures
+  THEN your stepfather does not equate to your natural father in totality
+  Teacher voice: "your stepfather doesn't equate to your natural father in totality because of derivative astrology."
+  [high] Source: para_0014
+
+
+[R021]
+  IF you have negative things in your chart with your son placement
+  THEN they come from your father.
+  Teacher voice: "if you have negative things in your chart with your son placement, they come from your father."
+  [high] Source: para_0016
+
+
+[R022]
+  IF Chiron comes first
+  THEN we would analyze it separately
+  Teacher voice: "And it depends on if Chiron comes first. This is something we would analyze separately."
+  [high] Source: para_0017
+
+
+[R023]
+  IF the sun comes first
+  THEN we would analyze it separately
+  Teacher voice: "It depends on if Chiron comes first or the sun comes first."
+  [high] Source: para_0017
+
+
+[R024]
+  moon rules cancer
+  locate cancer in the chart.
+  Teacher voice: "the moon rules cancer, so where is cancer in this chart?"
+  [high] Source: para_0018
+
+
+[R025]
+  something is linked
+  those energies will always work together through houses.
+  Teacher voice: "Whenever we say something is linked, it means that those energies will always work together through houses."
+  [high] Source: para_0018
+
+
+[R026]
+  eighth and ninth house are in conjunction
+  they are forever linked in Elvis Presley's chart.
+  Teacher voice: "the eighth and the ninth house are forever linked in Elvis Presley's chart."
+  [high] Source: para_0018
+
+
+[R027]
+  IF all assessed information affects the 10th house
+  THEN it impacts his public image and goals.
+  Teacher voice: "all of this that we just assessed, it's ruler."
+  Exceptions: not stated
+  [high] Source: para_0020
+
+
+[R028]
+  the north node is unattainable
+  assess its spark, its pulse, its energy
+  Teacher voice: "therefore we assess, its spark, its pulse, its energy, right?"
+  [high] Source: para_0023
+
+
+[R029]
+  Whenever you're dealing with mercury or Venus in your chart
+  remember that you're always pulling a base of two places
+  Teacher voice: "Whenever you're dealing with mercury, um, uh, or Venus in your chart, remember that you're always pulling a base of two places."
+  [high] Source: para_0026
+
+
+[R030]
+  IF I try to be like everybody else
+  THEN it always fails and backfires
+  Teacher voice: "when I try to be like everybody else, or try to be an astrologer or try to do something that I'm supposed to do, it always fails, always backfires."
+  Exceptions: not stated
+  [high] Source: para_0027
+
+
+[R031]
+  IF Venus shoots to Saturn
+  THEN Saturn becomes the second planet
+  Teacher voice: "So Venus shoots to Saturn. So literally the work that I do..."
+  [medium] Source: para_0028
+
+
+[R032]
+  IF the father's belief systems and family’s belief systems are based on Sagittarius,
+  THEN it shows a deep-rooted identity through culture and distance.
+  Teacher voice: "that there's an identity, a very deep rooted identity with how the father, the father's belief systems and the father's family's belief systems."
+  [medium] Source: para_0030
+
+
+[R033]
+  IF the 10th house ruler is the sun,
+  THEN the base is Capricorn.
+  Teacher voice: "the 10th house ruler is the sun, so we go backwards through bi-directional rulership."
+  [medium] Source: para_0030
+
+
+[R034]
+  IF you feel like you need schooling or need education
+  THEN do it
+  Teacher voice: "I said, it's up to you. If you feel like you need schooling or need education, then do it."
+  Exceptions: if you do not feel the need to go to college
+  [high] Source: para_0031
+
+
+[R035]
+  IF her beliefs were based off of my beliefs
+  THEN her beliefs basically became my beliefs
+  Teacher voice: "So her beliefs basically became my beliefs."
+  Exceptions: if she develops her own independent beliefs
+  [medium] Source: para_0031
+
+
+[R036]
+  IF the 180 rule 21 to 23 is pushing Saturn beyond the 180
+  THEN it makes Saturn the first planet
+  Teacher voice: "the 180 rule 21 to 23 is pushing Saturn beyond the 180, which makes Saturn the first planet"
+  [high] Source: para_0032
+
+
+[R037]
+  IF the only way to see my daughter was through communicating with her grandmother
+  THEN that was the only way I was able to see my kid
+  Teacher voice: "the only way that I could see my daughter was through communicating with her grandmother"
+  [high] Source: para_0032
+
+
+[R038]
+  I wanted to bring my daughter with what I was doing
+  I realized not only do I wanna offer her her own autonomy
+  Teacher voice: "I always wanted to bring my daughter with what I was doing... I realized not only do I wanna offer her, her own autonomy"
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R039]
+  if she is very different
+  then I will support her in everything she does
+  Teacher voice: "she is gonna do what she’s gonna do, and I’m not necessarily always gonna understand, but I will always be there to support."
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R040]
+  IF Chiron placement is in relationship to the seventh house
+  THEN it usually presents as a divorce or relationship issues
+  Teacher voice: "Whenever you see the, you know, a Chiron, um, placement that is in relationship to the seventh, if there's a marriage, there's usually a divorce."
+  [medium] Source: para_0034
+
+
+[R041]
+  IF moon is in Libra and has a Pisces base
+  THEN it does not express through Aquarius
+  Teacher voice: "a Libra moon that is a Pisces base has nothing to do with Aquarius"
+  [high] Source: para_0035
+
+
+[R042]
+  IF looking at 25 degrees in an odd number
+  THEN it is a tar degree
+  Teacher voice: "25 degrees in, in, um, an odd number is a tar degree"
+  [medium] Source: para_0035
+
+
+## FORMULAS (3 formulas)
+
+
+  Formula: 9 - 2 = 7
+  Variables: nine=not stated; two=not stated; seven=not stated
+  Source: para_0005
+
+
+  Formula: ((22 mod 12) + 1)
+  Variables: number=not stated
+  Source: para_0009
+
+
+  Formula: 180 Rule: 14 degrees of Scorpio
+  Variables: Venus=the planet influencing Saturn; Saturn=the planet influenced by Venus
+  Source: para_0028
+
+
+## PROCEDURES (2 procedures)
+
+
+### birth time rectification using degrees
+  Step 1: Look at the degrees in the birth chart.
+  Step 2: Check if their discussions align with the degrees before or after the sign.
+  Inputs: astrological chart, degree analysis
+  Outputs: rectified birth time
+  WARNING: Ensure understanding of the mechanism for accurate results.
+  Source: para_0010
+
+
+### Assessment Process
+  Step 1: Break down all aspects through the channel separately.
+  Step 2: Put the moon aside and look at Pluto.
+  Step 3: Assess the roles of Scorpio, 12th house, 8th house, and 4th house.
+  Step 4: Extract information until desired insights are obtained.
+  Step 5: Consider how the assessed information impacts the 10th house.
+  Inputs: moon, Pluto, 12th house, 8th house, 4th house, 10th house
+  Outputs: insights about public image, goals, sense of achievement
+  Source: para_0020
+
+
+## CALCULATION PIPELINE
+  Step 1: Calculate the house position based on the rising sign by subtracting the number of houses from the known position of Sagittarius.
+    Formula: 9 - 2 = 7
+    Notes: Determine house position using known values from rising sign calculations.
+  Step 2: Assign the position of zodiac signs based on the earth's rotation and orbital shift.
+    Notes: Derived from the earth's rotation's influence on zodiac positions.
+
+
+  Additional calculation steps from transcript:
+  Step 0: Calculating the house position based on the rising sign by subtracting the number of houses from the known position of Sagittarius.
+    Formula: 9 - 2 = 7
+    Teacher voice: "nine minus two is seven"
+  Step 0: assigned the position of zodiac signs based on the earth's rotation and orbital shift
+    Formula: not stated
+    Teacher voice: "which means the sun moves. This is the declination of the sun based on every single rotation."
+  Step 1: Identify if the sign is odd or even and determine starting point.
+    Formula: null
+    Teacher voice: "what you're looking for is, are the signs odd or are the signs even?"
+  Step 2: Calculate using mods of 12.
+    Formula: ((22 mod 12) + 1)
+    Teacher voice: "instead of trying to count through all of these, what I'm gonna do is 22 and I do it by mods of 12."
+  Step 0: Analyze the aspects between Chiron and the sun, including whether they are conjunct, adjunct, semisextile, or have no relation.
+    Formula: null
+    Teacher voice: "Are they conjunct? Are they in, in, uh, injunction? Are they in a semis, sextile? Because in the same house they could be conjunct, adjunct, uh, semis, sextile or no relation whatsoever."
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "natal_chart": {
+    "type": "object",
+    "properties": {
+      "inner_wheel": {
+        "type": "string"
+      },
+      "houses": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "inner_wheel",
+      "houses"
+    ]
+  },
+  "zodiac_signs": {
+    "type": "object",
+    "properties": {
+      "revolution_of_the_earth": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "revolution_of_the_earth"
+    ]
+  }
+}
+
+
+Rules schema:
+{
+  "condition": {
+    "type": "string"
+  },
+  "action": {
+    "type": "string"
+  }
+}
+
+
+Meanings schema:
+{
+  "meaning_in_teacher_words": {
+    "type": "string"
+  },
+  "meaning_normalized": {
+    "type": "string"
+  }
+}
+
+
+## PSEUDOCODE
+function generateNatalChart(inputDate, inputTime, inputPlace) {
+    const chart = calculateChart(inputDate, inputTime, inputPlace);
+    interpretChart(chart);
+    return generateReport(chart);
+}
+
+
+## VOICE STYLE RULES
+Tone: engaging, informative, accessible
+Cadence: steady, thoughtful
+Signature phrases: Let's explore, Consider this, A key point
+Do:
+  - Provide clear interpretations
+  - Use layman's terms
+Avoid:
+  - Avoid overly technical language
+  - Do not assume user knowledge
+
+
+## MEANING RENDERING RULES
+- Translate technical terms into layman's language for easy comprehension by users.
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (75 snippets)
+
+
+  [warning] (unknown): "the orientation is what most people skip"
+    Source: para_0000
+  [example] (unknown): "it's an 11th house sun"
+    Source: para_0000
+  [warning] (unknown): "even though true placements apply to every single energy that's sitting in this chart, we are only going to apply it to the 10 ruling planets"
+    Source: para_0001
+  [definition] (unknown): "what are the themes of the sun, right? We know that it's vitality. We know it's record, recreation and play. We know it's how somebody expresses themselves. We know that it's the relationship with the father."
+    Source: para_0002
+  [definition] (unknown): "those themes, they are Leo themes because the sign is the, the house. The house and the sign are together. And then the planet rules that."
+    Source: para_0002
+  [example] (unknown): "when we talk about Venus does the same thing..."
+    Source: para_0003
+  [definition] (unknown): "the first thing that we care about is none of those things..."
+    Source: para_0003
+  [definition] (unknown): "the degree through degree theory in alchemistic astrology is called the spark."
+    Source: para_0004
+  [definition] (unknown): "everything in astrology has to have a purpose."
+    Source: para_0004
+  [definition] (unknown): "when we're talking about Black Moon Lilith, this is the mechanics of Black Moon Lilith."
+    Source: para_0004
+  [warning] (unknown): "not everybody will be able to do it that way, but if that works for you, great, take it."
+    Source: para_0005
+  [motivation] (unknown): "I just said, no. I know it's not at least in his term"
+    Source: para_0006
+  [warning] (unknown): "we can't assign arbitrary semi or pseudo observational techniques to something without understanding the mechanism"
+    Source: para_0006
+  [definition] (unknown): "zero degrees is Aries."
+    Source: para_0007
+  [definition] (unknown): "the sun is coming from Leo"
+    Source: para_0011
+  [motivation] (unknown): "it gets crazy accurate once you learn all this stuff"
+    Source: para_0011
+  [motivation] (unknown): "there's a reason why I'm so accurate. It's not because I, I don't do any astrology like anybody else."
+    Source: para_0011
+  [example] (unknown): "As soon as you see a number, you'll know the spark."
+    Source: para_0012
+  [example] (unknown): "Soon as you see the pulse, you'll be like, okay, cool. That's the next entry point."
+    Source: para_0012
+  [warning] (unknown): "the irony, this is why I laugh about it all the time, is people want to do sign zo or they want to do planet Zodiac Sign."
+    Source: para_0012
+  [definition] (unknown): "the planet becomes the focus. The way that it enters is the spark."
+    Source: para_0012
+  [warning] (unknown): "remember in alchemistic, astrology aspects are not bidirectional."
+    Source: para_0013
+  [definition] (unknown): "that's why it's called a channel coming from here, coming into this and then going somewhere else."
+    Source: para_0013
+  [definition] (unknown): "the fifth house is not the father, although we say it is"
+    Source: para_0014
+  [definition] (unknown): "the son is the father"
+    Source: para_0014
+  [motivation] (unknown): "this is how it works, right?"
+    Source: para_0014
+  [meaning] (unknown): "the sun rules this, which means Elvis Presley's son has a Sagittarius space."
+    Source: para_0015
+  [meaning] (unknown): "the way that he expresses himself is through talent, money and value."
+    Source: para_0015
+  [definition] (unknown): "that would be, uh, Virgo, Pisces."
+    Source: para_0015
+  [definition] (unknown): "burnout comes from overwhelm or giving advice."
+    Source: para_0017
+  [motivation] (unknown): "the energy flow is extremely important."
+    Source: para_0017
+  [motivation] (unknown): "the order of actually doing it."
+    Source: para_0017
+  [example] (unknown): "this would normally be Gemini, but for him it is Sagittarius."
+    Source: para_0018
+  [motivation] (unknown): "that's all gonna come first."
+    Source: para_0018
+  [warning] (unknown): "it is going to be very elaborate."
+    Source: para_0018
+  [example] (unknown): "her fifth and her seventh house are forever linked together because they're on mutual reception."
+    Source: para_0019
+  [example] (unknown): "let's say the sun was over here and the moon was over here, right? This ruler's here, this ruler's here, that would link those two houses together as well."
+    Source: para_0019
+  [definition] (unknown): "we're talking about this fourth house, two degree, Sagittarian degree or Sagittarian sparked, Neptunian Pulse or Piscean pulsed Pisces Tone."
+    Source: para_0019
+  [motivation] (unknown): "I like to joke that my chart was created by God or some creator, uh, to just mess with our understanding of the world."
+    Source: para_0021
+  [motivation] (unknown): "I feel like the reason I ended up diving into this and fixing astrology is because if I would've, well, and I did, I got into astrology like anybody else, and nothing made sense."
+    Source: para_0021
+  [example] (unknown): "Case in point, you know, I look at the chart, I'm getting into it. Moon in Aquarius, cool."
+    Source: para_0021
+  [meaning] (unknown): "There's a level of, uh, of detachment."
+    Source: para_0022
+  [warning] (unknown): "I've had a very difficult time comprehending understanding and processing emotion."
+    Source: para_0022
+  [motivation] (unknown): "Relationships have sucked in my life."
+    Source: para_0022
+  [warning] (unknown): "we gotta put the moon on hold for a second."
+    Source: para_0023
+  [meaning] (unknown): "what we're aligning for is something that's gonna be in perpetual motion."
+    Source: para_0024
+  [meaning] (unknown): "it's not our default, it's not our relationship with our parents, specifically the family, specifically the mother."
+    Source: para_0024
+  [example] (unknown): "I'm here if you need me kind of energy"
+    Source: para_0025
+  [motivation] (unknown): "you don't abandon this, but you align more with this"
+    Source: para_0025
+  [example] (unknown): "fricking 2023 was in, was incredible for readings"
+    Source: para_0025
+  [warning] (unknown): "It doesn't align with my energies and it doesn't work."
+    Source: para_0026
+  [warning] (unknown): "It started getting to a point where it was no longer fun."
+    Source: para_0026
+  [motivation] (unknown): "I had to reset and I had to go back."
+    Source: para_0026
+  [motivation] (unknown): "It's more like some sense of purpose, some sense of like, I want to do this."
+    Source: para_0026
+  [example] (unknown): "that's like the literal biggest thing that people say when they don't like me."
+    Source: para_0027
+  [motivation] (unknown): "my public image is always gonna face scrutiny because I'm not like everybody else."
+    Source: para_0027
+  [example] (unknown): "Does Venus shoot to Saturn? Does Saturn shoot to Venus? Uh, Venus shoots to Saturn."
+    Source: para_0028
+  [definition] (unknown): "So Venus already embodies Chiron before Chiron even happens."
+    Source: para_0028
+  [meaning] (unknown): "People don't understand. They definitely see me as extra and extra blunt, right? Because that's the ninth house ruler."
+    Source: para_0028
+  [meaning] (unknown): "my words, my identity, my ideas and my sense of authority are filtered through authority that is based off of not having authority"
+    Source: para_0029
+  [definition] (unknown): "Does that make sense to everybody? Or do we need one more example?"
+    Source: para_0029
+  [meaning] (unknown): "the connection is that the father literally lives far away."
+    Source: para_0030
+  [definition] (unknown): "it's through Sagittarius."
+    Source: para_0030
+  [definition] (unknown): "there's a Capricorn base."
+    Source: para_0030
+  [meaning] (unknown): "the way that she sees the world is the way that dad sees the world."
+    Source: para_0031
+  [motivation] (unknown): "it's really on you."
+    Source: para_0031
+  [definition] (unknown): "the 180 rule 21 to 23 is pushing Saturn beyond the 180"
+    Source: para_0032
+  [example] (unknown): "the only way that I could see my daughter was through communicating with her grandmother"
+    Source: para_0032
+  [example] (unknown): "there was a certain point where I realized not only do I wanna offer her, her own autonomy, but she is very different."
+    Source: para_0033
+  [definition] (unknown): "I say, no, moon and Libra, Pisces Base"
+    Source: para_0035
+  [motivation] (unknown): "you guys Can, uh, have fun diving deep into Spark, uh, and Pulse."
+    Source: para_0036
+  [definition] (unknown): "I've told you what Pulse is, interpreting the deens there."
+    Source: para_0036
+  [motivation] (unknown): "we'll probably do a separate webinar."
+    Source: para_0036
+  [definition] (unknown): "this was the introduction to that plus, uh, taking true placements and applying the base to it through delegates and bi-directional rulership."
+    Source: para_0036
+  [motivation] (unknown): "As always, guys, thank you for being here and vibe higher."
+    Source: para_0036
+
+
+## EDGE CASES (9 cases)
+
+
+- Scenario: reading a chart of a known person
+  Handling: identify and interpret based on known energy
+- Scenario: reading a chart of an unknown person
+  Handling: create and interpret the chart before revealing identity
+- Scenario: when using Nicholas's degree theory
+  Handling: the readings could get messed up leading to a decrease in accuracy
+- Scenario: reading a chart of a known person
+  Handling: identify and interpret based on known energy
+- Scenario: reading a chart of an unknown person
+  Handling: create and interpret the chart before revealing identity
+- Scenario: when using Nicholas's degree theory
+  Handling: the readings could get messed up leading to a decrease in accuracy
+- Scenario: You can feel very energetically aged when you're not in alignment.
+  Handling: This can affect your enjoyment and sense of purpose.
+- Scenario: not feeling worthy
+  Handling: contributed by feelings of authority or financial success
+- Scenario: Chiron in relationship to the seventh house without a marriage
+  Handling: Sometimes there just never is even a relationship that even gets to a marriage.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Test if most astrology ignores the inner wheel, verify the most important detail is highlighted.
+  Input: {"astrological_structure": "natal chart", "parameter": "inner wheel"}
+  Expected (teacher voice): It's the most important detail
+  Rules: R001
+  Entities: natal chart
+
+
+[TC002] Test Mercury in an inferior position to verify if it creates Gemini's themes.
+  Input: {"planet": "Mercury", "position": "inferior"}
+  Expected (teacher voice): Because Mercury's position between the earth and the sun creates Gemini's themes
+  Rules: R002
+
+
+[TC003] Test Mercury in a superior position to verify if it relates to Virgo's position.
+  Input: {"planet": "Mercury", "position": "superior"}
+  Expected (teacher voice): Which is a way it's going towards the outside is Virgo's position
+  Rules: R003
+
+
+[TC004] Verify degree theory analysis when something sits at zero degrees Cancer.
+  Input: {"degree": "zero", "sign": "Cancer"}
+  Expected (teacher voice): If you have something that sits at zero degrees cancer in degree theory, they say that zero degrees cancer is pure cancer
+  Rules: R004
+
+
+[TC005] Test birth time rectification using degrees with full data.
+  Input: {"astrological_chart": "complete", "degree_analysis": "full"}
+  Expected (teacher voice): Ensure understanding of the mechanism for accurate results
+
+
+[TC006] Test birth time rectification using degrees with missing degree analysis.
+  Input: {"astrological_chart": "complete", "degree_analysis": ""}
+  Expected (teacher voice): Ensure understanding of the mechanism for accurate results
+  [EDGE CASE]
+
+
+[TC007] Assess roles of the 12th and 8th houses for insights into public image.
+  Input: {"moon": "consider", "Pluto": "consider", "houses": ["12th", "8th"], "person": "analyze"}
+  Expected (teacher voice): Insights about public image, goals, sense of achievement
+  Entities: houses
+
+
+[TC008] Test natal chart handling when houses derived from inner wheel are missing.
+  Input: {"natal_chart": "inner wheel missing"}
+  Expected (teacher voice): Must include the Aries point
+  Entities: natal chart
+  [EDGE CASE]
+
+
+[TC009] Examine how the sun expresses its various attributes.
+  Input: {"planet": "sun", "attributes": ["vitality", "recreation", "play"]}
+  Expected (teacher voice): Attributes like vitality, recreation, play are related to the sun
+  Entities: sun
+
+
+[TC010] Test handling of an unknown planet with no defined attributes.
+  Input: {"planet": "unknown"}
+  Expected (teacher voice): Attributes of unknown entities are not stated
+  [EDGE CASE]
+
+
+## UNRESOLVED (5 items)
+
+
+- specific attributes for planets and signs
+  Needed: a comprehensive list of attributes and how they interplay
+- mechanism for degree theory
+  Needed: not stated
+- details on fusion cusp area
+  Needed: specific explanation and examples.
+- clarification needed on the relationships within charts
+  Needed: examples or a deeper explanation of chart relationships
+- definition of the relationship dynamics explained
+  Needed: clarification on how the planets reflect personal relationships
+
+
+END OF BUILDER PROMPT

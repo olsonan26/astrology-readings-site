@@ -1,0 +1,3426 @@
+﻿================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+Generate an astrological chart analysis focusing on the position and effects of Black Moon Lilith and related astrological elements.
+
+
+## INPUTS
+- Astrological chart data
+- Lilith aspect selection
+
+
+## OUTPUTS
+- Lilith position report
+- Astrological influence analysis
+- House energy blending effects
+
+
+## ENTITY CATALOG (279 entities)
+
+
+### Black Moon Lilith
+  Type: astrological point
+  Meaning: this is one of the most important points in your chart because it shares a very similar presence in your chart.
+  Meaning: important astrological point that indicates limitations and repression.
+  Meaning: one of those things that's really hard to find really good information on
+  Meaning: a challenging astrological concept to interpret
+  Attributes: retrograde, astrological effect, related to the moon, themes of home, keeps you repressed, house security, creates limitations, degree
+  Allowed values: not stated, n, s, in retrograde, o, a,  , t, not in retrograde, d, e, specific degree value
+  Constraints: not stated, n, s, o, a,  , t, d, e, must be calculated according to astrological chart
+  Source: para_0028, para_0000, para_0056, para_0014, para_0118
+
+
+### Mean Black Moon Lilith
+  Type: astrological point
+  Meaning: not stated
+  Attributes: natal chart
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0001
+
+
+### Sub Heaven
+  Type: astrological point
+  Meaning: I had to come up with a new name for it.
+  Meaning: a new term for the nadir in astrology.
+  Attributes: nadir
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0001
+
+
+### Lilith
+  Type: astrological point
+  Meaning: True Lilith
+  Meaning: Osculating Lilith is the true form of Lilith
+  Meaning: the average focal area of Lilith
+  Meaning: the point representing Lilith's average location
+  Meaning: how true Lilith expresses itself is going to be in one area of life
+  Meaning: true Lilith refers to expression in life
+  Meaning: you have to let her out of the cage, but not let her off of the leash
+  Meaning: a concept that should be allowed some freedom but not complete freedom
+  Meaning: Where's your Lilith? That's you.
+  Meaning: A significant factor in understanding one's true self and approach to endeavors.
+  Meaning: raw, uncensored feeling that can get you into trouble
+  Meaning: Lilith is your survival mode. It is the thing that tells you, I shouldn't be here, I shouldn't be doing this.
+  Meaning: she was not subservient under no condition was she not going to be special or at least equal.
+  Meaning: Lilith is our crazy.
+  Meaning: Lilith represents chaos and personal madness.
+  Meaning: people getting on your nerves because they're not letting you just be free
+  Meaning: a concept representing personal freedom and resistance against control
+  Meaning: Lilith is very much like it is the core of you. It's what makes you special beyond your Chiron.
+  Meaning: Lilith is also that place that feels oppressed.
+  Meaning: A position in astrology that represents oppression.
+  Meaning: this placement doesn't mean everybody else is wrong. It means that nobody, that this is something special for you.
+  Meaning: individual significance of Lilith placement
+  Meaning: has to do with friendships, technology, groups of people
+  Meaning: associated with social connections and comfort within groups
+  Meaning: bringing shame around your authority
+  Meaning: bringing issues related to authority and shame
+  Meaning: if your Lilith is expressed outwardly
+  Meaning: a point in astrology representing personal and emotional intensity
+  Meaning: a point in astrology associated with feminine energy and intuition
+  Attributes: linked to feelings of insecurity and shame, retrograde, shared resources, debt, conjunct, associated with wounds, house, survival mode, conjunction, degree 24, fourth house cancer energy, related to authority issues and feelings of shame in work settings, direct, sextile to ascendant, returns, shock value, Osculating, structure, self conformity, creates overcompensation, nurturing, focus on when undertaking endeavors, outer conformity, mean Lilith, it's distanced from all mankind, degrees, social aspects, shame, outward, placement affects reality, gut feeling, Mean, not a smooth path, associated with survival instinct, relationship with other astrological components, orbit cycle, acute, adverse, osculating, oscillating, visceral power, influential, core self, reflective energy, reflective property, not earthly, true Lilith, confrontational, pinpoint calculation, orb of influence, sitting at 23 degrees, importance outside of the ascendant for career, intimacy, not grounded, value, reactionary, degree, can feel very challenging
+  Allowed values: not stated, retrograde, internal thematic, not retrograde, 11 degrees, not smooth, 9 degrees, direct, Osculating, Interpolated, 23 degrees, proper use involves keeping it leashed, precise, average, 12th house, mean Lilith, three degree orb, mean, other houses, Mean, sense of security, acute, dependent on placement with other astrological bodies, two degrees, getting on nerves, osculating, backward, forward, true Lilith, in the third house, affecting freedom, in libra, 24 degrees, external oscillating, in cancer
+  Constraints: not stated, must be conjunct, affects individuals differently based on their placement, mustn't be let off the leash, true Lilith relates to one area of life; mean Lilith relates to another area of life, explored through north node and ascendant, orbit cycle of 8.85 years, linked to thoughts, ideas, communication, not universally applicable, feeds into other energies, in the same house as Chiron, Do not use interpolated versions, separated between two aspects, not conjunct with south node, n/a, must reflect inward, not letting you be free, none stated, applies to people who conform or do not conform, Must use Osculating Lilith for true representation
+  Examples: finding a group you feel valuable in
+  Source: para_0047, para_0051, para_0044, para_0050, para_0101, para_0045, para_0111, para_0059, para_0082, para_0087, para_0095, para_0004, para_0016, para_0064, para_0109, para_0079, para_0031, para_0037, para_0046, para_0078, para_0057, para_0066, para_0003, para_0011, para_0002, para_0110, para_0071, para_0049, para_0091, para_0029, para_0015, para_0034, para_0030, para_0038
+
+
+### Osculating Lilith
+  Type: astronomical body
+  Meaning: factors in all gravitational pull to give precise positioning
+  Meaning: more accurate representation of Lilith's position considering gravitational influences
+  Meaning: This is the one you feel the most and you don't realize it.
+  Meaning: Astrological point representing deep emotional experiences.
+  Attributes: precise positioning, astrological significance, takes gravitational pull into account, degree
+  Allowed values: 7 degrees, 10 degrees, precise, 13 degrees
+  Constraints: none stated, Yours is at 10; feel things at 7 degrees up to 10, sometimes up to 13.
+  Source: para_0027, para_0003
+
+
+### Mean Lilith
+  Type: astronomical body
+  Meaning: the average trajectory representation of Lilith
+  Meaning: average positioning of Lilith's trajectory in charts
+  Meaning: Mean Lilith in the conditioning wound.
+  Meaning: Not stated
+  Attributes: trajectory, comes first, average
+  Allowed values: average
+  Constraints: none stated
+  Source: para_0024, para_0003, para_0096
+
+
+### mean Lilith
+  Type: astrological element
+  Meaning: mean Lilith is mean, like kind of a bully
+  Meaning: mean Lilith embodies bully-like behavior
+  Meaning: mean Lilith is internalized and it's an average of these energies.
+  Meaning: internalized Lilith energy
+  Meaning: you tell yourself you can't do it because you think other people think you can't do it
+  Meaning: a personal belief limiting one's actions based on perceived societal judgment
+  Meaning: the first thing with mean Lilith is to say, why do I feel guilty about this?
+  Attributes: thematic, average of forward motion, consistent, internal
+  Allowed values: not retrograde
+  Constraints: cannot be retrograde
+  Examples: Why do I feel guilty about this?, Why do I feel shameful about this?, Is there actually shame here?, Or is this something I needed?
+  Source: para_0075, para_0041, para_0004, para_0012, para_0023, para_0037
+
+
+### fusion cusp area
+  Type: astrological term
+  Meaning: this blends from the fifth house into the sixth
+  Meaning: fusion cusp blends energies of two houses
+  Attributes: merging second house and third house
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0104, para_0004
+
+
+### order of planets
+  Type: astrological concept
+  Meaning: order of planets, the exact placement, the way the energy flows
+  Meaning: sequence and position of planets affect energy flow
+  Source: para_0004
+
+
+### Uranus
+  Type: planet
+  Meaning: not stated
+  Attributes: almost not quite upside down, axial tilt beyond 90 degrees, closest to the ecliptic than any other planet, over a 90 degree tilt on its axis, observes things from a different perspective
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0014, para_0005
+
+
+### Aquarius
+  Type: zodiac sign
+  Meaning: understood everything but distanced and detached
+  Meaning: detached yet understanding
+  Attributes: distanced, understands everything, detached
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005
+
+
+### Virgo
+  Type: zodiac sign
+  Meaning: Queen Cox from the sixth house energy into the 11th house
+  Meaning: brings practicality into mechanics
+  Attributes: practical, realistic, brings mechanics
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0005
+
+
+### Moon
+  Type: Celestial Body
+  Meaning: The moon goes around the Earth and is based off the gravitational pull of the sun.
+  Meaning: The moon's orbit is influenced by the Earth and the sun.
+  Attributes: Influenced by the gravitational pull of the sun, Elliptical orbit around the Earth
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0006
+
+
+### Earth
+  Type: Celestial Body
+  Meaning: not stated
+  Attributes: Center of the moon's elliptical orbit
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0006
+
+
+### Venus
+  Type: Celestial Body
+  Meaning: The orbit of Venus is almost circular.
+  Meaning: Venus has a nearly circular orbit around the sun.
+  Meaning: Venus senior seventh thousand Capricorn.
+  Attributes: Almost circular orbit, in Capricorn, senior
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0062, para_0006
+
+
+### Sun
+  Type: Celestial Body
+  Meaning: The gravitational pull of the sun is important for the moon's orbit.
+  Meaning: The sun affects the moon's orbit around the Earth.
+  Attributes: Gravitational pull affecting the moon
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0006
+
+
+### Jupiter
+  Type: Celestial Body
+  Meaning: Jupiter is important for the moon's orbit.
+  Meaning: Jupiter's gravitational effect is significant.
+  Meaning: we're pulling in Jupiter
+  Meaning: the influence of the planet Jupiter
+  Attributes: Influential in the moon's orbit
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0006, para_0079, para_0071
+
+
+### moon
+  Type: celestial body
+  Meaning: not stated
+  Attributes: apogee, perigee, conjunction, influence, degree
+  Allowed values: closest, 8 degrees, loose conjunction, farthest
+  Constraints: at 8 degrees Leo, not specified
+  Examples: ginormous, super tiny
+  Source: para_0007, para_0050, para_0031
+
+
+### black moon Lilith
+  Type: astrological point
+  Meaning: not stated
+  Attributes: true lunar apogee, oscillating
+  Allowed values: not specified
+  Constraints: not specified
+  Source: para_0007
+
+
+### velocity
+  Type: astronomical concept
+  Meaning: not stated
+  Source: para_0008
+
+
+### relative distance
+  Type: astronomical concept
+  Meaning: not stated
+  Source: para_0008
+
+
+### conjunction
+  Type: astronomical aspect
+  Meaning: not stated
+  Source: para_0008
+
+
+### opposition
+  Type: astronomical aspect
+  Meaning: the planets are never pulling you unless they're in retrograde
+  Attributes: energy alignment, not a tug of war
+  Allowed values: none
+  Constraints: only impacted when retrograde
+  Source: para_0009, para_0008
+
+
+### Mars
+  Type: planet
+  Meaning: not stated
+  Attributes: planet in opposition
+  Allowed values: none
+  Constraints: not stated
+  Source: para_0009
+
+
+### Saturn
+  Type: planet
+  Meaning: It is sitting in your 11th house.
+  Attributes: planet in opposition, retrograde, sits in house 11
+  Allowed values: not stated, none
+  Constraints: not stated
+  Source: para_0009, para_0062, para_0029, para_0076
+
+
+### focus
+  Type: concept
+  Meaning: your focus is doing that
+  Attributes: perception, attention
+  Allowed values: none
+  Constraints: not stated
+  Source: para_0009
+
+
+### perge
+  Type: astrological position
+  Meaning: things feel very grounded and connected. Like things make sense in the realm and the scope of what's going on.
+  Meaning: grounded state of being in astrology
+  Source: para_0010
+
+
+### apogee
+  Type: astrological position
+  Meaning: things don't make any sense because it has no tie to the correlation. The focus point is not the earth, it's outside of the earth.
+  Meaning: disconnected state in astrology
+  Source: para_0010
+
+
+### black moon area
+  Type: astrological concept
+  Meaning: creates this black moon area, which is the empty focus.
+  Meaning: area of astrological focus not tied to earth
+  Source: para_0010
+
+
+### invisible mirror
+  Type: concept in alchemistic astrology
+  Meaning: this energy, this line, which is a geometric line, it's a mathematical fixation. It's not derived on the earth, but the moon does revolve around the earth.
+  Meaning: geometric energy in astrology
+  Source: para_0010
+
+
+### the moon
+  Type: celestial body
+  Meaning: the moon had feelings and...had to keep going in orbit around the earth
+  Meaning: a celestial body affected by emotional states
+  Attributes: has a furthest point, orbits around the earth
+  Allowed values: can rejoin the earth, can drift off into space
+  Constraints: felt distance from responsibility when furthest from the earth
+  Source: para_0011
+
+
+### osculating Lilith
+  Type: astrological point
+  Meaning: osculating Lilith is outward Lilith.
+  Meaning: outward Lilith energy
+  Meaning: the core of who you really are on a safe, secure, bottom line.
+  Meaning: a fundamental aspect of one's identity related to safety and security.
+  Attributes: reactionary energy, outward present energy, security, core identity, safety
+  Allowed values: not stated, visceral, untamed
+  Constraints: not stated, not sex itself, not intimacy itself
+  Source: para_0041, para_0112, para_0012
+
+
+### lilith
+  Type: astrological point
+  Meaning: mean lilith, it's internalized, it's repressed
+  Attributes: rejecting social norms, themes of rebellion, fight or flight survival, themes of independence, themes of oppression
+  Allowed values: not stated
+  Constraints: internalized, repressed
+  Source: para_0013
+
+
+### guilt
+  Type: emotion
+  Meaning: feelings of guilt associated with leaving my child
+  Meaning: feelings of guilt
+  Meaning: a feeling of responsibility or remorse for some offense, crime, wrong, etc.
+  Source: para_0072, para_0070, para_0017, para_0018
+
+
+### child
+  Type: person
+  Meaning: the speaker's 17-year-old child
+  Meaning: 17-year-old child
+  Attributes: age: 17
+  Source: para_0017
+
+
+### Oracle card
+  Type: tarot card
+  Meaning: card that provided reassurance when pulled by the speaker's child
+  Meaning: Oracle card of reassurance
+  Source: para_0017
+
+
+### shame
+  Type: emotion
+  Meaning: a painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior.
+  Attributes: within network types of settings, within random, spontaneous ideas, within groups
+  Allowed values: not stated
+  Constraints: not stated
+  Examples: feeling like you should have known something before
+  Source: para_0072, para_0018, para_0091, para_0070, para_0076
+
+
+### trauma
+  Type: psychological state
+  Meaning: not stated
+  Attributes: processed
+  Source: para_0018
+
+
+### empire
+  Type: goal
+  Meaning: not stated
+  Attributes: possibility of providing for child
+  Source: para_0018
+
+
+### distance
+  Type: concept
+  Meaning: not stated
+  Attributes: required for healing
+  Source: para_0018
+
+
+### Eminem
+  Type: person
+  Meaning: not stated
+  Source: para_0019
+
+
+### Def Jam
+  Type: record label
+  Meaning: not stated
+  Source: para_0019
+
+
+### Interscope
+  Type: record label
+  Meaning: not stated
+  Source: para_0019
+
+
+### music
+  Type: art form
+  Meaning: not stated
+  Source: para_0019
+
+
+### Brian McKnight
+  Type: person
+  Meaning: not stated
+  Source: para_0020
+
+
+### Florida
+  Type: location
+  Meaning: not stated
+  Source: para_0020
+
+
+### Hollywood
+  Type: location
+  Meaning: not stated
+  Source: para_0020
+
+
+### Pretty Little Liars
+  Type: TV show
+  Meaning: not stated
+  Source: para_0020
+
+
+### film production company
+  Type: business
+  Meaning: not stated
+  Source: para_0021
+
+
+### fight scenes
+  Type: content type
+  Meaning: not stated
+  Attributes: in leotards, between girls
+  Examples: mortal Kombat, Katana, Johnny Cage
+  Source: para_0021
+
+
+### Uranian energy
+  Type: concept
+  Meaning: it's not even that I am trying to be different. It's that I just want to be me
+  Meaning: a drive for individuality and self-expression without external motivations
+  Source: para_0023
+
+
+### Fifth House
+  Type: Astrological House
+  Meaning: It means I feel very guilty when I'm happy.
+  Meaning: Not stated
+  Source: para_0024
+
+
+### lith
+  Type: concept
+  Meaning: it's about that gut feeling from something that's not attached to anything you've said or done
+  Meaning: primal instinct in a visceral way
+  Attributes: in sixth house, visceral, deep, in Capricorn, raw, conjunct south node, untamed
+  Allowed values: not stated, Capricorn
+  Constraints: not stated, must be in sixth house, conjunct south node
+  Examples: I have this gut feeling from something I know without explanation
+  Source: para_0042, para_0025
+
+
+### Neptune
+  Type: planet
+  Meaning: connected to spirituality when linked with intuition
+  Meaning: associated with spiritual intuition
+  Attributes: not stated, associated with illusion and perception
+  Allowed values: not stated
+  Constraints: not stated, influence on belief systems
+  Examples: when connected to intuition
+  Source: para_0025, para_0069
+
+
+### Jupiter in the fourth house
+  Type: astrological position
+  Meaning: you have a big family
+  Meaning: indicative of family size
+  Attributes: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0025
+
+
+### family structure
+  Type: family dynamics
+  Meaning: not stated
+  Attributes: adopted family, nuclear family, foster family
+  Allowed values: small, come and go, large
+  Constraints: not all members present at once
+  Source: para_0026
+
+
+### astrology concepts
+  Type: astrology
+  Meaning: not stated
+  Attributes: Scorpio, retrograde, Jupiter, third house, fourth house
+  Allowed values: in retrograde, in Scorpio
+  Constraints: specific houses in astrology
+  Examples: Jupiter in fourth house means you have a huge family
+  Source: para_0026
+
+
+### Juno
+  Type: Asteroid
+  Meaning: not stated
+  Attributes: position in the chart
+  Allowed values: specific house and degree
+  Constraints: must consider retrograde motion if applicable
+  Source: para_0028
+
+
+### South Node
+  Type: Astrological Point
+  Meaning: not stated
+  Attributes: position in the chart
+  Allowed values: specific house and degree
+  Constraints: must consider its relation to other points
+  Source: para_0028
+
+
+### Pluto
+  Type: planet
+  Meaning: not stated
+  Source: para_0029
+
+
+### sixth house in Capricorn
+  Type: astrological placement
+  Meaning: not stated
+  Source: para_0029
+
+
+### stallion class
+  Type: class
+  Meaning: not stated
+  Attributes: power, benefit, details
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0032
+
+
+### Osculating lith
+  Type: concept
+  Meaning: it's about liberation and allowing yourself when it's used properly
+  Meaning: liberation energy
+  Attributes: visceral energy
+  Allowed values: not stated
+  Constraints: used properly
+  Source: para_0032
+
+
+### mystic rebels
+  Type: group
+  Meaning: they will rule the world
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0032
+
+
+### planets
+  Type: astrological concepts
+  Meaning: These planets are going to push you around and they're going to influence you.
+  Meaning: Celestial bodies that exert influence over individuals.
+  Attributes: energy, influence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033
+
+
+### free will
+  Type: philosophical concept
+  Meaning: I'm gonna exert my free will.
+  Meaning: The ability to make choices independent of external influence.
+  Attributes: autonomy
+  Allowed values: exerted, illusion
+  Constraints: not stated
+  Source: para_0033
+
+
+### Capricorn
+  Type: zodiac sign
+  Meaning: not stated
+  Attributes: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034
+
+
+### south node
+  Type: astrological point
+  Meaning: a point in astrology representing past life karmic influences
+  Attributes: not stated
+  Allowed values: not stated, associated with scorpio
+  Constraints: not stated
+  Source: para_0110, para_0034
+
+
+### energy
+  Type: concept
+  Meaning: the feelings tied to safety based on instinct and situational context.
+  Meaning: the feeling of either safety or fear based on instincts and disconnection.
+  Meaning: jovial, ethereal, go with the flow, expansive, fun, recreational type of energy
+  Meaning: positive, playful energy
+  Meaning: There's no music or behind the scenes presence about it.
+  Meaning: this is what makes me feel safe. This is what I can contribute.
+  Meaning: personal force or vitality that influences actions
+  Attributes: disconnect, instincts, abstract, absence of inspiration, motivations, absence of spirituality, pulsating nature, actions, fear, physical body, safety, can be reflective of desires, direct presence, can be internalized, visual
+  Allowed values: not stated, mild, conjunct, details, not safe, safe, bigger picture
+  Constraints: not stated, none stated, can be based off of nothing, can be irrational, depends on the circumstance
+  Source: para_0075, para_0103, para_0039, para_0035, para_0074, para_0095, para_0084, para_0088
+
+
+### Scorpio energy
+  Type: concept
+  Meaning: the trapped energy present in the setting.
+  Meaning: energy related to Scorpio that signifies a sense of being trapped.
+  Attributes: trapped, survival instincts
+  Allowed values: positive, negative
+  Constraints: can turn into negative feelings like fear
+  Source: para_0035
+
+
+### grammar
+  Type: concept
+  Meaning: not stated
+  Attributes: bad grammar, pretty words
+  Allowed values: correct grammar, varied vocabulary
+  Constraints: avoid repetitive word use
+  Source: para_0036
+
+
+### etymology
+  Type: concept
+  Meaning: not stated
+  Attributes: history of words, derivation of meanings
+  Allowed values: specific word origins
+  Constraints: relevance to discussion
+  Source: para_0036
+
+
+### Lilith energy
+  Type: energy type
+  Meaning: we have to understand this energy first, which means Lilith's energy as it pertains to who we are.
+  Meaning: raw, untamed energy related to one's identity
+  Attributes: raw, can make one sick if not careful, reflective, untamed
+  Allowed values: not stated
+  Constraints: not stated, not Gemini energy, it's Libra energy
+  Source: para_0097, para_0039
+
+
+### Lilith in retrograde
+  Type: astrological placement
+  Meaning: You're literally taking other people's feelings of oppression, feelings of not being able to be themselves type of energy.
+  Attributes: takes on others' feelings, internalized power, reflective
+  Allowed values: not stated
+  Constraints: must be revisited using it positively
+  Source: para_0040
+
+
+### Jupiter retrograde
+  Type: astrological placement
+  Meaning: You have to make opportunity or find opportunity within opportunity.
+  Attributes: requires active creation of opportunities
+  Allowed values: not stated
+  Constraints: not direct retrograde
+  Source: para_0040
+
+
+### true Lilith
+  Type: astrological point
+  Meaning: not stated
+  Attributes: angular relationship with moon
+  Allowed values: opposite, conjunct
+  Constraints: within two degrees of each other
+  Source: para_0041
+
+
+### communication
+  Type: relationship aspect
+  Meaning: you're allowed to value communication
+  Meaning: the act of conveying information effectively
+  Attributes: ongoing communication
+  Allowed values: ineffective, effective
+  Constraints: must have ongoing communication
+  Source: para_0042, para_0107
+
+
+### sales process
+  Type: business model
+  Meaning: not stated
+  Attributes: collaborative, competitive, commission-based
+  Allowed values: normal sales approach, collaborative sales approach
+  Constraints: must maintain sales commission, must not disturb other sales people's customers
+  Source: para_0043
+
+
+### retrograde
+  Type: astrological phenomenon
+  Meaning: With it being in retrograde, you can't push back in the same way.
+  Source: para_0045
+
+
+### shadow work
+  Type: psychological process
+  Meaning: deeper shadow work, the stuff that makes us feel disconnected from the world
+  Meaning: emotional and psychological introspection aimed at understanding one's darker feelings
+  Attributes: not getting lost in it
+  Allowed values: none stated
+  Constraints: none stated
+  Source: para_0047
+
+
+### system of astrology
+  Type: approach
+  Meaning: not stated
+  Attributes: works, practicality
+  Allowed values: practical
+  Constraints: must work for the speaker
+  Source: para_0048
+
+
+### Chiron
+  Type: astrological concept
+  Meaning: Chiron makes us overcompensate so that we can prove we can do something and other people love us and accept us.
+  Meaning: overcompensation and need for acceptance
+  Meaning: the way in which things are being seen and taught, connected to authenticity
+  Meaning: has to do with conversation, wounds, healing, and approaching our one-to-one relationships
+  Meaning: a celestial body associated with healing and relationships
+  Meaning: Chiron sitting retrograde within this ninth house.
+  Meaning: astrological influence
+  Attributes: related to career challenges in the 10th house, retrograde, related to acceptance, creates feelings of overcompensation, associated with wounds, associated with insecurity and wounds, healing, position related to 19 degrees, sitting in 24 degrees, wounds, insecurity, applying to relationships, conversation, in ninth house
+  Allowed values: not stated, positioned in different houses, in Libra, in the seventh house, n/a
+  Constraints: not stated, n/a
+  Source: para_0072, para_0099, para_0075, para_0049, para_0116, para_0114, para_0066, para_0087, para_0113, para_0065, para_0109, para_0086
+
+
+### 6th house
+  Type: astrological house
+  Meaning: 6th house is all about logic and practicality and things actually being correct and true and right.
+  Meaning: focus on logic and practicality
+  Attributes: service, health, related to work
+  Source: para_0049
+
+
+### 12th house
+  Type: astrological house
+  Meaning: now we've got some crazy, crazy stuff going on that has to do with spirituality, music, being able to do music that other people wouldn't accept.
+  Meaning: focus on spirituality and unconventional creativity
+  Attributes: related to spirituality, inner self, creativity
+  Source: para_0049
+
+
+### lunar energy
+  Type: concept
+  Meaning: not stated
+  Attributes: security pertaining to home, relationship to emotion, emotion
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0051
+
+
+### fourth house
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: security, associated with family, home
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0051
+
+
+### routine
+  Type: concept
+  Meaning: it also means that you like routine, but you also hate routine
+  Meaning: a pattern of behavior that is both liked and disliked
+  Attributes: liked, disliked
+  Allowed values: personal interpretation of routine
+  Constraints: not universally accepted as routine by others
+  Source: para_0053
+
+
+### judgment
+  Type: social aspect
+  Meaning: there's a lot of judgment here, especially around just like femininity, motherhood, safety
+  Meaning: critical assessment based on societal roles and values
+  Attributes: motherhood, femininity, safety
+  Allowed values: critique, acceptance
+  Constraints: comes from societal values
+  Source: para_0053
+
+
+### money handling
+  Type: financial behavior
+  Meaning: who is watching the money? Can I watch the money?
+  Meaning: the act of monitoring or managing finances
+  Attributes: agency, watchfulness
+  Allowed values: individual management, redistribution to partner
+  Constraints: traditional roles may dictate behavior
+  Source: para_0053
+
+
+### guilt and shame
+  Type: emotions
+  Meaning: you'll feel the guilt and shame first.
+  Meaning: emotional responses typically experienced before other feelings
+  Meaning: It's a hard energy to deal with.
+  Meaning: negative emotional energies
+  Meaning: things that you felt from your mother.
+  Meaning: emotional responses often associated with parental relationships.
+  Attributes: initial emotional response, internalized, agitation
+  Allowed values: felt before insecurity, guilt, shame
+  Constraints: not expressed outwardly, related to personal values and societal pressure
+  Source: para_0084, para_0054, para_0093, para_0053
+
+
+### acceptance
+  Type: emotional states
+  Meaning: We want to turn guilt and shame side into acceptance.
+  Meaning: positive emotional state of embracing oneself
+  Source: para_0054
+
+
+### department mother
+  Type: role
+  Meaning: not stated
+  Attributes: caring, leadership
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0055
+
+
+### third house
+  Type: astrological house
+  Meaning: house in astrology related to communication and intellect
+  Attributes: association with thoughts, ideas, communication, includes Gemini, Mercury influences
+  Allowed values: signs governed by Mercury
+  Constraints: has series in retrograde
+  Source: para_0057, para_0110, para_0074
+
+
+### first li
+  Type: astrology concept
+  Meaning: not stated
+  Attributes: in retrograde
+  Allowed values: coming inward, reflective, compounding
+  Source: para_0058
+
+
+### sixth house
+  Type: astrology house
+  Meaning: not stated
+  Allowed values: off of criticism
+  Source: para_0071, para_0058
+
+
+### ninth house
+  Type: astrology house
+  Meaning: the territory of 'what if' and Piscean energy
+  Meaning: the house related to spirituality and intuition
+  Attributes: expanding energy, spiritual energy, associated ideas
+  Allowed values: expanding the idea, spirituality, worldly, intuition
+  Constraints: not specified
+  Source: para_0060, para_0076, para_0058
+
+
+### identity
+  Type: personal characteristic
+  Meaning: not stated
+  Attributes: value within identity, safe expression, feelings, self-expression
+  Allowed values: not allowed to be oneself, not stated, allowed to be oneself
+  Constraints: influences how one connects with others, not stated
+  Source: para_0059, para_0104
+
+
+### Lilith placement
+  Type: astrology
+  Meaning: not stated
+  Attributes: related to fear and insecurity, associated body parts, house placement, associated with shame
+  Allowed values: not stated, Virgo, third house, Piscean energy, ninth house
+  Constraints: not stated, not specified
+  Source: para_0060, para_0069
+
+
+### Piscean energy
+  Type: astrology
+  Meaning: very go with the flow ethereal and connected to spirituality
+  Meaning: an energy that emphasizes flexibility and spirituality
+  Attributes: spiritual, intuitive
+  Allowed values: ethereal, practical
+  Constraints: not specified
+  Source: para_0060
+
+
+### fingertips and joints
+  Type: body parts
+  Meaning: not stated
+  Attributes: authenticity, stress impact
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0061
+
+
+### palm wrist area
+  Type: body part
+  Meaning: not stated
+  Attributes: stress impact
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0061
+
+
+### age and structure
+  Type: concept
+  Meaning: Taking age and structure and taking time.
+  Attributes: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0062
+
+
+### friendship
+  Type: concept
+  Meaning: not stated
+  Attributes: communication, authenticity, balance
+  Allowed values: being a great friend, criticizing beliefs
+  Constraints: not losing friends, having a happy medium
+  Source: para_0063
+
+
+### scrutiny
+  Type: concept
+  Meaning: not stated
+  Attributes: truth
+  Allowed values: acceptable
+  Constraints: none mentioned
+  Source: para_0063
+
+
+### 11th house
+  Type: astrology
+  Meaning: the ability to find value in astrology and holistic things related to groups
+  Source: para_0065
+
+
+### memes
+  Type: media
+  Meaning: visuals that help connect words and concepts quickly
+  Source: para_0065
+
+
+### technology with tars
+  Type: technology
+  Meaning: the actual phone itself; feelings of inadequacy about its communication capabilities
+  Examples: feeling like a phone isn't advanced enough
+  Source: para_0065
+
+
+### creative talents
+  Type: skill
+  Meaning: your gift is in the spiritual side, especially when it comes to thoughts and ideas, songwriting, poetry, and creating with your hands.
+  Meaning: abilities related to creativity and spirituality
+  Attributes: hands-on, spiritual, creative
+  Allowed values: crocheting, songwriting, other creative crafts, poetry
+  Constraints: must be pursued, can involve spiritual connection
+  Examples: crocheting, songwriting, poetry
+  Source: para_0067
+
+
+### north node
+  Type: astrological point
+  Meaning: stepping into that to be much more comfortable within the control and power dynamics
+  Meaning: indicating personal growth in authority and collaboration
+  Meaning: with that north node, we wanna start stepping into that eighth house
+  Meaning: a point in astrology representing growth and life path direction
+  Attributes: masculine side, feminine side, value in actions, in fusion cusp area, position at 13 or 14 degrees
+  Allowed values: 13, money, value, 14
+  Constraints: depends on which one you use, must step into it
+  Source: para_0068, para_0078, para_0095, para_0105, para_0076, para_0079
+
+
+### Lila
+  Type: astrological point
+  Meaning: not stated
+  Source: para_0068
+
+
+### eighth house
+  Type: astrological house
+  Meaning: represents death
+  Meaning: collaborative other people's resources
+  Meaning: focus on collaboration and shared resources
+  Source: para_0071, para_0078
+
+
+### weight
+  Type: physical condition
+  Meaning: not stated
+  Source: para_0072
+
+
+### endings
+  Type: concept
+  Meaning: not stated
+  Source: para_0072
+
+
+### power
+  Type: concept
+  Meaning: not stated
+  Source: para_0072
+
+
+### compassion
+  Type: emotion
+  Meaning: not stated
+  Source: para_0072
+
+
+### chiron's energy
+  Type: astrological concept
+  Meaning: this is the insecurities and creativity that leads into what you do
+  Meaning: insecurities related to creativity
+  Attributes: insecurities, creativity
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0077
+
+
+### insecurity
+  Type: emotional state
+  Meaning: this is the creativity that leads into what you do
+  Meaning: feeling of self-doubt impacting creativity
+  Attributes: shame, self-doubt
+  Allowed values: not stated
+  Constraints: can affect long-term goals and collaboration
+  Source: para_0077
+
+
+### authority
+  Type: social structure
+  Meaning: authority can create power struggles
+  Meaning: hierarchical control
+  Meaning: a perception of power that some individuals might feel they lack
+  Meaning: the perception of having control or influence
+  Attributes: social justice, power dynamics, non-conformist authority, lack of authority
+  Allowed values: not stated
+  Constraints: can lead to conflict in groups, not stated
+  Source: para_0090, para_0104, para_0077
+
+
+### Saturn retrograde
+  Type: astrological phenomenon
+  Meaning: giving away authority, refining a different way to assume authority
+  Meaning: process of reassessing authority dynamics
+  Source: para_0078
+
+
+### responsibility
+  Type: concept
+  Meaning: you feel like everything is your responsibility
+  Meaning: the belief that one must handle all tasks by oneself
+  Source: para_0079
+
+
+### collaboration
+  Type: concept
+  Meaning: you don't feel like it's okay to collaborate
+  Meaning: the act of working together with others
+  Attributes: task delegation, accepting perspectives
+  Allowed values: fresh viewpoints
+  Constraints: not giving the business away
+  Source: para_0079, para_0080
+
+
+### business
+  Type: concept
+  Meaning: not stated
+  Attributes: skills, networking, possessions, money, structure
+  Allowed values: delegation, collaboration
+  Constraints: requires others, not a solo act
+  Examples: musical group, pussycat dolls
+  Source: para_0080
+
+
+### Tanya
+  Type: person
+  Meaning: not stated
+  Source: para_0083
+
+
+### Mercury
+  Type: planet
+  Meaning: not stated
+  Source: para_0083
+
+
+### self-worth issues
+  Type: psychological condition
+  Meaning: not stated
+  Attributes: not valued
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0086
+
+
+### creativity
+  Type: concept
+  Meaning: the only way to take all this creativity and whatnot is to pour that into community.
+  Attributes: linked to value and belief systems
+  Allowed values: motherhood, community, teaching
+  Constraints: must feel safe and authentic
+  Source: para_0088, para_0094
+
+
+### role
+  Type: concept
+  Meaning: you're in the wrong role, first off, if you're gonna work for somebody else.
+  Attributes: wrong if working for others, must align with personal values
+  Allowed values: own business
+  Constraints: not stated
+  Source: para_0088
+
+
+### solar energy
+  Type: concept
+  Meaning: the sun's energy in relation to spirituality, religion, and tangible products.
+  Meaning: energy associated with the sun that impacts spirituality and tangible aspects of life.
+  Attributes: spirituality, tangible products, religion
+  Allowed values: expansive, valuable
+  Constraints: relates to structures of belief
+  Source: para_0089
+
+
+### ideas
+  Type: concept
+  Meaning: thoughts or concepts that a person may have but can struggle to monetize.
+  Meaning: concepts that can potentially generate income.
+  Attributes: communication, potential
+  Allowed values: not monetizable, monetizable
+  Constraints: may cause confusion about generating income
+  Source: para_0089
+
+
+### automation
+  Type: process
+  Meaning: using technology to create efficiency and generate income.
+  Meaning: the process of using technology to streamline tasks and generate revenue.
+  Attributes: revenue generation, efficiency
+  Constraints: requires understanding of technology
+  Source: para_0089
+
+
+### community
+  Type: concept
+  Meaning: groups that provide support or resources for generating income.
+  Meaning: a collective that aids in income generation.
+  Attributes: resources, support
+  Constraints: must be beneficial for income generation
+  Source: para_0089
+
+
+### tech
+  Type: concept
+  Meaning: technology that can be used to generate income or improve processes.
+  Meaning: technological tools and resources for generating revenue.
+  Attributes: process improvement, revenue generation
+  Constraints: must facilitate income
+  Source: para_0089
+
+
+### ninth house energy
+  Type: astrological concept
+  Meaning: a creative energy that needs to be fed into expanding on things that are valuable and tangible
+  Meaning: a creative energy associated with the ninth house in astrology
+  Attributes: expansion, creative energy
+  Allowed values: tangible, valuable
+  Source: para_0090
+
+
+### personal energy
+  Type: concept
+  Meaning: energy required to overcome insecurity and focus on personal goals
+  Meaning: energy directed towards individual aspirations
+  Attributes: required to overcome insecurity
+  Source: para_0090
+
+
+### sales
+  Type: activity
+  Meaning: the act of selling something, particularly if it feels genuinely helpful
+  Meaning: the process of selling products or services
+  Attributes: genuineness
+  Source: para_0090
+
+
+### 11th house setting
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0092
+
+
+### 7th house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0092
+
+
+### 3rd house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0092
+
+
+### one-to-one relationships
+  Type: relationship dynamics
+  Meaning: the way you relate to clients and feeling safe and comfortable can be a challenge.
+  Meaning: the personal connections and dynamics with individuals, especially clients.
+  Source: para_0093
+
+
+### abandonment
+  Type: emotional experience
+  Meaning: there would've been a feeling of abandonment on some, at least an emotional level from your mother.
+  Meaning: the emotional experience of feeling rejected or unvalued.
+  Source: para_0093
+
+
+### tarot card
+  Type: spiritual tool
+  Meaning: not stated
+  Source: para_0094
+
+
+### journaling
+  Type: spiritual practice
+  Meaning: not stated
+  Source: para_0094
+
+
+### spirituality
+  Type: concept
+  Meaning: not stated
+  Source: para_0094
+
+
+### higher power
+  Type: concept
+  Meaning: not stated
+  Source: para_0094
+
+
+### 12th house stuff
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: expression, identity, safety
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0095
+
+
+### ascendant
+  Type: astrological point
+  Meaning: not stated
+  Attributes: sextile with Lilith, position at 13 degrees, ruler in the same house as mean Lilith
+  Allowed values: 13, n/a
+  Constraints: depends on your chart, n/a
+  Source: para_0109, para_0095
+
+
+### True Lilith
+  Type: astrological placement
+  Meaning: not stated
+  Attributes: comes second, is retrograde
+  Source: para_0096
+
+
+### Internalized energy
+  Type: emotional state
+  Meaning: not stated
+  Source: para_0096
+
+
+### Chiron placement
+  Type: astrological placement
+  Meaning: not stated
+  Source: para_0100
+
+
+### Quin Ks
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0101
+
+
+### healers
+  Type: role
+  Meaning: every single person on this planet is a healer, but most people reject it
+  Meaning: individuals with healing capabilities
+  Source: para_0103
+
+
+### authenticity
+  Type: concept
+  Meaning: stepping into your authenticity and understanding that you are also healers
+  Meaning: embracing one's true self
+  Source: para_0103
+
+
+### self-love
+  Type: concept
+  Meaning: not stated
+  Attributes: love for body, value in self
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0104
+
+
+### candle
+  Type: object
+  Meaning: not stated
+  Attributes: associated with value
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0105
+
+
+### astrology series
+  Type: series
+  Meaning: not stated
+  Attributes: not feeding into sense of safety and security, not nurturing, violating safety and security
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0106
+
+
+### black moon
+  Type: concept
+  Meaning: That's your black moon. That's your empty focus. It's your invisible mirror.
+  Meaning: a reflective concept representing inner truths and self-awareness
+  Source: para_0107
+
+
+### self-worth
+  Type: concept
+  Meaning: you are allowed to have self-worth
+  Meaning: recognition of one's own value
+  Source: para_0107
+
+
+### intelligence
+  Type: concept
+  Meaning: you're allowed to value... intelligence
+  Meaning: the ability to acquire and apply knowledge
+  Source: para_0107
+
+
+### verbosity
+  Type: concept
+  Meaning: you're allowed to be verbose
+  Meaning: using more words than necessary to express something
+  Source: para_0107
+
+
+### vocabulary
+  Type: concept
+  Meaning: it's okay to reveal, to talk about personal things in a personal setting
+  Meaning: ability to express oneself verbally
+  Attributes: value, eloquence
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0108
+
+
+### personal expression
+  Type: activity
+  Meaning: there's no shame around having value within talking about yourself
+  Meaning: the act of discussing one’s own experiences or feelings
+  Attributes: self-acknowledgment, nurturing
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0108
+
+
+### family games
+  Type: activity
+  Meaning: you would probably enjoy playing games with your family
+  Meaning: playing activities with family members
+  Attributes: social, recreational
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0108
+
+
+### North Node
+  Type: astrological point
+  Meaning: not stated
+  Attributes: position with Lilith
+  Allowed values: n/a
+  Constraints: n/a
+  Source: para_0109
+
+
+### Ascendant Ruler
+  Type: astrological entity
+  Meaning: not stated
+  Source: para_0113
+
+
+### maturity
+  Type: trait
+  Meaning: a maturity that you have that does not, is not defined by age.
+  Meaning: emotional maturity
+  Source: para_0114
+
+
+### age
+  Type: numerical
+  Meaning: the physical age doesn't really matter.
+  Meaning: chronological age
+  Attributes: can be a concern for a few
+  Allowed values: any age
+  Constraints: irrelevant to certification ability
+  Source: para_0115, para_0114
+
+
+### astrology certification
+  Type: process
+  Meaning: not stated
+  Attributes: includes reading astrology systems
+  Allowed values: not certified, certified
+  Constraints: must read astrology systems regardless of age
+  Source: para_0115
+
+
+### astrology
+  Type: discipline
+  Meaning: once we get the foundations and the understanding the mechanics
+  Meaning: the study of celestial bodies and their influences
+  Source: para_0118
+
+
+### Osculating (True) Black Moon Lilith
+  Type: astrological object
+  Meaning: not stated
+  Attributes: h13
+  Allowed values: h13
+  Constraints: to display Osculating (True) Black Moon Lilith in Astro.com's Extended Chart Selection
+  Source: para_0119
+
+
+## DEFINITIONS (31 definitions)
+
+
+  Chiron: shares themes with Black Moon Lilith unless linked otherwise.
+    [medium] Source: para_0000
+  Lilith line: A line of astrocartography related to Black Moon Lilith.
+    [low] Source: para_0001
+  vitality anchors: Points such as ascendant, descendant, midheaven, and sub heaven that connect us to the earth.
+    [medium] Source: para_0001
+  Osculating Lilith: the Lilith positioning that factors in the gravitational influences affecting its orbit
+    [high] Source: para_0003
+  Mean Lilith: the average trajectory of Lilith, commonly used in charts
+    [high] Source: para_0003
+  fusion cusp: blending of energy from one house to another, specifically from the fifth house into the sixth
+    [high] Source: para_0004
+  mean Lilith: a variant of Lilith that embodies bully-like characteristics
+    [high] Source: para_0004
+  Elliptical Orbit: An orbit that has the shape of an ellipse, which is not perfectly circular.
+    [high] Source: para_0006
+  Lunar Perigee: The point in the orbit of the moon at which it is closest to the Earth.
+    [high] Source: para_0006
+  empty focus: not stated
+    [not stated] Source: para_0007
+  conjunction: when two planets are aligned in the same direction in space
+    [medium] Source: para_0008
+  opposition: when two planets are coming from opposite directions
+    [medium] Source: para_0008
+  invisible mirror: the reflection of one's state that influences decisions regarding connection and isolation.
+    [medium] Source: para_0012
+  mean lilith: internalized and repressed aspects related to desires, needs, and feelings of security
+    [high] Source: para_0013
+  Libras Energy: Astrological influence during the Saturn return.
+    [medium] Source: para_0027
+  Retrograde: a planet appears to be moving backward in its orbit as viewed from Earth.
+    [high] Source: para_0028
+  fight or flight: a natural response to perceived threat, involving confrontation or avoidance.
+    [high] Source: para_0034
+  reflective energy: An energy that prompts repeated contemplation of past desires or actions.
+    [medium] Source: para_0039
+  conjunction: a type of astrological aspect where two celestial bodies are close to each other in the sky
+    [medium] Source: para_0050
+  Lilith: not stated
+    [low] Source: para_0051
+  spirituality: the way you see spirituality as practical and visceral, rather than ethereal
+    [high] Source: para_0060
+  creativity: the ability to express oneself in original or imaginative ways, often hindered by insecurities
+    [medium] Source: para_0077
+  Chiron in the 10th: Aquarius, houses career-related challenges and insecurities.
+    [medium] Source: para_0087
+  Lilith: Represents authority issues and personal feelings of shame in professional settings.
+    [medium] Source: para_0087
+  value: not stated
+    [not stated] Source: para_0101
+  structure: not stated
+    [not stated] Source: para_0101
+  nurturing: not stated
+    [not stated] Source: para_0101
+  north node: not stated
+    [not stated] Source: para_0104
+  guilt shame part: not stated
+    [not stated] Source: para_0107
+  emotional process: a way of understanding experiences based on feelings rather than logic
+    [medium] Source: para_0110
+  poetry: not stated
+    [not stated] Source: para_0113
+
+
+## RULE ENGINE (138 rules)
+
+
+[R001]
+  IF we let Black Moon Lilith manifest in its normal state
+  THEN we don't feel very connected to things that feel true to us.
+  Teacher voice: "When we let it manifest in its normal state, we don't feel very connected to things that feel true to us."
+  Exceptions: not stated
+  [high] Source: para_0000
+
+
+[R002]
+  IF Lilith creates an aspect to one of your vitality anchors
+  THEN that's how you're gonna show up in the world.
+  Teacher voice: "you want to know if you're Lilith is aspecting those vitality anchors, because that's how you're gonna show up in the world."
+  [medium] Source: para_0001
+
+
+[R003]
+  When you show the chart
+  you will see LILO
+  Teacher voice: "So when you show the chart, you will see LILO."
+  [high] Source: para_0002
+
+
+[R004]
+  IF true Lilith and mean Lilith are present
+  THEN the energy flow must be analyzed in terms of which is first and which is second
+  Teacher voice: "we're gonna talk about which one's first, which one's second"
+  [high] Source: para_0004
+
+
+[R005]
+  IF the planets are osculating or mean Lilith is involved in the chart
+  THEN we must identify which one has to be resolved, which one's causing the friction
+  Teacher voice: "Is it osculating or is it mean Lilith? ... which one has to be resolved, which one's causing the friction?"
+  [high] Source: para_0004
+
+
+[R006]
+  IF planet is in the same house
+  THEN it would be the lesser degree
+  Teacher voice: "if they're in the same house, it'd be the lesser degree of the two"
+  Exceptions: not stated
+  [high] Source: para_0005
+
+
+[R007]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  Exceptions: not stated
+  [not stated] Source: para_0006
+
+
+[R008]
+  IF two planets are conjunct
+  THEN the question of amplification versus doubling arises
+  Teacher voice: "Is that amplifying or is that just doubling from the same point?"
+  [medium] Source: para_0008
+
+
+[R009]
+  IF two planets are in opposition
+  THEN they represent energy coming from two different sides
+  Teacher voice: "one plus one is just hitting from two different sides"
+  [medium] Source: para_0008
+
+
+[R010]
+  IF planets are not in retrograde
+  THEN the planets are not pulling you
+  Teacher voice: "the planets are never pulling you unless they're in retrograde"
+  [high] Source: para_0009
+
+
+[R011]
+  IF I'm focused on one planet and ignoring another
+  THEN the ignored planet is still affecting me
+  Teacher voice: "it's still affecting me. It's still hitting me, but I'm not using the energy."
+  [high] Source: para_0009
+
+
+[R012]
+  IF you leave and have no connection to anyone or anything,
+  THEN it is not really good for you, because you'd be miserable.
+  Teacher voice: "will that be in my best interest if I leave and I have no connection to anyone or anything, is that really good for me?"
+  [high] Source: para_0012
+
+
+[R013]
+  if you express yourself in a way associated with Black Moon Lilith,
+  then you will get a reaction from other people.
+  Teacher voice: "But if you actually pay attention to mean Lilith, nobody told you that you weren't allowed to do this."
+  Exceptions: not stated
+  [medium] Source: para_0014
+
+
+[R014]
+  Lilith returns happen in clusters
+  you will see a return, then a retrograde return, then another return, and continue this pattern
+  Teacher voice: "true Lilith returns happen in clusters."
+  [high] Source: para_0015
+
+
+[R015]
+  every nine years during Lilith returns
+  you experience important changes
+  Teacher voice: "we have a Lilith return almost every nine years."
+  [high] Source: para_0015
+
+
+[R016]
+  the last Lilith return
+  it will last for those nine years
+  Teacher voice: "that last one is gonna last you for those nine years."
+  [high] Source: para_0015
+
+
+[R017]
+  not stated
+  not stated
+  Teacher voice: "Lilith is what you're supposed to focus on when you're undertaking an endeavor, when you're a parent, when you do things in life."
+  [not stated] Source: para_0016
+
+
+[R018]
+  IF I had not left
+  THEN I would've been miserable and unable to achieve anything
+  Teacher voice: "had I not done it, had I not left, I would've been miserable."
+  [high] Source: para_0018
+
+
+[R019]
+  IF I stayed
+  THEN my daughter would have been worse off
+  Teacher voice: "how much worse off would my daughter have been as a result of me being there and not having the distance required to heal?"
+  [high] Source: para_0018
+
+
+[R020]
+  IF I had not left
+  THEN it would have been further repression and anger
+  Teacher voice: "Instead of transformation, it just would've been further repression, further anger, further rage."
+  [high] Source: para_0018
+
+
+[R021]
+  I got like six seconds into them playing
+  they said, we already have a white boy rapper
+  Teacher voice: "we already have a white boy rapper. We don't need you."
+  [medium] Source: para_0019
+
+
+[R022]
+  I felt shame for it at the time
+  I tried to repress it and hide it
+  Teacher voice: "I tried to repress it and hide it"
+  [medium] Source: para_0021
+
+
+[R023]
+  I ended up doing that and it was working really well for me
+  I felt liberated because I had no rules
+  Teacher voice: "I felt liberated because I had no rules, nobody governing me."
+  [medium] Source: para_0021
+
+
+[R024]
+  I'm also shooting this type of content
+  they're not gonna accept me or they're not gonna like let me on their set
+  Teacher voice: "they're not gonna accept me or they're not gonna like let me on their set"
+  [medium] Source: para_0021
+
+
+[R025]
+  you think other people think you can't do it
+  you tell yourself you can't do it
+  Teacher voice: "you tell yourself you can't do it because you think other people think you can't do it"
+  [high] Source: para_0023
+
+
+[R026]
+  if your osculating Lilith is at 11 degrees
+  then it is in my chart.
+  Teacher voice: "a couple of you guys, Carly was one, was it Tanya? Is the other one that you guys have your osculating Lilith at 11 degrees."
+  Exceptions: not stated
+  [medium] Source: para_0027
+
+
+[R027]
+  if this is the divorce during the Saturn return
+  then it connects to Lilith.
+  Teacher voice: "that's mean Lilith. Then you have Osculating, lith, osculating, lith."
+  Exceptions: not stated
+  [medium] Source: para_0027
+
+
+[R028]
+  when the moon aspects this Lilith point
+  it triggers raw, emotional, visceral response
+  Teacher voice: "It's like very quick like fu energy that comes out."
+  [medium] Source: para_0029
+
+
+[R029]
+  IF you are at 11 degrees with Lilith
+  THEN you will experience a feeling of no filter
+  Teacher voice: "the no filter comes at yours at 11 degrees too, Sharon."
+  [high] Source: para_0030
+
+
+[R030]
+  IF you have Lilith at the same degree as others
+  THEN you may all experience a collective reaction
+  Teacher voice: "when we're on TikTok live and you guys are all like at nine degrees and somebody comes on and all of us are having the get the f outta here vibe"
+  [high] Source: para_0030
+
+
+[R031]
+  IF Lilith is raw and gets hit like an exposed nerve
+  THEN your reaction will be visceral
+  Teacher voice: "it's like an a, a raw nerve or an exposed nerve."
+  [high] Source: para_0030
+
+
+[R032]
+  IF the moon is at 8 degrees Leo
+  THEN it feeds into Lilith
+  Teacher voice: "the moon's at eight degrees right now and the benefit is that it was at eight degrees Leo."
+  [medium] Source: para_0031
+
+
+[R033]
+  IF you don't say no and actively stand in your power
+  THEN you're just a human interacting and letting everything flow.
+  Teacher voice: "unless you say, no, I'm gonna stand in my power."
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R034]
+  IF I'm able to guess what you did by looking at your chart
+  THEN you didn't actually exert free will.
+  Teacher voice: "if I'm able to guess what you did by looking at your chart, you didn't actually exert free will."
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R035]
+  IF you do something different that is unexpected during a reading
+  THEN that is considered free will.
+  Teacher voice: "if I'm doing a reading for you ... and it's within the same energy, but it's not the expected outcome, that's free will."
+  Exceptions: not stated
+  [high] Source: para_0033
+
+
+[R036]
+  IF Lilith is conjunct south node in Capricorn and in the third house retrograde
+  THEN the default is to rebel and fight or flight is activated.
+  Teacher voice: "my default is to rebel. My default is fight or flight."
+  Exceptions: not stated
+  [high] Source: para_0034
+
+
+[R037]
+  anytime anyone says or does anything
+  I criticize the s**t out of it
+  Teacher voice: "my go-to is anytime anyone says or does anything, I criticize the s**t out of it."
+  Exceptions: sometimes I have to often bite my tongue
+  [high] Source: para_0035
+
+
+[R038]
+  not stated
+  to embrace it, right?
+  Teacher voice: "the important part is to embrace it, right?"
+  [medium] Source: para_0037
+
+
+[R039]
+  IF you have osculating retrograde Lilith
+  THEN the frustration comes up and you redirect that back at yourself.
+  Teacher voice: "osculating, retrograde Lilith is everything that Osculating Lilith is, but redirected back on yourself."
+  [high] Source: para_0038
+
+
+[R040]
+  IF you hold in a reaction
+  THEN you may end up reflecting on it repeatedly
+  Teacher voice: "it's like this happened, I wanted to react, but I didn't. I held it in. And then you reflect on it."
+  Exceptions: not stated
+  [high] Source: para_0039
+
+
+[R041]
+  IF Lilith is in retrograde
+  THEN you can't find what's safe.
+  Teacher voice: "With Lilith in retrograde, you can't find what's safe."
+  Exceptions: not stated
+  [high] Source: para_0040
+
+
+[R042]
+  IF Jupiter is retrograde
+  THEN you have to make opportunity or find opportunity within opportunity.
+  Teacher voice: "If Jupiter's retrograde or not direct retrograde, you have to make opportunity or find opportunity within opportunity."
+  Exceptions: not stated
+  [high] Source: para_0040
+
+
+[R043]
+  My Lilith is retrograde, but my mean isn't.
+  Yes.
+  Teacher voice: "Mean Lilith cannot be retrograde because it's an average of a forward motion."
+  [high] Source: para_0041
+
+
+[R044]
+  IF a girl says the wrong thing
+  THEN I'm out.
+  Teacher voice: "If a girl says the wrong thing, I'm out."
+  Exceptions: not stated
+  [high] Source: para_0042
+
+
+[R045]
+  IF you say some weird stuff
+  THEN I'm done.
+  Teacher voice: "If you say some weird stuff, I'm done."
+  Exceptions: not stated
+  [high] Source: para_0042
+
+
+[R046]
+  IF someone can't communicate
+  THEN it's not gonna work for me.
+  Teacher voice: "In order for me to do any of this stuff, you gotta speak."
+  Exceptions: not stated
+  [high] Source: para_0042
+
+
+[R047]
+  IF salesperson is selling and another salesperson co-signs
+  THEN additional sales may be made
+  Teacher voice: "wouldn't we all make more money if like, in the middle of you selling something, I co-signed on it and I added to your sale"
+  [high] Source: para_0043
+
+
+[R048]
+  IF salespeople collaboratively suggest add-ons during a sale
+  THEN it can increase total commission income
+  Teacher voice: "it literally added three or $4,000 a month to our commission sales"
+  [high] Source: para_0043
+
+
+[R049]
+  IF customers are being subjected to a sales walk
+  THEN those customers may not engage positively
+  Teacher voice: "I said, no, I'm not doing that because customers don't want that. Nobody wants to be sold to"
+  [high] Source: para_0043
+
+
+[R050]
+  IF managers are bugging you
+  THEN Lilith comes out
+  Teacher voice: "that's what Lilith does is people getting on your nerves because they're not letting you just be free"
+  [high] Source: para_0044
+
+
+[R051]
+  When you do push back in the same way
+  it feels like they try to agitate you more.
+  Teacher voice: "When you do push back in the same way, it feels like they try to agitate you more."
+  [high] Source: para_0045
+
+
+[R052]
+  IF Lilith is in retrograde
+  THEN you have to approach it differently.
+  Teacher voice: "you have to approach it differently."
+  [high] Source: para_0045
+
+
+[R053]
+  IF you do the outward version
+  THEN you're gonna get mad at yourself.
+  Teacher voice: "if you do the outward version, you're gonna get mad at yourself."
+  Exceptions: not stated
+  [high] Source: para_0046
+
+
+[R054]
+  IF something has to happen during a Lilith retrograde
+  THEN you have to see what happened afterward.
+  Teacher voice: "sometimes for a Lilith retrograde, something has to happen."
+  Exceptions: not stated
+  [high] Source: para_0046
+
+
+[R055]
+  IF you experience feelings that are disconnected from the world
+  THEN you need to do reflective work to understand why you feel this way
+  Teacher voice: "we have to say, how does this way I'm feeling apply back into my situation."
+  Exceptions: none stated
+  [high] Source: para_0047
+
+
+[R056]
+  criticizing too much
+  could detract us and detach us from society
+  Teacher voice: "Because like I said, while it's liberating and while it's very natural and it's our... it can detract us and detach us from society."
+  [medium] Source: para_0048
+
+
+[R057]
+  IF my true Lilith opposes my Chiron
+  THEN it's a tough one.
+  Teacher voice: "my true lith opposes my Chiron. Alright, that's a tough one."
+  [high] Source: para_0049
+
+
+[R058]
+  IF I overdo the criticism
+  THEN it's definitely a little thing.
+  Teacher voice: "when I overdo the criticism, it's definitely a little thing."
+  [high] Source: para_0049
+
+
+[R059]
+  IF you have a conjunction between Lilith and another celestial body
+  THEN the energy flow is important
+  Teacher voice: "this is where energy flow is very important"
+  [high] Source: para_0050
+
+
+[R060]
+  IF Lilith is present in the fourth house
+  THEN it can be challenging regarding feelings about motherhood and family dynamics
+  Teacher voice: "This can be really challenging because how you feel internally about something and the shame and the guilt around motherhood, around family, around your upbringing, around your roots..."
+  [high] Source: para_0051
+
+
+[R061]
+  IF there is a mess or dirt in the home when having company
+  THEN you feel like you have to constantly keep it clean
+  Teacher voice: "It can feel like if I'm gonna have company or if I'm going to have, um, if there's any sort of dirt or mess or anything, you feel like you have to constantly keep it clean."
+  [high] Source: para_0051
+
+
+[R062]
+  If you feel guilty about wanting a clean, tidy home
+  Then you need to remove and replace the guilt and shame portion of it
+  Teacher voice: "we have to remove and replace the guilt and shame portion of it"
+  [high] Source: para_0052
+
+
+[R063]
+  If dirt exists and time exists
+  Then your feelings of guilt and shame may be impacted
+  Teacher voice: "Meaning dirt exists and time exists"
+  [medium] Source: para_0052
+
+
+[R064]
+  If you have authority issues and feel restricted by the system
+  Then you may feel you can't do what you want to do
+  Teacher voice: "you can't actually do what you want to do"
+  [medium] Source: para_0052
+
+
+[R065]
+  IF what you want to do is not traditional or normal
+  THEN you should not feel guilty about it and embrace it as part of yourself.
+  Teacher voice: "If I did care, I would feel guilty, but since it's part of me, I can either let it play out as guilt and shame or embrace it."
+  [high] Source: para_0054
+
+
+[R066]
+  feel like you can't care
+  you should embrace that caring power
+  Teacher voice: "embrace it, embrace it, 'cause it's, it's a power."
+  Exceptions: not stated
+  [medium] Source: para_0055
+
+
+[R067]
+  you embody caring in a corporate setting
+  you go against the grain
+  Teacher voice: "it makes perfect sense."
+  Exceptions: not stated
+  [medium] Source: para_0055
+
+
+[R068]
+  your lily is in retrograde
+  you're upset at yourself right now
+  Teacher voice: "the fact that your lily is in retrograde, so you're upset at yourself right now"
+  Exceptions: nobody's mad at you
+  [medium] Source: para_0056
+
+
+[R069]
+  IF you have your Lilith at two degrees
+  THEN it is very much a third house, linked to your thoughts, ideas, and communication.
+  Teacher voice: "You have your Lilith at two degrees, which is right at the, the beginning. It's very much a third house."
+  [high] Source: para_0057
+
+
+[R070]
+  IF your first li is in retrograde
+  THEN it's coming inward, being reflective, and compounding
+  Teacher voice: "But because your first li is in retrograde, like I said, it's coming inward. It's being reflective and it's compounding."
+  [high] Source: para_0058
+
+
+[R071]
+  IF you feel heightened and emotional about something
+  THEN you'll stutter over your words and repeat them
+  Teacher voice: "So you'll stutter over your words when you feel very heightened and emotional about something. And I'll repeat them. I'll say the same thing twice or three times."
+  [high] Source: para_0058
+
+
+[R072]
+  IF you have issues with self conformity
+  THEN you are afraid to allow yourself to be yourself even within yourself
+  Teacher voice: "for you, it's self conformity"
+  [high] Source: para_0059
+
+
+[R073]
+  IF a person does not have Lilith retrograde
+  THEN it relates to outer conformity
+  Teacher voice: "for people who don't have it retrograde, it's outer conformity or lack of"
+  [medium] Source: para_0059
+
+
+[R074]
+  you don't allow yourself to be authentic
+  you put stress upon yourself
+  Teacher voice: "it's stress that you put upon yourself because you don't allow yourself to be authentic"
+  Exceptions: not stated
+  [high] Source: para_0061
+
+
+[R075]
+  you have weird ideas
+  you will obsess over them until you do something with them
+  Teacher voice: "some of your ideas come from literally weird places and they kind of compound in and you will obsess over them until you do something with them"
+  Exceptions: not stated
+  [medium] Source: para_0061
+
+
+[R076]
+  when it becomes completely unfiltered
+  people are like, oh, I don't like you
+  Teacher voice: "when it becomes completely unfiltered, we do."
+  [low] Source: para_0062
+
+
+[R077]
+  the seventh house is sitting in your 11th house
+  the question is, have you actually... feel like you couldn't really say what you wanted to say
+  Teacher voice: "the question is, have you actually, are these friendships ever really friendships."
+  [medium] Source: para_0062
+
+
+[R078]
+  IF you feel comfortable within a group
+  THEN you can be yourself and feel safe
+  Teacher voice: "you feel like you can be yourself and be safe, which is huge for you"
+  [high] Source: para_0064
+
+
+[R079]
+  IF you find safety and comfort within a group
+  THEN you might still feel afraid to speak or share knowledge
+  Teacher voice: "even once you feel like you're in a group and I'm like, I feel okay..."
+  [high] Source: para_0064
+
+
+[R080]
+  if you have the right networking and mechanics
+  then you feel like you can help behind the scenes and lead in helping others
+  Teacher voice: "if I have the right networking, if I have the right mechanics and understanding where it feels valuable to me, then I feel like I can lead that into helping other people"
+  [high] Source: para_0065
+
+
+[R081]
+  you hear me say something and then when you feel comfortable with it
+  you're like, I'm gonna tell you, but I'm not gonna say it the way Logan said it
+  Teacher voice: "you hear me say something and then when you feel comfortable with it, you're like, I'm gonna tell you, but I'm not gonna say it the way Logan said it."
+  [medium] Source: para_0066
+
+
+[R082]
+  you probably feel like you're stepping over like, I'm not the teacher
+  it's not true because when you guys help each other, I'm happy.
+  Teacher voice: "you probably feel like you're stepping over like, I'm not the teacher, but, you know, so maybe I shouldn't say this, maybe I should, right? But it's not true because when you guys help each other, I'm happy."
+  [medium] Source: para_0066
+
+
+[R083]
+  IF you don't know something, or see that somebody else doesn't know something
+  THEN step in and say it
+  Teacher voice: "you want to use that as a strength... step in say it."
+  [high] Source: para_0067
+
+
+[R084]
+  if you get something, you grasp it and you see it and you think it can help others
+  then go ahead, put a post, answer a post being as engaging as you want to be
+  Teacher voice: "if you get something, you grasp it and you see it and you think it can help others, yeah. Go ahead. Put a post, answer, a post be being as engaging as you want to be."
+  Exceptions: If you say something that's not right, I'll just correct it. It won't be a criticism.
+  [high] Source: para_0068
+
+
+[R085]
+  IF you create a situation where you feel like you're not really worthy of your own goals
+  THEN you sometimes self-sabotage
+  Teacher voice: "you sometimes self-sabotage where you create a situation where you feel like you're not really worthy of your own goals."
+  [high] Source: para_0069
+
+
+[R086]
+  IF something has to do with losses or endings or not getting to say goodbye
+  THEN it creates shame and guilt
+  Teacher voice: "Anything that has to do with losses or endings or I didn't get to say goodbye type of energy, those types of things."
+  [high] Source: para_0069
+
+
+[R087]
+  not stated
+  not stated
+  Teacher voice: "not stated"
+  [not stated] Source: para_0070
+
+
+[R088]
+  not stated
+  not stated
+  Teacher voice: "but you can't not say the thing you need or want"
+  [medium] Source: para_0071
+
+
+[R089]
+  IF you're struggling with weight
+  THEN a lot of it is guilt that is creating that
+  Teacher voice: "So if you're struggling with weight, a lot of it is guilt."
+  [medium] Source: para_0072
+
+
+[R090]
+  IF you don't control endings
+  THEN you have to find your own way to process those
+  Teacher voice: "we wanna start embracing the fact that you don't get to control endings. Those endings are going to happen and you just, you're gonna have to find your own way obviously to process those."
+  [high] Source: para_0073
+
+
+[R091]
+  IF your third house has series in retrograde
+  THEN it can make it difficult for you to nurture the necessary details.
+  Teacher voice: "while your third house has series in retrograde, this can make it very difficult for you to nurture the details that are actually necessary."
+  [high] Source: para_0074
+
+
+[R092]
+  you have Chiron and mean Lilith together
+  they work independently, but they work within the same energy of spirituality of your creativity
+  Teacher voice: "you know, you have Chiron and mean Lilith together. You know, they're not conjunct, they don't work together, they work independently, but they work within the same energy of uh, um, you know, behind the scenes of, um, uh, spirituality of your creativity, all of that."
+  [high] Source: para_0075
+
+
+[R093]
+  shame comes before insecurity for you
+  you need power and then authenticity
+  Teacher voice: "We need power and then authenticity."
+  [high] Source: para_0075
+
+
+[R094]
+  IF you feel guilty having an experience that could be great for you
+  THEN it relates to not doing what is expected
+  Teacher voice: "it's almost like you feel guilty having an experience that could be really great for you because it's not something that's expected"
+  Exceptions: not stated
+  [high] Source: para_0077
+
+
+[R095]
+  IF you challenge authority
+  THEN you create power struggles
+  Teacher voice: "power struggles can expand quite a bit, especially over authority things"
+  Exceptions: not stated
+  [high] Source: para_0077
+
+
+[R096]
+  IF you have issues with authority
+  THEN you need to find your inner authority
+  Teacher voice: "you have to find that inner authority or you're not gonna be able to build the structure they're trying to be able to build."
+  [high] Source: para_0078
+
+
+[R097]
+  IF you are in a collaborative aspect or position where there are other people
+  THEN allow yourself to delegate more
+  Teacher voice: "allowing yourself to say, Hey, we can play this. We can play it our own way."
+  [high] Source: para_0078
+
+
+[R098]
+  IF you don’t feel it's okay to collaborate
+  THEN you take on an absurd amount of responsibility
+  Teacher voice: "you don't feel like it's okay to collaborate"
+  [high] Source: para_0079
+
+
+[R099]
+  IF your Lilith is expressed outwardly
+  THEN you can become very frustrated and very agitated
+  Teacher voice: "if your lilith is, is expressed outwardly"
+  [high] Source: para_0079
+
+
+[R100]
+  IF you take on an absurd amount of responsibility
+  THEN you get angry about it
+  Teacher voice: "you intensely take on an absurd amount of responsibility and then get angry about it"
+  [high] Source: para_0079
+
+
+[R101]
+  IF you're in a musical group
+  THEN there’s no musical group without the other members
+  Teacher voice: "there's no musical group without the other members"
+  Exceptions: unless you're the pussycat dolls
+  [high] Source: para_0080
+
+
+[R102]
+  IF you need to build something
+  THEN you need the structure and networking of others
+  Teacher voice: "you need that structure and that networking of others to be able to build what you're trying to build"
+  [high] Source: para_0080
+
+
+[R103]
+  IF you're accepting other people's perspectives
+  THEN it does not mean it's their business now
+  Teacher voice: "someone else's viewpoint on your business does not mean it's their business now"
+  [high] Source: para_0080
+
+
+[R104]
+  if you have to prove yourself or shut down
+  then realize there's nothing to prove and ideas don't have to align with anything.
+  Teacher voice: "there's nothing to prove. And there's no idea that has to be completely yours."
+  [high] Source: para_0081
+
+
+[R105]
+  the sun's not included and the energy is here
+  consider what's on the fringe versus what's much tighter
+  Teacher voice: "you're gonna feel not just a feeling of them much more con you know, conjunct or, or closer in orb, but it's much more direct."
+  [medium] Source: para_0083
+
+
+[R106]
+  IF the energy is conjunct
+  THEN it is felt more mildly if it's closer in orb
+  Teacher voice: "you feel it a little bit more mildly than if it was closer in orb."
+  [medium] Source: para_0084
+
+
+[R107]
+  IF you have insecurity
+  THEN it leads into the thing of bringing people in.
+  Teacher voice: "you have insecurity that leads into this thing of bringing people in."
+  Exceptions: not stated
+  [high] Source: para_0086
+
+
+[R108]
+  IF Chiron is present
+  THEN you might feel the need to prove you knew something and have authority.
+  Teacher voice: "Chiron is like, I'm trying to bring things in because I'm trying to prove that I knew something."
+  Exceptions: not stated
+  [high] Source: para_0086
+
+
+[R109]
+  IF you try to project authority
+  THEN it creates friction with others.
+  Teacher voice: "it creates a friction between you and those other people and they don't like it."
+  Exceptions: not stated
+  [high] Source: para_0086
+
+
+[R110]
+  IF you are in alignment
+  THEN opportunities do come, but they come very randomly.
+  Teacher voice: "when you are in alignment, you can find opportunities do come, but they come very randomly."
+  Exceptions: not stated
+  [medium] Source: para_0087
+
+
+[R111]
+  IF Chiron is in the 10th house with both liths
+  THEN it becomes challenging because of existing authority issues.
+  Teacher voice: "when it's with both liths, that's a hard one because it's not just a, I don't like authority type of vibe."
+  Exceptions: not stated
+  [medium] Source: para_0087
+
+
+[R112]
+  IF you continually end up in corporate settings
+  THEN you may feel shame around those jobs.
+  Teacher voice: "especially for you, because you keep ending up in corporate settings, which makes this Chiron insecurity the wound and also your liths."
+  Exceptions: not stated
+  [medium] Source: para_0087
+
+
+[R113]
+  IF you're working for somebody else
+  THEN you're in the wrong role.
+  Teacher voice: "you're in the wrong role, first off, if you're gonna work for somebody else."
+  [high] Source: para_0088
+
+
+[R114]
+  IF you want to create a legacy and show authority
+  THEN you can't do it because you need to do it in a way that makes you feel safe and authentic.
+  Teacher voice: "you can't do it because you're trying to create a legacy. You can't do it because you're trying to show that you're the authority over something."
+  [high] Source: para_0088
+
+
+[R115]
+  IF you have all these ideas but don't know how to make money out of it
+  THEN the money is through automation, community, and technology.
+  Teacher voice: "the money is through automation. The money is through community. The money is through potential tech."
+  [high] Source: para_0089
+
+
+[R116]
+  not stated
+  you blame yourself for not being more spiritual or compassionate.
+  Teacher voice: "you blame yourself. Why wasn't I more spiritual? Why wasn't I more compassionate?"
+  [medium] Source: para_0093
+
+
+[R117]
+  IF it comes to strategy around family, nurturing, and dealing with other people
+  THEN one can feel like they have to conform to other people's beliefs
+  Teacher voice: "when it comes to strategy around family, around nurturing when it comes to dealing with other people"
+  [medium] Source: para_0096
+
+
+[R118]
+  IF you don't know how to strategize
+  THEN you might not know how to really say things without hurting other people's feelings
+  Teacher voice: "sometimes that you can feel like you have to strategize or you don't know how to strategize sometimes when, how to really say things without hurting other people's feelings."
+  [medium] Source: para_0096
+
+
+[R119]
+  IF you feel like you can't be yourself when speaking to others
+  THEN you need to lead into strategy after understanding the Lilith energy.
+  Teacher voice: "we have to embrace the fact that, um, we have to lead it into strategy."
+  [high] Source: para_0097
+
+
+[R120]
+  IF you see someone in a vulnerable position
+  THEN you may need to come at the conversation from a different direction while still saying what you need to say.
+  Teacher voice: "I see you're in a vulnerable position right now, so I'm going to get to the depth of it."
+  [high] Source: para_0097
+
+
+[R121]
+  IF there are feelings of being neglected or not valued in a relationship
+  THEN it may be necessary to align the energy of the conversation
+  Teacher voice: "we have to align this energy."
+  Exceptions: not stated
+  [high] Source: para_0099
+
+
+[R122]
+  IF you feel no one's talking to you
+  THEN you can't repress this and should speak up
+  Teacher voice: "because that just delays the silence and adds to your feeling of being ignored"
+  [high] Source: para_0100
+
+
+[R123]
+  IF the conversation's flowing but not fully processed
+  THEN either you aren't listening anymore or they're not listening anymore
+  Teacher voice: "because either you haven't processed something and then you're saying something different, or they haven't processed something, and then you're still talking"
+  [high] Source: para_0100
+
+
+[R124]
+  IF you feel left out of the conversation
+  THEN it detracts from your sense of value
+  Teacher voice: "when you feel like you're left out of the conversation, it it detracts from that sense of value within those things."
+  [high] Source: para_0101
+
+
+[R125]
+  IF you didn't get this at home
+  THEN you expect it from these other people
+  Teacher voice: "it's like you didn't get this at home, so you expect it from these other people."
+  [high] Source: para_0101
+
+
+[R126]
+  we don't want to defy social norms to the point of rebellion
+  we want to find that happy medium
+  Teacher voice: "we don't want to defy social norms to the point of rebellion where nobody likes us. We wanna find that happy medium where it's like, no, we do this because for me, the way that this is happening, it just does not work with my energy."
+  [high] Source: para_0103
+
+
+[R127]
+  IF you are in the fusion cusp area
+  THEN there is a feeling of insecurity around your sense of self-worth.
+  Teacher voice: "there's this feeling like, um, an insecurity around your own self, sense of self-worth."
+  Exceptions: not stated
+  [high] Source: para_0105
+
+
+[R128]
+  you can speak up on valuable ideas
+  you need to be that guy
+  Teacher voice: "you don't want to be that guy, which is why you always say, I don't wanna be that guy, but you need to be that guy."
+  Exceptions: not stated
+  [medium] Source: para_0106
+
+
+[R129]
+  IF personal experiences contribute to helping others
+  THEN you can step into your own authority and value
+  Teacher voice: "And all of that stuff that is very personal is gonna lead you into being a better teacher, being a better healer, helping other people in your own way."
+  [high] Source: para_0109
+
+
+[R130]
+  IF Lilith is at 24 degrees and sextile to the ascendant
+  THEN you may feel more comfortable speaking on self-worth and value
+  Teacher voice: "feeling more comfortable to step into your own value, especially as it pertains to self worth value and being able to speak on that."
+  [high] Source: para_0109
+
+
+[R131]
+  IF ascendant ruler is in the same house as mean Lilith
+  THEN there is a personal connection to the topics discussed
+  Teacher voice: "your ascendant ruler is in the same house as your mean Lilith."
+  [high] Source: para_0109
+
+
+[R132]
+  IF Lilith is in the third house conjunct polys
+  THEN there is a raw ability to expand on the nurturing and emotional aspect of something
+  Teacher voice: "you have this raw ability to expand out on the nurturing and emotional aspect on something just because you know something you don't know logically, but it feeds into you knowing logically"
+  [medium] Source: para_0110
+
+
+[R133]
+  IF you're going to say something
+  THEN it's to fix it, but not to hurt anyone's feelings.
+  Teacher voice: "it's, it's to fix it, but not to hurt anyone's feelings."
+  Exceptions: not stated
+  [high] Source: para_0112
+
+
+[R134]
+  not stated
+  not stated
+  Teacher voice: "It’s about the intention behind it."
+  [medium] Source: para_0113
+
+
+[R135]
+  IF you don't embrace your maturity and how it relates to your age
+  THEN you will always have a problem relating to others regarding age.
+  Teacher voice: "we're not gonna wait until Silas is 54 years old. Because even then you're gonna be like, well, I'm talking to 70 year olds now and they're not gonna listen to a 50-year-old."
+  [high] Source: para_0114
+
+
+[R136]
+  IF you end up on a call
+  THEN you will have to read for me
+  Teacher voice: "If you end up on a call, you're gonna, at some point, you're gonna end up on a call."
+  [high] Source: para_0115
+
+
+[R137]
+  IF you are certified
+  THEN you must be able to read this system of astrology
+  Teacher voice: "Especially if you end up cert, being certified here is you're going to have to read for me."
+  [high] Source: para_0115
+
+
+[R138]
+  IF people learn alchemistic astrology and do not apply it
+  THEN they may fail at their business and wish they never learned astrology.
+  Teacher voice: "that's like the worst thing for me. I wanna see the opposite."
+  Exceptions: not stated
+  [high] Source: para_0116
+
+
+## FORMULAS (1 formulas)
+
+
+  Formula: average_orb = 3
+  Variables: avg=the average value used for calculations
+  Source: para_0083
+
+
+## PROCEDURES (13 procedures)
+
+
+### Taming Lilith
+  Source: para_0031
+
+
+### System of collaboration during sales
+  Step 1: Bring each other in on the sale
+  Inputs: Sales opportunities, Colleagues
+  Outputs: Collaborative sales success
+  WARNING: Not all employees liked this approach
+  Source: para_0042
+
+
+### Collaborative Sales Approach
+  Source: para_0043
+
+
+### Approaching Lilith Retrograde
+  Step 1: Instead of being outwardly projective about it, you kind of have to bring them in on your frustration.
+  Step 2: You have to be a bit more reflective.
+  Step 3: You have to take things from the past, like rework things, show cycles.
+  Source: para_0045
+
+
+### Reflective Work with Lilith
+  Step 1: Assess how your feelings apply back into your situation.
+  WARNING: Don’t get lost in shadow work.
+  Source: para_0047
+
+
+### Embracing Personal Feelings
+  Step 1: Acknowledge your guilt and shame.
+  Step 2: Choose to accept this portion of yourself.
+  Step 3: Allow yourself to express your feelings in your own way.
+  Step 4: Embrace the unique or non-traditional aspects of yourself.
+  Source: para_0054
+
+
+### Releasing guilt and shame
+  Source: para_0072
+
+
+### Learning through visual and abstract methods
+  Step 1: Allow yourself to not focus solely on the facts.
+  Step 2: Look more at the bigger picture.
+  Step 3: Use intuition instead of logical reasoning.
+  Step 4: Draw it out, potentially using a whiteboard.
+  WARNING: Jumping to unnecessary details can lead to confusion.
+  Source: para_0074
+
+
+### Establishing Inner Authority
+  Step 1: Find inner authority rather than deferring to external voices.
+  Step 2: In collaborative settings, allow delegating tasks to others.
+  Step 3: Express ideas or suggestions without imposing authority.
+  Source: para_0078
+
+
+### Allowing Creative Ideas
+  Step 1: Start small with your creative ideas.
+  Step 2: Take the next idea that excites you and see multiple avenues for it.
+  Step 3: Do something small with that idea.
+  Step 4: Experience what that feels like.
+  Step 5: Observe the results and what happens when you allow that.
+  Source: para_0081
+
+
+### women's sexual impairment retreats
+  WARNING: not stated
+  Source: para_0082
+
+
+### Identifying personal energy and expression
+  Step 1: Figure out first what you want to do.
+  Step 2: Identify what you like to do.
+  Step 3: Understand how your energy works.
+  WARNING: not stated
+  Source: para_0095
+
+
+### Display Osculating (True) Black Moon Lilith
+  Step 1: In the Additional Objects accordion in Astro.com’s Extended Chart Selection
+  Step 2: In the Manual Entry box, enter h13
+  Inputs: Manual Entry box in Astro.com
+  Outputs: Osculating (True) Black Moon Lilith displayed
+  Source: para_0119
+
+
+## CALCULATION PIPELINE
+  Step 1: Compare the average positioning of Mean Lilith against the precise positioning of Osculating Lilith.
+    Notes: Identify differences in house positions and potential conflicts.
+  Step 2: Determine the energy influence of Lilith aspects on vitality anchors.
+    Notes: Assess impact on personal expression and world interaction.
+  Step 3: Identify fusion cusp effects on house energy blending.
+    Notes: Blend energies from the 5th to the 6th house assess impact.
+
+
+  Additional calculation steps from transcript:
+  Step 0: Compare the average positioning of Mean Lilith against the precise positioning of Osculating Lilith.
+    Formula: null
+    Teacher voice: "this average one right here in my chart sits actually in two different houses"
+  Step 0: The moon orbits the Earth in an elliptical pattern influenced by gravitational pull.
+    Formula: null
+    Teacher voice: "as the moon comes over to the lunar perigee"
+  Step 0: Identifying the position of the black moon Lilith based on the location of the moon.
+    Formula: null
+    Teacher voice: "you're gonna feel this, like this type of pull of an energy, and that is because it's creating."
+  Step 0: Identifying the cycles of Lilith returns and understanding their frequencies.
+    Formula: not stated
+    Teacher voice: "the orbit cycle of Lilith is 8.85 years."
+  Step 0: Documenting astrological events every two and a half days when the moon hits eight degrees.
+    Formula: null
+    Teacher voice: "I would document it every single, every two and a half days it's gonna hit that degree."
+  Step 0: Osculating Lilith's orbit path is not smooth and is a very acute, direct outward corrected pinpoint calculation.
+    Formula: null
+    Teacher voice: "Osculating Lilith again is the orbit path, you know, does this kind stuff, does this, does this, whatever, right?"
+  Step 0: Take the value 10:57 and add it to 1357.
+    Formula: null
+    Teacher voice: "we have 10 57, which would take us to 1357."
+  Step 1: Determine if the value is at 1354.
+    Formula: null
+    Teacher voice: "that's at 1354."
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "entity_name": {
+    "type": "string",
+    "definition": "string",
+    "attributes": [
+      "string"
+    ],
+    "allowed_values": [
+      "string or 'not stated'"
+    ],
+    "constraints": [
+      "string"
+    ]
+  }
+}
+
+
+Rules schema:
+{
+  "rule_id": {
+    "type": "string",
+    "condition": "string",
+    "action": "string",
+    "exceptions": [
+      "string"
+    ]
+  }
+}
+
+
+Meanings schema:
+{
+  "meaning": {
+    "term": "string",
+    "definition": "string"
+  }
+}
+
+
+## PSEUDOCODE
+function generateAstroReport(chartData) {
+  analyzeBlackMoonLilith(chartData);
+  assessLilithAspects(chartData);
+  blendHouseEnergies(chartData);
+  return generateReport();
+}
+
+
+## VOICE STYLE RULES
+Tone: authoritative, informative
+Cadence: steady, clear
+Signature phrases: As we analyze..., It's important to consider...
+Do:
+  - Explain thoroughly
+Avoid:
+  - Do not confuse with unrelated astrological points
+
+
+## MEANING RENDERING RULES
+- Whenever possible, use precise yet accessible language when explaining astrological influences.
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (248 snippets)
+
+
+  [warning] (unknown): "a lot of people don't use this astrological point. They just dismiss it."
+    Source: para_0000
+  [example] (unknown): "we end up in a relationship taking abuse from people, and it becomes a toxic thing or a codependency thing."
+    Source: para_0000
+  [motivation] (unknown): "These points are extremely important just for clarity."
+    Source: para_0001
+  [definition] (unknown): "the more and more I've gotten into the astronomy of it, I realized then na Dear is something else."
+    Source: para_0001
+  [instruction] (unknown): "make sure that you have that entered"
+    Source: para_0002
+  [instruction] (unknown): "You don't have to have all these things."
+    Source: para_0002
+  [definition] (unknown): "mean means average, right?"
+    Source: para_0002
+  [warning] (unknown): "I haven't found any validity for these, so I don't use them."
+    Source: para_0002
+  [definition] (unknown): "Osculating Lilith factors in all of that gravitational pull to give you very precise positioning"
+    Source: para_0003
+  [example] (unknown): "this is the symbol we usually see when we see people talk about Lilith"
+    Source: para_0003
+  [definition] (unknown): "this is usually the one they're talking about"
+    Source: para_0003
+  [warning] (unknown): "some of you hitting it more on the extremes"
+    Source: para_0003
+  [definition] (unknown): "mean Lilith is mean, like it is not angry mean, but it's mean and like kind of a bully."
+    Source: para_0004
+  [definition] (unknown): "this blends from the fifth house into the sixth."
+    Source: para_0004
+  [meaning] (unknown): "no, it's the other way around."
+    Source: para_0005
+  [meaning] (unknown): "the moon basically goes around the earth"
+    Source: para_0006
+  [example] (unknown): "it's when you look outside, it's huge."
+    Source: para_0006
+  [example] (unknown): "Next time you see the moon tiny in the sky, pay attention to how you're feeling"
+    Source: para_0007
+  [definition] (unknown): "it's creating that lilith placement, uh, at the time."
+    Source: para_0007
+  [question] (unknown): "Is a conjunction stronger than an opposition?"
+    Source: para_0008
+  [statement] (unknown): "to me, they're the same amount of energy."
+    Source: para_0008
+  [definition] (unknown): "the idea of an opposition being a a, a tug of war isn't true"
+    Source: para_0009
+  [motivation] (unknown): "I should just be pulling them to me"
+    Source: para_0009
+  [definition] (unknown): "when the moon is over here in the perge, things feel very grounded and connected."
+    Source: para_0010
+  [definition] (unknown): "whenever it's over in the apogee, things don't make any sense."
+    Source: para_0010
+  [definition] (unknown): "this energy, this line, which is a geometric line, it's a mathematical fixation."
+    Source: para_0010
+  [rule] (unknown): "if you want to use Lilith properly, you have to let her out of the cage, but not let her off of the leash"
+    Source: para_0011
+  [meaning] (unknown): "the moon had feelings and...it had to keep going in orbit around the earth"
+    Source: para_0011
+  [motivation] (unknown): "we still have to find a way to use all of our energies and not Lith by herself to do the things we need to do"
+    Source: para_0012
+  [definition] (unknown): "when it's mean, Lilith, it's internalized, it's repressed"
+    Source: para_0013
+  [motivation] (unknown): "it creates this empty focus that you feel like you're not allowed to because it's so disconnected with the earth"
+    Source: para_0013
+  [warning] (unknown): "you're gonna feel outcasted in this area."
+    Source: para_0014
+  [meaning] (unknown): "it feels obscure."
+    Source: para_0014
+  [example] (unknown): "Leaving the house for me was difficult."
+    Source: para_0014
+  [definition] (unknown): "You can actually pull up, uh, your Lilith."
+    Source: para_0015
+  [example] (unknown): "you feel guilty about it, you feel shame about it."
+    Source: para_0015
+  [definition] (unknown): "Lilith represents in both forms, radical self-acceptance."
+    Source: para_0015
+  [definition] (unknown): "It literally tells you who you are, how you're gonna do it, and what's important to you."
+    Source: para_0016
+  [definition] (unknown): "you have nothing to be guilty about"
+    Source: para_0017
+  [example] (unknown): "we feel shame. We feel guilt because any other person would be like, why did you leave your kid?"
+    Source: para_0018
+  [motivation] (unknown): "I've ran this scenario two and a half million times in my head."
+    Source: para_0018
+  [warning] (unknown): "I didn't go through any transformation unless I would've left."
+    Source: para_0018
+  [example] (unknown): "I walked up and my music was nothing like his, but, um, they turned it on."
+    Source: para_0019
+  [example] (unknown): "I abandoned all the things that were important to me because I, I was, and my, in this case, my ex-wife made it very abundantly clear. I support you, but I don't want you to do any of it."
+    Source: para_0020
+  [example] (unknown): "I lived in my car for two years."
+    Source: para_0020
+  [example] (unknown): "I can do that. I can act, I do film work. I'm also a stunt coordinator."
+    Source: para_0020
+  [motivation] (unknown): "I felt liberated because I had no rules"
+    Source: para_0021
+  [meaning] (unknown): "I tried to repress it and hide it"
+    Source: para_0021
+  [example] (unknown): "isn't this great? we can literally make up any idea, make up any rules."
+    Source: para_0022
+  [motivation] (unknown): "screw it, especially after the night shadow stuff, that business had kind of like hit a dip."
+    Source: para_0022
+  [warning] (unknown): "while society exists and we have rules and we have standards and we have traditions and we have religions and we have family and we have all these things, who is to say you can't do X, Y, Z in your life."
+    Source: para_0023
+  [warning] (unknown): "I have witnessed people who are spiritual and the majority of them put on a happy face, but they're not truly happy."
+    Source: para_0024
+  [definition] (unknown): "I have this gut feeling from something that's not attached to anything you've said or done. Just something I know. I know it, I know it and I don't know why I know it, but I do. And it's always right."
+    Source: para_0025
+  [definition] (unknown): "it's about that gut feeling. It's about that primal instinct where you gut feeling something on a very deep, visceral level, something you can't explain."
+    Source: para_0025
+  [rule] (unknown): "Jupiter and fourth house means you have a huge family and you had such a peaceful upbringing."
+    Source: para_0026
+  [example] (unknown): "I had bullets and rocks flying through my window pretty frequently."
+    Source: para_0026
+  [example] (unknown): "this was something that I had a hard time because like everybody else, like I said, all almost nobody uses this."
+    Source: para_0027
+  [meaning] (unknown): "I'm starting to think the aspects are not aligning with this house."
+    Source: para_0028
+  [meaning] (unknown): "wait a minute, right at eight, eight and a half, little over eight degrees, which is this, this is when everything always kicks in."
+    Source: para_0028
+  [motivation] (unknown): "I have had to work on this and it's not easy."
+    Source: para_0029
+  [example] (unknown): "It is, it is like, it's not Pluto like rage boiling up from the under the surface."
+    Source: para_0029
+  [warning] (unknown): "Lilith can get you into trouble."
+    Source: para_0030
+  [definition] (unknown): "you respond this way because it is very much a, like I said, it's a, a, um, the rejecting of social norms"
+    Source: para_0030
+  [example] (unknown): "it's because we all have Lilith in the same degree."
+    Source: para_0030
+  [example] (unknown): "I just said, hmm mm-hmm mm-hmm I felt it. I wanted to react, but I didn't."
+    Source: para_0031
+  [example] (unknown): "I claim my power and the thing that they criticized me on, I turned into a lesson."
+    Source: para_0031
+  [warning] (unknown): "you could be the best astrologer in the world, but if you don't look at it and you don't use it and you don't apply it, none of it matters because you can't fight these planets."
+    Source: para_0032
+  [warning] (unknown): "A lot of us think we have free will. We think we made choices."
+    Source: para_0033
+  [definition] (unknown): "As you guys are looking at the transits... the question is always going to be, are you using this energy intentionally?"
+    Source: para_0033
+  [motivation] (unknown): "I need to know my exits."
+    Source: para_0034
+  [example] (unknown): "I walk into every single place I'm at, not knowing the place I case the joint, so to speak."
+    Source: para_0034
+  [warning] (unknown): "I don't sit with my back to anybody."
+    Source: para_0034
+  [example] (unknown): "I feel safe in circle."
+    Source: para_0035
+  [example] (unknown): "S**t, this is my passive aggressive, trying to gain authority energy, right?"
+    Source: para_0035
+  [definition] (unknown): "I'm a grammar Nazi. I hate bad grammar."
+    Source: para_0036
+  [motivation] (unknown): "Change it up, make something different."
+    Source: para_0036
+  [warning] (unknown): "I do like it to change up and, you know, little bit of hypocrisy."
+    Source: para_0036
+  [motivation] (unknown): "I'm gonna get to the retrograde in a second..."
+    Source: para_0037
+  [example] (unknown): "I'm mad at myself. I should have done this. Why didn't I do this?"
+    Source: para_0038
+  [meaning] (unknown): "What makes you special? What makes you different?"
+    Source: para_0038
+  [warning] (unknown): "you have to be careful with that lith, retrograde."
+    Source: para_0038
+  [warning] (unknown): "you can make yourself sick and you have to be very careful that you don't, because you end up revisiting the same things"
+    Source: para_0039
+  [example] (unknown): "If you have Lilith and Osculating, Lilith retrograde, then you don't have the same energy that says, I'm gonna go somewhere and it's going to be safe."
+    Source: para_0040
+  [example] (unknown): "Let's say you went to a nightclub, you would not likely go into the center of the dance floor because you wouldn't feel safe there."
+    Source: para_0040
+  [example] (unknown): "When you look at it, so here's a, here's a good for instance."
+    Source: para_0041
+  [rule] (unknown): "If a girl says the wrong thing, I'm out."
+    Source: para_0042
+  [rule] (unknown): "In order for me to do any of this stuff, you gotta speak."
+    Source: para_0042
+  [motivation] (unknown): "that Lilith was like, I don't really care if corporate doesn't like it."
+    Source: para_0043
+  [motivation] (unknown): "I sell, like I do my job."
+    Source: para_0044
+  [example] (unknown): "you need to do the sales walk"
+    Source: para_0044
+  [example] (unknown): "you are gonna go out there and you're gonna sell and you're gonna use your sales walk"
+    Source: para_0044
+  [instruction] (unknown): "you have to bring them in on your frustration."
+    Source: para_0045
+  [example] (unknown): "this is how I feel."
+    Source: para_0045
+  [definition] (unknown): "you have to realize that Lilith is also that place that feels oppressed."
+    Source: para_0046
+  [motivation] (unknown): "it's survival instinct. So it's gonna be your natural gut reaction to things on a very emotional level."
+    Source: para_0046
+  [definition] (unknown): "the empty, it is the, the invisible mirror, the reflective property."
+    Source: para_0047
+  [motivation] (unknown): "we want get to a point where we say, how can we use, how can we take these feelings and these, um, these natural raw desires."
+    Source: para_0047
+  [example] (unknown): "this is highly inefficient"
+    Source: para_0048
+  [meaning] (unknown): "my Lilith affects things that are real to me. It's not real."
+    Source: para_0049
+  [definition] (unknown): "when it comes to motherhood, especially things of that you have to do on a daily grind"
+    Source: para_0050
+  [meaning] (unknown): "your lunar energy is about emotion or relationship to emotion."
+    Source: para_0051
+  [meaning] (unknown): "it's about security as it pertains to the house and home."
+    Source: para_0051
+  [meaning] (unknown): "you feel like you have to constantly be up on this and that, it's a constant thing, but it leads into your guilt and shame"
+    Source: para_0052
+  [meaning] (unknown): "this is coming from the second house into the sixth"
+    Source: para_0052
+  [meaning] (unknown): "you like routine, but you also hate routine because the way that you want to do routine, like isn't really routine to other people"
+    Source: para_0053
+  [warning] (unknown): "there's a lot of judgment here, especially around just like femininity, motherhood, safety, things of that nature."
+    Source: para_0053
+  [warning] (unknown): "you'll feel the guilt and shame first when it comes to mental health, when it comes to your job."
+    Source: para_0053
+  [definition] (unknown): "what I want to do is not traditional. It's not normal."
+    Source: para_0054
+  [warning] (unknown): "You never truly feel safe because what you needed to feel safe when it comes to your survival instincts."
+    Source: para_0054
+  [example] (unknown): "you know, instinctively you're like, I know this person could afford this home."
+    Source: para_0055
+  [motivation] (unknown): "it'll create those deeper bonds and your ability to kind of release that power."
+    Source: para_0055
+  [motivation] (unknown): "it's hard not to"
+    Source: para_0056
+  [motivation] (unknown): "it's okay. I didn’t ask"
+    Source: para_0056
+  [motivation] (unknown): "thank you all. You're welcome."
+    Source: para_0056
+  [example] (unknown): "you can naturally kind of fit things together quite nicely and do one thing and fit another thing and fit another thing that's kind of the retrograde energy."
+    Source: para_0057
+  [warning] (unknown): "when it comes to external communication, you can feel like you wanna say something and then not say it."
+    Source: para_0057
+  [meaning] (unknown): "the challenge for you isn't really that as much as your self self criticizing on things that are very raw and visceral."
+    Source: para_0058
+  [example] (unknown): "you can feel like your ideas and what you want to do, you can immediately feel... but with the energies there, you could feel stupid for having an idea that's like out there."
+    Source: para_0058
+  [motivation] (unknown): "understanding things grow, things evolve."
+    Source: para_0058
+  [motivation] (unknown): "It's hard to find your place in the world."
+    Source: para_0059
+  [motivation] (unknown): "you have to stop thinking about where it needs to go and allow your intuition and just kind of go with the flowness to take care of it."
+    Source: para_0060
+  [definition] (unknown): "it's a very practical, real world. I feel it in my, probably in my hands mostly, but I feel it in my body or my gut, quite a bit."
+    Source: para_0060
+  [motivation] (unknown): "it's because that Lilith placement getting, yeah."
+    Source: para_0060
+  [motivation] (unknown): "your give a heck is busted and you quit apologizing as much."
+    Source: para_0061
+  [definition] (unknown): "it's a matter of taking age and structure and taking time."
+    Source: para_0062
+  [motivation] (unknown): "that's why I'm excited about it 'cause I can utilize it and change."
+    Source: para_0062
+  [warning] (unknown): "as I have found my non-filtered voice, I find that I am, people are not receiving it well."
+    Source: para_0062
+  [motivation] (unknown): "You don't have to act like a spiritual person."
+    Source: para_0063
+  [motivation] (unknown): "I love scrutiny because truth will always vary up to scrutiny."
+    Source: para_0063
+  [motivation] (unknown): "I feel like I can finally, if I have the right networking, if I have the right mechanics..."
+    Source: para_0065
+  [motivation] (unknown): "there's not a lot of people who can do that anymore. A lot of people rely on machines. You can do it with your hands."
+    Source: para_0067
+  [example] (unknown): "it might have been something else earlier."
+    Source: para_0067
+  [motivation] (unknown): "I would imagine it's because you feel like maybe you don't know what to do with it."
+    Source: para_0067
+  [motivation] (unknown): "some people are just here to learn"
+    Source: para_0068
+  [motivation] (unknown): "the whole reason for doing this is some people are just here to learn"
+    Source: para_0068
+  [meaning] (unknown): "This can also mean that when it comes to…"
+    Source: para_0068
+  [definition] (unknown): "It's like this illusion of perception."
+    Source: para_0069
+  [warning] (unknown): "There is, uh, even shame around things that you don't know."
+    Source: para_0069
+  [motivation] (unknown): "you have to think of what were you doing and why, why did that not happen? Was it your choice? Was there a reason behind the choice?"
+    Source: para_0070
+  [example] (unknown): "Guilt, shame. I was going to buy the ticket. He told me not to. Yeah. I feel guilty, but should I?"
+    Source: para_0070
+  [example] (unknown): "I didn't know the last time I seen them was gonna be the last time."
+    Source: para_0070
+  [warning] (unknown): "I'm afraid to ask for help"
+    Source: para_0071
+  [warning] (unknown): "I'm afraid to say what I'm really feeling"
+    Source: para_0071
+  [warning] (unknown): "I'm afraid to be honest about things and express how I really feel about things"
+    Source: para_0071
+  [warning] (unknown): "It's gonna create just endless, endless issues."
+    Source: para_0072
+  [warning] (unknown): "You have an issue with endings anyway, like a difficulty with endings."
+    Source: para_0072
+  [motivation] (unknown): "You have to start owning that there's a power here within the spirituality."
+    Source: para_0072
+  [example] (unknown): "it alleviates the guilt if something were to happen."
+    Source: para_0073
+  [definition] (unknown): "it's supposed to be liberation."
+    Source: para_0073
+  [motivation] (unknown): "there's an element of celebrating life that's actually part of your power."
+    Source: para_0073
+  [definition] (unknown): "you have to allow your intuition instead of your logical brain to try to put everything together"
+    Source: para_0074
+  [example] (unknown): "you can be like, you know, the details that I need to know and then all the extraneous stuff we can add in."
+    Source: para_0074
+  [motivation] (unknown): "you have to play with your words, you have to play with your ideas. You have to have fun with it."
+    Source: para_0075
+  [example] (unknown): "allow yourself to explore, allow yourself to say, this is what Logan said. The hell does that mean?"
+    Source: para_0075
+  [motivation] (unknown): "there's a power in that. There's a power in realizing that."
+    Source: para_0075
+  [warning] (unknown): "you have shame coming before reaction"
+    Source: para_0076
+  [definition] (unknown): "this is how we do it. This is how I feel spirituality is."
+    Source: para_0076
+  [definition] (unknown): "it's pulling that into the ninth house of expanding..."
+    Source: para_0076
+  [meaning] (unknown): "I'm always afraid to be as creative as what I possibly can be"
+    Source: para_0077
+  [motivation] (unknown): "you want to be able to allow you to have those more visceral experiences"
+    Source: para_0077
+  [example] (unknown): "I run my own business and I'm the only one running it at the moment 'cause I'm too afraid to actually hire anyone 'cause of this energy, I think."
+    Source: para_0078
+  [warning] (unknown): "it feels very wrong"
+    Source: para_0079
+  [definition] (unknown): "we go back to the root of it"
+    Source: para_0079
+  [definition] (unknown): "it's coming from this empty focus"
+    Source: para_0079
+  [motivation] (unknown): "You have to allow them and their collaboration."
+    Source: para_0080
+  [example] (unknown): "You're giving away, you know, you're giving away, you're delegating out tasks and things that need to be done."
+    Source: para_0080
+  [definition] (unknown): "It's just a solo act."
+    Source: para_0080
+  [motivation] (unknown): "Yes. Which means a hundred percent. Right."
+    Source: para_0080
+  [motivation] (unknown): "it's magic when this stuff lines up."
+    Source: para_0081
+  [warning] (unknown): "you can't feel what I'm saying."
+    Source: para_0081
+  [motivation] (unknown): "there isn't shame around that area"
+    Source: para_0082
+  [meaning] (unknown): "you know, this energy here."
+    Source: para_0083
+  [warning] (unknown): "if you're sitting on the fringe area of it."
+    Source: para_0083
+  [meaning] (unknown): "you feel it a little bit more mildly than if it was closer in orb."
+    Source: para_0084
+  [meaning] (unknown): "you don’t have that I wanna lash back out."
+    Source: para_0084
+  [example] (unknown): "you should have listened to me. I knew this, you didn't listen to me, blah, blah, blah."
+    Source: para_0086
+  [meaning] (unknown): "There's a certain level of responsibility that you feel doesn't match the pay."
+    Source: para_0086
+  [meaning] (unknown): "I already know I have authority, but I don't like the way authority is kind of vibe."
+    Source: para_0087
+  [example] (unknown): "There's no creativity in it."
+    Source: para_0087
+  [motivation] (unknown): "my structure is whatever I feel comfortable with."
+    Source: para_0088
+  [example] (unknown): "the ideas that you have, your hiccup could be like, well, I got all these ideas, but I don't know how to make money out of it."
+    Source: para_0089
+  [example] (unknown): "your son is actually in the ninth as well as the 10th for two different reasons"
+    Source: para_0090
+  [definition] (unknown): "a lot of that creative energy needs to be fed into that ninth house energy expanding out on, um, on things that are, you know, valuable and tangible that are going to lead you into your own future goals that are very personal"
+    Source: para_0090
+  [statement] (unknown): "that’s why I don’t, I don’t wanna be the authority of everything."
+    Source: para_0090
+  [statement] (unknown): "you’re technically don’t even like the sales that much."
+    Source: para_0090
+  [meaning] (unknown): "feeling like you should have known that before. Like, why didn't I already know this?"
+    Source: para_0091
+  [example] (unknown): "the desire for the things that happen randomly, the things that are like inspirational in our lives"
+    Source: para_0091
+  [example] (unknown): "when you try to speak your mind when you try to bring value through criticism"
+    Source: para_0091
+  [example] (unknown): "you're looking for that and then you ask somebody, um, or you feel either ashamed or you feel like you, it, you're not in a safe place where you can ask them."
+    Source: para_0092
+  [motivation] (unknown): "I feel safe here."
+    Source: para_0092
+  [warning] (unknown): "I didn't feel safe in the astrological community or spiritual communities."
+    Source: para_0092
+  [motivation] (unknown): "that can be a challenge."
+    Source: para_0093
+  [definition] (unknown): "where she didn't necessarily understand you."
+    Source: para_0093
+  [warning] (unknown): "emotionally getting a vibe, but it's not making sense to you."
+    Source: para_0093
+  [example] (unknown): "when things come up like that now I write it down in my journal and I go back to it when it's time."
+    Source: para_0094
+  [definition] (unknown): "it's definitely for a lot of people."
+    Source: para_0094
+  [meaning] (unknown): "it in and of itself, it's not about the spirituality, it's about you."
+    Source: para_0095
+  [example] (unknown): "my north node where you have this Lilith kind of, right."
+    Source: para_0095
+  [motivation] (unknown): "I've never felt safe anywhere else like I do in circle."
+    Source: para_0096
+  [meaning] (unknown): "you feel like you can't be yourself"
+    Source: para_0097
+  [meaning] (unknown): "finding that state of compromise and that conversation being allowed to do that through communication, through identity"
+    Source: para_0097
+  [meaning] (unknown): "I want to talk about this, but I feel like I might hurt their feelings."
+    Source: para_0099
+  [meaning] (unknown): "this feeling like, why aren't you listening to me?"
+    Source: para_0099
+  [meaning] (unknown): "that's bringing that conversation inward."
+    Source: para_0099
+  [definition] (unknown): "you don't like small talk"
+    Source: para_0100
+  [motivation] (unknown): "we want to operate the fact that these energies are all going inward"
+    Source: para_0100
+  [definition] (unknown): "we need dead air to be able to process what was said and what wasn't said"
+    Source: para_0100
+  [meaning] (unknown): "it it's like you didn't get this at home, so you expect it from these other people."
+    Source: para_0101
+  [motivational] (unknown): "you're allowed to speak up and say, Hey, I wanna talk about this a little bit more."
+    Source: para_0102
+  [motivational] (unknown): "it's not about me being a good astrologer, it's about me teaching you guys how you can do this for yourself."
+    Source: para_0102
+  [warning] (unknown): "we don't want to defy social norms to the point of rebellion where nobody likes us."
+    Source: para_0103
+  [motivation] (unknown): "you guys are immensely talented."
+    Source: para_0103
+  [motivation] (unknown): "you're taking the power out of and away from conformity, and you're giving it back to an individualistic expression, which is power"
+    Source: para_0104
+  [warning] (unknown): "you shouldn't be able to speak and make money."
+    Source: para_0104
+  [definition] (unknown): "there's an element of self-love that you have."
+    Source: para_0104
+  [motivation] (unknown): "you feel like the talents that you have and the, um, and the value behind you and pouring that into something that you can make money."
+    Source: para_0105
+  [motivation] (unknown): "you are allowed to have self-worth"
+    Source: para_0107
+  [motivation] (unknown): "you're allowed to be smart"
+    Source: para_0107
+  [motivation] (unknown): "you don't have to dumb yourself down"
+    Source: para_0107
+  [motivation] (unknown): "you wanna allow the core of this to be there"
+    Source: para_0107
+  [motivation] (unknown): "it's okay to, to reveal, to talk about personal things in a personal setting and talk about yourself"
+    Source: para_0108
+  [motivation] (unknown): "there's no shame around having value within talking about yourself"
+    Source: para_0108
+  [meaning] (unknown): "All of this is saying it's all personal and all that personal is going over here into the seventh house."
+    Source: para_0109
+  [meaning] (unknown): "things that are very personal to you, things that you feel like you can relate to other people on a deeper level, especially when it comes to psychology"
+    Source: para_0109
+  [example] (unknown): "you could tell the difference. Some people can, you can, because you have an emotional"
+    Source: para_0110
+  [example] (unknown): "I know it's not anger. Like I Yeah, you could tell the difference."
+    Source: para_0110
+  [motivation] (unknown): "I want you to start owning the power. You have a power for this."
+    Source: para_0111
+  [warning] (unknown): "when it comes to actually doing it and saying it, you are, you, you have shame around your words."
+    Source: para_0111
+  [example] (unknown): "it’s like you would also know, and you've also pointed out, when I was not showing any anger or expression of any emotion, you were like, what's wrong?"
+    Source: para_0111
+  [motivation] (unknown): "There's no shame in your talents and your skills."
+    Source: para_0112
+  [motivation] (unknown): "You gotta understand these things."
+    Source: para_0112
+  [warning] (unknown): "You need words that emote and you need them to not wound."
+    Source: para_0112
+  [example] (unknown): "you have to the age thing, the, the, uh, I, I bring up your age all the time to test you."
+    Source: para_0113
+  [definition] (unknown): "you have to really embrace the fact that there's a maturity that you have that does not, is not defined by age."
+    Source: para_0114
+  [motivation] (unknown): "we wanna take your actions and your value and everything."
+    Source: para_0114
+  [warning] (unknown): "it has to do with the criticisms that you feel inwardly around age."
+    Source: para_0114
+  [definition] (unknown): "you have to find a way to take your words, your value, your self-worth, and feed it into your emotional maturity, not your age as a number."
+    Source: para_0114
+  [motivation] (unknown): "I don't care what your age is. I care, can you read this system of astrology?"
+    Source: para_0115
+  [warning] (unknown): "Nobody's gonna care about your age, but you, and maybe a couple of weird."
+    Source: para_0115
+  [motivation] (unknown): "I stand in my authentic authority."
+    Source: para_0116
+  [motivation] (unknown): "I truly believe I am not the best astrologer."
+    Source: para_0117
+  [motivation] (unknown): "I want to be able to teach you guys and I want you guys to be able to be your own authority."
+    Source: para_0117
+  [motivation] (unknown): "There will always be people better than me."
+    Source: para_0117
+  [example] (unknown): "I've watched you guys read and you've touched on things that I would've never said in a reading."
+    Source: para_0117
+  [motivation] (unknown): "that's awesome that I never would've pointed that out"
+    Source: para_0118
+  [warning] (unknown): "it's one of those things that without the testing and really seeing it play out, it could be hard to understand or interpret"
+    Source: para_0118
+  [definition] (unknown): "I took that extra time with you guys to go through multiple charts so you could see it and then obviously get the reaction from it"
+    Source: para_0118
+  [procedure] (unknown): "In the Additional Objects accordion in Astro.com’s Extended Chart Selection—in the Manual Entry box—enter h13 to display Osculating (True) Black Moon Lilith."
+    Source: para_0119
+
+
+## EDGE CASES (19 cases)
+
+
+- Scenario: not understanding Black Moon Lilith
+  Handling: can lead to feeling like we're just going through the motions, ending up in undesirable situations like toxic relationships.
+- Scenario: Mean Lilith and Osculating Lilith are far apart
+  Handling: Some charts will show Mean and Osculating Lilith sitting much closer together or further apart.
+- Scenario: not understanding Black Moon Lilith
+  Handling: can lead to feeling like we're just going through the motions, ending up in undesirable situations like toxic relationships.
+- Scenario: You are moving to somewhere else
+  Handling: You need to know how to embrace Lilith.
+- Scenario: Mean Lilith and Osculating Lilith are far apart
+  Handling: Some charts will show Mean and Osculating Lilith sitting much closer together or further apart.
+- Scenario: a person with only detached energy
+  Handling: the person could feel empty without the rest of the chart
+- Scenario: running into Saturn in space
+  Handling: may make friends but probably not, as there's more space than other planets.
+- Scenario: situation after being rejected by record labels
+  Handling: I oppressed myself. I stopped making my own music.
+- Scenario: Misalignment of aspects with house
+  Handling: Consider if different degrees are affecting the interpretation.
+- Scenario: following the mythology too far
+  Handling: she gets crazy and becomes a nut job.
+- Scenario: feeling upset due to other people's frustrations
+  Handling: you don't wanna allow other people's frustrations to come in on you.
+- Scenario: If you reflect too much on negative experiences
+  Handling: you must be careful not to make yourself sick
+- Scenario: co-signing with another salesperson
+  Handling: ensure that both parties benefit from the sale
+- Scenario: the connection between internal thoughts and external communication
+  Handling: you can feel like you wanna say something and then not say it.
+- Scenario: When you feel like you don't know something
+  Handling: you might feel like you're dumb or that you should know it
+- Scenario: Focusing on extraneous information
+  Handling: You end up jumping to unnecessary details, missing key information.
+- Scenario: sitting on the fringe area of orb of influence
+  Handling: it's going to affect, but it kind of deflects a little bit when you sit head on.
+- Scenario: feeling insecure when talking to a person of authority
+  Handling: you do not feel like you're supposed to assert yourself, leading to a visceral fight or flight response.
+- Scenario: Feeling of unvalued or insecurity
+  Handling: It can expand into broader self-worth issues.
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Test normal manifestation of Black Moon Lilith
+  Input: {"manifestation_state": "normal"}
+  Expected (teacher voice): When we let it manifest in its normal state, we don't feel very connected to things that feel true to us.
+  Rules: R001
+  Entities: Black Moon Lilith
+
+
+[TC002] Test Lilith creating aspect to vitality anchor
+  Input: {"lilith_aspect": true, "vitality_anchors": ["true"]}
+  Expected (teacher voice): You want to know if your Lilith is aspecting those vitality anchors, because that's how you're gonna show up in the world.
+  Rules: R002
+  Entities: Lilith
+
+
+[TC003] Test presence of true Lilith and mean Lilith
+  Input: {"true_lilith_present": true, "mean_lilith_present": true}
+  Expected (teacher voice): We're gonna talk about which one's first, which one's second.
+  Rules: R003
+  Entities: Lilith
+
+
+[TC004] Test missing data for manifestation state of Black Moon Lilith
+  Input: {"manifestation_state": ""}
+  Expected (teacher voice): Manifestation state data is missing. Please provide a valid state.
+  Rules: R001
+  Entities: Black Moon Lilith
+  [EDGE CASE]
+
+
+[TC005] Test conflicting rules with unknown manifestation state
+  Input: {"manifestation_state": "unknown"}
+  Expected (teacher voice): Manifestation state is unknown, rules cannot be applied.
+  Entities: Black Moon Lilith
+  [EDGE CASE]
+
+
+[TC006] Test both true Lilith and mean Lilith absent
+  Input: {"true_lilith_present": false, "mean_lilith_present": false}
+  Expected (teacher voice): No analysis is needed as neither form of Lilith is present.
+  Rules: R003
+  Entities: Lilith
+
+
+[TC007] Test presence of only true Lilith without mean Lilith
+  Input: {"true_lilith_present": true, "mean_lilith_present": false}
+  Expected (teacher voice): Only true Lilith is present, focus on its influence first.
+  Rules: R003
+  Entities: Lilith
+
+
+[TC008] Test presence of only mean Lilith without true Lilith
+  Input: {"true_lilith_present": false, "mean_lilith_present": true}
+  Expected (teacher voice): Only mean Lilith is present, focus on its general trajectory.
+  Rules: R003
+  Entities: Lilith
+
+
+[TC009] Test unknown entity used as a vitality anchor
+  Input: {"lilith_aspect": true, "vitality_anchors": ["unknown_entity"]}
+  Expected (teacher voice): Vitality anchor data contains unknown entities, verify inputs.
+  Rules: R002
+  Entities: Lilith
+  [EDGE CASE]
+
+
+[TC010] Test calculation pipeline with Lilith aspect and absent vitality anchors
+  Input: {"lilith_aspect": true, "vitality_anchors": []}
+  Expected (teacher voice): Without vitality anchors, potential influence cannot be assessed.
+  Rules: R002
+  Entities: Lilith
+
+
+## UNRESOLVED (15 items)
+
+
+- need for better understanding of Black Moon Lilith
+  Needed: clarity on its manifestation in charts and life situations.
+- Clarification on how to use astrocartography with Lilith
+  Needed: Specific guidelines or examples of using astrocartography with Lilith.
+- defining the relationship of earth and sun with Uranus
+  Needed: more explicit details on the mechanics of relationships
+- Explicit rules stated during the talk
+  Needed: IF/THEN rules from the speaker
+- specific examples of actions influenced by lilith
+  Needed: explicit statements on actions or outcomes
+- Detailed rules for filmmaking
+  Needed: Explicit rules for making films described in the segment.
+- Specific conditions that lead to feeling guilty when happy.
+  Needed: Clarification on factors affecting happiness in relation to astrology.
+- not knowing my father
+  Needed: not stated
+- how to better achieve something meaningful
+  Needed: not stated
+- How Lilith is derived in astrology
+  Needed: Clarification on the method or formula for calculating Lilith.
+- What specific steps to integrate Lilith energy positively
+  Needed: not stated
+- Time range for segment
+  Needed: specific time range information
+- No specific procedures provided for handling guilt and shame.
+  Needed: Details on steps to release guilt and shame.
+- LLM extraction failed: Expecting ',' delimiter: line 59 column 7 (char 2042)
+  Needed: retry
+- specific examples of journaling effectiveness
+  Needed: examples showing how journaling helps with spiritual understanding
+
+
+================================================================================
+END OF BUILDER PROMPT

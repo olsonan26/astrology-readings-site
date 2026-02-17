@@ -1,0 +1,1597 @@
+﻿================================================================================
+BUILDER PROMPT
+================================================================================
+
+
+## PURPOSE
+Create software that interprets and calculates astrological aspects including major aspects, 30 degree divisions, orbs of influence, and geometrical relationships for Alchemistic astrology.
+
+
+## INPUTS
+- astrological chart details
+- degree of celestial bodies
+- house positions
+
+
+## OUTPUTS
+- calculated aspects
+- interpretations of astrological aspects
+- suggestions for resolving planetary influences
+
+
+## ENTITY CATALOG (118 entities)
+
+
+### major aspects
+  Type: astrology
+  Meaning: the major aspects within Alchemistic astrology.
+  Meaning: significant relationships in astrology
+  Meaning: major aspects which create 180 degrees of the wheel or half of the wheel
+  Meaning: aspects that correspond to 180 degrees in the astrological wheel.
+  Attributes: there are five in other systems because they ignore some aspects, there are seven of them in Alchemistic astrology
+  Examples: 180 degrees of the wheel, half of the wheel
+  Source: para_0000, para_0015
+
+
+### 30 degree divisions
+  Type: astrology
+  Meaning: important divisions within the 360 degree wheel in astrology.
+  Meaning: segments in a complete astrological chart
+  Attributes: each represents major aspects, 30 divisions within the 360 degree wheel
+  Source: para_0000
+
+
+### orb of influence
+  Type: astrology
+  Meaning: the range within which influences of celestial bodies are considered.
+  Meaning: area of astrological influence
+  Attributes: can be within the same sign, can be within the same house, shrinks as the aspect becomes more minor
+  Allowed values: not stated
+  Constraints: degree and a half for minor aspects
+  Source: para_0000, para_0036
+
+
+### geometrical aspect relationships
+  Type: astrology
+  Meaning: ways astrological aspects interact based on their geometrical positioning.
+  Meaning: the relationship between astrological aspects
+  Attributes: can lead to various aspects like semisextile, sextile, or conjunct, the degrees determine the type of aspect
+  Source: para_0000
+
+
+### aspect
+  Type: astrology
+  Meaning: not stated
+  Attributes: type, sex tile, separating, quin cos, applying, degree, opposition, square, conjunction
+  Allowed values: true aspect, three versions, forced aspect, beyond 90 degrees, rolling aspect, from 0 to 180 degrees
+  Constraints: the moon is faster, can be minor or major, must involve planets, the sun is challenged to overshadow the moon's influence
+  Examples: sex tile is defined as a mini trine
+  Source: para_0001, para_0030, para_0035
+
+
+### ad junction
+  Type: aspect
+  Meaning: a journey between the conjunction and the semis sextile, a subconscious fusion of both with a bit of a misinterpretation and then a resolution.
+  Attributes: resolution, subconscious fusion, misinterpretation, journey
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0002
+
+
+### 15 degree aspect
+  Type: aspect
+  Meaning: super important.
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0002
+
+
+### aspect spectrum
+  Type: concept
+  Meaning: comprises seven major aspects across 12 aspect points.
+  Meaning: a framework in astrology that defines the relationships between celestial bodies.
+  Attributes: seven major aspects, energy flow, 12 aspect points, illumination
+  Allowed values: opposition, not stated, conjunction
+  Constraints: not stated, the aspects are located in the 12 signs, or 12 houses.
+  Source: para_0022, para_0004
+
+
+### aspect resolution
+  Type: concept
+  Meaning: not stated
+  Attributes: alignment with energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0004
+
+
+### planet
+  Type: astrology
+  Meaning: not stated
+  Attributes: type, alignment
+  Allowed values: Mercury
+  Constraints: needs to be aligned
+  Source: para_0005
+
+
+### aspects
+  Type: astrology
+  Meaning: not stated
+  Attributes: minor, major
+  Allowed values: seven major aspects
+  Constraints: minor aspects are saved for later
+  Source: para_0005
+
+
+### sun
+  Type: astrology
+  Meaning: the sun can shine again when the moon's needs are addressed
+  Meaning: the sun's effectiveness is tied to the moon's needs
+  Meaning: The sun can dominate the space of the moon when they're in conflict.
+  Meaning: dominant astrological presence
+  Meaning: feels like the moon is the enemy for it to shine
+  Meaning: perceived opposition from moon
+  Meaning: the sun will have a better sense of how to operate within the lunar environment.
+  Meaning: needs to be open to and understanding of the reception of the energy the moon is pushing in
+  Meaning: represents purpose and needs to be receptive to the moon's energy
+  Meaning: the sun is still the one that's supported
+  Meaning: the sun represents ego and vitality
+  Meaning: the sun is being overshadowed by the moon
+  Meaning: the sun is secondary to the moon's influence
+  Meaning: the sun wants to express itself
+  Meaning: sun's desire for expression
+  Attributes: vantage point, expression of self, not stated, supported by the moon, openness, being challenged, energy, source of light, planet one, expecting the moon to work with it, initiates first, opposite side of the moon, understanding, stand its ground, provides purpose, wants to express, needs to operate where it is, directs shine, aligns with the moon, directs expression towards something productive, actual needs, shines, needs to give away to the moon, perception
+  Allowed values: taboo, volatile, not stated, receptive, cannot operate business as usual, powerful, conjunction point
+  Constraints: needs to consider the moon, remains the problem as planet two becomes the solution, anchored, in the presence of the moon's influence, not stated, must compete with moon's influence, must accept moon's energy
+  Examples: sun wants to express itself
+  Source: para_0024, para_0031, para_0027, para_0034, para_0009, para_0018, para_0010, para_0008, para_0026, para_0006, para_0021, para_0023, para_0032, para_0012, para_0029, para_0019, para_0005, para_0020, para_0028, para_0033, para_0013, para_0030, para_0017, para_0011
+
+
+### moon
+  Type: astrology
+  Meaning: the moon's new needs need to act as a next step for the sun to know where to shine properly
+  Meaning: the moon's needs influence the actions of the sun
+  Meaning: The moon's themes will be usurped or ignored in favor of the sun dominating for the space.
+  Meaning: subdued astrological presence
+  Meaning: unsettled when not receiving properly from the sun
+  Meaning: reactive energy reference
+  Meaning: the moon's gonna remain where it is.
+  Meaning: must be in a stable position to direct its focus into the sun
+  Meaning: represents emotions and needs to be stable when interacting with the sun
+  Meaning: the moon is going to do what the moon's going to do for the sun
+  Meaning: the moon influences the sun
+  Meaning: the moon is the aggressor in the aspect
+  Meaning: the moon takes precedence in the situation described
+  Meaning: feels a pressure from the moon in the same area
+  Meaning: moon feeling pressure
+  Attributes: finalizing its arc journey through the spectrum, dismissible, nurturing, phases, reactive to sun, overtake, overbearing, capabilities, variable position, contribution, taken the lead, energy, planet two, three degree orb of influence, needs to understand where it lends energy, misaligned, approaching the sun, situation, stability, focus, leads into the sun, new needs, offers new opportunities, feels pressure, moving away from the sun, emotional security, provides new information, faster planet, vantage, opposes the sun, aggressor, position, takes the lead after opposition
+  Allowed values: focus on moon, favors the moon, foundation, zero to three orbs, emotional support, new moon, not stated, full moon, tribe, stable
+  Constraints: must know sun's purposes, beyond three degree orbs is a forced aspect, in relation to the sun, becomes the problem when sun is planet two, must receive proper delivery from sun, not stated, needs to understand where it's lending its energy
+  Examples: moon in the 11th house in Leo, the moon needs to know how much of the sun is required, the moon's vantage
+  Source: para_0024, para_0031, para_0027, para_0034, para_0009, para_0018, para_0010, para_0008, para_0026, para_0006, para_0021, para_0023, para_0032, para_0012, para_0029, para_0019, para_0005, para_0020, para_0028, para_0033, para_0013, para_0030, para_0017, para_0011
+
+
+### stenotic cycle
+  Type: astrology
+  Meaning: not stated
+  Attributes: movement type
+  Source: para_0005
+
+
+### conjunction
+  Type: astronomical event
+  Meaning: not stated
+  Attributes: moon comes first, separation beyond zero degrees, transition point between planets, sun comes second
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0034, para_0008, para_0006, para_0021
+
+
+### Aspect
+  Type: Astrological Concept
+  Meaning: the energy that we are focusing our efforts into
+  Meaning: a point of connection between planets in a chart
+  Attributes: focus, energy
+  Allowed values: aspect spectrum, conjunction
+  Constraints: must involve at least two planets
+  Source: para_0007
+
+
+### Conjunction
+  Type: Astrological Formation
+  Meaning: when the sun and the moon's energies are meshing together evenly
+  Meaning: a specific alignment of two planets
+  Attributes: merging energies, even distribution
+  Allowed values: exactitude
+  Constraints: when both planets acknowledge each other's presence
+  Source: para_0007
+
+
+### planets
+  Type: category
+  Meaning: not stated
+  Attributes: planet two, planet one
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0008
+
+
+### 30 degree relationship
+  Type: aspect relationship
+  Meaning: not stated
+  Attributes: semisextile relationship
+  Constraints: affects the sun's ability to shine
+  Source: para_0009
+
+
+### mother
+  Type: family role
+  Meaning: not stated
+  Attributes: considered by the father
+  Constraints: can stop the father from doing his thing
+  Source: para_0009
+
+
+### father
+  Type: family role
+  Meaning: not stated
+  Source: para_0009
+
+
+### first house
+  Type: astrological house
+  Meaning: I've been trying to, in the first house, I've been trying to do this
+  Meaning: the first house relates to personal actions and aspirations
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0018, para_0010
+
+
+### second house
+  Type: astrological house
+  Meaning: the moon, in the second house, I feel like I'm not making any money
+  Meaning: the second house relates to material comfort and financial matters
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0010
+
+
+### third house
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: related to siblings, ideas, communication, identity
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0012
+
+
+### square
+  Type: aspect
+  Meaning: The square is associated with friction, tension, and conflict.
+  Meaning: conflict in astrological interpretation
+  Attributes: conflict, friction, tension
+  Source: para_0013
+
+
+### turnover point
+  Type: concept
+  Meaning: this is so important, is that this part, we are 25% through our journey in the aspect spectrum.
+  Meaning: a significant point in the aspect spectrum journey indicating a shift in focused planets.
+  Attributes: 25% through the journey
+  Source: para_0015
+
+
+### 90 degree square
+  Type: concept
+  Meaning: everything's the same except that the sun is lending its services, lending its energy to support whatever the moon needs.
+  Meaning: a configuration where the sun and moon are 90 degrees apart, with a shift in focus.
+  Source: para_0015
+
+
+### trine
+  Type: aspect
+  Meaning: No. When we get to the rine, this is the one that everybody thinks is so easy.
+  Meaning: a harmonious astrological aspect that signifies natural flow and talent between planets.
+  Meaning: supportive instead of detracting
+  Meaning: an astrological aspect that enhances support between celestial bodies
+  Attributes: energies from the sun and moon, 120-degree angle, moon's three degree orb of influence, supportive
+  Allowed values: distortion, positive reception
+  Constraints: must understand the sun's purposes, must be in a stable position
+  Examples: Aries energy naturally contributes to Leo's energy.
+  Source: para_0016, para_0028
+
+
+### forced aspect
+  Type: aspect
+  Meaning: when you break it down, like, oh my god, it feeds it in, but the second planet didn't want it.
+  Meaning: an aspect that involves a struggle between planets.
+  Source: para_0016
+
+
+### Pisces
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0017
+
+
+### fifth house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0017
+
+
+### Scorpio
+  Type: astrological sign
+  Meaning: not stated
+  Source: para_0017
+
+
+### sixth house
+  Type: astrological house
+  Meaning: not stated
+  Source: para_0018
+
+
+### mental health
+  Type: health aspect
+  Meaning: not stated
+  Source: para_0018
+
+
+### physical health
+  Type: health aspect
+  Meaning: not stated
+  Source: para_0018
+
+
+### Queen Cox
+  Type: concept
+  Meaning: Quin co feels like it's off
+  Meaning: one-way information flow
+  Attributes: one-way directionality
+  Allowed values: not stated
+  Constraints: only goes in one direction
+  Source: para_0019
+
+
+### first seventh house axis
+  Type: astrological concept
+  Meaning: not stated
+  Attributes: expressing oneself in their own way supporting others' needs, tending to emotional needs
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0020
+
+
+### partner needs
+  Type: emotional requirement
+  Meaning: not stated
+  Source: para_0021
+
+
+### opposition point
+  Type: astrological aspect
+  Meaning: not stated
+  Source: para_0021
+
+
+### second handoff point
+  Type: astrological event
+  Meaning: not stated
+  Source: para_0021
+
+
+### 180 rule
+  Type: filmmaking principle
+  Meaning: the camera always stays on one side of an imaginary line between two connected people.
+  Meaning: the camera positioning rule that maintains consistent perspective.
+  Attributes: person one, person two
+  Allowed values: right, left
+  Constraints: the camera should not cross the line unless it moves with the actor.
+  Source: para_0022
+
+
+### Sun
+  Type: planet
+  Meaning: not stated
+  Attributes: inherently has Aries traits, associated with ego, action, purpose, father
+  Allowed values: Aries traits
+  Constraints: not stated
+  Source: para_0025
+
+
+### Neptune retrograde
+  Type: planet
+  Meaning: not stated
+  Attributes: ruler of the eighth house, associated with Scorpio traits, in the fifth house
+  Allowed values: Scorpio traits
+  Constraints: not stated
+  Source: para_0025
+
+
+### Opposition
+  Type: aspect
+  Meaning: not stated
+  Attributes: creates a detraction, pulling away from the other planet
+  Source: para_0025
+
+
+### opposition
+  Type: astrological aspect
+  Meaning: the most misunderstood aspects that we have.
+  Attributes: location, separation from the sun, energies
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0026
+
+
+### seventh house
+  Type: astrological house
+  Meaning: not stated
+  Attributes: not stated
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0026
+
+
+### eighth house
+  Type: astrological concept
+  Meaning: gives this feeling of strength underneath the thing you're doing
+  Meaning: associated with collaborative energies and strength
+  Attributes: strength, collaboration
+  Allowed values: positive collaboration, rejection
+  Constraints: rejection makes it difficult to shine
+  Source: para_0028
+
+
+### square aspect
+  Type: astrological aspect
+  Meaning: this square is the sun is just like the square before
+  Meaning: a challenging aspect that indicates tension
+  Source: para_0029
+
+
+### Chiron
+  Type: astrological body
+  Meaning: not stated
+  Examples: Chiron influences, Chiron shrines into the moon, Chiron is in opposition to the sun
+  Source: para_0031
+
+
+### north node
+  Type: astrological point
+  Meaning: that north node trajectory
+  Meaning: north node's trajectory
+  Attributes: in cancer, in the 12th house, conflict, trajectory
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033, para_0032
+
+
+### ascendant
+  Type: astrological point
+  Meaning: the faster moving planet
+  Meaning: the ascendant as a faster moving planet
+  Attributes: faster moving, in Leo
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033, para_0032
+
+
+### cancer
+  Type: zodiac sign
+  Meaning: the stuff from the 12th house, like all of it expressing through cancer
+  Meaning: influence from the 12th house through the zodiac sign Cancer
+  Attributes: expressing through
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033
+
+
+### leo
+  Type: zodiac sign
+  Meaning: cancer to Leo, type energy
+  Meaning: the transition from Cancer to Leo energy
+  Attributes: type energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033
+
+
+### pisces
+  Type: zodiac sign
+  Meaning: Pisces to Aries type energy
+  Meaning: the transition from Pisces to Aries energy
+  Attributes: type energy
+  Allowed values: not stated
+  Constraints: not stated
+  Source: para_0033
+
+
+### 15 degree minor aspect
+  Type: astrology
+  Meaning: not stated
+  Attributes: consciousness level
+  Allowed values: subconscious, inward
+  Constraints: maps to a 30 degree aspect
+  Source: para_0035
+
+
+### 30 degree aspect
+  Type: astrology
+  Meaning: not stated
+  Attributes: consciousness level
+  Allowed values: outward, conscious
+  Constraints: can be minor or major
+  Source: para_0035
+
+
+### quintile
+  Type: aspect
+  Meaning: not stated
+  Attributes: 72 degree
+  Allowed values: not stated
+  Constraints: sits firmly between other major and minor primary aspects between 30 and 15 degrees
+  Source: para_0036
+
+
+### bi quintile
+  Type: aspect
+  Meaning: not stated
+  Attributes: 144 degree
+  Allowed values: not stated
+  Constraints: resolves between the aspects on either side
+  Source: para_0036
+
+
+### Planet A
+  Type: astrological entity
+  Meaning: not stated
+  Attributes: functions as the first planet before 180°
+  Allowed values: any planet that can be part of the aspect spectrum
+  Constraints: must be assessed based on its position relative to Planet B
+  Source: para_0037
+
+
+### Planet B
+  Type: astrological entity
+  Meaning: not stated
+  Attributes: functions as the second planet after the 180° switch
+  Allowed values: any planet that can be part of the aspect spectrum
+  Constraints: must be assessed based on its position relative to Planet A
+  Source: para_0037
+
+
+## DEFINITIONS (23 definitions)
+
+
+  ad junction: a journey between the conjunction and the semis sextile, a subconscious fusion of both with a bit of a misinterpretation and then a resolution.
+    [high] Source: para_0002
+  conjunction point: the starting point of the journey between two planets
+    [high] Source: para_0005
+  point of exactitude: the exact point where two celestial bodies are conjunct, neither is in front of the other.
+    [high] Source: para_0006
+  Conjunction: a point where two planets’ energies are blended and equally supported.
+    [high] Source: para_0007
+  handoff: a point before and after conjunction where two planets switch places.
+    [high] Source: para_0008
+  true aspects: a type of aspect where only factual angular relationships are considered.
+    [high] Source: para_0008
+  semis sextile: not stated
+    [not stated] Source: para_0010
+  square: An astrological aspect associated with friction, tension, and conflict.
+    [high] Source: para_0013
+  true aspect: an aspect where both planets are within their orbs of influence, creating a natural flow.
+    [high] Source: para_0016
+  opposition: the perception that one planet feels it must remove the influence of another to achieve its purpose
+    [high] Source: para_0019
+  conjunction: the start point of the journey in the aspect spectrum.
+    [high] Source: para_0022
+  opposition: the end point of the journey in the aspect spectrum.
+    [high] Source: para_0022
+  eighth house: associated with collaboration and underlying strength
+    [high] Source: para_0028
+  trine: an aspect that brings supportive energies from the sun and moon
+    [high] Source: para_0028
+  moon: a celestial body that influences emotions and needs stability for focus
+    [high] Source: para_0028
+  sun: a celestial body that represents purpose and requires openness to energy reception
+    [high] Source: para_0028
+  natal chart: a map of where the planets were in their journey around the Sun at the exact moment of your birth
+    [high] Source: para_0029
+  emotional security: a feeling of safety and stability in terms of emotional well-being
+    [medium] Source: para_0029
+  separating aspect: when the aspect is moving away from 0 to 180 degrees
+    [high] Source: para_0030
+  applying aspect: when the aspect is moving back from 180 degrees and is within 90 degrees or closer
+    [high] Source: para_0030
+  energetic harmonics: rules that assign levels of consciousness to aspects
+    [high] Source: para_0035
+  quintile: a 72 degree aspect in astrology
+    [medium] Source: para_0036
+  bi quintile: a 144 degree aspect in astrology
+    [medium] Source: para_0036
+
+
+## RULE ENGINE (74 rules)
+
+
+[R001]
+  IF something is at 0 degrees and something is at 28 degrees
+  THEN it can be semisextile
+  Teacher voice: "If you have something at zero degrees and something at 28 degrees, it can be semisextile."
+  [high] Source: para_0000
+
+
+[R002]
+  IF something is in the first house and in the second house
+  THEN it can be sextile or conjunct
+  Teacher voice: "If you have something that is in the first house, in the second house, it can be sextile, it could also be conjunct."
+  [high] Source: para_0000
+
+
+[R003]
+  IF you see an opposition in your chart
+  THEN you understand what it is doing in the chart and how to resolve it
+  Teacher voice: "you look at that you say, ah, this opposition is doing this in the chart, and here's how you resolve it."
+  [high] Source: para_0001
+
+
+[R004]
+  IF planet one is the problem
+  THEN planet two is the solution
+  Teacher voice: "planet one's the problem, planet two is the solution"
+  [high] Source: para_0003
+
+
+[R005]
+  IF planet one thinks they're in the right
+  THEN they actually need to recalibrate for success
+  Teacher voice: "Planet one is the planet they think they're in the right but actually needs to recalibrate for success."
+  Exceptions: not stated
+  [high] Source: para_0004
+
+
+[R006]
+  not stated
+  not stated
+  Teacher voice: "different types of conjunctions that you're gonna see here."
+  Exceptions: not stated
+  [medium] Source: para_0005
+
+
+[R007]
+  If it's 10 degrees, five minutes, five arc seconds for the sun
+  Then it is also 10 degrees, five arc minutes, five arc seconds for the moon.
+  Teacher voice: "If it's, uh, 10 degrees, five minutes, five arc seconds for the sun, then it is also 10 degrees, five arc minutes, five arc seconds for the moon."
+  [high] Source: para_0006
+
+
+[R008]
+  Neither one is in front of the other.
+  They are forced to share the same space.
+  Teacher voice: "Neither one is in front of the other. So the perception, the way that you see this is that the sun wants to shine."
+  [high] Source: para_0006
+
+
+[R009]
+  When I say planet one, planet two
+  Remember planet one thinks it's not the problem, but actually is.
+  Teacher voice: "Now, this part right here, when I say planet one, planet two, remember planet one thinks it's not the problem, but actually is."
+  [high] Source: para_0006
+
+
+[R010]
+  Planet two feels like the problem
+  But it's actually the solution.
+  Teacher voice: "Planet two feels like the problem, but it's actually the solution."
+  [high] Source: para_0006
+
+
+[R011]
+  IF sun and moon in chart are conjunct
+  THEN they must accept each other's presence and resolve as one
+  Teacher voice: "they must accept each other's presence and resolve as one"
+  Exceptions: not stated
+  [high] Source: para_0007
+
+
+[R012]
+  IF the moon is leaving the sun
+  THEN the sun will feel slightly out of sync or misdirected because of the moon.
+  Teacher voice: "the sun is gonna feel slightly out of sync or misdirected because of the moon."
+  Exceptions: not stated
+  [high] Source: para_0008
+
+
+[R013]
+  IF you only focus on the sun without understanding the moon
+  THEN it becomes a problem.
+  Teacher voice: "if you only focus on the sun without understanding the moon, it becomes a problem."
+  Exceptions: not stated
+  [high] Source: para_0008
+
+
+[R014]
+  IF planet one is supported
+  THEN resolve for the purposes of the sun.
+  Teacher voice: "they are for the purposes of the sun, not the purposes of the moon."
+  Exceptions: not stated
+  [high] Source: para_0008
+
+
+[R015]
+  IF you have this in your chart
+  THEN the sun feels stagnated
+  Teacher voice: "if you have this in your chart, this is how this works. This produces a hard stop or a reason why the sun feels stagnated."
+  Exceptions: not stated
+  [high] Source: para_0009
+
+
+[R016]
+  IF the moon's new needs are addressed
+  THEN the sun can shine again
+  Teacher voice: "you need to lead in and support that second planet"
+  Exceptions: not stated
+  [high] Source: para_0010
+
+
+[R017]
+  IF the sun sees the moon
+  THEN the sun does not really know to what degree the moon matters
+  Teacher voice: "the sun sees the moon... but doesn't really know to what degree the moon matters"
+  [high] Source: para_0011
+
+
+[R018]
+  IF you include the moon in your plans
+  THEN it is a partnership aspect
+  Teacher voice: "I need to include that in what I'm doing. It is the difference between I hop in my car and I go... versus my wife is coming with me"
+  [high] Source: para_0011
+
+
+[R019]
+  IF I just try to go do something impulsively and I haven't thought about it
+  THEN it never works out right
+  Teacher voice: "If I just try to go do something impulsively and I haven't thought about it, it never works out right."
+  [high] Source: para_0012
+
+
+[R020]
+  IF the moon's position is variable
+  THEN it is an absolute factor in directing the sun's expression towards something productive
+  Teacher voice: "The moon's position is variable, but is an absolute factor in directing the sun's expression towards something productive."
+  [high] Source: para_0012
+
+
+[R021]
+  IF planet one is in a square interaction with another planet
+  THEN it may cause friction, tension, conflict, and require attention.
+  Teacher voice: "So the square is the one that most people are like, I understand that there's friction. I understand that there is tension, uh, conflict, but I don't know why and I don't know how to resolve it."
+  [high] Source: para_0013
+
+
+[R022]
+  IF the sun is in conflict with the moon
+  THEN the sun may dominate the space of the moon.
+  Teacher voice: "The moon's themes will be usurped or ignored in favor of the sun dominating for the space."
+  [high] Source: para_0013
+
+
+[R023]
+  IF the sun's expression is not managed equally with the moon's needs
+  THEN there will be frustration due to their conflict.
+  Teacher voice: "The reality is that the moon is at a cross point from the sun and they're at an angle that creates conflict when not properly managed equally."
+  [high] Source: para_0013
+
+
+[R024]
+  IF the sun is in conflict with the moon
+  THEN we are balancing out the needs to use it simultaneously
+  Teacher voice: "we’re balancing out the needs to use it simultaneously."
+  [high] Source: para_0014
+
+
+[R025]
+  IF we go to the point of exactitude
+  THEN neither planet's in the lead
+  Teacher voice: "Neither planet's in the lead."
+  [high] Source: para_0014
+
+
+[R026]
+  IF separating beyond 90 degrees
+  THEN it's not for the sun anymore, it is for the moon.
+  Teacher voice: "even here at a 91 degree square, 92 degree square, everything's the same except that the sun is lending its services, lending its energy to support whatever the moon needs."
+  [high] Source: para_0015
+
+
+[R027]
+  IF planet one feeds itself into planet two
+  THEN it is a true aspect.
+  Teacher voice: "in a true aspect, where again, the moon's three degree orb of influence, this feels very normal."
+  [high] Source: para_0016
+
+
+[R028]
+  IF there's something wrong with the heart or the blood
+  THEN it affects the heart.
+  Teacher voice: "if there's something wrong with the heart or so something wrong with the blood, it affects the heart."
+  [high] Source: para_0016
+
+
+[R029]
+  IF the sun is sending energy
+  THEN the moon may receive something it doesn't want.
+  Teacher voice: "the sun can distort or disrupt that flow and the moon can receive something it doesn't want."
+  [high] Source: para_0017
+
+
+[R030]
+  IF the sun's intensity is feeding into Pisces
+  THEN it is supposed to go through release.
+  Teacher voice: "that intensity is supposed to go through release."
+  [high] Source: para_0017
+
+
+[R031]
+  IF sun is at 150 degrees to moon
+  THEN sun and moon may feel like they're at an impasse.
+  Teacher voice: "the sun here at 150 degrees to the moon, the sun and the moon may feel like they're at an impasse."
+  [high] Source: para_0018
+
+
+[R032]
+  IF energy is actively focused on mental health
+  THEN that will make mental health deteriorate.
+  Teacher voice: "if I actively focus all my energy on mental health, then I'm not doing something anymore and it's gonna make my mental health deteriorate."
+  [high] Source: para_0018
+
+
+[R033]
+  IF the sun is there and it's not delivering properly to the moon
+  THEN the moon gets unsettled
+  Teacher voice: "if the sun is there and it's not delivering properly to the moon, the moon gets unsettled"
+  Exceptions: not stated
+  [high] Source: para_0019
+
+
+[R034]
+  IF we are right before the full moon
+  THEN the perception is similar to any opposition
+  Teacher voice: "this is right before the full moon, the perception here is gonna be the same as any opposition"
+  Exceptions: not stated
+  [high] Source: para_0019
+
+
+[R035]
+  IF the sun is leaning into the moon and the moon reacts
+  THEN the moon needs to accept and continue while the sun is doing it
+  Teacher voice: "the moon needs to accept and continue while the sun's doing it"
+  Exceptions: the interaction is not a point of exactitude
+  [high] Source: para_0020
+
+
+[R036]
+  IF you feel like trying to do what you're trying to do and the moon is in opposition
+  THEN you are a problem from the moon's viewpoint
+  Teacher voice: "the moon is trying to be like you're not, you're not, um, you don't feel safe and secure"
+  Exceptions: not stated
+  [high] Source: para_0020
+
+
+[R037]
+  IF the moon continues on its journey after the handoff point
+  THEN the handoff has not happened until a moment after this
+  Teacher voice: "the handoff has not happened until a moment after this where the moon continues on its journey."
+  [high] Source: para_0021
+
+
+[R038]
+  IF person one is on the left and person two is on the right
+  THEN the camera always stays on this side of the imaginary line.
+  Teacher voice: "the camera always stays on this side of it."
+  Exceptions: the camera would ever move if we move with the actor and we see the plane cross in the shot.
+  [high] Source: para_0022
+
+
+[R039]
+  IF we maintain the 180 degree plane
+  THEN it looks perfect and we don't have to worry about the viewer losing interest.
+  Teacher voice: "as long as we maintain that, it looks perfect."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R040]
+  IF the 180 rule is at the conjunction and at the opposition
+  THEN planet one and planet two are going to switch.
+  Teacher voice: "in alchemistic astrology, the 180 rule is the end of the aspect spectrum for the handoff."
+  Exceptions: not stated
+  [high] Source: para_0022
+
+
+[R041]
+  IF sun is planet one from the conjunction to the exact opposition
+  THEN moon becomes planet one after opposition, and sun becomes planet two
+  Teacher voice: "After that, the moon takes the lead and becomes planet one, and the sun becomes planet two."
+  Exceptions: not stated
+  [high] Source: para_0023
+
+
+[R042]
+  IF a planet is in the lead
+  THEN the same aspect presents itself differently due to energy flow
+  Teacher voice: "the same aspect now presents itself differently due to energy flow."
+  Exceptions: not stated
+  [high] Source: para_0023
+
+
+[R043]
+  IF the moon is opposed to the sun
+  THEN the moon should lend its energies to integrate with the sun in oppositional support.
+  Teacher voice: "the reality is the moon should be lending its energies to integrate with the sun, not through togetherness, but in oppositional support."
+  [high] Source: para_0024
+
+
+[R044]
+  IF planet one is supported
+  THEN the moon leads into whatever the sun needs.
+  Teacher voice: "the moon needs to lead into and support whatever the sun needs."
+  [high] Source: para_0024
+
+
+[R045]
+  Sun is in opposition to Neptune
+  Neptune is not working with the Sun
+  Teacher voice: "the sun is in opposition to Neptune and anything that has to do with like, uh, trauma and pain and um, sensitivity and um, you know, even illusion over the son"
+  [high] Source: para_0025
+
+
+[R046]
+  IF the moon needs to be contributing through the seventh house
+  THEN your emotional security in somebody else needs to contribute to the things you're doing.
+  Teacher voice: "the moon needs to be contributing in this case through the seventh house."
+  [high] Source: para_0026
+
+
+[R047]
+  IF the moon is sending its energy in the direction of the sun
+  THEN the sun needs to be aware of the energy and use it to fuel its own scenarios.
+  Teacher voice: "the moon is sending its energy in the direction of the sun...the sun in turn has to be aware of the energy and use it to fuel its own scenarios."
+  Exceptions: not stated
+  [high] Source: para_0027
+
+
+[R048]
+  IF you're ignoring and rejecting the eighth house
+  THEN it makes it very difficult for you to shine
+  Teacher voice: "if you're like, no, I don't want be like, I don't want to collaborate..."
+  [high] Source: para_0028
+
+
+[R049]
+  IF the moon is not in a stable position
+  THEN it cannot direct its focus into the sun
+  Teacher voice: "the moon must be in a stable position to direct its focus..."
+  [high] Source: para_0028
+
+
+[R050]
+  IF the sun is not understanding of the reception from the moon
+  THEN the energies received can create distortion and make you feel less than
+  Teacher voice: "the sun needs to be open to and understanding of the reception of the energy the moon is pushing in"
+  [high] Source: para_0028
+
+
+[R051]
+  IF the energy is rejected
+  THEN it can feel overwhelming
+  Teacher voice: "it feels like overwhelm. It just feels like too much..."
+  [high] Source: para_0028
+
+
+[R052]
+  IF the sun is being challenged by the moon
+  THEN emotional security can overtake your ego
+  Teacher voice: "the moon will overtake it"
+  [high] Source: para_0029
+
+
+[R053]
+  IF you're overly nurturing
+  THEN you might be taking care of too many people
+  Teacher voice: "you can mean that you're overly nurturing again"
+  [high] Source: para_0029
+
+
+[R054]
+  IF you're too concerned with the rules
+  THEN you might not be able to have fun
+  Teacher voice: "you're too concerned with the rules to be able to have fun"
+  [high] Source: para_0029
+
+
+[R055]
+  IF the aspect is beyond 90 degrees
+  THEN it is a separating aspect
+  Teacher voice: "we're separating beyond the 90 degrees"
+  [high] Source: para_0030
+
+
+[R056]
+  IF the aspect is applying
+  THEN the moon's influence takes precedence
+  Teacher voice: "now the focus is on the moon"
+  [high] Source: para_0030
+
+
+[R057]
+  IF the sun is being challenged by the moon
+  THEN the sun cannot operate business as usual
+  Teacher voice: "the sun can't operate business as usual"
+  [high] Source: para_0030
+
+
+[R058]
+  IF moon is in the 11th house in Leo
+  THEN it has a sextile and also an opposition to Chiron.
+  Teacher voice: "she has that sextile and um, she also has an opposition to Chiron."
+  [high] Source: para_0031
+
+
+[R059]
+  IF the moon is applying to the sun 30 degrees
+  THEN the perception is that the sun wants to express itself, but feels a pressure from the moon in the same area.
+  Teacher voice: "it's the moon approaching or applying to the sun, 30 degrees."
+  [high] Source: para_0031
+
+
+[R060]
+  IF moon is approaching the sun
+  THEN the moon needs to understand where it's lending its energy
+  Teacher voice: "the moon needs to understand where it's lending its energy."
+  [medium] Source: para_0032
+
+
+[R061]
+  IF the sun and moon mix without dissonance
+  THEN the energy of the moon supports the energy of the sun
+  Teacher voice: "it wants to be able to utilize the moon's influence and mix without dissonance."
+  [medium] Source: para_0032
+
+
+[R062]
+  if planet one and planet two work like that
+  then they still have meaning
+  Teacher voice: "they still work like that"
+  Exceptions: not stated
+  [medium] Source: para_0033
+
+
+[R063]
+  IF there's a semisextile between the north node and ascendant
+  THEN it influences expressions from Cancer to Leo energy
+  Teacher voice: "it's like there's the same area component, but it's coming from a 30 degree aspect here"
+  Exceptions: not stated
+  [medium] Source: para_0033
+
+
+[R064]
+  IF the moon comes first and the sun comes second
+  THEN it's for the purposes of the moon
+  Teacher voice: "it's actually for the purposes of the moon"
+  Exceptions: not stated
+  [high] Source: para_0034
+
+
+[R065]
+  IF you are coming up to a new moon
+  THEN focus on the moon's vibes, safety, and security
+  Teacher voice: "that's the focus until the new moon"
+  Exceptions: not stated
+  [high] Source: para_0034
+
+
+[R066]
+  IF you pass the new moon
+  THEN the focus shifts to purpose
+  Teacher voice: "it's really for the sun again, once we pass that"
+  Exceptions: not stated
+  [high] Source: para_0034
+
+
+[R067]
+  IF the aspect is a 30 degree aspect
+  THEN it is a conscious outward aspect
+  Teacher voice: "A 30 degree aspect is a conscious outward aspect."
+  [high] Source: para_0035
+
+
+[R068]
+  IF the aspect is a 15 degree aspect
+  THEN it is an inward subconscious aspect
+  Teacher voice: "A 15 degree is an inward subconscious."
+  [high] Source: para_0035
+
+
+[R069]
+  IF the moon passes the sun
+  THEN the moon becomes planet two and the sun becomes planet one.
+  Teacher voice: "As soon as the moon passes the sun again, that's the handoff. The moon becomes planet one again, I'm sorry, planet two again. Uh, the sun becomes planet one."
+  [high] Source: para_0035
+
+
+[R070]
+  IF it's near the conjunction
+  THEN it's going to favor a certain planet
+  Teacher voice: "if it's near the conjunction, it's going to favor a certain planet."
+  [high] Source: para_0036
+
+
+[R071]
+  IF it's near the opposition, beyond the turnover point
+  THEN it's gonna favor the other planet
+  Teacher voice: "if it's near the opposition, beyond the turnover point, it's gonna favor the other planet."
+  [high] Source: para_0036
+
+
+[R072]
+  IF you have two planets in a quintile at 72 degrees
+  THEN the second planet still needs resolution, favoring the purposes of the first planet
+  Teacher voice: "when you have two planets and a quintile at 72 degrees, the second planet still needs that resolution. It's gonna favor the purposes of the first planet."
+  [high] Source: para_0036
+
+
+[R073]
+  IF Planet A is in the 180° position
+  THEN Planet A becomes Planet B and Planet B becomes Planet A
+  Teacher voice: "at 180°, Planet A becomes Planet B and Planet B becomes Planet A"
+  Exceptions: not stated
+  [high] Source: para_0037
+
+
+[R074]
+  IF checking the natal chart
+  THEN observe which planet is A vs B based on their positions
+  Teacher voice: "you’re simply seeing which planet is A vs B. Pick either planet and see if it’s on the 'before 180°' or 'after 180°' side of the circle compared to the other planet—that will tell you which planet is first vs which is second"
+  Exceptions: not stated
+  [high] Source: para_0037
+
+
+## PROCEDURES (1 procedures)
+
+
+### Understanding aspects
+  Source: para_0030
+
+
+## CALCULATION PIPELINE
+  Step 1: Determine the degree position of celestial bodies
+    Notes: Identify degree positions relative to each other on the astrological chart
+  Step 2: Calculate aspect type based on degree
+    Notes: Use geometric relationships to determine the type of aspect such as conjunction, sextile, square, etc.
+  Step 3: Assess influence within orb
+    Notes: Determine if celestial bodies are within each other's orb of influence, which affects the strength of the aspect
+
+
+  Additional calculation steps from transcript:
+  Step 0: calculating aspects based on degree relationships
+    Formula: not stated
+    Teacher voice: "everything comes down to the math, the trigonometry, the geometry."
+  Step 0: Determining the separation degree of planet movements relative to their leadership during conjunctions.
+    Formula: null
+    Teacher voice: "it could be a couple arc, minutes could be a couple degrees."
+  Step 0: Identifying the angle of a square relationship in astrology.
+    Formula: not stated
+    Teacher voice: "we're talking about a square and there are three versions when we're applying towards 90 degrees. So 88 degrees, 89 degrees, 89 degrees, 30 arc minutes."
+  Step 0: Identifying the point of exactitude where both planets are equally supported.
+    Formula: not stated
+    Teacher voice: "the point of exactitude means 10 degrees, 10 degrees we're right there."
+  Step 0: Assessing degrees before full moon
+    Formula: not stated
+    Teacher voice: "let's say 10 degrees, seven degrees, this is right before the full moon"
+  Step 0: Determine the positions of Planet A and Planet B in relation to the 180° mark.
+    Formula: null
+    Teacher voice: "Pick either planet and see if it’s on the 'before 180°' or 'after 180°' side of the circle compared to the other planet"
+
+
+## DATA MODEL
+JSON schema for the knowledge base
+
+
+Entities schema:
+{
+  "Entity": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "entity_type": {
+        "type": "string"
+      },
+      "attributes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "allowed_values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "constraints": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "examples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "citation_segments": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+
+
+Rules schema:
+{
+  "Rule": {
+    "type": "object",
+    "properties": {
+      "rule_id": {
+        "type": "string"
+      },
+      "condition": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      },
+      "teacher_voice_phrasing": {
+        "type": "string"
+      },
+      "exceptions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "citation_segment": {
+        "type": "string"
+      }
+    }
+  }
+}
+
+
+Meanings schema:
+{
+  "Meaning": {
+    "type": "object",
+    "properties": {
+      "term": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "confidence": {
+        "type": "string"
+      },
+      "citation": {
+        "type": "object"
+      }
+    }
+  }
+}
+
+
+## PSEUDOCODE
+Parse chart data
+For each celestial body, determine degree position
+Calculate aspect types from degrees
+Assess influence zones
+Output interpretation and suggestions
+
+
+## VOICE STYLE RULES
+Tone: informative, guiding
+Cadence: steady and explanatory, calm interpretation
+Signature phrases: Let's explore, Consider it like this
+Do:
+  - Use clear definitions
+  - Emphasize mathematical foundations
+Avoid:
+  - Do not assume missing data
+  - Avoid unexplained jargon
+
+
+## MEANING RENDERING RULES
+- Use precise and simple language to convey astrological meanings
+
+
+ANTI-HALLUCINATION: If the transcript does not explicitly define something, output 'not stated' and add to unresolved list.
+
+
+## TEACHER PHRASING SNIPPETS (79 snippets)
+
+
+  [definition] (unknown): "the major aspects within Alchemistic astrology."
+    Source: para_0000
+  [definition] (unknown): "30 divisions within the 360 degree wheel is important."
+    Source: para_0000
+  [warning] (unknown): "the math and the geometry are extremely important."
+    Source: para_0000
+  [warning] (unknown): "I think it's the most misunderstood aspect."
+    Source: para_0001
+  [motivation] (unknown): "There's a lot that they get, but there's a lot missing in the trine."
+    Source: para_0001
+  [definition] (unknown): "there are three versions of an opposition."
+    Source: para_0001
+  [definition] (unknown): "there are three versions of a conjunction."
+    Source: para_0001
+  [definition] (unknown): "there are three versions of a square."
+    Source: para_0001
+  [definition] (unknown): "literally conjunction remove the CON and put a d"
+    Source: para_0002
+  [definition] (unknown): "It means next to adjacent would be another word that uses that ad junction."
+    Source: para_0002
+  [example] (unknown): "the earth going around the sun, the sun would rise in the west and set in the east if it did not rotate"
+    Source: para_0003
+  [definition] (unknown): "there's also a perception based on the direction of the spin, which is counterclockwise of why the sun rises in the east and the west"
+    Source: para_0003
+  [warning] (unknown): "realizing that the way it's naturally gonna play out is often gonna create an issue"
+    Source: para_0004
+  [motivation] (unknown): "we don't want the friction, we don't want the problems, we want a solution"
+    Source: para_0004
+  [meaning] (unknown): "understanding this is the problem, will aid you in identifying what needs to be adjusted towards opportunity"
+    Source: para_0004
+  [warning] (unknown): "we're only gonna be doing the seven major aspects, not the minor aspects."
+    Source: para_0005
+  [example] (unknown): "these two planets are just, they're there and they work together."
+    Source: para_0006
+  [meaning] (unknown): "both of them are equally supported."
+    Source: para_0006
+  [warning] (unknown): "solar energies cannot operate without lunar energies."
+    Source: para_0006
+  [example] (unknown): "sometimes they just wanna do what they want and they're like, I don't know why I can't do this."
+    Source: para_0007
+  [warning] (unknown): "the moon is gonna feel like an obstacle at this point, even in a conjunction."
+    Source: para_0008
+  [definition] (unknown): "the blind spot is the lack of the understanding of the moon"
+    Source: para_0010
+  [example] (unknown): "this can also be like, I'm trying to do what I want to do, but I don't feel comfortable."
+    Source: para_0010
+  [meaning] (unknown): "the sun sees the moon... but doesn't really know to what degree the moon matters"
+    Source: para_0011
+  [example] (unknown): "I need to include that in what I'm doing. It is the difference between I hop in my car and I go... versus my wife is coming with me"
+    Source: para_0011
+  [warning] (unknown): "I can't do something unless I've actually thought about how I feel about it."
+    Source: para_0012
+  [example] (unknown): "once you understand what those are, you say, okay, there's gonna be an element of this in the third house."
+    Source: para_0012
+  [warning] (unknown): "point of exactitude is very rare"
+    Source: para_0014
+  [meaning] (unknown): "the closer you are to exactitude, the more equal it has to be."
+    Source: para_0015
+  [definition] (unknown): "the sun remains planet one and the moon remains planet two."
+    Source: para_0015
+  [warning] (unknown): "this is the one that everybody thinks is so easy."
+    Source: para_0016
+  [warning] (unknown): "the reality of a trine is much deeper."
+    Source: para_0016
+  [warning] (unknown): "if you're already crying and you're depressed and you're haziness, then any sort of vital intensity that feeds in is just gonna make you feel even worse."
+    Source: para_0017
+  [example] (unknown): "nobody wanted to figure this one out and uh, all they really know about is these two don't really go together and there's some sort of balancing you're not supposed to balance."
+    Source: para_0017
+  [warning] (unknown): "you don't try to balance these energies."
+    Source: para_0018
+  [warning] (unknown): "the worst thing you can do with the Quin cos the sun just has to aim its influence."
+    Source: para_0018
+  [definition] (unknown): "that's where a Queen Cox feels like it's off"
+    Source: para_0019
+  [definition] (unknown): "perceives that the sun feels like the moon is the enemy"
+    Source: para_0019
+  [meaning] (unknown): "it's about balance and fairness, not compromise"
+    Source: para_0020
+  [motivation] (unknown): "you have to say, no, this is what I want to do and I will tend to your needs, but I'm not gonna give up who I am or what I do."
+    Source: para_0021
+  [motivation] (unknown): "A balance needs to be struck not to meet in the middle, but to offer the strengths of each energy is kind of what I was just explaining."
+    Source: para_0021
+  [warning] (unknown): "this is extremely important. Again, this is the handoff point."
+    Source: para_0021
+  [rule] (unknown): "the only time the camera would ever move is if we move with the actor."
+    Source: para_0022
+  [definition] (unknown): "we keep the illusion going."
+    Source: para_0022
+  [warning] (unknown): "careful attention to planetary vantage is crucial."
+    Source: para_0023
+  [meaning] (unknown): "it's not aligned with planet two, which is the solution."
+    Source: para_0023
+  [motivation] (unknown): "the moon is taking the lead."
+    Source: para_0024
+  [warning] (unknown): "ignore that."
+    Source: para_0024
+  [definition] (unknown): "I forgot to fix this, but uh, planet one is going to be the moon, planet two is going to be the sun."
+    Source: para_0024
+  [definition] (unknown): "the sun feels an uneasy, unwanted force from the moon."
+    Source: para_0024
+  [warning] (unknown): "the natural instinct is to repel it."
+    Source: para_0024
+  [example] (unknown): "my threshold for pain, uh, initially when it comes to the physical body is kind of low"
+    Source: para_0025
+  [warning] (unknown): "you have to honor where they are."
+    Source: para_0026
+  [motivation] (unknown): "do I trust my intuition?"
+    Source: para_0026
+  [definition] (unknown): "Connecting to other people allows you to show that you can dance, you can move, you can run, but you're still doing that yourself."
+    Source: para_0027
+  [warning] (unknown): "the moon's energy doesn't quite gel with the sun. So it tries to reject it and it makes the sun feel very uncomfortable, like it can't do what it wants to do."
+    Source: para_0027
+  [warning] (unknown): "it makes it very difficult for you shine"
+    Source: para_0028
+  [definition] (unknown): "the moon must be in a stable position to direct its focus into the sun"
+    Source: para_0028
+  [definition] (unknown): "the sun needs to be open to and understanding of the reception of the energy the moon is pushing in"
+    Source: para_0028
+  [warning] (unknown): "it feels like overwhelm. It just feels like too much"
+    Source: para_0028
+  [example] (unknown): "the mother is very overbearing to the father"
+    Source: para_0029
+  [motivation] (unknown): "you need to balance both of those"
+    Source: para_0029
+  [definition] (unknown): "the moon wants to overtake the sun"
+    Source: para_0030
+  [warning] (unknown): "so I might rephrase that as well just so you guys understand"
+    Source: para_0030
+  [note] (unknown): "we always work together. but whatever I do always has to do with what the mother sets in motion."
+    Source: para_0031
+  [motivation] (unknown): "that's how you resolve this is understanding what the moon is offering."
+    Source: para_0031
+  [meaning] (unknown): "it doesn't feel understood or supported."
+    Source: para_0032
+  [meaning] (unknown): "often it feels like the moon is dismissible."
+    Source: para_0032
+  [meaning] (unknown): "well, you know, you are the problem."
+    Source: para_0032
+  [meaning] (unknown): "the reality is that the moon is approaching the sun to close out the cycle."
+    Source: para_0032
+  [example] (unknown): "the sun wants to express itself, but feels a pressure from the moon in the same area."
+    Source: para_0033
+  [definition] (unknown): "the moon doesn't understand the sun"
+    Source: para_0034
+  [example] (unknown): "the moon needs to understand where it's lending its energy"
+    Source: para_0034
+  [example] (unknown): "it's actually the moon that feels the vibes, the safety, the security"
+    Source: para_0034
+  [warning] (unknown): "That's not enough. There's way more going on in your chart than just a conjunction."
+    Source: para_0035
+  [definition] (unknown): "All these are different ways that this plays out."
+    Source: para_0035
+  [definition] (unknown): "The rules of energetic harmonics come into play to assign levels of consciousness to each aspect."
+    Source: para_0035
+  [motivation] (unknown): "this is where I'm gonna close out this part of it."
+    Source: para_0037
+  [motivation] (unknown): "thank you so much for being here."
+    Source: para_0037
+
+
+## EDGE CASES (7 cases)
+
+
+- Scenario: Point of exactitude is rare
+  Handling: Note that it occurs in certain places such as for an opposition.
+- Scenario: if the moon is already crying and depressed
+  Handling: then any sort of vital intensity that feeds in will make the moon feel even worse.
+- Scenario: Point of exactitude is rare
+  Handling: Note that it occurs in certain places such as for an opposition.
+- Scenario: if the moon is already crying and depressed
+  Handling: then any sort of vital intensity that feeds in will make the moon feel even worse.
+- Scenario: planetary position not at exact opposition
+  Handling: perception remains similar to opposition despite the distance
+- Scenario: When the energies received create distortion and make you feel less than
+  Handling: not stated
+- Scenario: moon influencing the sun
+  Handling: understand that this can feel like a forced integration
+
+
+## TEST CASES (10 test cases)
+
+
+[TC001] Test if the system identifies semisextile at degrees 0 and 28
+  Input: {"degree1": 0, "degree2": 28}
+  Expected (teacher voice): If you have something at zero degrees and something at 28 degrees, it can be semisextile.
+  Rules: R001
+  Entities: geometrical aspect relationships
+
+
+[TC002] Test semisextile detection with degrees not 0 and 28
+  Input: {"degree1": 5, "degree2": 29}
+  Expected (teacher voice): The criteria for semisextile are not met with these degrees.
+  Rules: R001
+  Entities: geometrical aspect relationships
+  [EDGE CASE]
+
+
+[TC003] Test detection of sextile or conjunct between first and second house
+  Input: {"house1": "first", "house2": "second"}
+  Expected (teacher voice): If you have something that is in the first house, in the second house, it can be sextile, it could also be conjunct.
+  Rules: R002
+  Entities: orb of influence
+
+
+[TC004] Test sextile or conjunct without specific house information
+  Input: {"house1": "", "house2": ""}
+  Expected (teacher voice): House information is incomplete. Cannot determine if aspect is sextile or conjunct.
+  Rules: R002
+  Entities: orb of influence
+  [EDGE CASE]
+
+
+[TC005] Test opposition understanding in the chart
+  Input: {"aspect": "opposition"}
+  Expected (teacher voice): You look at that you say, ah, this opposition is doing this in the chart, and here's how you resolve it.
+  Rules: R003
+
+
+[TC006] Test opposition response with missing opposition data
+  Input: {"aspect": ""}
+  Expected (teacher voice): Aspect information is missing. Unable to determine chart impact or resolution.
+  Rules: R003
+  [EDGE CASE]
+
+
+[TC007] Test geometrical aspect relationships with 0 and 28 degrees
+  Input: {"degree1": 0, "degree2": 28}
+  Expected (teacher voice): If you have something at zero degrees and something at 28 degrees, it can be semisextile.
+  Rules: R001
+  Entities: geometrical aspect relationships
+
+
+[TC008] Test handling an unknown aspect
+  Input: {"aspect": "quincunx"}
+  Expected (teacher voice): Quincunx is not currently defined in the system. Ensure correct aspect classification.
+  [EDGE CASE]
+
+
+[TC009] Test coverage of a major aspect not typically analyzed, e.g., inconjunct
+  Input: {"aspect": "inconjunct"}
+  Expected (teacher voice): Inconjunct aspect may not be typically covered, verify if it's significant in your system.
+  Entities: major aspects
+  [EDGE CASE]
+
+
+[TC010] Test full cycle of detecting a major aspect from 360-degree division
+  Input: {"degrees": [30, 60, 90]}
+  Expected (teacher voice): Each 30-degree segment within the 360-degree wheel may represent a major aspect.
+  Entities: 30 degree divisions
+
+
+## UNRESOLVED (2 items)
+
+
+- not defined specific attributes of full moon
+  Needed: attributes regarding the full moon and its influence
+- Clarification on the resolution of energies after the 180° switch
+  Needed: more specific instructions on how to read natal charts in relation to shifts in the aspect spectrum
+
+
+================================================================================
+END OF BUILDER PROMPT
+================================================================================

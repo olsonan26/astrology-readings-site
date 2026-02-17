@@ -1,0 +1,2342 @@
+﻿INTELLIGENT ASTROLOGY READING SYSTEM
+Autonomous Profile Report Generator with Memory-Optimized Architecture
+COMPLETE TECHNICAL SPECIFICATION v2.0
+________________
+
+
+EXECUTIVE SUMMARY
+Build an advanced, autonomous astrology interpretation system that learns exclusively from your uploaded course transcripts and generates comprehensive profile reports through intelligent conversation. The system uses memory-optimized architecture (97% token reduction) to provide fast, accurate, cost-effective readings while never relying on generic pop astrology—only your proprietary interpretive methodology.
+Key Capabilities:
+* 🎯 Interactive Question Discovery: Asks users what they want to know, then autonomously determines what to analyze
+* 🧠 Exclusive Knowledge Source: Uses ONLY uploaded transcript knowledge—zero pop astrology contamination
+* ⚡ Token-Optimized Memory: 4-layer architecture reduces costs by 97% and speeds up responses by 85%
+* 📊 Autonomous Chart Analysis: Intelligently decides which chart factors are relevant to answer user questions
+* 📄 Comprehensive Profile Reports: Generates detailed, personalized astrological profiles
+* 💾 Session Persistence: Remembers context across conversations for deeper insights
+* 🔒 100% Local Processing: No API dependencies, complete privacy
+________________
+
+
+CORE OPERATING PHILOSOPHY
+THE GOLDEN RULES
+Rule #1: Transcript Knowledge is ABSOLUTE AUTHORITY
+✅ ALWAYS: Query uploaded transcripts before any interpretation
+✅ ALWAYS: Use exact methodologies taught in course materials
+✅ ALWAYS: Apply terminology and phrasing from transcripts
+❌ NEVER: Use generic astrology books, websites, or pop astrology
+❌ NEVER: Make assumptions not grounded in transcript knowledge
+❌ NEVER: Default to "common astrological wisdom"
+
+
+Why This Matters:
+* Generic astrology ≠ Your proprietary methodology
+* Pop astrology is often oversimplified or incorrect
+* Your transcripts contain advanced, nuanced interpretations
+* Consistency with your teaching style is critical
+* This is YOUR astrological system, not anyone else’s
+Rule #2: Memory-First, Token-Optimized Architecture
+❌ DON'T: Load all transcripts (1.8M words) into every reading
+✅ DO: Retrieve only relevant passages (3-8K words) per reading
+
+
+❌ DON'T: Regenerate context from scratch each time
+✅ DO: Use session persistence and context caching
+
+
+❌ DON'T: Use expensive models for routine calculations
+✅ DO: Smart model routing (local for calculations, API for interpretation)
+
+
+Target Performance:
+• Input tokens per reading: < 8,000 tokens
+• Cost per reading: < $0.05
+• Response time: < 10 seconds
+• Monthly cost (50 readings): < $2.50
+
+
+Rule #3: Autonomous Intelligence
+The system should THINK like an expert astrologer:
+
+
+User asks: "Why can't I find the right relationship?"
+
+
+System autonomously decides to examine:
+✓ Venus placement (love style)
+✓ 7th house conditions (partnership patterns)
+✓ Mars placement (pursuit energy)
+✓ Chiron (relationship wounds)
+✓ Black Moon Lilith (shadow dynamics)
+✓ Saturn aspects (fears, blocks)
+✓ Current transits to relationship factors
+✓ Delegates and house rulers for 5th/7th/8th houses
+✓ Aspect spectrum for relationship planet dynamics
+
+
+The user doesn't need to tell the system "check Venus and 7th house"—
+the system KNOWS what's relevant.
+
+
+________________
+
+
+SYSTEM ARCHITECTURE OVERVIEW
+┌─────────────────────────────────────────────────────────────────────┐
+│                    USER INTERACTION LAYER                           │
+│  • Interactive question discovery                                   │
+│  • Profile report generation                                        │
+│  • Conversational follow-up                                         │
+└────────────────────┬────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│                  AUTONOMOUS ANALYSIS ENGINE                          │
+│  • Question interpretation                                          │
+│  • Chart factor selection (what to examine)                         │
+│  • Methodological routing (which techniques to apply)               │
+└────────────────────┬────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│              MEMORY-OPTIMIZED KNOWLEDGE RETRIEVAL                    │
+│  Layer 1: Cold Storage (full transcripts, never loaded entirely)   │
+│  Layer 2: Warm Storage (semantic index, vector search)             │
+│  Layer 3: Hot Storage (session context, recently used knowledge)   │
+│  Layer 4: Active Context (minimal context sent to LLM)             │
+└────────────────────┬────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│                    CALCULATION ENGINE                                │
+│  • Natal chart computation (Swiss Ephemeris)                        │
+│  • Transit calculations                                             │
+│  • Aspect analysis                                                  │
+│  • House systems                                                    │
+└────────────────────┬────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│                 INTERPRETATION GENERATION                            │
+│  • Layered methodology application                                  │
+│  • Transcript-grounded language generation                          │
+│  • Profile report compilation                                       │
+└────────────────────┬────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│                      OUTPUT LAYER                                   │
+│  • Formatted profile reports                                        │
+│  • Interactive chat responses                                       │
+│  • Visualization (chart wheels, aspect grids)                       │
+│  • Export options (PDF, text, audio)                                │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+________________
+
+
+MEMORY-OPTIMIZED ARCHITECTURE (97% TOKEN REDUCTION)
+The Problem We’re Solving
+INEFFICIENT APPROACH (What NOT to do):
+User: "Tell me about my career path"
+System: [Loads ALL 24 transcript files = 1,847,000 words = 2.3M tokens]
+System: [Sends entire corpus to LLM]
+Cost: $6.90 per reading
+Speed: 60+ seconds
+Result: Token limits exceeded, crashes, or extreme cost
+
+
+OPTIMIZED APPROACH (What we’re building):
+User: "Tell me about my career path"
+System: [Queries semantic index for career-relevant passages]
+System: [Retrieves 15-20 passages = 3,500 words = 4,375 tokens]
+System: [Sends only relevant context to LLM]
+Cost: $0.03 per reading
+Speed: 8 seconds
+Result: Fast, accurate, affordable
+
+
+Savings: 99.5% cost reduction, 87.5% speed improvement
+________________
+
+
+4-LAYER MEMORY SYSTEM
+LAYER 1: COLD STORAGE (Full Transcript Archive)
+What it contains:
+* All uploaded transcript files (PDF, DOCX, TXT)
+* Complete course recordings, lectures, notes
+* Historical versions (if transcripts are updated)
+Storage location:
+* Local filesystem: /data/transcripts/
+* Organized by topic/course name
+Access pattern:
+* ⚠️ NEVER loaded entirely into memory
+* ⚠️ NEVER sent to LLM in full
+* ✅ Only accessed during initial indexing and re-indexing
+Token cost: $0 (never sent to API)
+Implementation:
+class TranscriptArchive:
+    def __init__(self, base_path="/data/transcripts"):
+        self.base_path = base_path
+        self.catalog = self.build_catalog()
+    
+    def build_catalog(self):
+        """Build lightweight catalog without loading files"""
+        catalog = {}
+        for file in os.listdir(self.base_path):
+            catalog[file] = {
+                "path": os.path.join(self.base_path, file),
+                "size": os.path.getsize(os.path.join(self.base_path, file)),
+                "last_modified": os.path.getmtime(os.path.join(self.base_path, file)),
+                "indexed": False  # Mark as indexed after processing
+            }
+        return catalog
+    
+    def get_file_for_indexing(self, filename):
+        """Only method that actually loads full file"""
+        return extract_text(self.catalog[filename]["path"])
+
+
+________________
+
+
+LAYER 2: WARM STORAGE (Semantic Index)
+What it contains:
+* Vector embeddings of all transcript passages
+* Chunked into 300-500 word segments for optimal retrieval
+* Metadata: source file, topic tags, concept categories
+Storage location:
+* Vector database: ChromaDB or FAISS
+* Local persistence: /data/vector_store/
+Access pattern:
+* ✅ Every query (semantic search)
+* ✅ Fast retrieval (milliseconds)
+* ✅ Returns passage IDs and similarity scores
+Token cost: $0 (embeddings are vectors, not text)
+Implementation:
+class SemanticIndex:
+    def __init__(self):
+        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')  # Local
+        self.vector_db = chromadb.PersistentClient(path="/data/vector_store")
+        self.collection = self.vector_db.get_or_create_collection(
+            name="astrology_transcripts",
+            metadata={"description": "Proprietary astrology course transcripts"}
+        )
+    
+    def index_transcripts(self, transcript_files):
+        """One-time indexing when transcripts are uploaded"""
+        all_chunks = []
+        
+        for file in transcript_files:
+            text = extract_text(file)
+            
+            # Intelligent chunking (preserve semantic coherence)
+            chunks = self.chunk_by_topic(text, chunk_size=400, overlap=50)
+            
+            for i, chunk in enumerate(chunks):
+                all_chunks.append({
+                    "id": f"{file}_{i}",
+                    "text": chunk,
+                    "metadata": {
+                        "source": file,
+                        "chunk_index": i,
+                        "topic": self.detect_topic(chunk),  # e.g., "Venus interpretation"
+                        "concepts": self.extract_concepts(chunk)  # e.g., ["love", "relationships"]
+                    }
+                })
+        
+        # Generate embeddings (local, no API cost)
+        texts = [c["text"] for c in all_chunks]
+        embeddings = self.embedding_model.encode(texts, show_progress_bar=True)
+        
+        # Store in vector DB
+        self.collection.add(
+            embeddings=embeddings.tolist(),
+            documents=texts,
+            metadatas=[c["metadata"] for c in all_chunks],
+            ids=[c["id"] for c in all_chunks]
+        )
+        
+        print(f"✅ Indexed {len(all_chunks)} chunks from {len(transcript_files)} files")
+    
+    def semantic_search(self, query, top_k=20, min_similarity=0.70):
+        """Retrieve most relevant passages for a query"""
+        # Generate query embedding (local, no API cost)
+        query_embedding = self.embedding_model.encode(query)
+        
+        # Search vector DB
+        results = self.collection.query(
+            query_embeddings=[query_embedding.tolist()],
+            n_results=top_k,
+            where=None  # Can add metadata filters if needed
+        )
+        
+        # Filter by similarity threshold
+        passages = []
+        for i, doc in enumerate(results['documents'][0]):
+            similarity = results['distances'][0][i]
+            if similarity >= min_similarity:
+                passages.append({
+                    "text": doc,
+                    "metadata": results['metadatas'][0][i],
+                    "similarity": similarity
+                })
+        
+        return passages
+    
+    def chunk_by_topic(self, text, chunk_size=400, overlap=50):
+        """Smart chunking that preserves semantic coherence"""
+        # Split by paragraphs first
+        paragraphs = text.split('\n\n')
+        
+        chunks = []
+        current_chunk = []
+        current_length = 0
+        
+        for para in paragraphs:
+            words = para.split()
+            para_length = len(words)
+            
+            if current_length + para_length > chunk_size and current_chunk:
+                # Save current chunk
+                chunks.append(' '.join(current_chunk))
+                # Start new chunk with overlap
+                overlap_words = current_chunk[-overlap:] if len(current_chunk) > overlap else current_chunk
+                current_chunk = overlap_words + words
+                current_length = len(current_chunk)
+            else:
+                current_chunk.extend(words)
+                current_length += para_length
+        
+        if current_chunk:
+            chunks.append(' '.join(current_chunk))
+        
+        return chunks
+    
+    def detect_topic(self, chunk):
+        """Detect main topic of chunk for better categorization"""
+        # Simple keyword-based detection (can be enhanced with ML)
+        topic_keywords = {
+            "venus": ["venus", "love", "attraction", "relationships", "beauty"],
+            "mars": ["mars", "action", "anger", "desire", "pursuit"],
+            "saturn": ["saturn", "boundaries", "discipline", "fear", "responsibility"],
+            "transits": ["transit", "transiting", "current", "timing"],
+            "houses": ["house", "1st house", "7th house", "cusp"],
+            "aspects": ["aspect", "conjunction", "square", "trine", "opposition"],
+            "chiron": ["chiron", "wound", "healing"],
+            "lilith": ["lilith", "shadow", "primal"],
+            # Add more topic categories
+        }
+        
+        chunk_lower = chunk.lower()
+        detected_topics = []
+        
+        for topic, keywords in topic_keywords.items():
+            if any(kw in chunk_lower for kw in keywords):
+                detected_topics.append(topic)
+        
+        return detected_topics[0] if detected_topics else "general"
+
+
+________________
+
+
+LAYER 3: HOT STORAGE (Session Context)
+What it contains:
+* Recently retrieved knowledge for active session
+* Conversation history (last 5-10 messages)
+* User’s chart data (cached after first calculation)
+* Previously examined chart factors
+Storage location:
+* In-memory cache (RAM) for active sessions
+* Redis or file-based cache for persistence
+Access pattern:
+* ✅ Updated with each query
+* ✅ Prevents re-retrieving same knowledge
+* ✅ Trimmed automatically to stay under token budget
+Token cost: Minimal (only what’s actively being used)
+Implementation:
+class SessionContext:
+    def __init__(self, session_id, max_tokens=8000):
+        self.session_id = session_id
+        self.max_tokens = max_tokens
+        
+        # Core session data
+        self.client_info = {}  # Name, birth data
+        self.natal_chart = None  # Cached chart calculation
+        
+        # Memory components
+        self.retrieved_passages = []  # Knowledge already pulled
+        self.examined_factors = []  # Chart factors already analyzed
+        self.conversation_history = []  # User questions + responses
+        
+        # Metadata
+        self.created_at = datetime.now()
+        self.last_accessed = datetime.now()
+        self.total_queries = 0
+    
+    def add_retrieved_knowledge(self, passages):
+        """Add new knowledge, avoid duplicates"""
+        for passage in passages:
+            if passage['text'] not in [p['text'] for p in self.retrieved_passages]:
+                self.retrieved_passages.append(passage)
+        
+        # Trim if over token budget
+        self.trim_to_budget()
+    
+    def add_examined_factor(self, factor_name, interpretation):
+        """Record what's been analyzed"""
+        self.examined_factors.append({
+            "factor": factor_name,
+            "interpretation": interpretation,
+            "timestamp": datetime.now()
+        })
+    
+    def add_to_conversation(self, role, content):
+        """Track conversation history"""
+        self.conversation_history.append({
+            "role": role,  # "user" or "assistant"
+            "content": content,
+            "timestamp": datetime.now()
+        })
+        
+        # Keep only last 10 messages (5 exchanges)
+        if len(self.conversation_history) > 10:
+            self.conversation_history = self.conversation_history[-10:]
+    
+    def estimate_tokens(self):
+        """Estimate total tokens in context"""
+        total = 0
+        
+        # Retrieved passages
+        for passage in self.retrieved_passages:
+            total += len(passage['text'].split()) * 1.3  # ~1.3 tokens per word
+        
+        # Conversation history
+        for msg in self.conversation_history:
+            total += len(msg['content'].split()) * 1.3
+        
+        # Examined factors
+        for factor in self.examined_factors:
+            total += len(factor['interpretation'].split()) * 1.3
+        
+        return int(total)
+    
+    def trim_to_budget(self):
+        """Keep context under token limit"""
+        while self.estimate_tokens() > self.max_tokens:
+            # Remove oldest, least relevant passages
+            if self.retrieved_passages:
+                # Keep passages with highest similarity scores
+                self.retrieved_passages.sort(key=lambda x: x['similarity'], reverse=True)
+                self.retrieved_passages = self.retrieved_passages[:len(self.retrieved_passages)-1]
+            else:
+                break
+    
+    def get_relevant_context_for_query(self, query):
+        """Extract only the context relevant to current query"""
+        relevant = {
+            "client_info": self.client_info,
+            "natal_chart_summary": self.get_chart_summary(),
+            "relevant_passages": self.filter_passages_by_relevance(query),
+            "recent_conversation": self.conversation_history[-6:],  # Last 3 exchanges
+            "related_examined_factors": self.get_related_factors(query)
+        }
+        return relevant
+    
+    def filter_passages_by_relevance(self, query):
+        """Filter cached passages by relevance to current query"""
+        # Simple keyword matching (can be enhanced with embeddings)
+        query_lower = query.lower()
+        query_keywords = set(query_lower.split())
+        
+        scored_passages = []
+        for passage in self.retrieved_passages:
+            passage_keywords = set(passage['text'].lower().split())
+            overlap = len(query_keywords & passage_keywords)
+            scored_passages.append((passage, overlap))
+        
+        # Sort by relevance
+        scored_passages.sort(key=lambda x: x[1], reverse=True)
+        
+        # Return top 10 most relevant
+        return [p[0] for p in scored_passages[:10]]
+    
+    def get_chart_summary(self):
+        """Lightweight chart summary (not full data)"""
+        if not self.natal_chart:
+            return None
+        
+        return {
+            "sun": f"{self.natal_chart['sun']['sign']} {self.natal_chart['sun']['house']}",
+            "moon": f"{self.natal_chart['moon']['sign']} {self.natal_chart['moon']['house']}",
+            "ascendant": self.natal_chart['ascendant']['sign'],
+            "chart_calculated": True
+        }
+    
+    def save_to_disk(self):
+        """Persist session for later retrieval"""
+        cache_path = f"/data/sessions/{self.session_id}.json"
+        os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+        
+        with open(cache_path, 'w') as f:
+            json.dump({
+                "session_id": self.session_id,
+                "client_info": self.client_info,
+                "natal_chart": self.natal_chart,
+                "retrieved_passages": self.retrieved_passages,
+                "examined_factors": self.examined_factors,
+                "conversation_history": self.conversation_history,
+                "created_at": self.created_at.isoformat(),
+                "last_accessed": self.last_accessed.isoformat(),
+                "total_queries": self.total_queries
+            }, f, indent=2)
+    
+    @classmethod
+    def load_from_disk(cls, session_id):
+        """Load existing session"""
+        cache_path = f"/data/sessions/{session_id}.json"
+        
+        if not os.path.exists(cache_path):
+            return None
+        
+        with open(cache_path, 'r') as f:
+            data = json.load(f)
+        
+        session = cls(session_id)
+        session.client_info = data['client_info']
+        session.natal_chart = data['natal_chart']
+        session.retrieved_passages = data['retrieved_passages']
+        session.examined_factors = data['examined_factors']
+        session.conversation_history = data['conversation_history']
+        session.total_queries = data['total_queries']
+        
+        return session
+
+
+________________
+
+
+LAYER 4: ACTIVE CONTEXT (LLM Input)
+What it contains:
+* ONLY the minimal information needed for current query
+* System prompt (~500 tokens)
+* Relevant retrieved passages (~3,000 tokens)
+* Current query (~200 tokens)
+* Essential session context (~500 tokens)
+Total: ~4,200 tokens (vs 2.3M naive approach)
+Token cost: This is where API costs occur—minimize ruthlessly!
+Implementation:
+class ActiveContext:
+    """Builds minimal context for LLM generation"""
+    
+    def __init__(self, session: SessionContext):
+        self.session = session
+        self.max_input_tokens = 8000  # Safety limit
+    
+    def build_for_query(self, user_query, semantic_index: SemanticIndex):
+        """Construct minimal context for this specific query"""
+        
+        # 1. SYSTEM PROMPT (500 tokens)
+        system_prompt = self.get_system_prompt()
+        
+        # 2. CLIENT INFO (100 tokens)
+        client_summary = self.get_client_summary()
+        
+        # 3. SEMANTIC RETRIEVAL (3,000 tokens)
+        # Query for new knowledge (not already in session)
+        retrieved_passages = self.retrieve_new_knowledge(user_query, semantic_index)
+        
+        # 4. SESSION CONTEXT (500 tokens)
+        session_context = self.session.get_relevant_context_for_query(user_query)
+        
+        # 5. USER QUERY (200 tokens)
+        formatted_query = f"User Question: {user_query}"
+        
+        # 6. ASSEMBLY
+        context = {
+            "system": system_prompt,
+            "client": client_summary,
+            "knowledge": retrieved_passages,
+            "session": session_context,
+            "query": formatted_query
+        }
+        
+        # 7. VALIDATE TOKEN COUNT
+        total_tokens = self.estimate_context_tokens(context)
+        
+        if total_tokens > self.max_input_tokens:
+            # Trim knowledge passages until under limit
+            context = self.trim_context(context)
+        
+        return context
+    
+    def retrieve_new_knowledge(self, query, semantic_index):
+        """Retrieve knowledge not already in session"""
+        
+        # Determine what concepts to query based on user question
+        query_concepts = self.extract_query_concepts(query)
+        
+        all_passages = []
+        
+        for concept in query_concepts:
+            # Semantic search for this concept
+            passages = semantic_index.semantic_search(
+                query=concept,
+                top_k=5,  # 5 passages per concept
+                min_similarity=0.72
+            )
+            
+            # Filter out passages already in session
+            new_passages = [
+                p for p in passages 
+                if p['text'] not in [sp['text'] for sp in self.session.retrieved_passages]
+            ]
+            
+            all_passages.extend(new_passages)
+        
+        # Deduplicate and limit
+        unique_passages = self.deduplicate_passages(all_passages)
+        
+        # Add to session memory
+        self.session.add_retrieved_knowledge(unique_passages)
+        
+        return unique_passages[:15]  # Max 15 passages per query
+    
+    def extract_query_concepts(self, query):
+        """Determine what astrological concepts are relevant to query"""
+        
+        query_lower = query.lower()
+        concepts = []
+        
+        # Relationship queries
+        if any(word in query_lower for word in ['relationship', 'love', 'partner', 'dating', 'marriage']):
+            concepts.extend([
+                "Venus placement interpretation",
+                "7th house relationships",
+                "Mars in relationships",
+                "Chiron relationship wounds",
+                "Black Moon Lilith in love"
+            ])
+        
+        # Career queries
+        if any(word in query_lower for word in ['career', 'work', 'job', 'profession', 'calling']):
+            concepts.extend([
+                "Midheaven career path",
+                "10th house interpretation",
+                "Saturn work ethic",
+                "2nd house income",
+                "6th house daily work"
+            ])
+        
+        # Life purpose queries
+        if any(word in query_lower for word in ['purpose', 'meaning', 'destiny', 'path', 'soul']):
+            concepts.extend([
+                "North Node life direction",
+                "True Placement soul purpose",
+                "Sun identity and purpose"
+            ])
+        
+        # Timing/current situation queries
+        if any(word in query_lower for word in ['now', 'currently', 'happening', 'when', 'timing']):
+            concepts.extend([
+                "transit interpretation",
+                "current transits timing",
+                "spark point activation"
+            ])
+        
+        # If no specific concepts detected, use general query
+        if not concepts:
+            concepts = [query]
+        
+        return concepts
+    
+    def get_system_prompt(self):
+        """Core system instructions"""
+        return """You are an expert astrologer trained exclusively on proprietary course transcripts.
+
+
+CRITICAL RULES:
+1. Use ONLY knowledge from the retrieved transcript passages below
+2. NEVER use generic pop astrology or external sources
+3. Apply the exact methodologies taught in the transcripts
+4. Use the specific terminology from the course materials
+5. Follow the interpretation hierarchy: True Placements → Houses → Aspects → Transits → Synthesis
+
+
+Your role: Interpret this person's chart to answer their question using ONLY the transcript knowledge provided."""
+    
+    def get_client_summary(self):
+        """Minimal client info"""
+        if not self.session.client_info:
+            return "Client birth data not yet provided."
+        
+        return f"""Client: {self.session.client_info.get('name', 'Unknown')}
+Birth: {self.session.client_info.get('birth_date')} at {self.session.client_info.get('birth_time')}
+Location: {self.session.client_info.get('birth_place')}
+Chart: {'Calculated' if self.session.natal_chart else 'Not calculated'}"""
+    
+    def estimate_context_tokens(self, context):
+        """Estimate total token count"""
+        total = 0
+        
+        for key, value in context.items():
+            if isinstance(value, str):
+                total += len(value.split()) * 1.3
+            elif isinstance(value, list):
+                for item in value:
+                    if isinstance(item, dict) and 'text' in item:
+                        total += len(item['text'].split()) * 1.3
+                    elif isinstance(item, str):
+                        total += len(item.split()) * 1.3
+            elif isinstance(value, dict):
+                total += len(str(value).split()) * 1.3
+        
+        return int(total)
+    
+    def trim_context(self, context):
+        """Reduce context to fit token budget"""
+        # Priority: Keep system, client, query; trim knowledge
+        while self.estimate_context_tokens(context) > self.max_input_tokens:
+            if len(context['knowledge']) > 5:
+                # Remove lowest similarity passage
+                context['knowledge'].sort(key=lambda x: x['similarity'], reverse=True)
+                context['knowledge'] = context['knowledge'][:-1]
+            else:
+                break  # Can't trim further
+        
+        return context
+    
+    def deduplicate_passages(self, passages):
+        """Remove duplicate passages"""
+        seen = set()
+        unique = []
+        
+        for p in passages:
+            text_hash = hash(p['text'])
+            if text_hash not in seen:
+                seen.add(text_hash)
+                unique.append(p)
+        
+        return unique
+
+
+________________
+
+
+SMART MODEL ROUTING (Cost Optimization)
+Not all tasks need expensive models!
+class ModelRouter:
+    """Route tasks to appropriate models based on complexity and cost"""
+    
+    def __init__(self):
+        self.models = {
+            # FREE (Local processing)
+            "local_embedding": "sentence-transformers/all-MiniLM-L6-v2",
+            "local_calculation": "swiss_ephemeris",
+            
+            # CHEAP (Fast, simple tasks)
+            "claude_haiku": {
+                "name": "claude-3-haiku",
+                "cost_per_1m_input": 0.25,
+                "cost_per_1m_output": 1.25,
+                "speed": "fast",
+                "use_for": ["data_validation", "simple_queries", "chart_summary"]
+            },
+            
+            # MODERATE (Standard interpretation)
+            "claude_sonnet": {
+                "name": "claude-3-5-sonnet",
+                "cost_per_1m_input": 3.00,
+                "cost_per_1m_output": 15.00,
+                "speed": "medium",
+                "use_for": ["full_readings", "complex_interpretation", "profile_reports"]
+            },
+            
+            # EXPENSIVE (Only if needed)
+            "gpt4": {
+                "name": "gpt-4",
+                "cost_per_1m_input": 10.00,
+                "cost_per_1m_output": 30.00,
+                "speed": "slow",
+                "use_for": ["advanced_synthesis", "creative_writing"]
+            }
+        }
+    
+    def route_task(self, task_type, complexity="medium"):
+        """Determine which model to use"""
+        
+        routing_map = {
+            # Always local (no API cost)
+            "semantic_search": "local_embedding",
+            "chart_calculation": "local_calculation",
+            "data_extraction": "local_processing",
+            
+            # Cheap model tasks
+            "birth_data_validation": "claude_haiku",
+            "chart_summary": "claude_haiku",
+            "simple_question": "claude_haiku",
+            
+            # Standard model tasks
+            "full_reading": "claude_sonnet",
+            "transit_interpretation": "claude_sonnet",
+            "relationship_analysis": "claude_sonnet",
+            "profile_report": "claude_sonnet",
+            
+            # Expensive only if requested
+            "creative_narrative": "gpt4" if complexity == "high" else "claude_sonnet"
+        }
+        
+        return routing_map.get(task_type, "claude_haiku")  # Default to cheap
+    
+    def estimate_cost(self, task_type, input_tokens, output_tokens):
+        """Calculate expected cost for a task"""
+        model_key = self.route_task(task_type)
+        
+        if model_key in ["local_embedding", "local_calculation"]:
+            return 0.00  # Free
+        
+        model = self.models[model_key]
+        
+        input_cost = (input_tokens / 1_000_000) * model["cost_per_1m_input"]
+        output_cost = (output_tokens / 1_000_000) * model["cost_per_1m_output"]
+        
+        return input_cost + output_cost
+
+
+________________
+
+
+SESSION PERSISTENCE & HEARTBEAT
+Keep frequently used sessions “warm” to avoid re-computation
+class SessionManager:
+    """Manage multiple sessions with intelligent caching"""
+    
+    def __init__(self):
+        self.active_sessions = {}  # In-memory hot sessions
+        self.last_access = {}  # Track access times
+        self.session_timeout = 3600  # 1 hour
+    
+    def get_or_create_session(self, session_id):
+        """Retrieve existing session or create new one"""
+        
+        # Check if already in memory
+        if session_id in self.active_sessions:
+            self.last_access[session_id] = time.time()
+            return self.active_sessions[session_id]
+        
+        # Try to load from disk
+        session = SessionContext.load_from_disk(session_id)
+        
+        if session:
+            # Restore to memory
+            self.active_sessions[session_id] = session
+            self.last_access[session_id] = time.time()
+            print(f"✅ Restored session {session_id} from disk")
+            return session
+        
+        # Create new session
+        session = SessionContext(session_id)
+        self.active_sessions[session_id] = session
+        self.last_access[session_id] = time.time()
+        print(f"✨ Created new session {session_id}")
+        return session
+    
+    def cleanup_inactive_sessions(self):
+        """Remove sessions inactive for > 1 hour"""
+        current_time = time.time()
+        inactive = []
+        
+        for session_id, last_access in self.last_access.items():
+            if current_time - last_access > self.session_timeout:
+                inactive.append(session_id)
+        
+        for session_id in inactive:
+            # Save to disk before removing
+            self.active_sessions[session_id].save_to_disk()
+            del self.active_sessions[session_id]
+            del self.last_access[session_id]
+            print(f"💤 Hibernated inactive session {session_id}")
+    
+    def heartbeat(self):
+        """Periodic maintenance"""
+        self.cleanup_inactive_sessions()
+        
+        # Save all active sessions (backup)
+        for session in self.active_sessions.values():
+            session.save_to_disk()
+
+
+________________
+
+
+INTERACTIVE QUESTION DISCOVERY SYSTEM
+How It Works
+Traditional Approach (Rigid):
+System: "Enter your question about your chart"
+User: "I don't know what to ask..."
+Result: User confusion, generic questions
+
+
+Intelligent Approach (Conversational):
+System: "Hi! I can create a comprehensive profile report for you. 
+         What areas of your life are you most curious about right now?"
+
+
+Options shown:
+• Relationships & Love
+• Career & Life Purpose  
+• Personal Growth & Challenges
+• Current Life Situation
+• Specific Question
+
+
+User: [Selects "Relationships & Love"]
+
+
+System: "Great! Let me ask a few quick questions to understand what 
+         you're experiencing..."
+
+
+[Dynamic follow-up questions based on selection]
+
+
+System: "Got it. I'm going to examine your chart to understand:
+         • Your innate relationship patterns (Venus, Mars, 7th house)
+         • Current relationship dynamics (transits)
+         • Healing opportunities (Chiron, Lilith)
+         • Timing and guidance
+         
+         This will take about 10 seconds..."
+
+
+[System autonomously determines what to analyze]
+
+
+________________
+
+
+Implementation: Dynamic Question Flow
+class QuestionDiscovery:
+    """Intelligent question discovery system"""
+    
+    def __init__(self, session: SessionContext):
+        self.session = session
+        self.question_tree = self.build_question_tree()
+    
+    def start_conversation(self):
+        """Initial greeting and broad category selection"""
+        
+        message = f"""Hello! I'm your personal astrology guide, trained exclusively on advanced interpretive methods.
+
+
+I can create a comprehensive profile report for you by analyzing your natal chart and current transits.
+
+
+**What areas of life are you most curious about?** (Select one or more)"""
+        
+        categories = [
+            {
+                "id": "relationships",
+                "label": "💕 Relationships & Love",
+                "description": "Partnership patterns, compatibility, timing"
+            },
+            {
+                "id": "career",
+                "label": "💼 Career & Life Purpose",
+                "description": "Vocation, calling, professional path"
+            },
+            {
+                "id": "personal_growth",
+                "label": "🌱 Personal Growth & Healing",
+                "description": "Shadow work, wounds, transformation"
+            },
+            {
+                "id": "timing",
+                "label": "⏰ Current Life Situation",
+                "description": "What's happening now, transits, timing"
+            },
+            {
+                "id": "general",
+                "label": "🎯 Complete Profile",
+                "description": "Comprehensive reading of all areas"
+            },
+            {
+                "id": "specific",
+                "label": "❓ Specific Question",
+                "description": "I have something particular to ask"
+            }
+        ]
+        
+        return {
+            "message": message,
+            "categories": categories,
+            "type": "category_selection"
+        }
+    
+    def handle_category_selection(self, selected_categories):
+        """Process category selection and ask follow-up questions"""
+        
+        follow_ups = []
+        
+        for category in selected_categories:
+            if category == "relationships":
+                follow_ups.extend(self.relationship_questions())
+            elif category == "career":
+                follow_ups.extend(self.career_questions())
+            elif category == "personal_growth":
+                follow_ups.extend(self.personal_growth_questions())
+            elif category == "timing":
+                follow_ups.extend(self.timing_questions())
+            elif category == "specific":
+                return self.specific_question_prompt()
+        
+        return {
+            "message": "Tell me a bit more so I can provide the most relevant insights:",
+            "questions": follow_ups,
+            "type": "follow_up_questions"
+        }
+    
+    def relationship_questions(self):
+        """Follow-up questions for relationship category"""
+        return [
+            {
+                "id": "rel_status",
+                "question": "Current relationship status?",
+                "type": "multiple_choice",
+                "options": [
+                    "Single, looking",
+                    "Dating someone",
+                    "In a relationship",
+                    "Married/Long-term partnership",
+                    "Complicated situation",
+                    "Recently ended"
+                ]
+            },
+            {
+                "id": "rel_focus",
+                "question": "What specifically do you want to understand?",
+                "type": "multiple_choice",
+                "multiple_select": True,
+                "options": [
+                    "Why my relationships follow certain patterns",
+                    "Compatibility with someone specific",
+                    "When I'll meet someone",
+                    "How to heal from past relationships",
+                    "What I need in a partner",
+                    "Current relationship challenges"
+                ]
+            },
+            {
+                "id": "rel_details",
+                "question": "Any additional context? (Optional)",
+                "type": "text_input",
+                "optional": True
+            }
+        ]
+    
+    def career_questions(self):
+        """Follow-up questions for career category"""
+        return [
+            {
+                "id": "career_status",
+                "question": "Where are you in your career journey?",
+                "type": "multiple_choice",
+                "options": [
+                    "Just starting / exploring",
+                    "Established but unfulfilled",
+                    "Considering a change",
+                    "Between careers",
+                    "Building something new",
+                    "Successful but seeking next level"
+                ]
+            },
+            {
+                "id": "career_focus",
+                "question": "What do you want to understand?",
+                "type": "multiple_choice",
+                "multiple_select": True,
+                "options": [
+                    "My true calling / life purpose",
+                    "Best career paths for me",
+                    "Timing for career changes",
+                    "How to overcome obstacles",
+                    "Financial patterns and opportunities",
+                    "Work-life balance"
+                ]
+            }
+        ]
+    
+    def personal_growth_questions(self):
+        """Follow-up questions for personal growth"""
+        return [
+            {
+                "id": "growth_focus",
+                "question": "What areas of growth are calling to you?",
+                "type": "multiple_choice",
+                "multiple_select": True,
+                "options": [
+                    "Healing old wounds",
+                    "Understanding shadow patterns",
+                    "Embracing my power",
+                    "Breaking free from limitations",
+                    "Spiritual development",
+                    "Self-acceptance"
+                ]
+            },
+            {
+                "id": "growth_challenges",
+                "question": "What challenges are you facing?",
+                "type": "text_input",
+                "optional": True
+            }
+        ]
+    
+    def timing_questions(self):
+        """Follow-up questions for timing/current situation"""
+        return [
+            {
+                "id": "timing_context",
+                "question": "What's happening in your life right now?",
+                "type": "text_input"
+            },
+            {
+                "id": "timing_focus",
+                "question": "What do you want to understand about this time?",
+                "type": "multiple_choice",
+                "multiple_select": True,
+                "options": [
+                    "Why things feel challenging",
+                    "What opportunities are available",
+                    "When will things shift",
+                    "What lessons am I learning",
+                    "How to navigate this period"
+                ]
+            }
+        ]
+    
+    def specific_question_prompt(self):
+        """Handle specific questions"""
+        return {
+            "message": "What would you like to know about your chart?",
+            "type": "text_input",
+            "placeholder": "Example: Why do I keep attracting emotionally unavailable partners?"
+        }
+    
+    def synthesize_questions_into_analysis_plan(self, user_responses):
+        """Convert user responses into concrete analysis plan"""
+        
+        plan = {
+            "analysis_focus": [],
+            "chart_factors_to_examine": [],
+            "methodologies_to_apply": [],
+            "user_context": {}
+        }
+        
+        # Parse responses and build analysis plan
+        for key, value in user_responses.items():
+            if "relationships" in key:
+                plan["analysis_focus"].append("relationships")
+                plan["chart_factors_to_examine"].extend([
+                    "Venus (love style)",
+                    "Mars (pursuit patterns)",
+                    "7th house (partnerships)",
+                    "5th house (romance)",
+                    "8th house (intimacy)",
+                    "Chiron (relationship wounds)",
+                    "Black Moon Lilith (shadow in love)",
+                    "Descendant (what you attract)",
+                    "Current Venus transits",
+                    "Current 7th house transits"
+                ])
+                plan["methodologies_to_apply"].extend([
+                    "Taming & Embracing Black Moon Lilith",
+                    "Accepting Chiron",
+                    "Delegates and house conditions for 7th house"
+                ])
+            
+            if "career" in key:
+                plan["analysis_focus"].append("career")
+                plan["chart_factors_to_examine"].extend([
+                    "Midheaven (career path)",
+                    "10th house (public role)",
+                    "2nd house (income, values)",
+                    "6th house (daily work)",
+                    "Sun (core identity)",
+                    "Saturn (discipline, mastery)",
+                    "North Node (life direction)",
+                    "Current MC transits",
+                    "Current Saturn transits"
+                ])
+                plan["methodologies_to_apply"].extend([
+                    "True Placements + Base (soul purpose)",
+                    "Delegates and house conditions for 10th house"
+                ])
+            
+            if "personal_growth" in key:
+                plan["analysis_focus"].append("personal_growth")
+                plan["chart_factors_to_examine"].extend([
+                    "Chiron (wounds and healing)",
+                    "Black Moon Lilith (shadow work)",
+                    "North Node (evolutionary direction)",
+                    "12th house (unconscious patterns)",
+                    "Pluto (transformation)",
+                    "Saturn (limitations to overcome)"
+                ])
+                plan["methodologies_to_apply"].extend([
+                    "Accepting Chiron",
+                    "Taming & Embracing Black Moon Lilith",
+                    "Reverse Vantage (reframe challenges)",
+                    "Natal Retrograde Optimization"
+                ])
+            
+            if "timing" in key:
+                plan["analysis_focus"].append("current_transits")
+                plan["chart_factors_to_examine"].extend([
+                    "All current major transits",
+                    "Spark point activations",
+                    "Progressed Moon",
+                    "Upcoming significant transits"
+                ])
+                plan["methodologies_to_apply"].extend([
+                    "True Placements + Base + Intro to Spark",
+                    "Transit timing techniques"
+                ])
+            
+            # Store user context
+            plan["user_context"][key] = value
+        
+        # Deduplicate
+        plan["chart_factors_to_examine"] = list(set(plan["chart_factors_to_examine"]))
+        plan["methodologies_to_apply"] = list(set(plan["methodologies_to_apply"]))
+        
+        return plan
+
+
+________________
+
+
+AUTONOMOUS ANALYSIS ENGINE
+The system intelligently determines what to analyze based on user questions
+class AutonomousAnalyzer:
+    """Intelligently determines what chart factors to examine"""
+    
+    def __init__(self, session: SessionContext, semantic_index: SemanticIndex):
+        self.session = session
+        self.semantic_index = semantic_index
+    
+    def analyze_for_question(self, user_question, analysis_plan=None):
+        """
+        Main analysis function - autonomously determines what to examine
+        """
+        
+        # Step 1: Determine analysis scope
+        if analysis_plan:
+            # Use pre-determined plan from question discovery
+            scope = analysis_plan
+        else:
+            # Infer from question
+            scope = self.infer_analysis_scope(user_question)
+        
+        # Step 2: Calculate necessary chart data
+        chart_data = self.calculate_relevant_chart_factors(scope)
+        
+        # Step 3: Retrieve relevant transcript knowledge
+        knowledge = self.retrieve_relevant_knowledge(scope)
+        
+        # Step 4: Apply interpretive methodologies in correct order
+        interpretation = self.apply_layered_interpretation(
+            chart_data=chart_data,
+            knowledge=knowledge,
+            scope=scope,
+            user_question=user_question
+        )
+        
+        # Step 5: Synthesize into coherent response
+        response = self.synthesize_response(interpretation, user_question)
+        
+        return response
+    
+    def infer_analysis_scope(self, user_question):
+        """
+        Analyze question to determine what chart factors are relevant
+        """
+        
+        question_lower = user_question.lower()
+        scope = {
+            "focus_areas": [],
+            "chart_factors": [],
+            "methodologies": []
+        }
+        
+        # Relationship detection
+        relationship_keywords = ['relationship', 'love', 'partner', 'dating', 'marriage', 
+                                'boyfriend', 'girlfriend', 'spouse', 'attract', 'connection']
+        if any(kw in question_lower for kw in relationship_keywords):
+            scope["focus_areas"].append("relationships")
+            scope["chart_factors"].extend([
+                "Venus", "Mars", "7th_house", "Descendant", "5th_house", 
+                "8th_house", "Chiron", "Black_Moon_Lilith"
+            ])
+            scope["methodologies"].extend([
+                "Taming & Embracing Black Moon Lilith",
+                "Accepting Chiron",
+                "Delegates and house conditions"
+            ])
+        
+        # Career detection
+        career_keywords = ['career', 'job', 'work', 'profession', 'calling', 
+                          'vocation', 'purpose', 'path', 'success']
+        if any(kw in question_lower for kw in career_keywords):
+            scope["focus_areas"].append("career")
+            scope["chart_factors"].extend([
+                "Midheaven", "10th_house", "Sun", "Saturn", "2nd_house", 
+                "6th_house", "North_Node"
+            ])
+            scope["methodologies"].extend([
+                "True Placements + Base",
+                "Delegates and house conditions"
+            ])
+        
+        # Timing detection
+        timing_keywords = ['when', 'timing', 'now', 'currently', 'happening', 
+                          'future', 'soon', 'period']
+        if any(kw in question_lower for kw in timing_keywords):
+            scope["focus_areas"].append("timing")
+            scope["chart_factors"].extend([
+                "Current_Transits", "Progressions", "Spark_Points"
+            ])
+            scope["methodologies"].extend([
+                "True Placements + Base + Intro to Spark",
+                "Transit interpretation"
+            ])
+        
+        # Personal growth detection
+        growth_keywords = ['grow', 'heal', 'overcome', 'challenge', 'shadow', 
+                          'wound', 'pattern', 'struggle', 'block']
+        if any(kw in question_lower for kw in growth_keywords):
+            scope["focus_areas"].append("personal_growth")
+            scope["chart_factors"].extend([
+                "Chiron", "Black_Moon_Lilith", "12th_house", "Saturn", 
+                "Pluto", "North_Node"
+            ])
+            scope["methodologies"].extend([
+                "Accepting Chiron",
+                "Taming & Embracing Black Moon Lilith",
+                "Reverse Vantage",
+                "Natal Retrograde Optimization"
+            ])
+        
+        # If no specific focus detected, do comprehensive analysis
+        if not scope["focus_areas"]:
+            scope["focus_areas"] = ["comprehensive"]
+            scope["chart_factors"] = self.get_core_chart_factors()
+            scope["methodologies"] = self.get_core_methodologies()
+        
+        return scope
+    
+    def calculate_relevant_chart_factors(self, scope):
+        """
+        Calculate only the chart factors needed for this analysis
+        """
+        
+        chart_calc = ChartCalculator(self.session.natal_chart)
+        chart_data = {}
+        
+        for factor in scope["chart_factors"]:
+            if factor == "Venus":
+                chart_data["Venus"] = chart_calc.get_planet("Venus")
+            elif factor == "Mars":
+                chart_data["Mars"] = chart_calc.get_planet("Mars")
+            elif factor == "7th_house":
+                chart_data["7th_house"] = chart_calc.get_house(7)
+            elif factor == "Midheaven":
+                chart_data["Midheaven"] = chart_calc.get_angle("MC")
+            elif factor == "Chiron":
+                chart_data["Chiron"] = chart_calc.get_point("Chiron")
+            elif factor == "Black_Moon_Lilith":
+                chart_data["Black_Moon_Lilith"] = chart_calc.get_point("Lilith")
+            elif factor == "Current_Transits":
+                chart_data["Current_Transits"] = chart_calc.get_current_transits()
+            # ... continue for all possible factors
+        
+        return chart_data
+    
+    def retrieve_relevant_knowledge(self, scope):
+        """
+        Retrieve transcript passages relevant to this analysis
+        """
+        
+        all_knowledge = []
+        
+        # Build queries based on chart factors and methodologies
+        queries = []
+        
+        for factor in scope["chart_factors"]:
+            queries.append(f"{factor} interpretation")
+            queries.append(f"how to read {factor}")
+        
+        for methodology in scope["methodologies"]:
+            queries.append(f"{methodology} technique")
+            queries.append(f"{methodology} application")
+        
+        for focus_area in scope["focus_areas"]:
+            queries.append(f"{focus_area} astrology")
+        
+        # Semantic search for each query
+        for query in queries[:10]:  # Limit to prevent over-retrieval
+            passages = self.semantic_index.semantic_search(
+                query=query,
+                top_k=3,
+                min_similarity=0.70
+            )
+            all_knowledge.extend(passages)
+        
+        # Deduplicate
+        unique_knowledge = {}
+        for passage in all_knowledge:
+            unique_knowledge[passage['text']] = passage
+        
+        return list(unique_knowledge.values())[:20]  # Max 20 passages
+    
+    def apply_layered_interpretation(self, chart_data, knowledge, scope, user_question):
+        """
+        Apply interpretive methodologies in correct hierarchy
+        """
+        
+        interpretation_layers = []
+        
+        # LAYER 1: True Placements + Base (if methodology in scope)
+        if "True Placements + Base" in scope["methodologies"]:
+            layer = self.apply_true_placements_methodology(chart_data, knowledge)
+            interpretation_layers.append(("True Placements", layer))
+        
+        # LAYER 2: House Conditions & Delegates
+        if "Delegates and house conditions" in scope["methodologies"]:
+            layer = self.apply_house_delegates_methodology(chart_data, knowledge)
+            interpretation_layers.append(("House Conditions", layer))
+        
+        # LAYER 3: Aspect Spectrum
+        if "Aspect Spectrum" in scope["methodologies"]:
+            layer = self.apply_aspect_spectrum_methodology(chart_data, knowledge)
+            interpretation_layers.append(("Aspect Analysis", layer))
+        
+        # LAYER 4: Chiron Integration
+        if "Accepting Chiron" in scope["methodologies"]:
+            layer = self.apply_chiron_methodology(chart_data, knowledge)
+            interpretation_layers.append(("Chiron Healing", layer))
+        
+        # LAYER 5: Lilith Shadow Work
+        if "Taming & Embracing Black Moon Lilith" in scope["methodologies"]:
+            layer = self.apply_lilith_methodology(chart_data, knowledge)
+            interpretation_layers.append(("Lilith Integration", layer))
+        
+        # LAYER 6: Transits & Timing
+        if "timing" in scope["focus_areas"]:
+            layer = self.apply_transit_methodology(chart_data, knowledge)
+            interpretation_layers.append(("Current Transits", layer))
+        
+        # LAYER 7: Spark Points
+        if "True Placements + Base + Intro to Spark" in scope["methodologies"]:
+            layer = self.apply_spark_methodology(chart_data, knowledge)
+            interpretation_layers.append(("Spark Activation", layer))
+        
+        # LAYER 8: Reverse Vantage (reframe)
+        if "Reverse Vantage" in scope["methodologies"]:
+            layer = self.apply_reverse_vantage_methodology(interpretation_layers, knowledge)
+            interpretation_layers.append(("Reverse Vantage", layer))
+        
+        return interpretation_layers
+    
+    def apply_true_placements_methodology(self, chart_data, knowledge):
+        """
+        Apply "True Placements + Base" methodology from transcripts
+        """
+        
+        # Filter knowledge to True Placements methodology
+        relevant_passages = [
+            p for p in knowledge 
+            if "true placement" in p['text'].lower() or "base" in p['text'].lower()
+        ]
+        
+        # Build context for LLM
+        context = self.build_llm_context(
+            chart_data=chart_data,
+            knowledge_passages=relevant_passages,
+            instruction="Apply the True Placements + Base methodology to understand this person's core soul expression vs surface personality."
+        )
+        
+        # Generate interpretation (using smart routing)
+        interpretation = self.generate_interpretation(context, model="claude_sonnet")
+        
+        return interpretation
+    
+    def apply_chiron_methodology(self, chart_data, knowledge):
+        """
+        Apply "Accepting Chiron" methodology from transcripts
+        """
+        
+        relevant_passages = [
+            p for p in knowledge 
+            if "chiron" in p['text'].lower()
+        ]
+        
+        context = self.build_llm_context(
+            chart_data={"Chiron": chart_data.get("Chiron")},
+            knowledge_passages=relevant_passages,
+            instruction="Apply the 'Accepting Chiron' methodology to identify the core wound and healing pathway."
+        )
+        
+        interpretation = self.generate_interpretation(context, model="claude_sonnet")
+        
+        return interpretation
+    
+    # ... Similar methods for each methodology
+    
+    def synthesize_response(self, interpretation_layers, user_question):
+        """
+        Combine all interpretation layers into coherent response
+        """
+        
+        synthesis_context = {
+            "user_question": user_question,
+            "interpretation_layers": interpretation_layers,
+            "instruction": """Synthesize all interpretation layers into a comprehensive, 
+            coherent response that directly answers the user's question. 
+            
+            Structure:
+            1. Direct answer to their question
+            2. Supporting astrological insights (from layers)
+            3. Current timing/transits (if relevant)
+            4. Guidance and recommendations
+            5. Empowering reframe
+            
+            Use ONLY the knowledge from the transcript passages. 
+            Write in a warm, expert, empowering tone."""
+        }
+        
+        final_response = self.generate_interpretation(
+            synthesis_context, 
+            model="claude_sonnet"
+        )
+        
+        return final_response
+    
+    def build_llm_context(self, chart_data, knowledge_passages, instruction):
+        """Helper to build LLM context"""
+        return {
+            "system_prompt": "You are an expert astrologer using proprietary methodology.",
+            "chart_data": chart_data,
+            "knowledge": knowledge_passages,
+            "instruction": instruction
+        }
+    
+    def generate_interpretation(self, context, model="claude_sonnet"):
+        """
+        Generate interpretation using specified model
+        (Placeholder - actual implementation would call LLM API)
+        """
+        # This is where actual LLM API call would happen
+        # For now, return placeholder
+        return f"[Generated interpretation using {model} with {len(context.get('knowledge', []))} knowledge passages]"
+
+
+________________
+
+
+PROFILE REPORT GENERATION
+Comprehensive Report Structure
+class ProfileReportGenerator:
+    """Generate comprehensive astrological profile reports"""
+    
+    def __init__(self, session: SessionContext, analyzer: AutonomousAnalyzer):
+        self.session = session
+        self.analyzer = analyzer
+    
+    def generate_full_profile(self, focus_areas=None):
+        """
+        Generate complete profile report
+        
+        Args:
+            focus_areas: Optional list of specific areas to emphasize
+                        If None, generates comprehensive report
+        """
+        
+        report = ProfileReport(self.session.client_info)
+        
+        # SECTION 1: Chart Overview
+        report.add_section(
+            title="Your Astrological Blueprint",
+            content=self.generate_chart_overview()
+        )
+        
+        # SECTION 2: Core Identity (Sun, Moon, Rising)
+        report.add_section(
+            title="Core Identity: The Foundation of Who You Are",
+            content=self.generate_core_identity_section()
+        )
+        
+        # SECTION 3: True Placements + Base Analysis
+        report.add_section(
+            title="Soul Expression: Your True Placement",
+            content=self.generate_true_placement_section()
+        )
+        
+        # SECTION 4: Relationship Patterns (if in focus or comprehensive)
+        if not focus_areas or "relationships" in focus_areas:
+            report.add_section(
+                title="Love & Relationships: Your Partnership Patterns",
+                content=self.generate_relationship_section()
+            )
+        
+        # SECTION 5: Career & Purpose (if in focus or comprehensive)
+        if not focus_areas or "career" in focus_areas:
+            report.add_section(
+                title="Career & Purpose: Your Life's Work",
+                content=self.generate_career_section()
+            )
+        
+        # SECTION 6: Wounds & Healing (Chiron)
+        report.add_section(
+            title="Healing Journey: Your Chiron Wound",
+            content=self.generate_chiron_section()
+        )
+        
+        # SECTION 7: Shadow Integration (Lilith)
+        report.add_section(
+            title="Shadow Work: Embracing Your Lilith",
+            content=self.generate_lilith_section()
+        )
+        
+        # SECTION 8: Evolutionary Direction (North Node)
+        report.add_section(
+            title="Life Direction: Your Evolutionary Path",
+            content=self.generate_north_node_section()
+        )
+        
+        # SECTION 9: House Analysis
+        report.add_section(
+            title="Life Areas: House-by-House Insights",
+            content=self.generate_house_analysis()
+        )
+        
+        # SECTION 10: Aspect Patterns
+        report.add_section(
+            title="Inner Dynamics: Your Aspect Patterns",
+            content=self.generate_aspect_analysis()
+        )
+        
+        # SECTION 11: Retrograde Planets (if any)
+        if self.has_retrogrades():
+            report.add_section(
+                title="Internal Processing: Retrograde Optimization",
+                content=self.generate_retrograde_section()
+            )
+        
+        # SECTION 12: Current Transits & Timing
+        report.add_section(
+            title="Current Chapter: What's Happening Now",
+            content=self.generate_current_transits_section()
+        )
+        
+        # SECTION 13: Spark Points & Activation
+        report.add_section(
+            title="Activation Points: Your Spark Moments",
+            content=self.generate_spark_section()
+        )
+        
+        # SECTION 14: Reverse Vantage Summary
+        report.add_section(
+            title="Alternative Perspective: Reverse Vantage",
+            content=self.generate_reverse_vantage_section()
+        )
+        
+        # SECTION 15: Synthesis & Guidance
+        report.add_section(
+            title="Bringing It All Together: Your Path Forward",
+            content=self.generate_synthesis_section()
+        )
+        
+        # SECTION 16: Knowledge Sources
+        report.add_section(
+            title="Interpretation Sources",
+            content=self.generate_sources_section()
+        )
+        
+        return report
+    
+    def generate_chart_overview(self):
+        """Basic chart data summary"""
+        chart = self.session.natal_chart
+        
+        return f"""
+**Birth Information:**
+- Date: {chart['birth_date']}
+- Time: {chart['birth_time']}
+- Location: {chart['birth_place']}
+
+
+**Chart Highlights:**
+- Sun: {chart['sun']['sign']} in {chart['sun']['house']}
+- Moon: {chart['moon']['sign']} in {chart['moon']['house']}
+- Rising (Ascendant): {chart['ascendant']['sign']}
+- Midheaven: {chart['midheaven']['sign']}
+
+
+[Chart wheel visualization would appear here]
+"""
+    
+    def generate_core_identity_section(self):
+        """Analyze Sun, Moon, Rising"""
+        
+        scope = {
+            "focus_areas": ["identity"],
+            "chart_factors": ["Sun", "Moon", "Ascendant"],
+            "methodologies": ["True Placements + Base"]
+        }
+        
+        analysis = self.analyzer.analyze_for_question(
+            user_question="What is the core of my identity?",
+            analysis_plan=scope
+        )
+        
+        return analysis
+    
+    def generate_relationship_section(self):
+        """Comprehensive relationship analysis"""
+        
+        scope = {
+            "focus_areas": ["relationships"],
+            "chart_factors": [
+                "Venus", "Mars", "7th_house", "5th_house", "8th_house",
+                "Descendant", "Chiron", "Black_Moon_Lilith"
+            ],
+            "methodologies": [
+                "Delegates and house conditions",
+                "Accepting Chiron",
+                "Taming & Embracing Black Moon Lilith"
+            ]
+        }
+        
+        analysis = self.analyzer.analyze_for_question(
+            user_question="What are my relationship patterns and needs?",
+            analysis_plan=scope
+        )
+        
+        return analysis
+    
+    # ... Similar methods for each section
+
+
+________________
+
+
+USER INTERFACE DESIGN
+Main Application Interface
+┌─────────────────────────────────────────────────────────────────────┐
+│ INTELLIGENT ASTROLOGY READING SYSTEM              [@mattganzak] ⚙️  │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  👋 Welcome back, [Username]!                                       │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │  NEW READING                                                 │   │
+│  │                                                              │   │
+│  │  Who is this reading for?                                   │   │
+│  │  ○ Myself                                                    │   │
+│  │  ○ Someone else                                              │   │
+│  │                                                              │   │
+│  │  [Continue]                                                  │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  RECENT SESSIONS                                                    │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │
+│  │ Jamie A.     │  │ Client B     │  │ Client C     │            │
+│  │ Oct 31, 1979 │  │ Mar 15, 1985 │  │ Jul 22, 1990 │            │
+│  │ Last: 2 days │  │ Last: 1 week │  │ Last: 3 weeks│            │
+│  │ [Continue]   │  │ [Continue]   │  │ [Continue]   │            │
+│  └──────────────┘  └──────────────┘  └──────────────┘            │
+│                                                                     │
+│  KNOWLEDGE BASE STATUS                                              │
+│  ✅ 24 transcript files loaded (1,847,000 words)                    │
+│  ✅ Semantic index optimized                                        │
+│  ✅ 3,247 cross-references mapped                                   │
+│  [Manage Transcripts] [View Knowledge Map]                         │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+________________
+
+
+Question Discovery Flow
+┌─────────────────────────────────────────────────────────────────────┐
+│ NEW READING FOR: JAMIE ARMSTRONG                                    │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  STEP 1: BIRTH INFORMATION                                          │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │ Name: Jamie Armstrong                                        │   │
+│  │ Birth Date: October 31, 1979                                 │   │
+│  │ Birth Time: 9:55 AM                                          │   │
+│  │ Birth Place: Hemet, California, USA                          │   │
+│  │                                                              │   │
+│  │ [Calculate Chart]                                            │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  ✅ Chart calculated successfully!                                  │
+│                                                                     │
+│  STEP 2: WHAT WOULD YOU LIKE TO EXPLORE?                            │
+│                                                                     │
+│  ┌──────────────────────┐  ┌──────────────────────┐              │
+│  │  💕 RELATIONSHIPS     │  │  💼 CAREER           │              │
+│  │  Partnership patterns │  │  Life purpose        │              │
+│  │  Love & compatibility │  │  Professional path   │              │
+│  │                      │  │                      │              │
+│  │  [Select]            │  │  [Select]            │              │
+│  └──────────────────────┘  └──────────────────────┘              │
+│                                                                     │
+│  ┌──────────────────────┐  ┌──────────────────────┐              │
+│  │  🌱 PERSONAL GROWTH   │  │  ⏰ CURRENT TIMING   │              │
+│  │  Healing & shadow work│  │  What's happening    │              │
+│  │  Transformation       │  │  Transits & guidance │              │
+│  │                      │  │                      │              │
+│  │  [Select]            │  │  [Select]            │              │
+│  └──────────────────────┘  └──────────────────────┘              │
+│                                                                     │
+│  ┌──────────────────────┐  ┌──────────────────────┐              │
+│  │  🎯 COMPLETE PROFILE  │  │  ❓ SPECIFIC QUESTION│              │
+│  │  Full comprehensive   │  │  Ask anything        │              │
+│  │  report (all areas)   │  │  specific            │              │
+│  │                      │  │                      │              │
+│  │  [Select]            │  │  [Select]            │              │
+│  └──────────────────────┘  └──────────────────────┘              │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+________________
+
+
+Analysis Progress Screen
+┌─────────────────────────────────────────────────────────────────────┐
+│ ANALYZING JAMIE'S CHART...                                          │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  Focus: Relationships & Love                                        │
+│                                                                     │
+│  ✅ Natal chart calculated                                          │
+│  ✅ Current transits computed                                       │
+│  ⏳ Retrieving relevant knowledge from transcripts...               │
+│     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░ 75%                                       │
+│                                                                     │
+│  Examining:                                                         │
+│  ✅ Venus (love style)                                              │
+│  ✅ Mars (pursuit patterns)                                         │
+│  ✅ 7th house (partnerships)                                        │
+│  ⏳ Chiron (relationship wounds)                                    │
+│  ⏳ Black Moon Lilith (shadow dynamics)                             │
+│  ⏳ Current transits to relationship factors                        │
+│                                                                     │
+│  Retrieved 18 passages from transcripts:                            │
+│  • Taming & Embracing Black Moon Lilith (6 passages)               │
+│  • Accepting Chiron (5 passages)                                   │
+│  • Delegates and house conditions (4 passages)                     │
+│  • Aspect Spectrum (3 passages)                                    │
+│                                                                     │
+│  Estimated time: 5 seconds remaining                                │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+________________
+
+
+Reading Output Interface
+┌─────────────────────────────────────────────────────────────────────┐
+│ READING FOR JAMIE ARMSTRONG                      [Export ▼] [Save] │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  [Chart Overview] [Identity] [Relationships] [Career] [Growth]     │
+│  [Transits] [Guidance] [Sources]                                   │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │ 📊 CHART WHEEL                                              │   │
+│  │                                                             │   │
+│  │     [Interactive chart visualization]                       │   │
+│  │                                                             │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  ═══════════════════════════════════════════════════════════════   │
+│  RELATIONSHIPS & LOVE: YOUR PARTNERSHIP PATTERNS                    │
+│  ═══════════════════════════════════════════════════════════════   │
+│                                                                     │
+│  Jamie, your relationship patterns are deeply influenced by        │
+│  [Generated interpretation based on transcript knowledge]...       │
+│                                                                     │
+│  **Venus in [Sign] in [House]:**                                   │
+│  [Interpretation from transcripts]...                              │
+│                                                                     │
+│  **Your Relationship Wound (Chiron in [Sign]):**                   │
+│  [Based on "Accepting Chiron" methodology]...                      │
+│                                                                     │
+│  **Shadow Dynamics (Black Moon Lilith in [Sign]):**                │
+│  [Based on "Taming & Embracing Black Moon Lilith"]...              │
+│                                                                     │
+│  **Current Transits:**                                              │
+│  Right now, [transit] is [aspect] your natal [planet]...           │
+│  [Transit interpretation based on transcripts]...                  │
+│                                                                     │
+│  **What This Means for Your Current Situation:**                   │
+│  [Specific guidance about ex-partner situation]...                 │
+│                                                                     │
+│  **Timing & Guidance:**                                             │
+│  • Best window for communication: [dates]                          │
+│  • Internal work to focus on: [guidance]                           │
+│  • What to avoid: [warnings]                                       │
+│                                                                     │
+│  **Reverse Vantage Perspective:**                                   │
+│  [Reframe from "Reverse Vantage" methodology]...                   │
+│                                                                     │
+│  ───────────────────────────────────────────────────────────       │
+│  💡 Key Insights:                                                   │
+│  • [Bullet point insight 1]                                        │
+│  • [Bullet point insight 2]                                        │
+│  • [Bullet point insight 3]                                        │
+│  ───────────────────────────────────────────────────────────       │
+│                                                                     │
+│  [Continue Reading ↓]                                              │
+│                                                                     │
+│  ═══════════════════════════════════════════════════════════════   │
+│  KNOWLEDGE SOURCES                                                  │
+│  ═══════════════════════════════════════════════════════════════   │
+│                                                                     │
+│  This interpretation synthesized knowledge from:                   │
+│  • Taming & Embracing Black Moon Lilith (6 concepts)               │
+│  • Accepting Chiron (5 concepts)                                   │
+│  • Delegates and house conditions (4 concepts)                     │
+│  • Aspect Spectrum (3 concepts)                                    │
+│  • True Placements + Base + Intro to Spark (2 concepts)            │
+│                                                                     │
+│  Total passages referenced: 18                                      │
+│  Interpretation confidence: 92%                                     │
+│  Token cost: $0.04                                                  │
+│  Generation time: 8 seconds                                         │
+│                                                                     │
+│  [View Detailed Source Citations]                                  │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+[Ask Follow-Up Question] [Generate Full Profile Report] [Start New Reading]
+
+
+________________
+
+
+Conversational Follow-Up
+┌─────────────────────────────────────────────────────────────────────┐
+│ CONVERSATION WITH JAMIE'S CHART                                     │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  💬 Jamie: "This makes so much sense! What about the timing? When  │
+│           should I reach out to him?"                               │
+│                                                                     │
+│  🤖 System: [Analyzing transits for timing guidance...]             │
+│                                                                     │
+│  Based on your current transits, here's the timing breakdown:      │
+│                                                                     │
+│  **This Week (Feb 11-17):**                                         │
+│  [Transit analysis]... Not ideal because [reason from transcripts] │
+│                                                                     │
+│  **Optimal Window (Feb 23-28):**                                    │
+│  [Transit analysis]... This period is favorable because...         │
+│                                                                     │
+│  **What to do in the meantime:**                                    │
+│  [Guidance based on Chiron/Lilith work from transcripts]           │
+│                                                                     │
+│  [Continue conversation...]                                         │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │ Your question:                                               │   │
+│  │ [Type here...]                                               │   │
+│  │                                                [Send]        │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+________________
+
+
+TRANSCRIPT MANAGEMENT INTERFACE
+┌─────────────────────────────────────────────────────────────────────┐
+│ KNOWLEDGE BASE MANAGEMENT                         [+ Upload Files]  │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  STATUS: ✅ Optimized (Last updated: 2 hours ago)                   │
+│                                                                     │
+│  Total Files: 24                                                    │
+│  Total Words: 1,847,000                                             │
+│  Indexed Passages: 4,618                                            │
+│  Cross-References: 3,247                                            │
+│  Storage: 42.3 MB (compressed)                                      │
+│                                                                     │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │ TRANSCRIPT LIBRARY                             [Search 🔍]  │   │
+│  ├─────────────────────────────────────────────────────────────┤   │
+│  │ ✅ Astro cartography class_ (45,200 words)              ⚙️  │   │
+│  │ ✅ Taming & Embracing Black Moon Lilith (38,900 words)  ⚙️  │   │
+│  │ ✅ NATAL RETROGRADE OPTIMIZATION_ (52,100 words)        ⚙️  │   │
+│  │ ✅ Fusion Cusp Area vs Orb of Influence_ (28,300 words) ⚙️  │   │
+│  │ ✅ Delegates and house conditions_ (41,700 words)       ⚙️  │   │
+│  │ ✅ Zodiac Energies Walk-through_ (67,800 words)         ⚙️  │   │
+│  │ ✅ Lenses Overview & Articulation Basics_ (33,500 words)⚙️  │   │
+│  │ ✅ SUPER NEWBIE_ (29,400 words)                         ⚙️  │   │
+│  │ ✅ True Placements + Base + Intro to Spark_ (44,600)    ⚙️  │   │
+│  │ ✅ REVERSE VANTAGE_ (36,200 words)                      ⚙️  │   │
+│  │ ✅ Accepting Chiron_ (31,800 words)                     ⚙️  │   │
+│  │ ✅ DEBUNKING ASTROLOGY_ (27,900 words)                  ⚙️  │   │
+│  │ ✅ ASPECT SPECTRUM_ (48,500 words)                      ⚙️  │   │
+│  │ [... 11 more files]                                         │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  UPLOAD NEW TRANSCRIPTS                                             │
+│  ┌─────────────────────────────────────────────────────────────┐   │
+│  │                                                             │   │
+│  │          Drag & Drop files here                             │   │
+│  │          or click to browse                                 │   │
+│  │                                                             │   │
+│  │          Supported: PDF, DOCX, TXT, MD, SRT                 │   │
+│  │                                                             │   │
+│  └─────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  After uploading, the system will:                                  │
+│  1. Extract and clean text                                          │
+│  2. Index for semantic search                                       │
+│  3. Detect knowledge gaps and updates                               │
+│  4. Cross-reference with existing transcripts                       │
+│  5. Generate improvement report                                     │
+│                                                                     │
+│  [Re-Index All] [Optimize Database] [Export Knowledge Base]        │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+
+________________
+
+
+TECHNICAL IMPLEMENTATION DETAILS
+Chart Calculation Engine
+class ChartCalculator:
+    """
+    Handles all astronomical calculations using Swiss Ephemeris
+    """
+    
+    def __init__(self):
+        import swisseph as swe
+        self.swe = swe
+        self.swe.set_ephe_path('/data/ephemeris')  # Ephemeris data files
+    
+    def calculate_natal_chart(self, birth_date, birth_time, birth_place):
+        """
+        Calculate complete natal chart
+        
+        Returns all planets, houses, angles, points, aspects
+        """
+        
+        # Convert birth data to Julian Day
+        jd = self.datetime_to_jd(birth_date, birth_time)
+        
+        # Get geographic coordinates
+        lat, lon = self.geocode_location(birth_place)
+        
+        chart = {
+            "birth_date": birth_date,
+            "birth_time": birth_time,
+            "birth_place": birth_place,
+            "julian_day": jd,
+            "latitude": lat,
+            "longitude": lon
+        }
+        
+        # Calculate planets
+        chart["sun"] = self.calculate_planet(jd, self.swe.SUN)
+        chart["moon"] = self.calculate_planet(jd, self.swe.MOON)
+        chart["mercury"] = self.calculate_planet(jd, self.swe.MERCURY)
+        chart["venus"] = self.calculate_planet(jd, self.swe.VENUS)
+        chart["mars"] = self.calculate_planet(jd, self.swe.MARS)
+        chart["jupiter"] = self.calculate_planet(jd, self.swe.JUPITER)
+        chart["saturn"] = self.calculate_planet(jd, self.swe.SATURN)
+        chart["uranus"] = self.calculate_planet(jd, self.swe.URANUS)
+        chart["neptune"] = self.calculate_planet(jd, self.swe.NEPTUNE)
+        chart["pluto"] = self.calculate_planet(jd, self.swe.PLUTO)
+        
+        # Calculate points
+        chart["chiron"] = self.calculate_planet(jd, self.swe.CHIRON)
+        chart["north_node"] = self.calculate_planet(jd, self.swe.TRUE_NODE)
+        chart["south_node"] = self.calculate_south_node(chart["north_node"])
+        chart["lilith"] = self.calculate_planet(jd, self.swe.MEAN_APOG)  # Mean Lilith
+        
+        # Calculate houses
+        chart["houses"] = self.calculate_houses(jd, lat, lon, house_system='P')  # Placidus
+        
+        # Calculate angles
+        chart["ascendant"] = chart["houses"]["cusps"][0]
+        chart["midheaven"] = chart["houses"]["cusps"][9]
+        chart["descendant"] = (chart["ascendant"]["longitude"] + 180) % 360
+        chart["ic"] = (chart["midheaven"]["longitude"] + 180) % 360
+        
+        # Calculate aspects
+        chart["aspects"] = self.calculate_all_aspects(chart)
+        
+        # Identify retrogrades
+        chart["retrogrades"] = self.identify_retrogrades(chart)
+        
+        return chart
+    
+    def calculate_planet(self, jd, planet_id):
+        """Calculate single planet position"""
+        result = self.swe.calc_ut(jd, planet_id)
+        
+        longitude = result[0][0]
+        latitude = result[0][1]
+        distance = result[0][2]
+        speed = result[0][3]
+        
+        sign, degree_in_sign = self.longitude_to_sign(longitude)
+        
+        return {
+            "longitude": longitude,
+            "latitude": latitude,
+            "sign": sign,
+            "degree": degree_in_sign,
+            "speed": speed,
+            "retrograde": speed < 0,
+            "house": None  # Calculated separately
+        }
+    
+    def calculate_houses(self, jd, lat, lon, house_system='P'):
+        """Calculate house cusps"""
+        cusps, ascmc = self.swe.houses(jd, lat, lon, house_system.encode())
+        
+        houses = {
+            "system": house_system,
+            "cusps": []
+        }
+        
+        for i, cusp_longitude in enumerate(cusps):
+            sign, degree = self.longitude_to_sign(cusp_longitude)
+            houses["cusps"].append({
+                "house_number": i + 1,
+                "longitude": cusp_longitude,
+                "sign": sign,
+                "degree": degree
+            })
+        
+        return houses
+    
+    def calculate_all_aspects(self, chart):
+        """Calculate all aspects between planets"""
+        aspects = []
+        
+        planets = ['sun', 'moon', 'mercury', 'venus', 'mars', 
+                  'jupiter', 'saturn', 'uranus', 'neptune', 'pluto',
+                  'chiron', 'north_node', 'lilith']
+        
+        aspect_definitions = {
+            "conjunction": {"angle": 0, "orb": 8},
+            "sextile": {"angle": 60, "orb": 6},
+            "square": {"angle": 90, "orb": 8},
+            "trine": {"angle": 120, "orb": 8},
+            "opposition": {"angle": 180, "orb": 8},
+            "semi-sextile": {"angle": 30, "orb": 2},
+            "semi-square": {"angle": 45, "orb": 2},
+            "sesquiquadrate": {"angle": 135, "orb": 2},
+            "quincunx": {"angle": 150, "orb": 3}
+        }
+        
+        for i, planet1 in enumerate(planets):
+            for planet2 in planets[i+1:]:
+                lon1 = chart[planet1]["longitude"]
+                lon2 = chart[planet2]["longitude"]
+                
+                # Calculate angular distance
+                angle = abs(lon1 - lon2)
+                if angle > 180:
+                    angle = 360 - angle
+                
+                # Check for aspects
+                for aspect_name, aspect_def in aspect_definitions.items():
+                    target_angle = aspect_def["angle"]
+                    orb = aspect_def["orb"]
+                    
+                    diff = abs(angle - target_angle)
+                    
+                    if diff <= orb:
+                        aspects.append({
+                            "planet1": planet1,
+                            "planet2": planet2,
+                            "aspect": aspect_name,
+                            "orb": diff,
+                            "applying": self.is_applying(chart, planet1, planet2)
+                        })
+        
+        return aspects
+    
+    def calculate_current_transits(self, natal_chart, current_date=None):
+        """Calculate current planetary positions and transit aspects"""
+        if not current_date:
+            current_date = datetime.now()
+        
+        jd = self.datetime_to_jd(current_date, datetime.now().time())
+        
+        transits = {}
+        planets = ['sun', 'moon', 'mercury', 'venus', 'mars', 
+                  'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
+        
+        for planet_name in planets:
+            transits[planet_name] = self.calculate_planet(
+                jd, 
+                getattr(self.swe, planet_name.upper())
+            )
+        
+        # Calculate transit aspects to natal planets
+        transit_aspects = self.calculate_transit_aspects(transits, natal_chart)
+        
+        return {
+            "date": current_date,
+            "positions": transits,
+            "aspects_to_natal": transit_aspects
+        }
+    
+    def longitude_to_sign(self, longitude):
+        """Convert absolute longitude to zodiac sign and degree"""
+        signs = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo',
+                'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']
+        
+        sign_index = int(longitude / 30)
+        degree_in_sign = longitude % 30
+        
+        return signs[sign_index], degree_in_sign
+    
+    # ... Additional helper methods
+
+
+________________
+
+
+SYSTEM PERFORMANCE METRICS
+Cost Comparison
+Approach
+	Tokens/Reading
+	Cost/Reading
+	Time
+	Monthly (50 readings)
+	Naive (Load All)
+	2,300,000
+	$6.90
+	60s
+	$345
+	Basic Retrieval
+	50,000
+	$0.15
+	20s
+	$7.50
+	Optimized
+	8,000
+	$0.024
+	10s
+	$1.20
+	With Caching
+	5,000
+	$0.015
+	6s
+	$0.75
+	Result: 99.9% cost reduction from naive to optimized+cached
+________________
+
+
+Quality Metrics
+* ✅ Transcript Knowledge Grounding: 100% (never uses external sources)
+* ✅ Interpretation Accuracy: 92-96% (validated against methodology)
+* ✅ Terminology Consistency: 98% (uses exact course language)
+* ✅ Methodology Adherence: 94% (follows interpretation hierarchy)
+* ✅ User Satisfaction: Target 90%+ (comprehensive, personalized)
+________________
+
+
+SUCCESS CRITERIA
+The system is successful when:
+1. ✅ Exclusive Knowledge Source: Never uses pop astrology, only transcripts
+2. ✅ Memory Optimization: 97%+ token reduction vs naive approach
+3. ✅ Interactive Discovery: Users can articulate what they want to know
+4. ✅ Autonomous Analysis: System intelligently determines what to examine
+5. ✅ Comprehensive Reports: Generates complete profile reports
+6. ✅ Session Continuity: Remembers context across conversations
+7. ✅ Fast Performance: <10 seconds per reading
+8. ✅ Cost Effective: <$0.05 per reading
+9. ✅ Methodology Faithful: Applies exact techniques from transcripts
+10. ✅ Empowering Tone: Readings empower, not fatalism
+________________
+
+
+INSTALLATION & DEPLOYMENT
+One-Click Desktop Application:
+* Windows: .exe installer
+* macOS: .dmg bundle
+* Linux: .AppImage
+Bundled Components:
+* Python runtime (no separate install needed)
+* Swiss Ephemeris library + data files
+* Local embedding model (Sentence-BERT)
+* Vector database (ChromaDB)
+* All dependencies pre-installed
+First-Run Setup:
+1. Welcome screen
+2. Upload your transcript files (drag & drop)
+3. System indexes transcripts (progress bar)
+4. Gap analysis and optimization report
+5. Ready to use!
+________________
+
+
+FINAL TECHNICAL SPECIFICATIONS FOR EMERGENT.APP
+Architecture: Electron desktop application (cross-platform)
+Backend:
+* Python 3.10+
+* FastAPI for internal services
+* PySwisseph for calculations
+* ChromaDB for vector storage
+* SQLite for session data
+Frontend:
+* React + TypeScript
+* TailwindCSS
+* D3.js for chart visualization
+* Monaco Editor for text areas
+AI/ML:
+* Local: Sentence-BERT (embeddings)
+* API: Claude Sonnet (interpretation generation)
+* Smart routing for cost optimization
+Storage:
+* Local filesystem for transcripts
+* Vector DB for semantic index
+* SQLite for user data
+* Session caching (Redis or file-based)
+Key Features:
+* 100% local processing (except LLM generation)
+* No external astrology databases
+* Memory-optimized (4-layer system)
+* Session persistence
+* Interactive question discovery
+* Autonomous chart analysis
+* Comprehensive profile reports
+* Conversational follow-up
+* Export to PDF/text
+________________
+
+
+Build this system, and we’ll have an astrology reading platform that:
+✨ Uses ONLY your proprietary methodology (no pop astrology contamination)
+⚡ Operates at 1/100th the cost of naive approaches
+🧠 Thinks autonomously like an expert astrologer
+💬 Conversationally discovers what users want to know
+📊 Generates comprehensive, personalized profile reports
+🔒 Maintains complete privacy (local processing)
+🎯 Empowers users with transcript-grounded insights
+This is OUR astrological system, built exactly to MY specifications, optimized for performance, and designed to scale. 🚀✨
